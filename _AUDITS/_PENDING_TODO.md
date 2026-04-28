@@ -14,46 +14,35 @@ auto_resume_directive: "After warmup, if user did not specify another task, auto
 
 ## P0 (immediate, blocking)
 
-### TODO-001 · GitHub PAT 配置 (用户动作, 等待中)
-- **状态**: 等用户在 https://github.com/settings/tokens 生成 classic PAT (no scope) → 写入 `D:\Claude\AI_Reddit\.env` 的 `GITHUB_PAT=...`
-- **触发**: 用户回 "PAT 装好" 时
-- **总监动作**: 派 自动化工程师 跑 `python gh_pull.py` 验证 → 扩 `gh_pull.py` query 列表至 12 条 (PAT 后限速从 60/h 提到 5K/h, 可激进)
+### TODO-204 · 第一次端到端 PoC — 让 调度员 处理 inbox 5 条
+- **状态**: 待启动 (P0-002 ✅ + P1-101/102/103 ✅ 全部完成)
+- **触发**: 用户说 "处理 inbox" / "处理 5 条试试"
+- **总监动作**: 派 调度员 → 选 inbox 中 engagement_score 最高的 5 条 → 跑 5 阶段 pipeline → 报告
+- **预期产出**: 1-2 个 pain SSOT (status: provisional, 单源待 原话手 跨源补) + 5 条 raw 进 _processed/
 - **依赖**: 无
 - **创建**: 2026-04-28
 
-### TODO-002 · 启动 Phase 1 — 5 阶段 pipeline 11 个 agent prompt 重写
-- **状态**: 待启动 (Plan B 抓取已上线, inbox 已有 92 条 raw 待处理)
-- **触发**: 用户说 "重写 agents" / "处理 inbox"
-- **总监动作**: 派 流水主管 + 研究主管 协同
-  - 改 `分诊员/提取员/对比员/规则稽查/归档员` 5 个 pipeline agent: 把"股票 ticker"语义改为"pain candidate"; 输出目标从 SSOT ticker 改为 `03_pain_points/<slug>.md`
-  - 改 `调度员/研究员/打分员/原话手/帖子员/索引稽查` 6 个 research agent: 同上语义重映射
-  - 保留中文名 + 角色逻辑, 仅改 system prompt 关键词
-  - 改完后跑 1 条 inbox 文件做 PoC, 对照 `03_pain_points/_template/PAIN_TEMPLATE.md` 验证产出
-- **依赖**: 无 (可与 TODO-001 并行)
+### TODO-001 · ⚠️ 用户 revoke 旧 PAT + 重生成
+- **状态**: PAT 已在 chat 暴露; 必须 revoke
+- **触发**: session 结束前
+- **用户动作**: https://github.com/settings/tokens → revoke `ai_reddit_pain_miner` → 重生 → 更新 `.env`
+- **依赖**: 无
 - **创建**: 2026-04-28
 
 ---
 
 ## P1 (this week)
 
-### TODO-101 · 写 抓取员 + 关键词调优员 两个新 agent prompt
-- **状态**: 待写 (脚本已落地, agent prompt 还没建)
-- **触发**: 用户说 "建抓取员 / 调优员"
-- **总监动作**: 派 架构主管
-  - `.claude/agents/抓取员.md` — 编排 hn_pull/se_pull/gh_pull 三脚本 + 监控 _logs/
-  - `.claude/agents/关键词调优员.md` — 周扫 _processed/ 计算召回率/精度, 迭代 `_lib.py` POSITIVE_KEYWORDS / NEGATIVE_PATTERNS
-- **依赖**: TODO-002 完成后逻辑更顺 (因为调优员要读 _processed/)
-- **创建**: 2026-04-28
+### TODO-104 · 验证 11 agent prompt 在真实 raw 上的行为
+- **状态**: agent prompt 已重写, 但还没跑过实际 raw
+- **触发**: TODO-204 跑完后, 看 5 阶段是否符合预期
+- **总监动作**: 检查 `04_daily_log/<date>.md` + `_processed/<month>/` 实际产出, 反推 agent prompt 是否要细调
+- **依赖**: TODO-204
 
-### TODO-102 · 重写 06_data_sources/source_weight_ladder.md
-- **状态**: 待重写 (现有还是股票权重 SEC=100/Grok=50)
-- **总监动作**: 派 研究主管 → 研究员
-  - 新权重表: HN 高分 thread=70 / Stack Exchange high-vote=75 / GitHub Issue 高 thumbs-up=72 / Reddit verified ≥10K=60 / 普通 reddit=45 / Quora=40 / TrustPilot=50 / G2 reviews=65 / 用户自己 verbatim=85
-- **创建**: 2026-04-28
-
-### TODO-103 · 写 RAW_TEMPLATE_PAIN.md 替代现有 RAW_TEMPLATE.md
-- **状态**: 现 RAW_TEMPLATE 是股票 ticker 字段; Plan B 抓取脚本已用了新 frontmatter 但模板没正式更
-- **总监动作**: 派 研究员 写 `02_raw/RAW_TEMPLATE_PAIN.md`, 旧 template mv `_archive/`
+### TODO-105 · 重写剩余 stock-specific agent prompt (架构 / 合规 / 流水主管 / 研究主管 / 信号算法员 / 自动化工程师 / 进化员 / 测谎员 / 回执稽查 / 一致性稽查 / 日历员 / 日志员 / 承诺稽查 / 发现员 / 社交员 / 图谱建模师 / 前端全栈员 / 总监)
+- **状态**: 11 个核心 agent 已改, 剩余 ~17 个还是 stock-DD 描述; 多数 routing-only / read-heavy, 影响小但不一致
+- **触发**: 用户优先级排序后
+- **依赖**: 无 (可分批做)
 
 ---
 
