@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Bash(git reset --hard*)",
+      "Bash(git push --force*)",
+      "Bash(rm -rf *)",
+      "Bash(Remove-Item * -Recurse*)",
+      "Bash(del /s *)",
+      "Bash(format *)"
+    ]
+  },
+  "hooks": {
+    "PermissionRequest": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "powershell",
+            "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"$env:CLAUDE_PROJECT_DIR\\.claude\\hooks\\approval-broker.ps1\"",
+            "timeout": 900,
+            "statusMessage": "Waiting for Agent Ops dashboard approval"
+          }
+        ]
+      }
+    ]
+  }
+}

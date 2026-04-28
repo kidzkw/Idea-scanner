@@ -1,0 +1,42 @@
+{
+  "schema_version": "mcp_port_registry_v1",
+  "reserved": {
+    "9222": "legacy shared Chrome MCP instance"
+  },
+  "sources": {
+    "chatgpt": {
+      "port": 9223,
+      "folder": "_AI_PROJECTS/chatgpt_research",
+      "allowed_domains": [
+        "chatgpt.com"
+      ],
+      "launch_script": "_AI_PROJECTS/chatgpt_research/chrome_launch.ps1"
+    },
+    "grok": {
+      "port": 9224,
+      "folder": "_AI_PROJECTS/grok_research",
+      "allowed_domains": [
+        "grok.com",
+        "x.com"
+      ],
+      "launch_script": "_AI_PROJECTS/grok_research/chrome_launch.ps1"
+    },
+    "gemini": {
+      "port": 9225,
+      "folder": "_AI_PROJECTS/gemini_research",
+      "allowed_domains": [
+        "gemini.google.com"
+      ],
+      "launch_script": "_AI_PROJECTS/gemini_research/chrome_launch.ps1",
+      "quarantine_first": true
+    },
+    "claude": {
+      "port": 9227,
+      "folder": "_AI_PROJECTS/claude_research",
+      "allowed_domains": [
+        "claude.ai"
+      ],
+      "launch_script": "_AI_PROJECTS/claude_research/chrome_launch.ps1"
+    }
+  }
+}

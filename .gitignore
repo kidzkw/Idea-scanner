@@ -1,0 +1,44 @@
+# Backup scope: push everything EXCEPT archived legacy data + secrets/ephemeral.
+
+# Archived legacy (contains portfolio_legacy, old DD versions, quarterly snapshots)
+/07_archive/
+
+# Repurposing legacy archive (2026-04-28 — old stock DD modules: 01_value_chain, 03_tickers, 08_hidden_gems)
+# Not deleted (recoverable locally); not pushed to remote (42M of off-mission stock data)
+/_archive/
+
+# Plan B fetcher state (per-machine dedup; not source-of-truth)
+/06_data_sources/_scripts/plan_b/_state/
+/06_data_sources/_scripts/plan_b/_logs/
+
+# Secrets / credentials (safety net — none currently exist)
+**/*.env
+**/credentials*
+**/*secret*
+**/api_key*
+
+# Ephemeral watchdog locks (per STEP_CONTRACTS_v1 §R1a)
+**/_processing_lock*
+**/_lock_active.txt
+
+# AI source sandbox local browser profiles (cookies/session state)
+_AI_PROJECTS/**/chrome_profile/
+
+# Large SEC / adviser scratch downloads
+.tmp_sec_adviser_screen/
+
+# Portfolio files (never-manage-positions hard rule — even if one slips in)
+**/*_PORTFOLIO*
+**/portfolio_snapshot*
+
+# Google Drive virtual pointer files (not real content)
+*.gdoc
+*.gsheet
+*.gslides
+*.gdraw
+*.gform
+
+# Git / OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
