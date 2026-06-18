@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-18T21:32:04.147Z",
+ "updatedAt": "2026-06-18T23:18:59.804Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -247,15 +247,15 @@
    "id": "760440",
    "date": "2026-06-18T22:00Z",
    "shortName": "QAT @ CAN",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "57'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "CAN",
      "name": "Canada",
-     "score": 0
+     "score": 3
     },
     {
      "homeAway": "away",
@@ -264,7 +264,68 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "9'",
+     "team": "",
+     "text": "Derek Cornelius (Canada) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "16'",
+     "team": "",
+     "text": "Goal! Canada 1, Qatar 0. Cyle Larin (Canada) left footed shot from very close range to the bottom right corner following a corner."
+    },
+    {
+     "type": "goal",
+     "minute": "29'",
+     "team": "",
+     "text": "Goal! Canada 2, Qatar 0. Jonathan David (Canada) right footed shot from the right side of the box to the bottom right corner."
+    },
+    {
+     "type": "red",
+     "minute": "33'",
+     "team": "",
+     "text": "Homam El Amin (Qatar) is shown the red card."
+    },
+    {
+     "type": "sub",
+     "minute": "40'",
+     "team": "",
+     "text": "Substitution, Qatar. Sultan Al Brake replaces Yusuf Abdurisag."
+    },
+    {
+     "type": "goal",
+     "minute": "45'+3'",
+     "team": "",
+     "text": "Goal! Canada 3, Qatar 0. Jonathan David (Canada) right footed shot from very close range to the centre of the goal."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Qatar. Ahmed Fathy replaces Edmílson Junior."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Qatar. Mohammad Al Manai replaces Jassem Gaber."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Canada. Moïse Bombito replaces Derek Cornelius."
+    },
+    {
+     "type": "red",
+     "minute": "53'",
+     "team": "",
+     "text": "Assim Madibo (Qatar) is shown the red card."
+    }
+   ]
   },
   {
    "id": "760441",
