@@ -9,6 +9,13 @@ on:
   schedule:
     - cron: "*/5 * * * *" # every 5 min (GitHub cron is best-effort)
   workflow_dispatch:
+  # Re-run when the fetcher/workflow itself changes. Scoped so the bot's own
+  # commit to live-espn.json does NOT re-trigger (no loop).
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/live-espn.yml"
+      - "scripts/fetch-espn-live.mjs"
 
 permissions:
   contents: write
