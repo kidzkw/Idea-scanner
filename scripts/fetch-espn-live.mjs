@@ -8,7 +8,7 @@
  * Output is a normalized, cumulative snapshot: ESPN's keyEvents already contain
  * every goal/card/sub so far, so one committed snapshot per run is lossless.
  */
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, readFileSync, existsSync, mkdirSync } from "node:fs";
 
 const SLUG = "fifa.world";
 const BASE = `https://site.api.espn.com/apis/site/v2/sports/soccer/${SLUG}`;
@@ -91,6 +91,19 @@ async function main() {
       }
     }
     events.push({ ...ev, keyEvents });
+  }
+
+  // Skip the write when nothing meaningful changed, so the cron doesn't spam a
+  // commit every run just because the timestamp moved (events carry scores,
+  // status, clock and key events — everything that actually matters).
+  const eventsStr = JSON.stringify(events);
+  if (existsSync(OUT)) {
+    try {
+      if (JSON.stringify(JSON.parse(readFileSync(OUT, "utf8")).events) === eventsStr) {
+        console.log("no change — skipping write");
+        return;
+      }
+    } catch { /* unreadable existing file — overwrite */ }
   }
 
   mkdirSync("public/data", { recursive: true });
