@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-18T23:18:59.804Z",
+ "updatedAt": "2026-06-18T23:19:31.640Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -324,6 +324,12 @@
      "minute": "53'",
      "team": "",
      "text": "Assim Madibo (Qatar) is shown the red card."
+    },
+    {
+     "type": "sub",
+     "minute": "57'",
+     "team": "",
+     "text": "Nathan Saliba (Canada) Substitution at 57'"
     }
    ]
   },
