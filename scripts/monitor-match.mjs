@@ -59,6 +59,8 @@ function classify(ev) {
     case "penalty": return { impact: "high", why: "penalty situation" };
     case "red": return { impact: "high", why: "red card — a man down for the rest" };
     case "sub":
+      if (/injur|injured|knock/i.test(ev.text || ""))
+        return { impact: "med", why: "injury — player taken off hurt" };
       if (ev.starterOff && ev.minute && minNum(ev.minute) < 60)
         return { impact: "med", why: "starter off early — possible injury / poor form" };
       return { impact: "low", why: "rotation" };
