@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-18T23:19:31.640Z",
+ "updatedAt": "2026-06-18T23:20:35.163Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -248,7 +248,7 @@
    "date": "2026-06-18T22:00Z",
    "shortName": "QAT @ CAN",
    "state": "in",
-   "clock": "57'",
+   "clock": "58'",
    "period": 2,
    "competitors": [
     {
@@ -329,7 +329,13 @@
      "type": "sub",
      "minute": "57'",
      "team": "",
-     "text": "Nathan Saliba (Canada) Substitution at 57'"
+     "text": "Substitution, Canada. Nathan Saliba replaces Ismaël Koné because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "59'",
+     "team": "",
+     "text": "Substitution, Qatar. Al Hashmi Al Hussain replaces Akram Afif."
     }
    ]
   },
