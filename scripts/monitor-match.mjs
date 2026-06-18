@@ -27,7 +27,7 @@ const argn = (k, d) => {
   const a = process.argv.find((x) => x.startsWith(`--${k}=`));
   return a ? Number(a.split("=")[1]) : d;
 };
-const INTERVAL = argn("interval", 60);
+const INTERVAL = argn("interval", 20);
 const MAX = argn("max", 1500);
 const STATE = `/tmp/monitor-${N}.json`;
 

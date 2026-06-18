@@ -1,18 +1,30 @@
 /**
- * Runs ON a GitHub Actions runner (which has open internet, unlike this
- * sandbox) to pull live 2026 World Cup data from ESPN's free hidden API and
- * write it to public/data/live-espn.json. The workbench then reads that file
- * via raw.githubusercontent.com — the one host the local egress allow-list
- * permits — turning GitHub Actions into a real-time-data proxy.
+ * Runs ON a GitHub Actions runner (open internet, unlike this sandbox) to pull
+ * live 2026 World Cup data from ESPN's free API and commit it to
+ * public/data/live-espn.json, which the workbench reads via git.
  *
- * Output is a normalized, cumulative snapshot: ESPN's keyEvents already contain
- * every goal/card/sub so far, so one committed snapshot per run is lossless.
+ * Loop mode (used by the workflow) polls ESPN every few seconds for ~5 minutes
+ * and commits the moment anything outcome-affecting changes, so combined with a
+ * */5 cron the feed stays ~15-30s fresh. Change detection ignores the ticking
+ * match clock, so a goalless minute does not spam commits — only real changes
+ * (score, status, goals, cards, subs) do.
+ *
+ *   node scripts/fetch-espn-live.mjs                 # single shot
+ *   node scripts/fetch-espn-live.mjs --loop=270 --every=15
  */
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from "node:fs";
+import { execFileSync } from "node:child_process";
+import { setTimeout as sleep } from "node:timers/promises";
 
 const SLUG = "fifa.world";
 const BASE = `https://site.api.espn.com/apis/site/v2/sports/soccer/${SLUG}`;
 const OUT = "public/data/live-espn.json";
+const argn = (k, d) => {
+  const a = process.argv.find((x) => x.startsWith(`--${k}=`));
+  return a ? Number(a.split("=")[1]) : d;
+};
+const LOOP = argn("loop", 0);
+const EVERY = argn("every", 15);
 
 async function j(url) {
   const r = await fetch(url, { headers: { "user-agent": "Mozilla/5.0" } });
@@ -23,97 +35,103 @@ const ymd = (d) => d.toISOString().slice(0, 10).replace(/-/g, "");
 
 function parseEvent(e) {
   const comp = e.competitions?.[0] || {};
-  const competitors = (comp.competitors || []).map((c) => ({
-    homeAway: c.homeAway,
-    abbr: c.team?.abbreviation || null,
-    name: c.team?.displayName || c.team?.shortDisplayName || null,
-    score: c.score != null ? Number(c.score) : null,
-  }));
   return {
-    id: e.id,
-    date: e.date,
-    shortName: e.shortName || null,
-    state: comp.status?.type?.state || e.status?.type?.state || "pre", // pre | in | post
+    id: e.id, date: e.date, shortName: e.shortName || null,
+    state: comp.status?.type?.state || e.status?.type?.state || "pre",
     clock: comp.status?.displayClock || null,
     period: comp.status?.period ?? null,
-    competitors,
+    competitors: (comp.competitors || []).map((c) => ({
+      homeAway: c.homeAway, abbr: c.team?.abbreviation || null,
+      name: c.team?.displayName || c.team?.shortDisplayName || null,
+      score: c.score != null ? Number(c.score) : null,
+    })),
   };
 }
 
 function parseKeyEvents(summary) {
   const out = [];
-  const list = summary.keyEvents || summary.commentary || [];
-  for (const k of list) {
-    const tText = (k.type?.text || k.type || "").toString().toLowerCase();
+  for (const k of summary.keyEvents || summary.commentary || []) {
+    const t = (k.type?.text || k.type || "").toString().toLowerCase();
     let type = null;
-    if (tText.includes("own")) type = "owngoal";
-    else if (tText.includes("goal")) type = "goal";
-    else if (tText.includes("penalty")) type = "penalty";
-    else if (tText.includes("red")) type = "red";
-    else if (tText.includes("yellow")) type = "yellow";
-    else if (tText.includes("substitution") || tText.includes("sub")) type = "sub";
-    if (!type) continue;
-    out.push({
-      type,
-      minute: k.clock?.displayValue || "",
-      team: k.team?.abbreviation || "",
-      text: k.text || k.shortText || tText,
-    });
+    if (t.includes("own")) type = "owngoal";
+    else if (t.includes("goal")) type = "goal";
+    else if (t.includes("penalty")) type = "penalty";
+    else if (t.includes("red")) type = "red";
+    else if (t.includes("yellow")) type = "yellow";
+    else if (t.includes("substitution") || t.includes("sub")) type = "sub";
+    if (type) out.push({ type, minute: k.clock?.displayValue || "", team: k.team?.abbreviation || "", text: k.text || k.shortText || t });
   }
   return out;
 }
 
-async function main() {
-  // Cover the current UTC day plus the previous one (kickoffs span timezones).
+async function collect() {
   const now = new Date();
   const days = [...new Set([ymd(new Date(now - 18 * 3600e3)), ymd(now), ymd(new Date(now.getTime() + 6 * 3600e3))])];
-
-  const eventsById = new Map();
+  const byId = new Map();
   for (const d of days) {
     try {
       const board = await j(`${BASE}/scoreboard?dates=${d}`);
-      for (const e of board.events || []) eventsById.set(e.id, parseEvent(e));
-    } catch (err) {
-      console.error(`scoreboard ${d}: ${err.message}`);
-    }
+      for (const e of board.events || []) byId.set(e.id, parseEvent(e));
+    } catch (err) { console.error(`scoreboard ${d}: ${err.message}`); }
   }
-
-  // Enrich live and just-finished games with their key events.
   const events = [];
-  for (const ev of eventsById.values()) {
+  for (const ev of byId.values()) {
     let keyEvents = [];
     if (ev.state === "in" || ev.state === "post") {
-      try {
-        const sum = await j(`${BASE}/summary?event=${ev.id}`);
-        keyEvents = parseKeyEvents(sum);
-      } catch (err) {
-        console.error(`summary ${ev.id}: ${err.message}`);
-      }
+      try { keyEvents = parseKeyEvents(await j(`${BASE}/summary?event=${ev.id}`)); }
+      catch (err) { console.error(`summary ${ev.id}: ${err.message}`); }
     }
     events.push({ ...ev, keyEvents });
   }
-
-  // Skip the write when nothing meaningful changed, so the cron doesn't spam a
-  // commit every run just because the timestamp moved (events carry scores,
-  // status, clock and key events — everything that actually matters).
-  const eventsStr = JSON.stringify(events);
-  if (existsSync(OUT)) {
-    try {
-      if (JSON.stringify(JSON.parse(readFileSync(OUT, "utf8")).events) === eventsStr) {
-        console.log("no change — skipping write");
-        return;
-      }
-    } catch { /* unreadable existing file — overwrite */ }
-  }
-
-  mkdirSync("public/data", { recursive: true });
-  const payload = { updatedAt: new Date().toISOString(), source: "espn:site.api.espn.com", count: events.length, events };
-  writeFileSync(OUT, JSON.stringify(payload, null, 1));
-  const live = events.filter((e) => e.state === "in").length;
-  console.log(`Wrote ${OUT}: ${events.length} events (${live} live) at ${payload.updatedAt}`);
+  return events;
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+/** Signature for change detection — excludes the ticking clock. */
+function signature(events) {
+  return JSON.stringify(events.map((e) => ({
+    id: e.id, state: e.state,
+    score: e.competitors.map((c) => c.score),
+    ke: e.keyEvents.map((k) => `${k.type}|${k.minute}|${k.team}`),
+  })));
+}
+
+function currentSignature() {
+  if (!existsSync(OUT)) return null;
+  try { return signature(JSON.parse(readFileSync(OUT, "utf8")).events || []); } catch { return null; }
+}
+
+function gitCommitPush() {
+  try {
+    execFileSync("git", ["add", OUT]);
+    const staged = execFileSync("git", ["diff", "--cached", "--name-only"], { encoding: "utf8" }).trim();
+    if (!staged) return;
+    execFileSync("git", ["commit", "-m", `live: ESPN snapshot ${new Date().toISOString()}`], { stdio: "ignore" });
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try { execFileSync("git", ["push"], { stdio: "ignore" }); return; }
+      catch { try { execFileSync("git", ["pull", "--rebase", "--autostash"], { stdio: "ignore" }); } catch {} }
+    }
+  } catch (e) { console.error(`git: ${e.message}`); }
+}
+
+async function tick() {
+  const events = await collect();
+  const sig = signature(events);
+  if (sig === currentSignature()) return false;
+  mkdirSync("public/data", { recursive: true });
+  writeFileSync(OUT, JSON.stringify({ updatedAt: new Date().toISOString(), source: "espn:site.api.espn.com", count: events.length, events }, null, 1));
+  const live = events.filter((e) => e.state === "in").length;
+  console.log(`updated ${OUT}: ${events.length} events (${live} live) at ${new Date().toISOString()}`);
+  if (LOOP > 0) gitCommitPush();
+  return true;
+}
+
+async function main() {
+  if (LOOP <= 0) { await tick(); return; }
+  const end = Date.now() + LOOP * 1000;
+  while (Date.now() < end) {
+    try { await tick(); } catch (e) { console.error(e.message); }
+    await sleep(EVERY * 1000);
+  }
+}
+
+main().catch((e) => { console.error(e); process.exit(1); });

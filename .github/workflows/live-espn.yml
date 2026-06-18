@@ -1,16 +1,15 @@
 name: Live ESPN proxy
 
 # GitHub runners have open internet, so they can reach ESPN even though the
-# local workbench egress allow-list cannot. This pulls live World Cup data and
-# commits it to public/data/live-espn.json, which the workbench reads via
-# raw.githubusercontent.com (an allow-listed host).
+# local workbench egress allow-list cannot. Each run loops for ~5 min, polling
+# ESPN every ~15s and committing the moment anything outcome-affecting changes;
+# the */5 cron makes runs back-to-back for ~15-30s freshness. The repo is public
+# so Actions minutes are unlimited.
 
 on:
   schedule:
-    - cron: "*/5 * * * *" # every 5 min (GitHub cron is best-effort)
+    - cron: "*/5 * * * *"
   workflow_dispatch:
-  # Re-run when the fetcher/workflow itself changes. Scoped so the bot's own
-  # commit to live-espn.json does NOT re-trigger (no loop).
   push:
     branches: [main]
     paths:
@@ -22,7 +21,7 @@ permissions:
 
 concurrency:
   group: live-espn
-  cancel-in-progress: false
+  cancel-in-progress: false # queue runs so they don't push over each other
 
 jobs:
   refresh:
@@ -32,17 +31,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Fetch ESPN live data
-        run: node scripts/fetch-espn-live.mjs
-      - name: Commit if changed
+      - name: Stream ESPN live data (~5 min loop, commit on change)
         run: |
           git config user.name "live-espn-bot"
           git config user.email "actions@github.com"
-          git add public/data/live-espn.json
-          # --cached so newly-created (untracked) files are detected too.
-          if git diff --cached --quiet; then
-            echo "no change"
-          else
-            git commit -m "live: ESPN snapshot $(date -u +%FT%TZ)"
-            git push
-          fi
+          node scripts/fetch-espn-live.mjs --loop=270 --every=15
