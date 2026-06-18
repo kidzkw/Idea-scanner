@@ -141,7 +141,7 @@ function parseKeyEvents(summary) {
     else if (t.includes("red")) type = "red";
     else if (t.includes("yellow")) type = "yellow";
     else if (t.includes("substitution") || t.includes("sub")) type = "sub";
-    if (type) out.push({ type, minute: k.clock?.displayValue || "", team: k.team?.abbreviation || "", text: k.text || k.shortText || t });
+    if (type) out.push({ id: k.id || null, type, minute: k.clock?.displayValue || "", team: k.team?.abbreviation || "", text: k.text || k.shortText || t });
   }
   return out;
 }
@@ -213,7 +213,11 @@ async function snapshotDataset() {
 function normalize(mt, formation, rawEvents, source) {
   const events = rawEvents.map((e) => {
     const c = classify(e);
-    return { ...e, ...c, key: `${e.type}|${e.minute}|${e.team}|${e.text}` };
+    // Prefer ESPN's stable event id so revised commentary text (e.g. an assist
+    // appended to a goal seconds later) is not re-reported as a new event.
+    // The 26worldcup dataset provider has no id, so it keeps the text key.
+    const key = e.id ? `id:${e.id}` : `${e.type}|${e.minute}|${e.team}|${e.text}`;
+    return { ...e, ...c, key };
   });
   return {
     n: N, source,
