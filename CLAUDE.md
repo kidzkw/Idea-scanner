@@ -29,16 +29,32 @@ node scripts/monitor-match.mjs <matchNumber>          # loop, exit on change/fin
 node scripts/monitor-match.mjs <matchNumber> --once   # single poll
 ```
 
-Run it in the background; it exits when something new happens (lineup posted,
-goal, substitution, booking, score/status change) so the agent can relay it and
-re-arm.
+Run it in the background; it exits when something new happens so the agent can
+relay it and re-arm. Events are **tagged by win/loss impact** and emitted
+high-impact first:
+- `‼️ high` — goals, own goals, penalties, red cards (swing the result)
+- `❗ med`  — a **starter subbed off before 60'** (injury / poor-form proxy),
+  a booking on a key player
+- `low`    — routine rotation subs, ordinary yellows
 
-**Honest limits**
-- The 26worldcup dataset is the only live source reachable here and refreshes on
-  a cron (minutes-to-~1h lag), so updates are near-live, **not** second-by-second.
-- There is no live player-rating feed, so "player in poor form / 状态不好" can
-  only be inferred from objective events: early substitution, early booking,
-  conceding, red card, etc.
+### Real-time data source (network egress allow-list)
+
+The blocker for true real-time is the environment's **egress allow-list**, not
+the sites: every stats host returns `Host not in allowlist: <host>. Add this
+host to your network egress settings`. Only `raw.githubusercontent.com` is
+currently allowed, so the monitor defaults to the 26worldcup dataset
+(cron-refreshed, minutes-to-~1h lag).
+
+To get true real-time, add one of these hosts to the environment's network
+egress settings (see https://code.claude.com/docs/en/claude-code-on-the-web):
+- **`site.api.espn.com`** — ESPN hidden API, free, no key, has live goals/cards/
+  subs. **Recommended.** The monitor auto-detects and switches to it on startup.
+- `v3.football.api-sports.io` — API-Sports, richest live detail, needs a free key.
+- `api.football-data.org` — needs a free key, coarser live granularity.
+
+**Honest limit that remains regardless of source:** there is no live
+player-rating feed, so "player in poor form / 状态不好" is always inferred from
+objective events (early sub, booking, conceding, red card), never a rating.
 
 ## Data sources (only these are reachable from this environment)
 - `raw.githubusercontent.com/26worldcup/26worldcup.github.io` — schedule,
