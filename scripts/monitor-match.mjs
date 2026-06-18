@@ -19,6 +19,7 @@
  */
 import { setTimeout as sleep } from "node:timers/promises";
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 
 const N = Number(process.argv[2]);
 const ONCE = process.argv.includes("--once");
@@ -36,7 +37,6 @@ if (!N) {
 }
 
 const RAW = "https://raw.githubusercontent.com/26worldcup/26worldcup.github.io/main/public/data";
-const RAW_SELF = "https://raw.githubusercontent.com/kidzkw/Idea-scanner/main/public/data";
 const ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world";
 
 async function getJson(url) {
@@ -146,10 +146,25 @@ function parseKeyEvents(summary) {
   return out;
 }
 
-// ---- provider: ESPN proxy (GitHub Actions -> raw) ---------------------------
+// ---- provider: ESPN proxy (GitHub Actions -> this repo) ---------------------
+// This repo is private, so the live-espn.json the workflow commits is read via
+// the authenticated git remote, not raw.githubusercontent.com (which needs a
+// token for private repos).
+
+function readProxyFeed() {
+  try {
+    execFileSync("git", ["fetch", "-q", "origin", "main"], { stdio: "ignore" });
+  } catch { /* offline / transient — fall through to whatever git has */ }
+  const txt = execFileSync("git", ["show", "origin/main:public/data/live-espn.json"], {
+    encoding: "utf8",
+    stdio: ["ignore", "pipe", "ignore"],
+  });
+  return JSON.parse(txt);
+}
 
 async function snapshotEspnProxy() {
-  const [mt, feed] = await Promise.all([matchMeta(), getJson(`${RAW_SELF}/live-espn.json`)]);
+  const mt = await matchMeta();
+  const feed = readProxyFeed();
   const ev = (feed.events || []).find((e) => espnMatches(e, mt));
   if (!ev) throw new Error("espn-proxy: event not in feed yet");
   return fromEspn(ev, mt.home.code, mt.away.code);
@@ -157,7 +172,8 @@ async function snapshotEspnProxy() {
 
 async function proxyHasMatch() {
   try {
-    const [mt, feed] = await Promise.all([matchMeta(), getJson(`${RAW_SELF}/live-espn.json`)]);
+    const mt = await matchMeta();
+    const feed = readProxyFeed();
     return (feed.events || []).some((e) => espnMatches(e, mt));
   } catch { return false; }
 }

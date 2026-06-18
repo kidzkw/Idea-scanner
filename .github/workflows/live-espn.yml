@@ -38,10 +38,11 @@ jobs:
         run: |
           git config user.name "live-espn-bot"
           git config user.email "actions@github.com"
-          if ! git diff --quiet -- public/data/live-espn.json; then
-            git add public/data/live-espn.json
+          git add public/data/live-espn.json
+          # --cached so newly-created (untracked) files are detected too.
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
             git commit -m "live: ESPN snapshot $(date -u +%FT%TZ)"
             git push
-          else
-            echo "no change"
           fi
