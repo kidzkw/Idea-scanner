@@ -119,7 +119,9 @@ export function Schedule() {
 }
 
 function MatchRow({ m }: { m: Match }) {
-  const finished = m.status === "finished";
+  const live = m.status === "live";
+  const decided = m.status === "finished" || live;
+  const hasScore = m.home.score != null && m.away.score != null;
   const homeWon = m.winner && m.winner === m.home.code;
   const awayWon = m.winner && m.winner === m.away.code;
 
@@ -127,7 +129,9 @@ function MatchRow({ m }: { m: Match }) {
     <div className="match">
       <div className="mtime">
         <span className="num">M{m.n}</span>
-        <span>{finished ? "FT" : kickoff(m.date)}</span>
+        <span className={live ? "livetag" : ""}>
+          {live ? "LIVE" : m.status === "finished" ? "FT" : kickoff(m.date)}
+        </span>
         <span className="stage">
           {m.stage === "group" ? `Grp ${m.group}` : STAGE_LABEL[m.stage]}
         </span>
@@ -139,7 +143,7 @@ function MatchRow({ m }: { m: Match }) {
       </div>
 
       <div className="score">
-        {finished ? (
+        {decided && hasScore ? (
           <>
             <b>{m.home.score}</b>
             <span>-</span>

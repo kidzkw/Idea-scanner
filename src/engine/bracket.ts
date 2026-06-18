@@ -37,7 +37,12 @@ export function liveStandings(group: GroupId): LiveRow[] {
     rows[t.id] = { team: t, played: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, pts: 0 };
   }
   for (const m of MATCHES.filter(
-    (m) => m.stage === "group" && m.group === group && m.status === "finished",
+    (m) =>
+      m.stage === "group" &&
+      m.group === group &&
+      (m.status === "finished" || m.status === "live") &&
+      m.home.score != null &&
+      m.away.score != null,
   )) {
     const h = rows[m.home.code!];
     const a = rows[m.away.code!];

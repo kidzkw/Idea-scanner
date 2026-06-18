@@ -78,7 +78,13 @@ function simulateGroup(group: GroupId): Standing[] {
     const away = getTeam(f.away.code!);
     let hg: number;
     let ag: number;
-    if (f.status === "finished" && f.home.score != null && f.away.score != null) {
+    // Treat both completed and in-progress matches as known: a live score is
+    // the best estimate of the current state for a "right now" projection.
+    if (
+      (f.status === "finished" || f.status === "live") &&
+      f.home.score != null &&
+      f.away.score != null
+    ) {
       hg = f.home.score;
       ag = f.away.score;
     } else {

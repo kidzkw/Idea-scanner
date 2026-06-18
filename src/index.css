@@ -469,6 +469,13 @@ table.standings tr.me td {
   font-size: 0.68rem;
 }
 
+.mtime .livetag {
+  color: var(--loss);
+  font-weight: 800;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
+
 .side {
   grid-area: home;
   display: flex;
