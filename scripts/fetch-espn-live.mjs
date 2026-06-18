@@ -4,10 +4,10 @@
  * public/data/live-espn.json, which the workbench reads via git.
  *
  * Loop mode (used by the workflow) polls ESPN every few seconds for ~5 minutes
- * and commits the moment anything outcome-affecting changes, so combined with a
- * */5 cron the feed stays ~15-30s fresh. Change detection ignores the ticking
- * match clock, so a goalless minute does not spam commits — only real changes
- * (score, status, goals, cards, subs) do.
+ * and commits the moment anything outcome-affecting changes, so combined with an
+ * every-5-minute cron the feed stays ~15-30s fresh. Change detection ignores the
+ * ticking match clock, so a goalless minute does not spam commits — only real
+ * changes (score, status, goals, cards, subs) do.
  *
  *   node scripts/fetch-espn-live.mjs                 # single shot
  *   node scripts/fetch-espn-live.mjs --loop=270 --every=15
