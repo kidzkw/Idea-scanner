@@ -1,22 +1,48 @@
 import type { GroupId, Team, TeamForecast } from "../types";
-import { GROUP_IDS, TEAMS } from "../data/teams";
+import { GROUP_IDS, TEAMS, getTeam } from "../data/teams";
+import { MATCHES, type Match } from "../data/matches";
 import { expectedGoals, shootoutWinProb } from "./elo";
 
 /**
- * Monte Carlo forecast for the 48-team 2026 format:
- *   - 12 groups of 4, round robin (top 2 + 8 best third-placed advance => 32)
- *   - Round of 32 -> R16 -> QF -> SF -> Final, single elimination.
+ * Live-conditioned Monte Carlo forecast for the 48-team 2026 format.
  *
- * Knockout seeding simplification: the 32 qualifiers are placed into a fixed
- * standard-seeded bracket by Elo each tournament (1 vs 32, 16 vs 17, ...),
- * rather than FIFA's exact group-position slotting. This keeps strong teams
- * apart early without hard-coding the official bracket table; title odds are
- * realistic but not identical to the official path. Documented in README.
+ * Unlike a from-scratch forecast, this engine respects results that have
+ * already happened: finished group matches contribute their real scores and
+ * only the remaining fixtures are sampled, and the knockout stage follows the
+ * actual FIFA bracket encoded in the schedule (slot tokens like "1A", "2B",
+ * "3ABCDF", "W73") rather than a synthetic seeding. The output is therefore
+ * each team's chances *as of right now*.
+ *
+ * Best-third allocation simplification: the eight "3XXXXX" R32 slots are filled
+ * by constraint matching (each slot lists the groups it may take a third from),
+ * which reproduces FIFA's official allocation table in the normal case without
+ * hard-coding all 495 combinations.
  */
+
+// ---- static schedule prep (computed once) -----------------------------------
+
+const GROUP_FIXTURES: Record<GroupId, Match[]> = Object.fromEntries(
+  GROUP_IDS.map((g) => [g, MATCHES.filter((m) => m.stage === "group" && m.group === g)]),
+) as Record<GroupId, Match[]>;
+
+const GROUP_TEAMS: Record<GroupId, Team[]> = Object.fromEntries(
+  GROUP_IDS.map((g) => [g, TEAMS.filter((t) => t.group === g)]),
+) as Record<GroupId, Team[]>;
+
+// Knockout matches in playing order (73..104).
+const KO_MATCHES = MATCHES.filter((m) => m.stage !== "group").sort((a, b) => a.n - b.n);
+
+// The eight R32 slots that take a best-third-placed team.
+const THIRD_SLOT_TOKENS = [
+  ...new Set(
+    KO_MATCHES.flatMap((m) => [m.phA, m.phB]).filter(
+      (t): t is string => !!t && /^3[A-L]+$/.test(t),
+    ),
+  ),
+].sort((a, b) => a.length - b.length); // most-constrained-ish first
 
 // ---- random helpers ---------------------------------------------------------
 
-/** Sample a Poisson(lambda) count via Knuth's algorithm (fine for small lambda). */
 function samplePoisson(lambda: number): number {
   const L = Math.exp(-lambda);
   let k = 0;
@@ -33,14 +59,13 @@ function sampleScore(home: Team, away: Team, applyHostBonus: boolean): [number, 
   return [samplePoisson(xgHome), samplePoisson(xgAway)];
 }
 
-// ---- group stage ------------------------------------------------------------
+// ---- group stage (conditioned on real results) ------------------------------
 
 interface Standing {
   team: Team;
   pts: number;
   gf: number;
   ga: number;
-  /** Stable random key to break exact ties. */
   rand: number;
 }
 
@@ -51,46 +76,66 @@ const byRank = (a: Standing, b: Standing): number =>
   b.rand - a.rand;
 
 function simulateGroup(group: GroupId): Standing[] {
-  const teams = TEAMS.filter((t) => t.group === group);
   const table: Record<string, Standing> = {};
-  for (const t of teams) table[t.id] = { team: t, pts: 0, gf: 0, ga: 0, rand: Math.random() };
+  for (const t of GROUP_TEAMS[group]) {
+    table[t.id] = { team: t, pts: 0, gf: 0, ga: 0, rand: Math.random() };
+  }
 
-  for (let i = 0; i < teams.length; i++) {
-    for (let j = i + 1; j < teams.length; j++) {
-      const home = teams[i];
-      const away = teams[j];
-      const [hg, ag] = sampleScore(home, away, true);
-      table[home.id].gf += hg;
-      table[home.id].ga += ag;
-      table[away.id].gf += ag;
-      table[away.id].ga += hg;
-      if (hg > ag) table[home.id].pts += 3;
-      else if (hg < ag) table[away.id].pts += 3;
-      else {
-        table[home.id].pts += 1;
-        table[away.id].pts += 1;
-      }
+  for (const f of GROUP_FIXTURES[group]) {
+    const home = getTeam(f.home.code!);
+    const away = getTeam(f.away.code!);
+    let hg: number;
+    let ag: number;
+    if (f.status === "finished" && f.home.score != null && f.away.score != null) {
+      hg = f.home.score;
+      ag = f.away.score;
+    } else {
+      [hg, ag] = sampleScore(home, away, true);
+    }
+    table[home.id].gf += hg;
+    table[home.id].ga += ag;
+    table[away.id].gf += ag;
+    table[away.id].ga += hg;
+    if (hg > ag) table[home.id].pts += 3;
+    else if (hg < ag) table[away.id].pts += 3;
+    else {
+      table[home.id].pts += 1;
+      table[away.id].pts += 1;
     }
   }
 
   return Object.values(table).sort(byRank);
 }
 
-// ---- knockout bracket -------------------------------------------------------
+// ---- knockout bracket (real slots) ------------------------------------------
 
-/** 1-indexed standard single-elimination seeding order for `n` slots. */
-function seedOrder(n: number): number[] {
-  let seeds = [1, 2];
-  while (seeds.length < n) {
-    const sum = seeds.length * 2 + 1;
-    const next: number[] = [];
-    for (const s of seeds) {
-      next.push(s);
-      next.push(sum - s);
+/** Assign the 8 qualified thirds to the 8 "3XXXXX" slots respecting groups. */
+function assignThirds(thirds: Standing[]): Record<string, Team> {
+  const result: Record<string, Team> = {};
+  const used = new Array(thirds.length).fill(false);
+
+  const place = (i: number): boolean => {
+    if (i === THIRD_SLOT_TOKENS.length) return true;
+    const token = THIRD_SLOT_TOKENS[i];
+    const allowed = new Set(token.slice(1).split(""));
+    for (let j = 0; j < thirds.length; j++) {
+      if (!used[j] && allowed.has(thirds[j].team.group)) {
+        used[j] = true;
+        result[token] = thirds[j].team;
+        if (place(i + 1)) return true;
+        used[j] = false;
+      }
     }
-    seeds = next;
+    return false;
+  };
+
+  if (!place(0)) {
+    // Fallback: should not happen with a valid FIFA slot design.
+    THIRD_SLOT_TOKENS.forEach((token, i) => {
+      if (!result[token]) result[token] = thirds[i].team;
+    });
   }
-  return seeds;
+  return result;
 }
 
 function knockoutWinner(a: Team, b: Team): Team {
@@ -100,9 +145,7 @@ function knockoutWinner(a: Team, b: Team): Team {
   return Math.random() < shootoutWinProb(a, b) ? a : b;
 }
 
-// ---- single tournament ------------------------------------------------------
-
-type Round = "R32" | "R16" | "QF" | "SF" | "Final" | "Champion";
+// ---- tallies ----------------------------------------------------------------
 
 interface Tally {
   advanceR32: number;
@@ -117,49 +160,74 @@ function emptyTally(): Tally {
   return { advanceR32: 0, reachR16: 0, reachQF: 0, reachSF: 0, reachFinal: 0, winTitle: 0 };
 }
 
-function markReached(tallies: Record<string, Tally>, teams: Team[], round: Round): void {
-  for (const t of teams) {
-    const tly = tallies[t.id];
-    switch (round) {
-      case "R32": tly.advanceR32++; break;
-      case "R16": tly.reachR16++; break;
-      case "QF": tly.reachQF++; break;
-      case "SF": tly.reachSF++; break;
-      case "Final": tly.reachFinal++; break;
-      case "Champion": tly.winTitle++; break;
-    }
-  }
-}
+const STAGE_KEY: Record<string, keyof Tally | undefined> = {
+  r32: "advanceR32",
+  r16: "reachR16",
+  qf: "reachQF",
+  sf: "reachSF",
+  final: "reachFinal",
+};
+
+// ---- one tournament ---------------------------------------------------------
 
 function simulateTournament(tallies: Record<string, Tally>): void {
-  const winners: Standing[] = [];
-  const runnersUp: Standing[] = [];
-  const thirds: Standing[] = [];
+  const winners: Record<string, Team> = {};
+  const runnersUp: Record<string, Team> = {};
+  const thirdsByGroup: Standing[] = [];
 
   for (const g of GROUP_IDS) {
-    const table = simulateGroup(g as GroupId);
-    winners.push(table[0]);
-    runnersUp.push(table[1]);
-    thirds.push(table[2]);
+    const table = simulateGroup(g);
+    winners[g] = table[0].team;
+    runnersUp[g] = table[1].team;
+    thirdsByGroup.push(table[2]);
   }
 
-  const bestThirds = [...thirds].sort(byRank).slice(0, 8);
-  const qualifiers = [...winners, ...runnersUp, ...bestThirds].map((s) => s.team);
-  markReached(tallies, qualifiers, "R32");
+  const bestThirds = [...thirdsByGroup].sort(byRank).slice(0, 8);
+  const thirdSlots = assignThirds(bestThirds);
 
-  // Seed the 32 qualifiers strongest-first into a fixed standard bracket.
-  const seeded = [...qualifiers].sort((a, b) => b.elo - a.elo);
-  const order = seedOrder(32); // values 1..32
-  let bracket: Team[] = order.map((seed) => seeded[seed - 1]);
+  const winnerOf: Record<number, Team> = {};
+  const loserOf: Record<number, Team> = {};
 
-  const rounds: Round[] = ["R16", "QF", "SF", "Final", "Champion"];
-  for (const round of rounds) {
-    const next: Team[] = [];
-    for (let i = 0; i < bracket.length; i += 2) {
-      next.push(knockoutWinner(bracket[i], bracket[i + 1]));
+  const resolve = (token: string | null): Team => {
+    if (!token) throw new Error("missing slot token");
+    let m = /^1([A-L])$/.exec(token);
+    if (m) return winners[m[1]];
+    m = /^2([A-L])$/.exec(token);
+    if (m) return runnersUp[m[1]];
+    if (/^3[A-L]+$/.test(token)) return thirdSlots[token];
+    m = /^W(\d+)$/.exec(token);
+    if (m) return winnerOf[Number(m[1])];
+    m = /^RU(\d+)$/.exec(token);
+    if (m) return loserOf[Number(m[1])];
+    throw new Error(`unrecognised slot token: ${token}`);
+  };
+
+  for (const ko of KO_MATCHES) {
+    let a: Team;
+    let b: Team;
+    let winner: Team;
+
+    if (ko.status === "finished" && ko.home.code && ko.away.code && ko.winner) {
+      a = getTeam(ko.home.code);
+      b = getTeam(ko.away.code);
+      winner = getTeam(ko.winner);
+    } else {
+      a = resolve(ko.phA);
+      b = resolve(ko.phB);
+      winner = knockoutWinner(a, b);
     }
-    markReached(tallies, next, round);
-    bracket = next;
+    winnerOf[ko.n] = winner;
+    loserOf[ko.n] = winner.id === a.id ? b : a;
+
+    // The third-place match doesn't feed the title progression.
+    if (ko.stage === "third") continue;
+
+    const key = STAGE_KEY[ko.stage];
+    if (key) {
+      tallies[a.id][key]++;
+      tallies[b.id][key]++;
+    }
+    if (ko.stage === "final") tallies[winner.id].winTitle++;
   }
 }
 
