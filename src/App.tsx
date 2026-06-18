@@ -2,11 +2,13 @@ import { useEffect, useState } from "react";
 import { GroupStage } from "./components/GroupStage";
 import { MatchPredictor } from "./components/MatchPredictor";
 import { Forecast } from "./components/Forecast";
+import { Schedule } from "./components/Schedule";
 
-type Tab = "forecast" | "groups" | "match";
+type Tab = "forecast" | "schedule" | "groups" | "match";
 
 const TABS: { id: Tab; label: string }[] = [
   { id: "forecast", label: "Title Forecast" },
+  { id: "schedule", label: "Schedule" },
   { id: "groups", label: "Groups" },
   { id: "match", label: "Match Predictor" },
 ];
@@ -52,6 +54,7 @@ export function App() {
 
       <main className="wrap">
         {tab === "forecast" && <Forecast />}
+        {tab === "schedule" && <Schedule />}
         {tab === "groups" && <GroupStage />}
         {tab === "match" && <MatchPredictor />}
       </main>

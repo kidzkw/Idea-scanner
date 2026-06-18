@@ -265,6 +265,140 @@ table.forecast tbody tr:hover {
   font-weight: 700;
 }
 
+/* Schedule */
+.controls {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0 8px;
+  flex-wrap: wrap;
+}
+
+.controls .team-select {
+  flex: 0 1 220px;
+}
+
+.day {
+  margin-top: 18px;
+}
+
+.dayhead {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+  color: var(--accent);
+  position: sticky;
+  top: 0;
+}
+
+.matchlist {
+  margin-top: 0;
+  padding: 4px 0;
+}
+
+.match {
+  display: grid;
+  grid-template-columns: 92px 1fr auto 1fr;
+  grid-template-areas:
+    "time home score away"
+    "venue venue venue venue";
+  align-items: center;
+  gap: 6px 12px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.matchlist .match:last-child {
+  border-bottom: none;
+}
+
+.mtime {
+  grid-area: time;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.72rem;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.mtime .num {
+  color: var(--text);
+  font-weight: 700;
+  font-size: 0.78rem;
+}
+
+.mtime .stage {
+  font-size: 0.68rem;
+}
+
+.side {
+  grid-area: home;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.side.right {
+  grid-area: away;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.side .nm {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.side.won .nm {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.side .flag {
+  font-size: 1.15rem;
+  flex: none;
+}
+
+.score {
+  grid-area: score;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.score .v {
+  color: var(--muted);
+}
+
+.score .pens {
+  font-size: 0.7rem;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.venue {
+  grid-area: venue;
+  font-size: 0.74rem;
+  color: var(--muted);
+}
+
+.updated {
+  margin-top: 22px;
+  font-size: 0.78rem;
+}
+
+@media (max-width: 560px) {
+  .match {
+    grid-template-columns: 70px 1fr auto 1fr;
+  }
+  .venue {
+    display: none;
+  }
+}
+
 .foot {
   border-top: 1px solid var(--line);
   padding-top: 16px;

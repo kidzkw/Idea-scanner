@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "sim": "tsx scripts/run-sim.ts"
+    "sim": "tsx scripts/run-sim.ts",
+    "update-schedule": "node scripts/update-schedule.mjs"
   },
   "dependencies": {
     "react": "^19.1.0",

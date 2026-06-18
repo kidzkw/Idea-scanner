@@ -12,6 +12,9 @@ React + TypeScript site that builds to plain files and deploys to GitHub Pages.
 - **Title Forecast** — runs thousands of full tournaments and reports each
   team's chance of reaching the Round of 16, quarters, semis, final, and lifting
   the trophy.
+- **Schedule & Results** — all 104 matches (72 group + 32 knockout) with dates,
+  venues, live scores for completed games, and knockout slots that resolve to
+  teams as earlier rounds finish. Filter by stage/group or results vs. upcoming.
 - **Match Predictor** — pick any two teams and see win/draw/loss, expected
   goals, and the most likely scoreline.
 - **Groups** — the official 2026 final-draw groups (A–L), sorted by model
@@ -49,9 +52,14 @@ npm run dev      # local dev server
 npm run build    # production build to dist/
 npm run preview  # preview the production build
 npm run sim      # headless Monte Carlo in the terminal
+npm run update-schedule  # refresh fixtures/results from the live dataset
 ```
 
 Requires Node 20+.
+
+The schedule in `src/data/matches.ts` is generated, not hand-edited. Re-run
+`npm run update-schedule` during the tournament to pull the latest scores and
+resolved knockout fixtures, then rebuild.
 
 ## Deploy
 
@@ -66,6 +74,7 @@ domain root (`<user>.github.io`) or under a project path
 ## Data sources
 
 - Final-draw groups: [2026 FIFA World Cup draw (Wikipedia)](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_draw)
+- Schedule, venues & results: [26worldcup open dataset](https://github.com/26worldcup/26worldcup.github.io) (mirrors the official FIFA schedule)
 - Elo ratings inspired by [World Football Elo Ratings](https://www.eloratings.net/)
 
 ## License
