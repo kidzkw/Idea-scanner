@@ -12,6 +12,12 @@ React + TypeScript site that builds to plain files and deploys to GitHub Pages.
 - **Title Forecast** — runs thousands of full tournaments and reports each
   team's chance of reaching the Round of 16, quarters, semis, final, and lifting
   the trophy.
+- **Group Strategy & Path** — for any team: live standings, remaining group
+  games with win/draw/loss odds, projected finish (1st / 2nd / via 3rd), and a
+  side-by-side of what finishing **1st vs 2nd** means — the real bracket
+  opponent in each round and the conditional chance of reaching the QF/SF. (E.g.
+  England as group winner get a soft Round of 16; as runner-up they run into
+  Spain.)
 - **Schedule & Results** — all 104 matches (72 group + 32 knockout) with dates,
   venues, live scores for completed games, and knockout slots that resolve to
   teams as earlier rounds finish. Filter by stage/group or results vs. upcoming.

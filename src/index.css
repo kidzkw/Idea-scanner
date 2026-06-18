@@ -265,6 +265,146 @@ table.forecast tbody tr:hover {
   font-weight: 700;
 }
 
+/* Strategy */
+.team-select.solo {
+  max-width: 320px;
+  margin: 18px 0 4px;
+}
+
+.cardh {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.small {
+  font-size: 0.82rem;
+}
+
+table.standings {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+table.standings th,
+table.standings td {
+  padding: 7px 6px;
+  text-align: right;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+table.standings th {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.78rem;
+}
+
+table.standings .left {
+  text-align: left;
+}
+
+table.standings tr.me {
+  background: rgba(56, 211, 159, 0.12);
+}
+
+table.standings tr.me td {
+  font-weight: 600;
+}
+
+.predrow {
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.predrow:last-child {
+  border-bottom: none;
+}
+
+.predrow.mine {
+  background: rgba(56, 211, 159, 0.08);
+  margin: 0 -10px;
+  padding: 9px 10px;
+  border-radius: 8px;
+}
+
+.predrow .teams {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.bar.small {
+  height: 14px;
+  margin: 6px 0 4px;
+  border-radius: 4px;
+}
+
+.finishbar {
+  display: flex;
+  height: 24px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+
+.finishbar .first {
+  background: var(--accent);
+}
+.finishbar .second {
+  background: #5b8def;
+}
+.finishbar .third {
+  background: #8a7bd8;
+}
+
+.paths {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.pathcard {
+  margin-top: 0;
+}
+
+.prow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.9rem;
+}
+
+.prow .plabel {
+  color: var(--muted);
+  flex: none;
+}
+
+.prow span:last-child {
+  text-align: right;
+}
+
+.prow.split {
+  border-bottom: none;
+  margin-top: 4px;
+  color: var(--text);
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+@media (max-width: 560px) {
+  .paths {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Schedule */
 .controls {
   display: flex;

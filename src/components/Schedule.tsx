@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { MATCHES, SCHEDULE_UPDATED_AT, type Match, type Stage } from "../data/matches";
 import { TEAMS } from "../data/teams";
+import { labelSlot } from "../engine/bracket";
 
 const TEAM_BY_ID = new Map(TEAMS.map((t) => [t.id, t]));
 
@@ -13,22 +14,6 @@ const STAGE_LABEL: Record<Stage, string> = {
   third: "Third place",
   final: "Final",
 };
-
-/** Turn a bracket slot token ("1A", "2B", "W73", "3ABCDF") into readable text. */
-function labelSlot(token: string | null): string {
-  if (!token) return "TBD";
-  let m = /^1([A-L])$/.exec(token);
-  if (m) return `Winner Group ${m[1]}`;
-  m = /^2([A-L])$/.exec(token);
-  if (m) return `Runner-up Group ${m[1]}`;
-  m = /^3([A-L]+)$/.exec(token);
-  if (m) return `3rd place (${m[1].split("").join("/")})`;
-  m = /^W(\d+)$/.exec(token);
-  if (m) return `Winner of M${m[1]}`;
-  m = /^RU(\d+)$/.exec(token);
-  if (m) return `Runner-up of M${m[1]}`;
-  return token;
-}
 
 function sideName(code: string | null, slot: string | null): string {
   if (code) return TEAM_BY_ID.get(code)?.name ?? code;

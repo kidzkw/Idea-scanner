@@ -3,11 +3,13 @@ import { GroupStage } from "./components/GroupStage";
 import { MatchPredictor } from "./components/MatchPredictor";
 import { Forecast } from "./components/Forecast";
 import { Schedule } from "./components/Schedule";
+import { Strategy } from "./components/Strategy";
 
-type Tab = "forecast" | "schedule" | "groups" | "match";
+type Tab = "forecast" | "strategy" | "schedule" | "groups" | "match";
 
 const TABS: { id: Tab; label: string }[] = [
   { id: "forecast", label: "Title Forecast" },
+  { id: "strategy", label: "Group Strategy" },
   { id: "schedule", label: "Schedule" },
   { id: "groups", label: "Groups" },
   { id: "match", label: "Match Predictor" },
@@ -54,6 +56,7 @@ export function App() {
 
       <main className="wrap">
         {tab === "forecast" && <Forecast />}
+        {tab === "strategy" && <Strategy />}
         {tab === "schedule" && <Schedule />}
         {tab === "groups" && <GroupStage />}
         {tab === "match" && <MatchPredictor />}

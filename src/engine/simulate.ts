@@ -4,19 +4,13 @@ import { MATCHES, type Match } from "../data/matches";
 import { expectedGoals, shootoutWinProb } from "./elo";
 
 /**
- * Live-conditioned Monte Carlo forecast for the 48-team 2026 format.
+ * Live-conditioned Monte Carlo engine for the 48-team 2026 format.
  *
- * Unlike a from-scratch forecast, this engine respects results that have
- * already happened: finished group matches contribute their real scores and
- * only the remaining fixtures are sampled, and the knockout stage follows the
- * actual FIFA bracket encoded in the schedule (slot tokens like "1A", "2B",
- * "3ABCDF", "W73") rather than a synthetic seeding. The output is therefore
- * each team's chances *as of right now*.
- *
- * Best-third allocation simplification: the eight "3XXXXX" R32 slots are filled
- * by constraint matching (each slot lists the groups it may take a third from),
- * which reproduces FIFA's official allocation table in the normal case without
- * hard-coding all 495 combinations.
+ * Finished group matches contribute their real scores; only remaining fixtures
+ * are sampled. The knockout stage follows the actual FIFA bracket encoded in
+ * the schedule (slot tokens like "1A", "2B", "3ABCDF", "W73"), with the eight
+ * best-third slots resolved by constraint matching over each slot's eligible
+ * groups. Output reflects each team's chances as of right now.
  */
 
 // ---- static schedule prep (computed once) -----------------------------------
@@ -29,17 +23,15 @@ const GROUP_TEAMS: Record<GroupId, Team[]> = Object.fromEntries(
   GROUP_IDS.map((g) => [g, TEAMS.filter((t) => t.group === g)]),
 ) as Record<GroupId, Team[]>;
 
-// Knockout matches in playing order (73..104).
 const KO_MATCHES = MATCHES.filter((m) => m.stage !== "group").sort((a, b) => a.n - b.n);
 
-// The eight R32 slots that take a best-third-placed team.
 const THIRD_SLOT_TOKENS = [
   ...new Set(
     KO_MATCHES.flatMap((m) => [m.phA, m.phB]).filter(
       (t): t is string => !!t && /^3[A-L]+$/.test(t),
     ),
   ),
-].sort((a, b) => a.length - b.length); // most-constrained-ish first
+].sort((a, b) => a.length - b.length);
 
 // ---- random helpers ---------------------------------------------------------
 
@@ -61,7 +53,7 @@ function sampleScore(home: Team, away: Team, applyHostBonus: boolean): [number, 
 
 // ---- group stage (conditioned on real results) ------------------------------
 
-interface Standing {
+export interface Standing {
   team: Team;
   pts: number;
   gf: number;
@@ -69,7 +61,7 @@ interface Standing {
   rand: number;
 }
 
-const byRank = (a: Standing, b: Standing): number =>
+export const byRank = (a: Standing, b: Standing): number =>
   b.pts - a.pts ||
   b.gf - b.ga - (a.gf - a.ga) ||
   b.gf - a.gf ||
@@ -107,21 +99,19 @@ function simulateGroup(group: GroupId): Standing[] {
   return Object.values(table).sort(byRank);
 }
 
-// ---- knockout bracket (real slots) ------------------------------------------
+// ---- knockout bracket -------------------------------------------------------
 
-/** Assign the 8 qualified thirds to the 8 "3XXXXX" slots respecting groups. */
 function assignThirds(thirds: Standing[]): Record<string, Team> {
   const result: Record<string, Team> = {};
   const used = new Array(thirds.length).fill(false);
 
   const place = (i: number): boolean => {
     if (i === THIRD_SLOT_TOKENS.length) return true;
-    const token = THIRD_SLOT_TOKENS[i];
-    const allowed = new Set(token.slice(1).split(""));
+    const allowed = new Set(THIRD_SLOT_TOKENS[i].slice(1).split(""));
     for (let j = 0; j < thirds.length; j++) {
       if (!used[j] && allowed.has(thirds[j].team.group)) {
         used[j] = true;
-        result[token] = thirds[j].team;
+        result[THIRD_SLOT_TOKENS[i]] = thirds[j].team;
         if (place(i + 1)) return true;
         used[j] = false;
       }
@@ -130,7 +120,6 @@ function assignThirds(thirds: Standing[]): Record<string, Team> {
   };
 
   if (!place(0)) {
-    // Fallback: should not happen with a valid FIFA slot design.
     THIRD_SLOT_TOKENS.forEach((token, i) => {
       if (!result[token]) result[token] = thirds[i].team;
     });
@@ -145,45 +134,37 @@ function knockoutWinner(a: Team, b: Team): Team {
   return Math.random() < shootoutWinProb(a, b) ? a : b;
 }
 
-// ---- tallies ----------------------------------------------------------------
-
-interface Tally {
-  advanceR32: number;
-  reachR16: number;
-  reachQF: number;
-  reachSF: number;
-  reachFinal: number;
-  winTitle: number;
-}
-
-function emptyTally(): Tally {
-  return { advanceR32: 0, reachR16: 0, reachQF: 0, reachSF: 0, reachFinal: 0, winTitle: 0 };
-}
-
-const STAGE_KEY: Record<string, keyof Tally | undefined> = {
-  r32: "advanceR32",
-  r16: "reachR16",
-  qf: "reachQF",
-  sf: "reachSF",
-  final: "reachFinal",
-};
-
 // ---- one tournament ---------------------------------------------------------
 
-function simulateTournament(tallies: Record<string, Tally>): void {
+export interface SimResult {
+  /** Final group tables (index 0 = winner, 1 = runner-up, 2 = third). */
+  groups: Record<GroupId, Standing[]>;
+  /** Team ids participating in each knockout round. */
+  reached: Record<string, Set<string>>;
+  championId: string;
+}
+
+const KO_STAGES = ["r32", "r16", "qf", "sf", "final"] as const;
+
+export function simulateOnce(): SimResult {
+  const groups = {} as Record<GroupId, Standing[]>;
   const winners: Record<string, Team> = {};
   const runnersUp: Record<string, Team> = {};
-  const thirdsByGroup: Standing[] = [];
+  const thirds: Standing[] = [];
 
   for (const g of GROUP_IDS) {
     const table = simulateGroup(g);
+    groups[g] = table;
     winners[g] = table[0].team;
     runnersUp[g] = table[1].team;
-    thirdsByGroup.push(table[2]);
+    thirds.push(table[2]);
   }
 
-  const bestThirds = [...thirdsByGroup].sort(byRank).slice(0, 8);
+  const bestThirds = [...thirds].sort(byRank).slice(0, 8);
   const thirdSlots = assignThirds(bestThirds);
+
+  const reached: Record<string, Set<string>> = {};
+  for (const s of KO_STAGES) reached[s] = new Set();
 
   const winnerOf: Record<number, Team> = {};
   const loserOf: Record<number, Team> = {};
@@ -202,6 +183,7 @@ function simulateTournament(tallies: Record<string, Tally>): void {
     throw new Error(`unrecognised slot token: ${token}`);
   };
 
+  let championId = "";
   for (const ko of KO_MATCHES) {
     let a: Team;
     let b: Team;
@@ -219,36 +201,41 @@ function simulateTournament(tallies: Record<string, Tally>): void {
     winnerOf[ko.n] = winner;
     loserOf[ko.n] = winner.id === a.id ? b : a;
 
-    // The third-place match doesn't feed the title progression.
     if (ko.stage === "third") continue;
-
-    const key = STAGE_KEY[ko.stage];
-    if (key) {
-      tallies[a.id][key]++;
-      tallies[b.id][key]++;
-    }
-    if (ko.stage === "final") tallies[winner.id].winTitle++;
+    reached[ko.stage].add(a.id);
+    reached[ko.stage].add(b.id);
+    if (ko.stage === "final") championId = winner.id;
   }
+
+  return { groups, reached, championId };
 }
 
 // ---- public API -------------------------------------------------------------
 
 export function runForecast(iterations = 10000): TeamForecast[] {
-  const tallies: Record<string, Tally> = {};
-  for (const t of TEAMS) tallies[t.id] = emptyTally();
+  const acc: Record<string, { r32: number; r16: number; qf: number; sf: number; final: number; title: number }> = {};
+  for (const t of TEAMS) acc[t.id] = { r32: 0, r16: 0, qf: 0, sf: 0, final: 0, title: 0 };
 
-  for (let i = 0; i < iterations; i++) simulateTournament(tallies);
+  for (let i = 0; i < iterations; i++) {
+    const r = simulateOnce();
+    for (const id of r.reached.r32) acc[id].r32++;
+    for (const id of r.reached.r16) acc[id].r16++;
+    for (const id of r.reached.qf) acc[id].qf++;
+    for (const id of r.reached.sf) acc[id].sf++;
+    for (const id of r.reached.final) acc[id].final++;
+    acc[r.championId].title++;
+  }
 
   return TEAMS.map((team) => {
-    const t = tallies[team.id];
+    const a = acc[team.id];
     return {
       team,
-      advanceR32: t.advanceR32 / iterations,
-      reachR16: t.reachR16 / iterations,
-      reachQF: t.reachQF / iterations,
-      reachSF: t.reachSF / iterations,
-      reachFinal: t.reachFinal / iterations,
-      winTitle: t.winTitle / iterations,
+      advanceR32: a.r32 / iterations,
+      reachR16: a.r16 / iterations,
+      reachQF: a.qf / iterations,
+      reachSF: a.sf / iterations,
+      reachFinal: a.final / iterations,
+      winTitle: a.title / iterations,
     };
   }).sort((a, b) => b.winTitle - a.winTitle || b.reachFinal - a.reachFinal);
 }
