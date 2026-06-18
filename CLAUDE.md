@@ -37,24 +37,28 @@ high-impact first:
   a booking on a key player
 - `low`    — routine rotation subs, ordinary yellows
 
-### Real-time data source (network egress allow-list)
+### Real-time data source — GitHub Actions ESPN proxy (working now)
 
-The blocker for true real-time is the environment's **egress allow-list**, not
-the sites: every stats host returns `Host not in allowlist: <host>. Add this
-host to your network egress settings`. Only `raw.githubusercontent.com` is
-currently allowed, so the monitor defaults to the 26worldcup dataset
-(cron-refreshed, minutes-to-~1h lag).
+The environment's **egress allow-list** blocks every sports API
+(`Host not in allowlist: <host>`); only GitHub hosts are allowed. The workaround
+in use: **GitHub Actions runners have open internet**, so
+`.github/workflows/live-espn.yml` runs `scripts/fetch-espn-live.mjs` on a runner
+to pull live data from ESPN (`site.api.espn.com`, free, no key — full
+goals/assists/cards/subs/penalty commentary) and commits it to
+`public/data/live-espn.json` every ~5 min.
 
-To get true real-time, add one of these hosts to the environment's network
-egress settings (see https://code.claude.com/docs/en/claude-code-on-the-web):
-- **`site.api.espn.com`** — ESPN hidden API, free, no key, has live goals/cards/
-  subs. **Recommended.** The monitor auto-detects and switches to it on startup.
-- `v3.football.api-sports.io` — API-Sports, richest live detail, needs a free key.
-- `api.football-data.org` — needs a free key, coarser live granularity.
+This repo is **private**, so the monitor reads that file through the
+authenticated git remote (`git fetch` + `git show origin/main:...`), not
+raw.githubusercontent.com (which needs a token for private repos). ESPN team
+abbreviations match our FIFA codes, so matching is by code + date.
+
+Provider order (auto-selected): ESPN direct (only if `site.api.espn.com` is ever
+allow-listed) → **ESPN-via-Actions proxy (current)** → 26worldcup dataset.
 
 **Honest limit that remains regardless of source:** there is no live
 player-rating feed, so "player in poor form / 状态不好" is always inferred from
 objective events (early sub, booking, conceding, red card), never a rating.
+Cadence is ~5 min (GitHub cron is best-effort), not second-by-second.
 
 ## Data sources (only these are reachable from this environment)
 - `raw.githubusercontent.com/26worldcup/26worldcup.github.io` — schedule,
