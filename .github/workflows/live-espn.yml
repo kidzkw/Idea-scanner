@@ -1,14 +1,14 @@
 name: Live ESPN proxy
 
 # GitHub runners have open internet, so they can reach ESPN even though the
-# local workbench egress allow-list cannot. Each run loops for ~5 min, polling
-# ESPN every ~15s and committing the moment anything outcome-affecting changes;
-# the */5 cron makes runs back-to-back for ~15-30s freshness. The repo is public
-# so Actions minutes are unlimited.
+# local workbench egress allow-list historically could not. ESPN direct
+# (site.api.espn.com) is now allow-listed, so the monitor reads it live and this
+# proxy is a manual fallback only — kept in case the allow-list is ever revoked.
+# Trigger it from the Actions tab (workflow_dispatch) to refresh the committed
+# snapshot; each run loops ~5 min, polling ESPN every ~15s and committing on
+# change.
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
