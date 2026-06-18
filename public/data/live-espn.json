@@ -1,0 +1,385 @@
+{
+ "updatedAt": "2026-06-18T21:32:04.147Z",
+ "source": "espn:site.api.espn.com",
+ "count": 8,
+ "events": [
+  {
+   "id": "760438",
+   "date": "2026-06-18T16:00Z",
+   "shortName": "RSA @ CZE",
+   "state": "post",
+   "clock": "90'+7'",
+   "period": 2,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "CZE",
+     "name": "Czechia",
+     "score": 1
+    },
+    {
+     "homeAway": "away",
+     "abbr": "RSA",
+     "name": "South Africa",
+     "score": 1
+    }
+   ],
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "6'",
+     "team": "",
+     "text": "Goal! Czechia 1, South Africa 0. Michal Sadílek (Czechia) left footed shot from the centre of the box to the centre of the goal. Assisted by Alexandr Sojka."
+    },
+    {
+     "type": "yellow",
+     "minute": "33'",
+     "team": "",
+     "text": "Teboho Mokoena (South Africa) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "40'",
+     "team": "",
+     "text": "Thalente Mbatha (South Africa) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, South Africa. Relebohile Mofokeng replaces Jayden Adams."
+    },
+    {
+     "type": "sub",
+     "minute": "55'",
+     "team": "",
+     "text": "Substitution, Czechia. Pavel Sulc replaces Vladimír Darida."
+    },
+    {
+     "type": "sub",
+     "minute": "55'",
+     "team": "",
+     "text": "Substitution, Czechia. Jaroslav Zeleny replaces Alexandr Sojka."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, South Africa. Evidence Makgopa replaces Iqraam Rayners."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Czechia. Tomás Soucek replaces Michal Sadílek."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Czechia. Lukás Provod replaces Adam Hlozek."
+    },
+    {
+     "type": "yellow",
+     "minute": "75'",
+     "team": "",
+     "text": "Ladislav Krejcí (Czechia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Czechia. David Zima replaces Lukás Cerv."
+    },
+    {
+     "type": "penalty",
+     "minute": "83'",
+     "team": "",
+     "text": "Goal! Czechia 1, South Africa 1. Teboho Mokoena (South Africa) converts the penalty with a right footed shot to the bottom left corner."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, South Africa. Kamogelo Sebelebele replaces Thapelo Maseko."
+    }
+   ]
+  },
+  {
+   "id": "760439",
+   "date": "2026-06-18T19:00Z",
+   "shortName": "BIH @ SUI",
+   "state": "post",
+   "clock": "90'+8'",
+   "period": 2,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "SUI",
+     "name": "Switzerland",
+     "score": 4
+    },
+    {
+     "homeAway": "away",
+     "abbr": "BIH",
+     "name": "Bosnia-Herzegovina",
+     "score": 1
+    }
+   ],
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "59'",
+     "team": "",
+     "text": "Amar Dedic (Bosnia and Herzegovina) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "61'",
+     "team": "",
+     "text": "Edin Dzeko (Bosnia and Herzegovina) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Ivan Basic replaces Benjamin Tahirovic."
+    },
+    {
+     "type": "sub",
+     "minute": "64'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Esmir Bajraktarevic replaces Edin Dzeko."
+    },
+    {
+     "type": "yellow",
+     "minute": "65'",
+     "team": "",
+     "text": "Nico Elvedi (Switzerland) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Switzerland. Djibril Sow replaces Michel Aebischer."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Switzerland. Johan Manzambi replaces Dan Ndoye."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Switzerland. Rubén Vargas replaces Fabian Rieder."
+    },
+    {
+     "type": "goal",
+     "minute": "74'",
+     "team": "",
+     "text": "Goal! Switzerland 1, Bosnia and Herzegovina 0. Johan Manzambi (Switzerland) right footed shot from the centre of the box to the top right corner."
+    },
+    {
+     "type": "red",
+     "minute": "80'",
+     "team": "",
+     "text": "Tarik Muharemovic (Bosnia and Herzegovina) is shown the red card."
+    },
+    {
+     "type": "goal",
+     "minute": "84'",
+     "team": "",
+     "text": "Goal! Switzerland 2, Bosnia and Herzegovina 0. Rubén Vargas (Switzerland) right footed shot from the centre of the box to the bottom right corner. Assisted by Breel Embolo."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Jovo Lukic replaces Ermedin Demirovic."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Amir Hadziahmetovic replaces Ivan Sunjic."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Switzerland. Luca Jaquez replaces Silvan Widmer."
+    },
+    {
+     "type": "sub",
+     "minute": "89'",
+     "team": "",
+     "text": "Substitution, Switzerland. Cedric Itten replaces Breel Embolo."
+    },
+    {
+     "type": "goal",
+     "minute": "90'",
+     "team": "",
+     "text": "Goal! Switzerland 3, Bosnia and Herzegovina 0. Johan Manzambi (Switzerland) right footed shot from the centre of the box to the centre of the goal. Assisted by Rubén Vargas."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Ermin Mahmic replaces Kerim Alajbegovic."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Goal! Switzerland 3, Bosnia and Herzegovina 1. Ermin Mahmic (Bosnia and Herzegovina) right footed shot from the centre of the box to the high centre of the goal following a corner."
+    },
+    {
+     "type": "penalty",
+     "minute": "90'+7'",
+     "team": "",
+     "text": "Goal! Switzerland 4, Bosnia and Herzegovina 1. Granit Xhaka (Switzerland) converts the penalty with a left footed shot to the bottom right corner."
+    }
+   ]
+  },
+  {
+   "id": "760440",
+   "date": "2026-06-18T22:00Z",
+   "shortName": "QAT @ CAN",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "CAN",
+     "name": "Canada",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "QAT",
+     "name": "Qatar",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760441",
+   "date": "2026-06-19T01:00Z",
+   "shortName": "KOR @ MEX",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "MEX",
+     "name": "Mexico",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "KOR",
+     "name": "South Korea",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760442",
+   "date": "2026-06-19T19:00Z",
+   "shortName": "AUS @ USA",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "USA",
+     "name": "United States",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "AUS",
+     "name": "Australia",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760445",
+   "date": "2026-06-19T22:00Z",
+   "shortName": "MAR @ SCO",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "SCO",
+     "name": "Scotland",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "MAR",
+     "name": "Morocco",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760444",
+   "date": "2026-06-20T00:30Z",
+   "shortName": "HAI @ BRA",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "BRA",
+     "name": "Brazil",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "HAI",
+     "name": "Haiti",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760443",
+   "date": "2026-06-20T03:00Z",
+   "shortName": "PAR @ TUR",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "TUR",
+     "name": "Türkiye",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "PAR",
+     "name": "Paraguay",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  }
+ ]
+}
