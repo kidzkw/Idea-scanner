@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-19T21:49:41.293Z",
+ "updatedAt": "2026-06-19T22:40:52.805Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -145,9 +145,9 @@
    "id": "760445",
    "date": "2026-06-19T22:00Z",
    "shortName": "MAR @ SCO",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "40'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -159,10 +159,23 @@
      "homeAway": "away",
      "abbr": "MAR",
      "name": "Morocco",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "2'",
+     "team": "",
+     "text": "Goal! Scotland 0, Morocco 1. Ismael Saibari (Morocco) right footed shot from the right side of the box to the high centre of the goal. Assisted by Brahim Díaz with a through ball."
+    },
+    {
+     "type": "yellow",
+     "minute": "23'",
+     "team": "",
+     "text": "Issa Diop (Morocco) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760444",
