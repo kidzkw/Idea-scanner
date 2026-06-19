@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-19T02:10:46.243Z",
+ "updatedAt": "2026-06-19T02:11:02.393Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -399,7 +399,7 @@
      "homeAway": "home",
      "abbr": "MEX",
      "name": "Mexico",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
