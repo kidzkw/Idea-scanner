@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-19T23:47:53.984Z",
+ "updatedAt": "2026-06-19T23:51:27.762Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -146,7 +146,7 @@
    "date": "2026-06-19T22:00Z",
    "shortName": "MAR @ SCO",
    "state": "in",
-   "clock": "85'",
+   "clock": "88'",
    "period": 2,
    "competitors": [
     {
@@ -216,6 +216,12 @@
      "minute": "84'",
      "team": "",
      "text": "Substitution, Morocco. Ayoube Amaimouni-Echghouyab replaces Brahim Díaz."
+    },
+    {
+     "type": "sub",
+     "minute": "89'",
+     "team": "",
+     "text": "Anthony Ralston (Scotland) Substitution at 89'"
     }
    ]
   },
