@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-19T23:51:27.762Z",
+ "updatedAt": "2026-06-19T23:51:43.849Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -222,6 +222,12 @@
      "minute": "89'",
      "team": "",
      "text": "Anthony Ralston (Scotland) Substitution at 89'"
+    },
+    {
+     "type": "sub",
+     "minute": "89'",
+     "team": "",
+     "text": "Ross Stewart (Scotland) Substitution at 89'"
     }
    ]
   },
