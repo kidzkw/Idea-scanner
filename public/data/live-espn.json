@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-19T19:02:24.088Z",
+ "updatedAt": "2026-06-19T20:42:28.664Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -8,14 +8,14 @@
    "date": "2026-06-19T19:00Z",
    "shortName": "AUS @ USA",
    "state": "in",
-   "clock": "2'",
-   "period": 1,
+   "clock": "76'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "USA",
      "name": "United States",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
@@ -24,7 +24,68 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "owngoal",
+     "minute": "11'",
+     "team": "",
+     "text": "Own Goal by Cameron Burgess, Australia. USA 1, Australia 0."
+    },
+    {
+     "type": "yellow",
+     "minute": "16'",
+     "team": "",
+     "text": "Jordan Bos (Australia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "32'",
+     "team": "",
+     "text": "Alessandro Circati (Australia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "43'",
+     "team": "",
+     "text": "Goal! USA 2, Australia 0. Alex Freeman (USA) header from very close range to the bottom right corner following a set piece situation.Goal awarded following VAR Review."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Australia. Jason Geria replaces Cameron Burgess."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Australia. Connor Metcalfe replaces Nishan Velupillay."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Australia. Nestory Irankunda replaces Mohamed Touré."
+    },
+    {
+     "type": "yellow",
+     "minute": "56'",
+     "team": "",
+     "text": "Antonee Robinson (USA) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, Australia. Cristian Volpato replaces Mathew Leckie because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "74'",
+     "team": "",
+     "text": "Substitution, USA. Sebastian Berhalter replaces Ricardo Pepi."
+    }
+   ]
   },
   {
    "id": "760445",
