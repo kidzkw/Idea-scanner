@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-19T20:46:17.221Z",
+ "updatedAt": "2026-06-19T21:49:41.293Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -7,8 +7,8 @@
    "id": "760442",
    "date": "2026-06-19T19:00Z",
    "shortName": "AUS @ USA",
-   "state": "in",
-   "clock": "81'",
+   "state": "post",
+   "clock": "90'+8'",
    "period": 2,
    "competitors": [
     {
@@ -101,7 +101,43 @@
      "type": "sub",
      "minute": "80'",
      "team": "",
-     "text": "Auston Trusty (United States) Substitution at 80'"
+     "text": "Substitution, USA. Auston Trusty replaces Antonee Robinson."
+    },
+    {
+     "type": "yellow",
+     "minute": "88'",
+     "team": "",
+     "text": "Harry Souttar (Australia) is shown the yellow card."
+    },
+    {
+     "type": "yellow",
+     "minute": "89'",
+     "team": "",
+     "text": "Folarin Balogun (USA) is shown the yellow card."
+    },
+    {
+     "type": "yellow",
+     "minute": "89'",
+     "team": "",
+     "text": "Jacob Italiano (Australia) is shown the yellow card."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Chris Richards (USA) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+6'",
+     "team": "",
+     "text": "Substitution, USA. Haji Wright replaces Folarin Balogun."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+6'",
+     "team": "",
+     "text": "Substitution, USA. Giovanni Reyna replaces Weston McKennie."
     }
    ]
   },
