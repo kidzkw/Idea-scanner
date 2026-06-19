@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-19T02:11:02.393Z",
+ "updatedAt": "2026-06-19T07:24:58.662Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -391,8 +391,8 @@
    "id": "760441",
    "date": "2026-06-19T01:00Z",
    "shortName": "KOR @ MEX",
-   "state": "in",
-   "clock": "51'",
+   "state": "post",
+   "clock": "90'+6'",
    "period": 2,
    "competitors": [
     {
@@ -419,7 +419,73 @@
      "type": "goal",
      "minute": "50'",
      "team": "",
-     "text": "Goal! Mexico 1, Korea Republic 0. Luis Romo (Mexico) right footed shot from the centre of the box."
+     "text": "Goal! Mexico 1, Korea Republic 0. Luis Romo (Mexico) right footed shot from the centre of the box to the centre of the goal."
+    },
+    {
+     "type": "sub",
+     "minute": "57'",
+     "team": "",
+     "text": "Substitution, Korea Republic. Hwang Hee-Chan replaces Lee Jae-Sung."
+    },
+    {
+     "type": "sub",
+     "minute": "57'",
+     "team": "",
+     "text": "Substitution, Korea Republic. Oh Hyeon-Gyu replaces Son Heung-Min."
+    },
+    {
+     "type": "yellow",
+     "minute": "58'",
+     "team": "",
+     "text": "Paik Seung-Ho (Korea Republic) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Mexico. Orbelín Pineda replaces Brian Gutiérrez."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Mexico. Obed Vargas replaces Luis Romo."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Korea Republic. Eom Ji-Sung replaces Kim Moon-Hwan."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Korea Republic. Yang Hyun-Jun replaces Seol Young-Woo."
+    },
+    {
+     "type": "sub",
+     "minute": "77'",
+     "team": "",
+     "text": "Substitution, Korea Republic. Cho Gue-Sung replaces Paik Seung-Ho."
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Substitution, Mexico. Israel Reyes replaces Roberto Alvarado."
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Substitution, Mexico. Santiago Giménez replaces Raúl Jiménez."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, Mexico. César Huerta replaces Julián Quiñones."
     }
    ]
   },
