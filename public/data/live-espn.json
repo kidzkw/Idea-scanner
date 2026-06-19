@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-19T22:40:52.805Z",
+ "updatedAt": "2026-06-19T23:47:53.984Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -146,8 +146,8 @@
    "date": "2026-06-19T22:00Z",
    "shortName": "MAR @ SCO",
    "state": "in",
-   "clock": "40'",
-   "period": 1,
+   "clock": "85'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -174,6 +174,48 @@
      "minute": "23'",
      "team": "",
      "text": "Issa Diop (Morocco) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Scotland. Ben Gannon-Doak replaces Kieran Tierney because of an injury."
+    },
+    {
+     "type": "yellow",
+     "minute": "65'",
+     "team": "",
+     "text": "Andy Robertson (Scotland) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Scotland. Lyndon Dykes replaces Ché Adams."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Scotland. Kenny McLean replaces Ryan Christie."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, Morocco. Chemsdine Talbi replaces Bilal El Khannouss."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, Morocco. Ayoube Amaimouni-Echghouyab replaces Brahim Díaz."
     }
    ]
   },
