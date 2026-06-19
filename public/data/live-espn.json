@@ -1,501 +1,15 @@
 {
- "updatedAt": "2026-06-19T07:24:58.662Z",
+ "updatedAt": "2026-06-19T19:02:24.088Z",
  "source": "espn:site.api.espn.com",
- "count": 8,
+ "count": 7,
  "events": [
-  {
-   "id": "760438",
-   "date": "2026-06-18T16:00Z",
-   "shortName": "RSA @ CZE",
-   "state": "post",
-   "clock": "90'+7'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "CZE",
-     "name": "Czechia",
-     "score": 1
-    },
-    {
-     "homeAway": "away",
-     "abbr": "RSA",
-     "name": "South Africa",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "6'",
-     "team": "",
-     "text": "Goal! Czechia 1, South Africa 0. Michal Sadílek (Czechia) left footed shot from the centre of the box to the centre of the goal. Assisted by Alexandr Sojka."
-    },
-    {
-     "type": "yellow",
-     "minute": "33'",
-     "team": "",
-     "text": "Teboho Mokoena (South Africa) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "40'",
-     "team": "",
-     "text": "Thalente Mbatha (South Africa) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, South Africa. Relebohile Mofokeng replaces Jayden Adams."
-    },
-    {
-     "type": "sub",
-     "minute": "55'",
-     "team": "",
-     "text": "Substitution, Czechia. Pavel Sulc replaces Vladimír Darida."
-    },
-    {
-     "type": "sub",
-     "minute": "55'",
-     "team": "",
-     "text": "Substitution, Czechia. Jaroslav Zeleny replaces Alexandr Sojka."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, South Africa. Evidence Makgopa replaces Iqraam Rayners."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Czechia. Tomás Soucek replaces Michal Sadílek."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Czechia. Lukás Provod replaces Adam Hlozek."
-    },
-    {
-     "type": "yellow",
-     "minute": "75'",
-     "team": "",
-     "text": "Ladislav Krejcí (Czechia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "78'",
-     "team": "",
-     "text": "Substitution, Czechia. David Zima replaces Lukás Cerv."
-    },
-    {
-     "type": "penalty",
-     "minute": "83'",
-     "team": "",
-     "text": "Goal! Czechia 1, South Africa 1. Teboho Mokoena (South Africa) converts the penalty with a right footed shot to the bottom left corner."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, South Africa. Kamogelo Sebelebele replaces Thapelo Maseko."
-    }
-   ]
-  },
-  {
-   "id": "760439",
-   "date": "2026-06-18T19:00Z",
-   "shortName": "BIH @ SUI",
-   "state": "post",
-   "clock": "90'+8'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "SUI",
-     "name": "Switzerland",
-     "score": 4
-    },
-    {
-     "homeAway": "away",
-     "abbr": "BIH",
-     "name": "Bosnia-Herzegovina",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "59'",
-     "team": "",
-     "text": "Amar Dedic (Bosnia and Herzegovina) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "61'",
-     "team": "",
-     "text": "Edin Dzeko (Bosnia and Herzegovina) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "63'",
-     "team": "",
-     "text": "Substitution, Bosnia and Herzegovina. Ivan Basic replaces Benjamin Tahirovic."
-    },
-    {
-     "type": "sub",
-     "minute": "64'",
-     "team": "",
-     "text": "Substitution, Bosnia and Herzegovina. Esmir Bajraktarevic replaces Edin Dzeko."
-    },
-    {
-     "type": "yellow",
-     "minute": "65'",
-     "team": "",
-     "text": "Nico Elvedi (Switzerland) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Switzerland. Djibril Sow replaces Michel Aebischer."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Switzerland. Johan Manzambi replaces Dan Ndoye."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Switzerland. Rubén Vargas replaces Fabian Rieder."
-    },
-    {
-     "type": "goal",
-     "minute": "74'",
-     "team": "",
-     "text": "Goal! Switzerland 1, Bosnia and Herzegovina 0. Johan Manzambi (Switzerland) right footed shot from the centre of the box to the top right corner."
-    },
-    {
-     "type": "red",
-     "minute": "80'",
-     "team": "",
-     "text": "Tarik Muharemovic (Bosnia and Herzegovina) is shown the red card."
-    },
-    {
-     "type": "goal",
-     "minute": "84'",
-     "team": "",
-     "text": "Goal! Switzerland 2, Bosnia and Herzegovina 0. Rubén Vargas (Switzerland) right footed shot from the centre of the box to the bottom right corner. Assisted by Breel Embolo."
-    },
-    {
-     "type": "sub",
-     "minute": "86'",
-     "team": "",
-     "text": "Substitution, Bosnia and Herzegovina. Jovo Lukic replaces Ermedin Demirovic."
-    },
-    {
-     "type": "sub",
-     "minute": "86'",
-     "team": "",
-     "text": "Substitution, Bosnia and Herzegovina. Amir Hadziahmetovic replaces Ivan Sunjic."
-    },
-    {
-     "type": "sub",
-     "minute": "86'",
-     "team": "",
-     "text": "Substitution, Switzerland. Luca Jaquez replaces Silvan Widmer."
-    },
-    {
-     "type": "sub",
-     "minute": "89'",
-     "team": "",
-     "text": "Substitution, Switzerland. Cedric Itten replaces Breel Embolo."
-    },
-    {
-     "type": "goal",
-     "minute": "90'",
-     "team": "",
-     "text": "Goal! Switzerland 3, Bosnia and Herzegovina 0. Johan Manzambi (Switzerland) right footed shot from the centre of the box to the centre of the goal. Assisted by Rubén Vargas."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+1'",
-     "team": "",
-     "text": "Substitution, Bosnia and Herzegovina. Ermin Mahmic replaces Kerim Alajbegovic."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Goal! Switzerland 3, Bosnia and Herzegovina 1. Ermin Mahmic (Bosnia and Herzegovina) right footed shot from the centre of the box to the high centre of the goal following a corner."
-    },
-    {
-     "type": "penalty",
-     "minute": "90'+7'",
-     "team": "",
-     "text": "Goal! Switzerland 4, Bosnia and Herzegovina 1. Granit Xhaka (Switzerland) converts the penalty with a left footed shot to the bottom right corner."
-    }
-   ]
-  },
-  {
-   "id": "760440",
-   "date": "2026-06-18T22:00Z",
-   "shortName": "QAT @ CAN",
-   "state": "post",
-   "clock": "90'+10'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "CAN",
-     "name": "Canada",
-     "score": 6
-    },
-    {
-     "homeAway": "away",
-     "abbr": "QAT",
-     "name": "Qatar",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "9'",
-     "team": "",
-     "text": "Derek Cornelius (Canada) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "16'",
-     "team": "",
-     "text": "Goal! Canada 1, Qatar 0. Cyle Larin (Canada) left footed shot from very close range to the bottom right corner following a corner."
-    },
-    {
-     "type": "goal",
-     "minute": "29'",
-     "team": "",
-     "text": "Goal! Canada 2, Qatar 0. Jonathan David (Canada) right footed shot from the right side of the box to the bottom right corner."
-    },
-    {
-     "type": "red",
-     "minute": "33'",
-     "team": "",
-     "text": "Homam El Amin (Qatar) is shown the red card."
-    },
-    {
-     "type": "sub",
-     "minute": "40'",
-     "team": "",
-     "text": "Substitution, Qatar. Sultan Al Brake replaces Yusuf Abdurisag."
-    },
-    {
-     "type": "goal",
-     "minute": "45'+3'",
-     "team": "",
-     "text": "Goal! Canada 3, Qatar 0. Jonathan David (Canada) right footed shot from very close range to the centre of the goal."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Qatar. Ahmed Fathy replaces Edmílson Junior."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Qatar. Mohammad Al Manai replaces Jassem Gaber."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Canada. Moïse Bombito replaces Derek Cornelius."
-    },
-    {
-     "type": "red",
-     "minute": "53'",
-     "team": "",
-     "text": "Assim Madibo (Qatar) is shown the red card."
-    },
-    {
-     "type": "sub",
-     "minute": "57'",
-     "team": "",
-     "text": "Substitution, Canada. Nathan Saliba replaces Ismaël Koné because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "59'",
-     "team": "",
-     "text": "Substitution, Qatar. Al Hashmi Al Hussain replaces Akram Afif."
-    },
-    {
-     "type": "yellow",
-     "minute": "62'",
-     "team": "",
-     "text": "Ahmed Fathy (Qatar) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "64'",
-     "team": "",
-     "text": "Goal! Canada 4, Qatar 0. Nathan Saliba (Canada) from a free kick with a right footed shot to the bottom right corner."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Canada. Jacob Shaffelburg replaces Luc De Fougerolles."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Canada. Tani Oluwaseyi replaces Ali Ahmed."
-    },
-    {
-     "type": "owngoal",
-     "minute": "75'",
-     "team": "",
-     "text": "Own Goal by Mohammad Al Manai, Qatar. Canada 5, Qatar 0."
-    },
-    {
-     "type": "sub",
-     "minute": "83'",
-     "team": "",
-     "text": "Substitution, Canada. Niko Sigur replaces Tajon Buchanan."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Qatar. Lucas Mendes replaces Ahmed Fathy."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Goal! Canada 6, Qatar 0. Jonathan David (Canada) left footed shot from the centre of the box to the top left corner. Assisted by Nathan Saliba."
-    }
-   ]
-  },
-  {
-   "id": "760441",
-   "date": "2026-06-19T01:00Z",
-   "shortName": "KOR @ MEX",
-   "state": "post",
-   "clock": "90'+6'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "MEX",
-     "name": "Mexico",
-     "score": 1
-    },
-    {
-     "homeAway": "away",
-     "abbr": "KOR",
-     "name": "South Korea",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "4'",
-     "team": "",
-     "text": "Lee Kang-In (Korea Republic) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "50'",
-     "team": "",
-     "text": "Goal! Mexico 1, Korea Republic 0. Luis Romo (Mexico) right footed shot from the centre of the box to the centre of the goal."
-    },
-    {
-     "type": "sub",
-     "minute": "57'",
-     "team": "",
-     "text": "Substitution, Korea Republic. Hwang Hee-Chan replaces Lee Jae-Sung."
-    },
-    {
-     "type": "sub",
-     "minute": "57'",
-     "team": "",
-     "text": "Substitution, Korea Republic. Oh Hyeon-Gyu replaces Son Heung-Min."
-    },
-    {
-     "type": "yellow",
-     "minute": "58'",
-     "team": "",
-     "text": "Paik Seung-Ho (Korea Republic) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Mexico. Orbelín Pineda replaces Brian Gutiérrez."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Mexico. Obed Vargas replaces Luis Romo."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Korea Republic. Eom Ji-Sung replaces Kim Moon-Hwan."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Korea Republic. Yang Hyun-Jun replaces Seol Young-Woo."
-    },
-    {
-     "type": "sub",
-     "minute": "77'",
-     "team": "",
-     "text": "Substitution, Korea Republic. Cho Gue-Sung replaces Paik Seung-Ho."
-    },
-    {
-     "type": "sub",
-     "minute": "80'",
-     "team": "",
-     "text": "Substitution, Mexico. Israel Reyes replaces Roberto Alvarado."
-    },
-    {
-     "type": "sub",
-     "minute": "80'",
-     "team": "",
-     "text": "Substitution, Mexico. Santiago Giménez replaces Raúl Jiménez."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Mexico. César Huerta replaces Julián Quiñones."
-    }
-   ]
-  },
   {
    "id": "760442",
    "date": "2026-06-19T19:00Z",
    "shortName": "AUS @ USA",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "2'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -576,6 +90,75 @@
      "homeAway": "away",
      "abbr": "PAR",
      "name": "Paraguay",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760447",
+   "date": "2026-06-20T17:00Z",
+   "shortName": "SWE @ NED",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "NED",
+     "name": "Netherlands",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "SWE",
+     "name": "Sweden",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760448",
+   "date": "2026-06-20T20:00Z",
+   "shortName": "CIV @ GER",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "GER",
+     "name": "Germany",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "CIV",
+     "name": "Ivory Coast",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760446",
+   "date": "2026-06-21T00:00Z",
+   "shortName": "CUW @ ECU",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "ECU",
+     "name": "Ecuador",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "CUW",
+     "name": "Curaçao",
      "score": 0
     }
    ],
