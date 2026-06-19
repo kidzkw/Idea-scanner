@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-18T23:20:35.163Z",
+ "updatedAt": "2026-06-19T02:09:14.001Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -247,15 +247,15 @@
    "id": "760440",
    "date": "2026-06-18T22:00Z",
    "shortName": "QAT @ CAN",
-   "state": "in",
-   "clock": "58'",
+   "state": "post",
+   "clock": "90'+10'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "CAN",
      "name": "Canada",
-     "score": 3
+     "score": 6
     },
     {
      "homeAway": "away",
@@ -336,6 +336,54 @@
      "minute": "59'",
      "team": "",
      "text": "Substitution, Qatar. Al Hashmi Al Hussain replaces Akram Afif."
+    },
+    {
+     "type": "yellow",
+     "minute": "62'",
+     "team": "",
+     "text": "Ahmed Fathy (Qatar) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "64'",
+     "team": "",
+     "text": "Goal! Canada 4, Qatar 0. Nathan Saliba (Canada) from a free kick with a right footed shot to the bottom right corner."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Canada. Jacob Shaffelburg replaces Luc De Fougerolles."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Canada. Tani Oluwaseyi replaces Ali Ahmed."
+    },
+    {
+     "type": "owngoal",
+     "minute": "75'",
+     "team": "",
+     "text": "Own Goal by Mohammad Al Manai, Qatar. Canada 5, Qatar 0."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Canada. Niko Sigur replaces Tajon Buchanan."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Qatar. Lucas Mendes replaces Ahmed Fathy."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+2'",
+     "team": "",
+     "text": "Goal! Canada 6, Qatar 0. Jonathan David (Canada) left footed shot from the centre of the box to the top left corner. Assisted by Nathan Saliba."
     }
    ]
   },
@@ -343,9 +391,9 @@
    "id": "760441",
    "date": "2026-06-19T01:00Z",
    "shortName": "KOR @ MEX",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "49'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -360,7 +408,14 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "4'",
+     "team": "",
+     "text": "Lee Kang-In (Korea Republic) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760442",
