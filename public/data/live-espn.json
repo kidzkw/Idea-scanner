@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-19T20:42:28.664Z",
+ "updatedAt": "2026-06-19T20:43:30.078Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -8,7 +8,7 @@
    "date": "2026-06-19T19:00Z",
    "shortName": "AUS @ USA",
    "state": "in",
-   "clock": "76'",
+   "clock": "77'",
    "period": 2,
    "competitors": [
     {
@@ -84,6 +84,12 @@
      "minute": "74'",
      "team": "",
      "text": "Substitution, USA. Sebastian Berhalter replaces Ricardo Pepi."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Jackson Irvine (Australia) Substitution at 78'"
     }
    ]
   },
