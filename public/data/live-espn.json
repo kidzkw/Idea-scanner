@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-19T02:09:14.001Z",
+ "updatedAt": "2026-06-19T02:10:46.243Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -392,7 +392,7 @@
    "date": "2026-06-19T01:00Z",
    "shortName": "KOR @ MEX",
    "state": "in",
-   "clock": "49'",
+   "clock": "51'",
    "period": 2,
    "competitors": [
     {
@@ -414,6 +414,12 @@
      "minute": "4'",
      "team": "",
      "text": "Lee Kang-In (Korea Republic) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "50'",
+     "team": "",
+     "text": "Goal! Mexico 1, Korea Republic 0. Luis Romo (Mexico) right footed shot from the centre of the box."
     }
    ]
   },
