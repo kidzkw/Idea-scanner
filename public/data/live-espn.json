@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-20T20:59:55.070Z",
+ "updatedAt": "2026-06-20T22:16:54.368Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -145,15 +145,15 @@
    "id": "760448",
    "date": "2026-06-20T20:00Z",
    "shortName": "CIV @ GER",
-   "state": "in",
-   "clock": "45'+7'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+7'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "GER",
      "name": "Germany",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
@@ -168,6 +168,78 @@
      "minute": "30'",
      "team": "",
      "text": "Goal! Germany 0, Côte d'Ivoire 1. Franck Kessie (Côte d'Ivoire) right footed shot from the centre of the box to the bottom left corner."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Germany. Antonio Rüdiger replaces Nico Schlotterbeck because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Germany. Jamie Leweling replaces Leroy Sané."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Germany. Deniz Undav replaces Jamal Musiala."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Germany. Nadiem Amiri replaces Aleksandar Pavlovic."
+    },
+    {
+     "type": "goal",
+     "minute": "68'",
+     "team": "",
+     "text": "Goal! Germany 1, Côte d'Ivoire 1. Deniz Undav (Germany) left footed shot from very close range to the high centre of the goal. Assisted by Nadiem Amiri with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Evann Guessand replaces Ange-Yoan Bonny."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Seko Fofana replaces Ibrahim Sangaré."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Simon Adingra replaces Amad Diallo."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Guéla Doué replaces Wilfried Singo because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Nicolas Pépé replaces Yan Diomande."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Germany. Leon Goretzka replaces Kai Havertz."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+4'",
+     "team": "",
+     "text": "Goal! Germany 2, Côte d'Ivoire 1. Deniz Undav (Germany) left footed shot from the centre of the box to the bottom left corner. Assisted by Felix Nmecha with a through ball."
     }
    ]
   },
