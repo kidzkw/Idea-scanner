@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-20T18:06:25.839Z",
+ "updatedAt": "2026-06-20T18:09:28.137Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -8,8 +8,8 @@
    "date": "2026-06-20T17:00Z",
    "shortName": "SWE @ NED",
    "state": "in",
-   "clock": "45'+5'",
-   "period": 1,
+   "clock": "48'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -41,7 +41,13 @@
      "type": "sub",
      "minute": "45'",
      "team": "",
-     "text": "Crysencio Summerville (Netherlands) Substitution at 45'"
+     "text": "Substitution, Netherlands. Crysencio Summerville replaces Donyell Malen."
+    },
+    {
+     "type": "goal",
+     "minute": "47'",
+     "team": "",
+     "text": "Cody Gakpo (Netherlands) Goal at 47'"
     }
    ]
   },
