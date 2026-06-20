@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-20T18:09:28.137Z",
+ "updatedAt": "2026-06-20T18:09:44.255Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -8,14 +8,14 @@
    "date": "2026-06-20T17:00Z",
    "shortName": "SWE @ NED",
    "state": "in",
-   "clock": "48'",
+   "clock": "49'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "NED",
      "name": "Netherlands",
-     "score": 2
+     "score": 3
     },
     {
      "homeAway": "away",
@@ -47,7 +47,7 @@
      "type": "goal",
      "minute": "47'",
      "team": "",
-     "text": "Cody Gakpo (Netherlands) Goal at 47'"
+     "text": "Goal! Netherlands 3, Sweden 0. Cody Gakpo (Netherlands) left footed shot from very close range to the centre of the goal. Assisted by Denzel Dumfries with a cross."
     }
    ]
   },
