@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-20T19:52:24.213Z",
+ "updatedAt": "2026-06-20T20:59:55.070Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -145,9 +145,9 @@
    "id": "760448",
    "date": "2026-06-20T20:00Z",
    "shortName": "CIV @ GER",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "45'+7'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -159,10 +159,17 @@
      "homeAway": "away",
      "abbr": "CIV",
      "name": "Ivory Coast",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "30'",
+     "team": "",
+     "text": "Goal! Germany 0, Côte d'Ivoire 1. Franck Kessie (Côte d'Ivoire) right footed shot from the centre of the box to the bottom left corner."
+    }
+   ]
   },
   {
    "id": "760446",
