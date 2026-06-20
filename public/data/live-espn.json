@@ -1,489 +1,21 @@
 {
- "updatedAt": "2026-06-20T06:16:32.243Z",
+ "updatedAt": "2026-06-20T18:05:24.509Z",
  "source": "espn:site.api.espn.com",
- "count": 7,
+ "count": 8,
  "events": [
-  {
-   "id": "760442",
-   "date": "2026-06-19T19:00Z",
-   "shortName": "AUS @ USA",
-   "state": "post",
-   "clock": "90'+8'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "USA",
-     "name": "United States",
-     "score": 2
-    },
-    {
-     "homeAway": "away",
-     "abbr": "AUS",
-     "name": "Australia",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "owngoal",
-     "minute": "11'",
-     "team": "",
-     "text": "Own Goal by Cameron Burgess, Australia. USA 1, Australia 0."
-    },
-    {
-     "type": "yellow",
-     "minute": "16'",
-     "team": "",
-     "text": "Jordan Bos (Australia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "32'",
-     "team": "",
-     "text": "Alessandro Circati (Australia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "43'",
-     "team": "",
-     "text": "Goal! USA 2, Australia 0. Alex Freeman (USA) header from very close range to the bottom right corner following a set piece situation.Goal awarded following VAR Review."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Australia. Jason Geria replaces Cameron Burgess."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Australia. Connor Metcalfe replaces Nishan Velupillay."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Australia. Nestory Irankunda replaces Mohamed Touré."
-    },
-    {
-     "type": "yellow",
-     "minute": "56'",
-     "team": "",
-     "text": "Antonee Robinson (USA) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "61'",
-     "team": "",
-     "text": "Substitution, Australia. Cristian Volpato replaces Mathew Leckie because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "74'",
-     "team": "",
-     "text": "Substitution, USA. Sebastian Berhalter replaces Ricardo Pepi."
-    },
-    {
-     "type": "sub",
-     "minute": "78'",
-     "team": "",
-     "text": "Substitution, Australia. Jackson Irvine replaces Paul Okon-Engstler."
-    },
-    {
-     "type": "sub",
-     "minute": "80'",
-     "team": "",
-     "text": "Substitution, USA. Joe Scally replaces Sergiño Dest."
-    },
-    {
-     "type": "sub",
-     "minute": "80'",
-     "team": "",
-     "text": "Substitution, USA. Auston Trusty replaces Antonee Robinson."
-    },
-    {
-     "type": "yellow",
-     "minute": "88'",
-     "team": "",
-     "text": "Harry Souttar (Australia) is shown the yellow card."
-    },
-    {
-     "type": "yellow",
-     "minute": "89'",
-     "team": "",
-     "text": "Folarin Balogun (USA) is shown the yellow card."
-    },
-    {
-     "type": "yellow",
-     "minute": "89'",
-     "team": "",
-     "text": "Jacob Italiano (Australia) is shown the yellow card."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Chris Richards (USA) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+6'",
-     "team": "",
-     "text": "Substitution, USA. Haji Wright replaces Folarin Balogun."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+6'",
-     "team": "",
-     "text": "Substitution, USA. Giovanni Reyna replaces Weston McKennie."
-    }
-   ]
-  },
-  {
-   "id": "760445",
-   "date": "2026-06-19T22:00Z",
-   "shortName": "MAR @ SCO",
-   "state": "post",
-   "clock": "90'+7'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "SCO",
-     "name": "Scotland",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "MAR",
-     "name": "Morocco",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "2'",
-     "team": "",
-     "text": "Goal! Scotland 0, Morocco 1. Ismael Saibari (Morocco) right footed shot from the right side of the box to the high centre of the goal. Assisted by Brahim Díaz with a through ball."
-    },
-    {
-     "type": "yellow",
-     "minute": "23'",
-     "team": "",
-     "text": "Issa Diop (Morocco) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Scotland. Ben Gannon-Doak replaces Kieran Tierney because of an injury."
-    },
-    {
-     "type": "yellow",
-     "minute": "65'",
-     "team": "",
-     "text": "Andy Robertson (Scotland) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Scotland. Lyndon Dykes replaces Ché Adams."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Scotland. Kenny McLean replaces Ryan Christie."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Morocco. Chemsdine Talbi replaces Bilal El Khannouss."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Morocco. Ayoube Amaimouni-Echghouyab replaces Brahim Díaz."
-    },
-    {
-     "type": "sub",
-     "minute": "89'",
-     "team": "",
-     "text": "Substitution, Scotland. Anthony Ralston replaces Nathan Patterson."
-    },
-    {
-     "type": "sub",
-     "minute": "89'",
-     "team": "",
-     "text": "Substitution, Scotland. Ross Stewart replaces John McGinn."
-    },
-    {
-     "type": "sub",
-     "minute": "90'",
-     "team": "",
-     "text": "Substitution, Morocco. Samir El Mourabet replaces Azzedine Ounahi."
-    }
-   ]
-  },
-  {
-   "id": "760444",
-   "date": "2026-06-20T00:30Z",
-   "shortName": "HAI @ BRA",
-   "state": "post",
-   "clock": "90'+5'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "BRA",
-     "name": "Brazil",
-     "score": 3
-    },
-    {
-     "homeAway": "away",
-     "abbr": "HAI",
-     "name": "Haiti",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "4'",
-     "team": "",
-     "text": "Carlens Arcus (Haiti) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "23'",
-     "team": "",
-     "text": "Goal! Brazil 1, Haiti 0. Matheus Cunha (Brazil) left footed shot from the centre of the box to the bottom left corner following a fast break."
-    },
-    {
-     "type": "goal",
-     "minute": "36'",
-     "team": "",
-     "text": "Goal! Brazil 2, Haiti 0. Matheus Cunha (Brazil) left footed shot from the left side of the box to the top left corner. Assisted by Vinícius Júnior with a through ball following a fast break."
-    },
-    {
-     "type": "sub",
-     "minute": "40'",
-     "team": "",
-     "text": "Substitution, Brazil. Rayan replaces Raphinha because of an injury."
-    },
-    {
-     "type": "goal",
-     "minute": "45'+3'",
-     "team": "",
-     "text": "Goal! Brazil 3, Haiti 0. Vinícius Júnior (Brazil) right footed shot from the left side of the box to the centre of the goal. Assisted by Lucas Paquetá with a through ball."
-    },
-    {
-     "type": "yellow",
-     "minute": "45'+4'",
-     "team": "",
-     "text": "Frantzdy Pierrot (Haiti) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Haiti. Dominique Simon replaces Carlens Arcus."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Haiti. Wilson Isidor replaces Frantzdy Pierrot."
-    },
-    {
-     "type": "sub",
-     "minute": "62'",
-     "team": "",
-     "text": "Substitution, Haiti. Louicius Deedson replaces Josué Casimir."
-    },
-    {
-     "type": "sub",
-     "minute": "64'",
-     "team": "",
-     "text": "Substitution, Brazil. Gabriel Martinelli replaces Lucas Paquetá."
-    },
-    {
-     "type": "sub",
-     "minute": "64'",
-     "team": "",
-     "text": "Substitution, Brazil. Endrick replaces Matheus Cunha."
-    },
-    {
-     "type": "yellow",
-     "minute": "65'",
-     "team": "",
-     "text": "Douglas Santos (Brazil) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Haiti. Lenny Joseph replaces Ruben Providence."
-    },
-    {
-     "type": "yellow",
-     "minute": "72'",
-     "team": "",
-     "text": "Danley Jean Jacques (Haiti) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "81'",
-     "team": "",
-     "text": "Substitution, Brazil. Danilo Santos replaces Vinícius Júnior."
-    },
-    {
-     "type": "sub",
-     "minute": "81'",
-     "team": "",
-     "text": "Substitution, Brazil. Éderson Silva replaces Bruno Guimarães."
-    },
-    {
-     "type": "sub",
-     "minute": "81'",
-     "team": "",
-     "text": "Substitution, Haiti. Derrick Etienne replaces Jean-Ricner Bellegarde."
-    }
-   ]
-  },
-  {
-   "id": "760443",
-   "date": "2026-06-20T03:00Z",
-   "shortName": "PAR @ TUR",
-   "state": "post",
-   "clock": "90'+9'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "TUR",
-     "name": "Türkiye",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "PAR",
-     "name": "Paraguay",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "2'",
-     "team": "",
-     "text": "Goal! Türkiye 0, Paraguay 1. Matías Galarza (Paraguay) left footed shot from outside the box to the bottom right corner. Assisted by Julio Enciso."
-    },
-    {
-     "type": "yellow",
-     "minute": "4'",
-     "team": "",
-     "text": "Matías Galarza (Paraguay) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "red",
-     "minute": "45'+3'",
-     "team": "",
-     "text": "Miguel Almirón (Paraguay) is shown the red card."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Paraguay. Damián Bobadilla replaces Isidro Pitta."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Türkiye. Baris Alper Yilmaz replaces Kerem Aktürkoglu."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Türkiye. Can Uzun replaces Ismail Yüksek."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Türkiye. Deniz Gül replaces Yunus Akgün."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Paraguay. Gustavo Velázquez replaces Diego Gómez because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "70'",
-     "team": "",
-     "text": "Substitution, Türkiye. Eren Elmali replaces Ferdi Kadioglu."
-    },
-    {
-     "type": "yellow",
-     "minute": "71'",
-     "team": "",
-     "text": "Eren Elmali (Türkiye) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "81'",
-     "team": "",
-     "text": "Substitution, Paraguay. Alexandro Maidana replaces Juan José Cáceres."
-    },
-    {
-     "type": "sub",
-     "minute": "86'",
-     "team": "",
-     "text": "Substitution, Türkiye. Orkun Kökçü replaces Abdülkerim Bardakci."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Substitution, Paraguay. Gabriel Ávalos replaces Julio Enciso because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Substitution, Paraguay. José Canale replaces Matías Galarza because of an injury."
-    }
-   ]
-  },
   {
    "id": "760447",
    "date": "2026-06-20T17:00Z",
    "shortName": "SWE @ NED",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "45'+5'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "NED",
      "name": "Netherlands",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
@@ -492,7 +24,20 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "5'",
+     "team": "",
+     "text": "Goal! Netherlands 1, Sweden 0. Brian Brobbey (Netherlands) right footed shot from very close range to the centre of the goal. Assisted by Cody Gakpo with a cross."
+    },
+    {
+     "type": "goal",
+     "minute": "17'",
+     "team": "",
+     "text": "Goal! Netherlands 2, Sweden 0. Brian Brobbey (Netherlands) right footed shot from very close range to the bottom left corner. Assisted by Denzel Dumfries with a cross."
+    }
+   ]
   },
   {
    "id": "760448",
@@ -535,6 +80,121 @@
      "homeAway": "away",
      "abbr": "CUW",
      "name": "Curaçao",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760449",
+   "date": "2026-06-21T04:00Z",
+   "shortName": "JPN @ TUN",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "TUN",
+     "name": "Tunisia",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "JPN",
+     "name": "Japan",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760453",
+   "date": "2026-06-21T16:00Z",
+   "shortName": "KSA @ ESP",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "ESP",
+     "name": "Spain",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "KSA",
+     "name": "Saudi Arabia",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760451",
+   "date": "2026-06-21T19:00Z",
+   "shortName": "IRN @ BEL",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "BEL",
+     "name": "Belgium",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "IRN",
+     "name": "Iran",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760450",
+   "date": "2026-06-21T22:00Z",
+   "shortName": "CPV @ URU",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "URU",
+     "name": "Uruguay",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "CPV",
+     "name": "Cape Verde",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760452",
+   "date": "2026-06-22T01:00Z",
+   "shortName": "EGY @ NZL",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "NZL",
+     "name": "New Zealand",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "EGY",
+     "name": "Egypt",
      "score": 0
     }
    ],
