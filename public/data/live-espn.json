@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-20T01:55:17.121Z",
+ "updatedAt": "2026-06-20T01:58:04.505Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -242,7 +242,7 @@
    "date": "2026-06-20T00:30Z",
    "shortName": "HAI @ BRA",
    "state": "in",
-   "clock": "60'",
+   "clock": "62'",
    "period": 2,
    "competitors": [
     {
@@ -306,6 +306,12 @@
      "minute": "45'",
      "team": "",
      "text": "Substitution, Haiti. Wilson Isidor replaces Frantzdy Pierrot."
+    },
+    {
+     "type": "sub",
+     "minute": "62'",
+     "team": "",
+     "text": "Substitution, Haiti. Louicius Deedson replaces Josué Casimir."
     }
    ]
   },
