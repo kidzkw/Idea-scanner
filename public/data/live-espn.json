@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-19T23:51:43.849Z",
+ "updatedAt": "2026-06-20T01:55:17.121Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -145,8 +145,8 @@
    "id": "760445",
    "date": "2026-06-19T22:00Z",
    "shortName": "MAR @ SCO",
-   "state": "in",
-   "clock": "88'",
+   "state": "post",
+   "clock": "90'+7'",
    "period": 2,
    "competitors": [
     {
@@ -221,13 +221,19 @@
      "type": "sub",
      "minute": "89'",
      "team": "",
-     "text": "Anthony Ralston (Scotland) Substitution at 89'"
+     "text": "Substitution, Scotland. Anthony Ralston replaces Nathan Patterson."
     },
     {
      "type": "sub",
      "minute": "89'",
      "team": "",
-     "text": "Ross Stewart (Scotland) Substitution at 89'"
+     "text": "Substitution, Scotland. Ross Stewart replaces John McGinn."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, Morocco. Samir El Mourabet replaces Azzedine Ounahi."
     }
    ]
   },
@@ -235,15 +241,15 @@
    "id": "760444",
    "date": "2026-06-20T00:30Z",
    "shortName": "HAI @ BRA",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "60'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "BRA",
      "name": "Brazil",
-     "score": 0
+     "score": 3
     },
     {
      "homeAway": "away",
@@ -252,7 +258,56 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "4'",
+     "team": "",
+     "text": "Carlens Arcus (Haiti) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "23'",
+     "team": "",
+     "text": "Goal! Brazil 1, Haiti 0. Matheus Cunha (Brazil) left footed shot from the centre of the box to the bottom left corner following a fast break."
+    },
+    {
+     "type": "goal",
+     "minute": "36'",
+     "team": "",
+     "text": "Goal! Brazil 2, Haiti 0. Matheus Cunha (Brazil) left footed shot from the left side of the box to the top left corner. Assisted by Vinícius Júnior with a through ball following a fast break."
+    },
+    {
+     "type": "sub",
+     "minute": "40'",
+     "team": "",
+     "text": "Substitution, Brazil. Rayan replaces Raphinha because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "45'+3'",
+     "team": "",
+     "text": "Goal! Brazil 3, Haiti 0. Vinícius Júnior (Brazil) right footed shot from the left side of the box to the centre of the goal. Assisted by Lucas Paquetá with a through ball."
+    },
+    {
+     "type": "yellow",
+     "minute": "45'+4'",
+     "team": "",
+     "text": "Frantzdy Pierrot (Haiti) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Haiti. Dominique Simon replaces Carlens Arcus."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Haiti. Wilson Isidor replaces Frantzdy Pierrot."
+    }
+   ]
   },
   {
    "id": "760443",
