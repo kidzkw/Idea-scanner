@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-20T01:58:04.505Z",
+ "updatedAt": "2026-06-20T01:58:35.690Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -242,7 +242,7 @@
    "date": "2026-06-20T00:30Z",
    "shortName": "HAI @ BRA",
    "state": "in",
-   "clock": "62'",
+   "clock": "63'",
    "period": 2,
    "competitors": [
     {
@@ -309,7 +309,7 @@
     },
     {
      "type": "sub",
-     "minute": "62'",
+     "minute": "63'",
      "team": "",
      "text": "Substitution, Haiti. Louicius Deedson replaces Josué Casimir."
     }
