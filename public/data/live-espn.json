@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-21T16:29:07.160Z",
+ "updatedAt": "2026-06-21T16:30:54.547Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -470,7 +470,7 @@
    "date": "2026-06-21T16:00Z",
    "shortName": "KSA @ ESP",
    "state": "in",
-   "clock": "28'",
+   "clock": "29'",
    "period": 1,
    "competitors": [
     {
@@ -504,6 +504,12 @@
      "minute": "24'",
      "team": "",
      "text": "Goal! Spain 3, Saudi Arabia 0. Mikel Oyarzabal (Spain) left footed shot from very close range to the top right corner. Assisted by Dani Olmo."
+    },
+    {
+     "type": "yellow",
+     "minute": "30'",
+     "team": "",
+     "text": "Salem Al-Dawsari (Saudi Arabia) Yellow Card at 30'"
     }
    ]
   },
