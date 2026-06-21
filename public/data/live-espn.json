@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-21T22:38:14.876Z",
+ "updatedAt": "2026-06-21T23:55:24.793Z",
  "source": "espn:site.api.espn.com",
  "count": 9,
  "events": [
@@ -338,20 +338,20 @@
    "date": "2026-06-21T22:00Z",
    "shortName": "CPV @ URU",
    "state": "in",
-   "clock": "37'",
-   "period": 1,
+   "clock": "90'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "URU",
      "name": "Uruguay",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
      "abbr": "CPV",
      "name": "Cape Verde",
-     "score": 1
+     "score": 2
     }
    ],
    "keyEvents": [
@@ -372,6 +372,78 @@
      "minute": "21'",
      "team": "",
      "text": "Goal! Uruguay 0, Cabo Verde 1. Kevin Pina (Cabo Verde) from a free kick with a right footed shot to the bottom right corner."
+    },
+    {
+     "type": "goal",
+     "minute": "44'",
+     "team": "",
+     "text": "Goal! Uruguay 1, Cabo Verde 1. Maxi Araújo (Uruguay) header from very close range to the centre of the goal."
+    },
+    {
+     "type": "goal",
+     "minute": "45'+6'",
+     "team": "",
+     "text": "Goal! Uruguay 2, Cabo Verde 1. Agustín Canobbio (Uruguay) right footed shot from the centre of the box to the centre of the goal. Assisted by Maxi Araújo with a headed pass."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Deroy Duarte replaces Telmo Arcanjo because of an injury."
+    },
+    {
+     "type": "yellow",
+     "minute": "58'",
+     "team": "",
+     "text": "Mathías Olivera (Uruguay) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Nuno da Costa replaces Gilson Benchimol."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Hélio Varela replaces Garry Rodrigues."
+    },
+    {
+     "type": "goal",
+     "minute": "61'",
+     "team": "",
+     "text": "Goal! Uruguay 2, Cabo Verde 2. Hélio Varela (Cabo Verde) right footed shot from outside the box to the centre of the goal."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Uruguay. Darwin Núñez replaces Federico Viñas."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Uruguay. Nicolás de la Cruz replaces Manuel Ugarte."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Laros Duarte replaces Kevin Pina because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Yannick Semedo replaces Jamiro Monteiro because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "81'",
+     "team": "",
+     "text": "Substitution, Uruguay. Brian Rodríguez replaces Maxi Araújo."
     }
    ]
   },
