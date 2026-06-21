@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-21T23:55:24.793Z",
+ "updatedAt": "2026-06-21T23:59:29.346Z",
  "source": "espn:site.api.espn.com",
  "count": 9,
  "events": [
@@ -338,7 +338,7 @@
    "date": "2026-06-21T22:00Z",
    "shortName": "CPV @ URU",
    "state": "in",
-   "clock": "90'",
+   "clock": "90'+4'",
    "period": 2,
    "competitors": [
     {
@@ -444,6 +444,12 @@
      "minute": "81'",
      "team": "",
      "text": "Substitution, Uruguay. Brian Rodríguez replaces Maxi Araújo."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Diney Borges (Cape Verde) Yellow Card at 90'+3'"
     }
    ]
   },
