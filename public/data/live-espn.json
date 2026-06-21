@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-20T22:16:54.368Z",
+ "updatedAt": "2026-06-21T02:04:03.567Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -247,9 +247,9 @@
    "id": "760446",
    "date": "2026-06-21T00:00Z",
    "shortName": "CUW @ ECU",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "post",
+   "clock": "90'+6'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -264,7 +264,98 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "38'",
+     "team": "",
+     "text": "Jordy Alcívar (Ecuador) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "39'",
+     "team": "",
+     "text": "Leandro Bacuna (Curaçao) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Ecuador. Kevin Rodríguez replaces Jordy Alcívar."
+    },
+    {
+     "type": "yellow",
+     "minute": "53'",
+     "team": "",
+     "text": "Juninho Bacuna (Curaçao) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "56'",
+     "team": "",
+     "text": "Livano Comenencia (Curaçao) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Ecuador. Nilson Angulo replaces Pervis Estupiñán."
+    },
+    {
+     "type": "yellow",
+     "minute": "75'",
+     "team": "",
+     "text": "Juriën Gaari (Curaçao) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Curaçao. Kenji Gorré replaces Juninho Bacuna."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Curaçao. Roshon van Eijma replaces Deveron Fonville."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Curaçao. Jearl Margaritha replaces Tahith Chong."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Ecuador. Ángelo Preciado replaces Alan Franco."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Curaçao. Gervane Kastaneer replaces Jürgen Locadia because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, Curaçao. Godfried Roemeratoe replaces Livano Comenencia."
+    },
+    {
+     "type": "sub",
+     "minute": "89'",
+     "team": "",
+     "text": "Substitution, Ecuador. Jordy Caicedo replaces John Yeboah."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Gervane Kastaneer (Curaçao) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760449",
