@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-21T02:04:03.567Z",
+ "updatedAt": "2026-06-21T07:02:25.661Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -361,9 +361,9 @@
    "id": "760449",
    "date": "2026-06-21T04:00Z",
    "shortName": "JPN @ TUN",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "post",
+   "clock": "90'+7'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -375,10 +375,95 @@
      "homeAway": "away",
      "abbr": "JPN",
      "name": "Japan",
-     "score": 0
+     "score": 4
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "4'",
+     "team": "",
+     "text": "Goal! Tunisia 0, Japan 1. Daichi Kamada (Japan) left footed shot from very close range to the centre of the goal. Assisted by Keito Nakamura."
+    },
+    {
+     "type": "goal",
+     "minute": "31'",
+     "team": "",
+     "text": "Goal! Tunisia 0, Japan 2. Ayase Ueda (Japan) right footed shot from the right side of the box to the bottom left corner. Assisted by Ko Itakura following a fast break."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Tunisia. Ismaël Gharbi replaces Elias Saad."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Tunisia. Mohamed Amine Ben Hmida replaces Dylan Bronn."
+    },
+    {
+     "type": "sub",
+     "minute": "64'",
+     "team": "",
+     "text": "Substitution, Tunisia. Firas Chaouat replaces Sebastian Tounekti."
+    },
+    {
+     "type": "goal",
+     "minute": "69'",
+     "team": "",
+     "text": "Goal! Tunisia 0, Japan 3. Junya Ito (Japan) right footed shot from the centre of the box to the bottom right corner. Assisted by Ayase Ueda with a through ball."
+    },
+    {
+     "type": "sub",
+     "minute": "73'",
+     "team": "",
+     "text": "Substitution, Japan. Junnosuke Suzuki replaces Daichi Kamada."
+    },
+    {
+     "type": "sub",
+     "minute": "74'",
+     "team": "",
+     "text": "Substitution, Japan. Yukinari Sugawara replaces Ritsu Doan."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Japan. Yuito Suzuki replaces Keito Nakamura."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Japan. Ayumu Seko replaces Takehiro Tomiyasu."
+    },
+    {
+     "type": "goal",
+     "minute": "83'",
+     "team": "",
+     "text": "Goal! Tunisia 0, Japan 4. Ayase Ueda (Japan) header from the centre of the box to the bottom right corner. Assisted by Kaishu Sano with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, Japan. Keisuke Goto replaces Ayase Ueda."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Substitution, Tunisia. Rani Khedira replaces Ellyes Skhiri."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Substitution, Tunisia. Elias Achouri replaces Ali Abdi."
+    }
+   ]
   },
   {
    "id": "760453",
