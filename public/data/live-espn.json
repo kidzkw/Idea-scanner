@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-21T19:59:13.869Z",
+ "updatedAt": "2026-06-21T21:20:13.140Z",
  "source": "espn:site.api.espn.com",
  "count": 9,
  "events": [
@@ -137,7 +137,7 @@
      "type": "goal",
      "minute": "10'",
      "team": "",
-     "text": "Goal! Spain 1, Saudi Arabia 0. Lamine Yamal (Spain) right footed shot from the right side of the six yard box to the bottom right corner. Assisted by Mikel Oyarzabal with a cross following a fast break."
+     "text": "Goal! Spain 1, Saudi Arabia 0. Lamine Yamal (Spain) right footed shot from the right side of the six yard box to the bottom right corner. Assisted by Mikel Oyarzabal with a cross."
     },
     {
      "type": "goal",
@@ -235,9 +235,9 @@
    "id": "760451",
    "date": "2026-06-21T19:00Z",
    "shortName": "IRN @ BEL",
-   "state": "in",
-   "clock": "45'+8'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+5'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -264,6 +264,72 @@
      "minute": "33'",
      "team": "",
      "text": "Saeid Ezatolahi (IR Iran) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, IR Iran. Alireza Jahanbakhsh replaces Saleh Hardani."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Belgium. Timothy Castagne replaces Thomas Meunier."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Belgium. Hans Vanaken replaces Nicolas Raskin."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Belgium. Dodi Lukébakio replaces Alexis Saelemaekers."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, IR Iran. Mehdi Torabi replaces Mohammad Mohebbi."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, IR Iran. Milad Mohammadi replaces Ehsan Hajisafi."
+    },
+    {
+     "type": "red",
+     "minute": "66'",
+     "team": "",
+     "text": "Nathan Ngoy (Belgium) is shown the red card."
+    },
+    {
+     "type": "sub",
+     "minute": "73'",
+     "team": "",
+     "text": "Substitution, Belgium. Arthur Theate replaces Romelu Lukaku."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, IR Iran. Shahriyar Moghanloo replaces Saman Ghoddos."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, IR Iran. Amirhossein Hosseinzadeh replaces Saeid Ezatolahi."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Belgium. Matias Fernandez-Pardo replaces Kevin De Bruyne."
     }
    ]
   },
