@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-21T07:02:25.661Z",
+ "updatedAt": "2026-06-21T16:29:07.160Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -469,15 +469,15 @@
    "id": "760453",
    "date": "2026-06-21T16:00Z",
    "shortName": "KSA @ ESP",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "28'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ESP",
      "name": "Spain",
-     "score": 0
+     "score": 3
     },
     {
      "homeAway": "away",
@@ -486,7 +486,26 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "10'",
+     "team": "",
+     "text": "Goal! Spain 1, Saudi Arabia 0. Lamine Yamal (Spain) right footed shot from the right side of the six yard box to the bottom right corner. Assisted by Mikel Oyarzabal with a cross following a fast break."
+    },
+    {
+     "type": "goal",
+     "minute": "21'",
+     "team": "",
+     "text": "Goal! Spain 2, Saudi Arabia 0. Mikel Oyarzabal (Spain) left footed shot from the left side of the six yard box to the bottom right corner. Assisted by Aymeric Laporte with a headed pass following a corner."
+    },
+    {
+     "type": "goal",
+     "minute": "24'",
+     "team": "",
+     "text": "Goal! Spain 3, Saudi Arabia 0. Mikel Oyarzabal (Spain) left footed shot from very close range to the top right corner. Assisted by Dani Olmo."
+    }
+   ]
   },
   {
    "id": "760451",
