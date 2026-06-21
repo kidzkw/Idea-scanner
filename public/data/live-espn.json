@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-21T18:07:08.642Z",
+ "updatedAt": "2026-06-21T19:59:13.869Z",
  "source": "espn:site.api.espn.com",
  "count": 9,
  "events": [
@@ -235,9 +235,9 @@
    "id": "760451",
    "date": "2026-06-21T19:00Z",
    "shortName": "IRN @ BEL",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "45'+8'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -252,7 +252,20 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "3'",
+     "team": "",
+     "text": "Romelu Lukaku (Belgium) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "33'",
+     "team": "",
+     "text": "Saeid Ezatolahi (IR Iran) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760450",
