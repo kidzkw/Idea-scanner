@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-21T21:20:13.140Z",
+ "updatedAt": "2026-06-21T22:38:14.876Z",
  "source": "espn:site.api.espn.com",
  "count": 9,
  "events": [
@@ -337,9 +337,9 @@
    "id": "760450",
    "date": "2026-06-21T22:00Z",
    "shortName": "CPV @ URU",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "37'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -351,10 +351,29 @@
      "homeAway": "away",
      "abbr": "CPV",
      "name": "Cape Verde",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "5'",
+     "team": "",
+     "text": "Sidny Cabral (Cabo Verde) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "20'",
+     "team": "",
+     "text": "Rodrigo Bentancur (Uruguay) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "21'",
+     "team": "",
+     "text": "Goal! Uruguay 0, Cabo Verde 1. Kevin Pina (Cabo Verde) from a free kick with a right footed shot to the bottom right corner."
+    }
+   ]
   },
   {
    "id": "760452",
