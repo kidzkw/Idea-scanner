@@ -1,362 +1,8 @@
 {
- "updatedAt": "2026-06-21T16:30:54.547Z",
+ "updatedAt": "2026-06-21T18:07:08.642Z",
  "source": "espn:site.api.espn.com",
- "count": 8,
+ "count": 9,
  "events": [
-  {
-   "id": "760447",
-   "date": "2026-06-20T17:00Z",
-   "shortName": "SWE @ NED",
-   "state": "post",
-   "clock": "90'+5'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "NED",
-     "name": "Netherlands",
-     "score": 5
-    },
-    {
-     "homeAway": "away",
-     "abbr": "SWE",
-     "name": "Sweden",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "5'",
-     "team": "",
-     "text": "Goal! Netherlands 1, Sweden 0. Brian Brobbey (Netherlands) right footed shot from very close range to the centre of the goal. Assisted by Cody Gakpo with a cross."
-    },
-    {
-     "type": "goal",
-     "minute": "17'",
-     "team": "",
-     "text": "Goal! Netherlands 2, Sweden 0. Brian Brobbey (Netherlands) right footed shot from very close range to the bottom left corner. Assisted by Denzel Dumfries with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Netherlands. Crysencio Summerville replaces Donyell Malen."
-    },
-    {
-     "type": "goal",
-     "minute": "47'",
-     "team": "",
-     "text": "Goal! Netherlands 3, Sweden 0. Cody Gakpo (Netherlands) left footed shot from very close range to the centre of the goal. Assisted by Denzel Dumfries with a cross."
-    },
-    {
-     "type": "yellow",
-     "minute": "53'",
-     "team": "",
-     "text": "Gabriel Gudmundsson (Sweden) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "54'",
-     "team": "",
-     "text": "Goal! Netherlands 4, Sweden 0. Cody Gakpo (Netherlands) right footed shot from the left side of the box to the bottom left corner. Assisted by Crysencio Summerville following a fast break."
-    },
-    {
-     "type": "sub",
-     "minute": "55'",
-     "team": "",
-     "text": "Substitution, Sweden. Anthony Elanga replaces Alexander Bernhardsson."
-    },
-    {
-     "type": "sub",
-     "minute": "56'",
-     "team": "",
-     "text": "Substitution, Sweden. Besfort Zeneli replaces Jesper Karlström."
-    },
-    {
-     "type": "sub",
-     "minute": "56'",
-     "team": "",
-     "text": "Substitution, Sweden. Lucas Bergvall replaces Benjamin Nygren."
-    },
-    {
-     "type": "goal",
-     "minute": "59'",
-     "team": "",
-     "text": "Goal! Netherlands 4, Sweden 1. Anthony Elanga (Sweden) left footed shot from the centre of the box to the bottom left corner. Assisted by Alexander Isak with a through ball following a fast break."
-    },
-    {
-     "type": "sub",
-     "minute": "59'",
-     "team": "",
-     "text": "Substitution, Netherlands. Teun Koopmeiners replaces Frenkie de Jong."
-    },
-    {
-     "type": "sub",
-     "minute": "59'",
-     "team": "",
-     "text": "Substitution, Netherlands. Guus Til replaces Tijjani Reijnders."
-    },
-    {
-     "type": "sub",
-     "minute": "72'",
-     "team": "",
-     "text": "Substitution, Netherlands. Memphis Depay replaces Brian Brobbey."
-    },
-    {
-     "type": "yellow",
-     "minute": "75'",
-     "team": "",
-     "text": "Yasin Ayari (Sweden) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "79'",
-     "team": "",
-     "text": "Substitution, Sweden. Taha Ali replaces Yasin Ayari."
-    },
-    {
-     "type": "yellow",
-     "minute": "80'",
-     "team": "",
-     "text": "Lucas Bergvall (Sweden) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "89'",
-     "team": "",
-     "text": "Goal! Netherlands 5, Sweden 1. Crysencio Summerville (Netherlands) right footed shot from outside the box to the bottom left corner. Assisted by Memphis Depay."
-    },
-    {
-     "type": "sub",
-     "minute": "90'",
-     "team": "",
-     "text": "Substitution, Netherlands. Noa Lang replaces Cody Gakpo."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Substitution, Sweden. Elliot Stroud replaces Gabriel Gudmundsson."
-    }
-   ]
-  },
-  {
-   "id": "760448",
-   "date": "2026-06-20T20:00Z",
-   "shortName": "CIV @ GER",
-   "state": "post",
-   "clock": "90'+7'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "GER",
-     "name": "Germany",
-     "score": 2
-    },
-    {
-     "homeAway": "away",
-     "abbr": "CIV",
-     "name": "Ivory Coast",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "30'",
-     "team": "",
-     "text": "Goal! Germany 0, Côte d'Ivoire 1. Franck Kessie (Côte d'Ivoire) right footed shot from the centre of the box to the bottom left corner."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Germany. Antonio Rüdiger replaces Nico Schlotterbeck because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Germany. Jamie Leweling replaces Leroy Sané."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Germany. Deniz Undav replaces Jamal Musiala."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Germany. Nadiem Amiri replaces Aleksandar Pavlovic."
-    },
-    {
-     "type": "goal",
-     "minute": "68'",
-     "team": "",
-     "text": "Goal! Germany 1, Côte d'Ivoire 1. Deniz Undav (Germany) left footed shot from very close range to the high centre of the goal. Assisted by Nadiem Amiri with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Evann Guessand replaces Ange-Yoan Bonny."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Seko Fofana replaces Ibrahim Sangaré."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Simon Adingra replaces Amad Diallo."
-    },
-    {
-     "type": "sub",
-     "minute": "82'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Guéla Doué replaces Wilfried Singo because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Nicolas Pépé replaces Yan Diomande."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, Germany. Leon Goretzka replaces Kai Havertz."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+4'",
-     "team": "",
-     "text": "Goal! Germany 2, Côte d'Ivoire 1. Deniz Undav (Germany) left footed shot from the centre of the box to the bottom left corner. Assisted by Felix Nmecha with a through ball."
-    }
-   ]
-  },
-  {
-   "id": "760446",
-   "date": "2026-06-21T00:00Z",
-   "shortName": "CUW @ ECU",
-   "state": "post",
-   "clock": "90'+6'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "ECU",
-     "name": "Ecuador",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "CUW",
-     "name": "Curaçao",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "38'",
-     "team": "",
-     "text": "Jordy Alcívar (Ecuador) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "39'",
-     "team": "",
-     "text": "Leandro Bacuna (Curaçao) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Ecuador. Kevin Rodríguez replaces Jordy Alcívar."
-    },
-    {
-     "type": "yellow",
-     "minute": "53'",
-     "team": "",
-     "text": "Juninho Bacuna (Curaçao) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "56'",
-     "team": "",
-     "text": "Livano Comenencia (Curaçao) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "70'",
-     "team": "",
-     "text": "Substitution, Ecuador. Nilson Angulo replaces Pervis Estupiñán."
-    },
-    {
-     "type": "yellow",
-     "minute": "75'",
-     "team": "",
-     "text": "Juriën Gaari (Curaçao) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Curaçao. Kenji Gorré replaces Juninho Bacuna."
-    },
-    {
-     "type": "sub",
-     "minute": "76'",
-     "team": "",
-     "text": "Substitution, Curaçao. Roshon van Eijma replaces Deveron Fonville."
-    },
-    {
-     "type": "sub",
-     "minute": "76'",
-     "team": "",
-     "text": "Substitution, Curaçao. Jearl Margaritha replaces Tahith Chong."
-    },
-    {
-     "type": "sub",
-     "minute": "83'",
-     "team": "",
-     "text": "Substitution, Ecuador. Ángelo Preciado replaces Alan Franco."
-    },
-    {
-     "type": "sub",
-     "minute": "83'",
-     "team": "",
-     "text": "Substitution, Curaçao. Gervane Kastaneer replaces Jürgen Locadia because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Curaçao. Godfried Roemeratoe replaces Livano Comenencia."
-    },
-    {
-     "type": "sub",
-     "minute": "89'",
-     "team": "",
-     "text": "Substitution, Ecuador. Jordy Caicedo replaces John Yeboah."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+1'",
-     "team": "",
-     "text": "Gervane Kastaneer (Curaçao) is shown the yellow card for a bad foul."
-    }
-   ]
-  },
   {
    "id": "760449",
    "date": "2026-06-21T04:00Z",
@@ -469,15 +115,15 @@
    "id": "760453",
    "date": "2026-06-21T16:00Z",
    "shortName": "KSA @ ESP",
-   "state": "in",
-   "clock": "29'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+8'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ESP",
      "name": "Spain",
-     "score": 3
+     "score": 4
     },
     {
      "homeAway": "away",
@@ -503,13 +149,85 @@
      "type": "goal",
      "minute": "24'",
      "team": "",
-     "text": "Goal! Spain 3, Saudi Arabia 0. Mikel Oyarzabal (Spain) left footed shot from very close range to the top right corner. Assisted by Dani Olmo."
+     "text": "Goal! Spain 3, Saudi Arabia 0. Mikel Oyarzabal (Spain) left footed shot from very close range to the top right corner. Assisted by Dani Olmo with a headed pass."
     },
     {
      "type": "yellow",
      "minute": "30'",
      "team": "",
-     "text": "Salem Al-Dawsari (Saudi Arabia) Yellow Card at 30'"
+     "text": "Salem Al Dawsari (Saudi Arabia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Spain. Yéremy Pino replaces Lamine Yamal."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Spain. Ferran Torres replaces Mikel Oyarzabal."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Saudi Arabia. Mohamed Kanno replaces Abdullah Al Khaibari."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Saudi Arabia. Abdullah Al Hamddan replaces Musab Al Juwayr."
+    },
+    {
+     "type": "owngoal",
+     "minute": "49'",
+     "team": "",
+     "text": "Own Goal by Hassan Al Tambakti, Saudi Arabia. Spain 4, Saudi Arabia 0."
+    },
+    {
+     "type": "yellow",
+     "minute": "60'",
+     "team": "",
+     "text": "Mohamed Kanno (Saudi Arabia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Saudi Arabia. Mohammed Abu Al Shamat replaces Feras Al Brikan."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Saudi Arabia. Alaa Al Hejji replaces Abdulelah Al Amri."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, Spain. Mikel Merino replaces Dani Olmo."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, Spain. Nico Williams replaces Álex Baena."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Spain. Fabián Ruiz replaces Pedri."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, Saudi Arabia. Khalid Al Ghannam replaces Nasser Al Dawsari."
     }
    ]
   },
@@ -577,6 +295,98 @@
      "homeAway": "away",
      "abbr": "EGY",
      "name": "Egypt",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760456",
+   "date": "2026-06-22T17:00Z",
+   "shortName": "AUT @ ARG",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "ARG",
+     "name": "Argentina",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "AUT",
+     "name": "Austria",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760457",
+   "date": "2026-06-22T21:00Z",
+   "shortName": "IRQ @ FRA",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "FRA",
+     "name": "France",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "IRQ",
+     "name": "Iraq",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760454",
+   "date": "2026-06-23T00:00Z",
+   "shortName": "SEN @ NOR",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "NOR",
+     "name": "Norway",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "SEN",
+     "name": "Senegal",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760455",
+   "date": "2026-06-23T03:00Z",
+   "shortName": "ALG @ JOR",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "JOR",
+     "name": "Jordan",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "ALG",
+     "name": "Algeria",
      "score": 0
     }
    ],
