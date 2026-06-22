@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-22T18:56:33.748Z",
+ "updatedAt": "2026-06-22T21:27:30.641Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -7,15 +7,15 @@
    "id": "760456",
    "date": "2026-06-22T17:00Z",
    "shortName": "AUT @ ARG",
-   "state": "in",
-   "clock": "90'+2'",
+   "state": "post",
+   "clock": "90'+8'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ARG",
      "name": "Argentina",
-     "score": 1
+     "score": 2
     },
     {
      "homeAway": "away",
@@ -119,7 +119,13 @@
      "type": "yellow",
      "minute": "90'+2'",
      "team": "",
-     "text": "Leandro Paredes (Argentina) Yellow Card at 90'+2'"
+     "text": "Leandro Paredes (Argentina) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+5'",
+     "team": "",
+     "text": "Goal! Argentina 2, Austria 0. Lionel Messi (Argentina) left footed shot from the left side of the six yard box to the centre of the goal following a fast break."
     }
    ]
   },
@@ -127,15 +133,15 @@
    "id": "760457",
    "date": "2026-06-22T21:00Z",
    "shortName": "IRQ @ FRA",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "26'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "FRA",
      "name": "France",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -144,7 +150,26 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "6'",
+     "team": "",
+     "text": "Amir Al Ammari (Iraq) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "14'",
+     "team": "",
+     "text": "Goal! France 1, Iraq 0. Kylian Mbappé (France) left footed shot from outside the box to the top left corner. Assisted by Michael Olise."
+    },
+    {
+     "type": "sub",
+     "minute": "26'",
+     "team": "",
+     "text": "Substitution, Iraq. Ali Al Hamadi replaces Aymen Hussein because of an injury."
+    }
+   ]
   },
   {
    "id": "760454",
