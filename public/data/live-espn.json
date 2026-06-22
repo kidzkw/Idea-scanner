@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-21T23:59:29.346Z",
+ "updatedAt": "2026-06-22T03:41:20.761Z",
  "source": "espn:site.api.espn.com",
  "count": 9,
  "events": [
@@ -281,13 +281,13 @@
      "type": "sub",
      "minute": "58'",
      "team": "",
-     "text": "Substitution, Belgium. Hans Vanaken replaces Nicolas Raskin."
+     "text": "Substitution, Belgium. Dodi Lukébakio replaces Alexis Saelemaekers."
     },
     {
      "type": "sub",
      "minute": "58'",
      "team": "",
-     "text": "Substitution, Belgium. Dodi Lukébakio replaces Alexis Saelemaekers."
+     "text": "Substitution, Belgium. Hans Vanaken replaces Nicolas Raskin."
     },
     {
      "type": "sub",
@@ -337,8 +337,8 @@
    "id": "760450",
    "date": "2026-06-21T22:00Z",
    "shortName": "CPV @ URU",
-   "state": "in",
-   "clock": "90'+4'",
+   "state": "post",
+   "clock": "90'+8'",
    "period": 2,
    "competitors": [
     {
@@ -449,7 +449,7 @@
      "type": "yellow",
      "minute": "90'+3'",
      "team": "",
-     "text": "Diney Borges (Cape Verde) Yellow Card at 90'+3'"
+     "text": "Diney Borges (Cabo Verde) is shown the yellow card for a bad foul."
     }
    ]
   },
@@ -457,24 +457,133 @@
    "id": "760452",
    "date": "2026-06-22T01:00Z",
    "shortName": "EGY @ NZL",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "post",
+   "clock": "90'+10'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "NZL",
      "name": "New Zealand",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
      "abbr": "EGY",
      "name": "Egypt",
-     "score": 0
+     "score": 3
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "15'",
+     "team": "",
+     "text": "Goal! New Zealand 1, Egypt 0. Finn Surman (New Zealand) header from the centre of the box to the top left corner. Assisted by Tim Payne with a cross following a corner."
+    },
+    {
+     "type": "yellow",
+     "minute": "17'",
+     "team": "",
+     "text": "Mohanad Lasheen (Egypt) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "20'",
+     "team": "",
+     "text": "Sarpreet Singh (New Zealand) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "34'",
+     "team": "",
+     "text": "Callum McCowatt (New Zealand) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "41'",
+     "team": "",
+     "text": "Substitution, Egypt. Ramy Rabia replaces Hamdi Fathy because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "58'",
+     "team": "",
+     "text": "Goal! New Zealand 1, Egypt 1. Mostafa Zico (Egypt) header from the centre of the box to the high centre of the goal. Assisted by Mohamed Hany with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, New Zealand. Ben Old replaces Callum McCowatt."
+    },
+    {
+     "type": "goal",
+     "minute": "67'",
+     "team": "",
+     "text": "Goal! New Zealand 1, Egypt 2. Mohamed Salah (Egypt) left footed shot from the centre of the box to the bottom left corner. Assisted by Mostafa Zico."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, New Zealand. Jesse Randall replaces Liberato Cacace."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, New Zealand. Ryan Thomas replaces Sarpreet Singh."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Egypt. Trezeguet replaces Omar Marmoush."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Egypt. Hamza Abdelkarim replaces Mostafa Zico."
+    },
+    {
+     "type": "goal",
+     "minute": "82'",
+     "team": "",
+     "text": "Goal! New Zealand 1, Egypt 3. Trezeguet (Egypt) header from the centre of the box to the bottom left corner. Assisted by Mohamed Salah with a cross following a corner."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Egypt. Zizo replaces Emam Ashour."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Egypt. Hossam Abdelmaguid replaces Mohamed Salah."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, New Zealand. Tyler Bindon replaces Tim Payne."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, New Zealand. Francis de Vries replaces Elijah Just."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+9'",
+     "team": "",
+     "text": "Substitution, Egypt. Mohamed Abdelmonem replaces Hossam Abdelmaguid because of an injury."
+    }
+   ]
   },
   {
    "id": "760456",
