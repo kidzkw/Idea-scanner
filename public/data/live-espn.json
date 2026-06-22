@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-22T18:53:00.526Z",
+ "updatedAt": "2026-06-22T18:56:33.748Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -8,7 +8,7 @@
    "date": "2026-06-22T17:00Z",
    "shortName": "AUT @ ARG",
    "state": "in",
-   "clock": "89'",
+   "clock": "90'+2'",
    "period": 2,
    "competitors": [
     {
@@ -114,6 +114,12 @@
      "minute": "85'",
      "team": "",
      "text": "Substitution, Austria. Carney Chukwuemeka replaces Michael Gregoritsch."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+2'",
+     "team": "",
+     "text": "Leandro Paredes (Argentina) Yellow Card at 90'+2'"
     }
    ]
   },
