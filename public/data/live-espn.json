@@ -1,603 +1,21 @@
 {
- "updatedAt": "2026-06-22T03:41:20.761Z",
+ "updatedAt": "2026-06-22T18:53:00.526Z",
  "source": "espn:site.api.espn.com",
- "count": 9,
+ "count": 8,
  "events": [
-  {
-   "id": "760449",
-   "date": "2026-06-21T04:00Z",
-   "shortName": "JPN @ TUN",
-   "state": "post",
-   "clock": "90'+7'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "TUN",
-     "name": "Tunisia",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "JPN",
-     "name": "Japan",
-     "score": 4
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "4'",
-     "team": "",
-     "text": "Goal! Tunisia 0, Japan 1. Daichi Kamada (Japan) left footed shot from very close range to the centre of the goal. Assisted by Keito Nakamura."
-    },
-    {
-     "type": "goal",
-     "minute": "31'",
-     "team": "",
-     "text": "Goal! Tunisia 0, Japan 2. Ayase Ueda (Japan) right footed shot from the right side of the box to the bottom left corner. Assisted by Ko Itakura following a fast break."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Tunisia. Ismaël Gharbi replaces Elias Saad."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Tunisia. Mohamed Amine Ben Hmida replaces Dylan Bronn."
-    },
-    {
-     "type": "sub",
-     "minute": "64'",
-     "team": "",
-     "text": "Substitution, Tunisia. Firas Chaouat replaces Sebastian Tounekti."
-    },
-    {
-     "type": "goal",
-     "minute": "69'",
-     "team": "",
-     "text": "Goal! Tunisia 0, Japan 3. Junya Ito (Japan) right footed shot from the centre of the box to the bottom right corner. Assisted by Ayase Ueda with a through ball."
-    },
-    {
-     "type": "sub",
-     "minute": "73'",
-     "team": "",
-     "text": "Substitution, Japan. Junnosuke Suzuki replaces Daichi Kamada."
-    },
-    {
-     "type": "sub",
-     "minute": "74'",
-     "team": "",
-     "text": "Substitution, Japan. Yukinari Sugawara replaces Ritsu Doan."
-    },
-    {
-     "type": "sub",
-     "minute": "79'",
-     "team": "",
-     "text": "Substitution, Japan. Yuito Suzuki replaces Keito Nakamura."
-    },
-    {
-     "type": "sub",
-     "minute": "79'",
-     "team": "",
-     "text": "Substitution, Japan. Ayumu Seko replaces Takehiro Tomiyasu."
-    },
-    {
-     "type": "goal",
-     "minute": "83'",
-     "team": "",
-     "text": "Goal! Tunisia 0, Japan 4. Ayase Ueda (Japan) header from the centre of the box to the bottom right corner. Assisted by Kaishu Sano with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Japan. Keisuke Goto replaces Ayase Ueda."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+1'",
-     "team": "",
-     "text": "Substitution, Tunisia. Rani Khedira replaces Ellyes Skhiri."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+1'",
-     "team": "",
-     "text": "Substitution, Tunisia. Elias Achouri replaces Ali Abdi."
-    }
-   ]
-  },
-  {
-   "id": "760453",
-   "date": "2026-06-21T16:00Z",
-   "shortName": "KSA @ ESP",
-   "state": "post",
-   "clock": "90'+8'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "ESP",
-     "name": "Spain",
-     "score": 4
-    },
-    {
-     "homeAway": "away",
-     "abbr": "KSA",
-     "name": "Saudi Arabia",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "10'",
-     "team": "",
-     "text": "Goal! Spain 1, Saudi Arabia 0. Lamine Yamal (Spain) right footed shot from the right side of the six yard box to the bottom right corner. Assisted by Mikel Oyarzabal with a cross."
-    },
-    {
-     "type": "goal",
-     "minute": "21'",
-     "team": "",
-     "text": "Goal! Spain 2, Saudi Arabia 0. Mikel Oyarzabal (Spain) left footed shot from the left side of the six yard box to the bottom right corner. Assisted by Aymeric Laporte with a headed pass following a corner."
-    },
-    {
-     "type": "goal",
-     "minute": "24'",
-     "team": "",
-     "text": "Goal! Spain 3, Saudi Arabia 0. Mikel Oyarzabal (Spain) left footed shot from very close range to the top right corner. Assisted by Dani Olmo with a headed pass."
-    },
-    {
-     "type": "yellow",
-     "minute": "30'",
-     "team": "",
-     "text": "Salem Al Dawsari (Saudi Arabia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Spain. Yéremy Pino replaces Lamine Yamal."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Spain. Ferran Torres replaces Mikel Oyarzabal."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Saudi Arabia. Mohamed Kanno replaces Abdullah Al Khaibari."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Saudi Arabia. Abdullah Al Hamddan replaces Musab Al Juwayr."
-    },
-    {
-     "type": "owngoal",
-     "minute": "49'",
-     "team": "",
-     "text": "Own Goal by Hassan Al Tambakti, Saudi Arabia. Spain 4, Saudi Arabia 0."
-    },
-    {
-     "type": "yellow",
-     "minute": "60'",
-     "team": "",
-     "text": "Mohamed Kanno (Saudi Arabia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Saudi Arabia. Mohammed Abu Al Shamat replaces Feras Al Brikan."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Saudi Arabia. Alaa Al Hejji replaces Abdulelah Al Amri."
-    },
-    {
-     "type": "sub",
-     "minute": "61'",
-     "team": "",
-     "text": "Substitution, Spain. Mikel Merino replaces Dani Olmo."
-    },
-    {
-     "type": "sub",
-     "minute": "61'",
-     "team": "",
-     "text": "Substitution, Spain. Nico Williams replaces Álex Baena."
-    },
-    {
-     "type": "sub",
-     "minute": "70'",
-     "team": "",
-     "text": "Substitution, Spain. Fabián Ruiz replaces Pedri."
-    },
-    {
-     "type": "sub",
-     "minute": "90'",
-     "team": "",
-     "text": "Substitution, Saudi Arabia. Khalid Al Ghannam replaces Nasser Al Dawsari."
-    }
-   ]
-  },
-  {
-   "id": "760451",
-   "date": "2026-06-21T19:00Z",
-   "shortName": "IRN @ BEL",
-   "state": "post",
-   "clock": "90'+5'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "BEL",
-     "name": "Belgium",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "IRN",
-     "name": "Iran",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "3'",
-     "team": "",
-     "text": "Romelu Lukaku (Belgium) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "33'",
-     "team": "",
-     "text": "Saeid Ezatolahi (IR Iran) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, IR Iran. Alireza Jahanbakhsh replaces Saleh Hardani."
-    },
-    {
-     "type": "sub",
-     "minute": "58'",
-     "team": "",
-     "text": "Substitution, Belgium. Timothy Castagne replaces Thomas Meunier."
-    },
-    {
-     "type": "sub",
-     "minute": "58'",
-     "team": "",
-     "text": "Substitution, Belgium. Dodi Lukébakio replaces Alexis Saelemaekers."
-    },
-    {
-     "type": "sub",
-     "minute": "58'",
-     "team": "",
-     "text": "Substitution, Belgium. Hans Vanaken replaces Nicolas Raskin."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, IR Iran. Mehdi Torabi replaces Mohammad Mohebbi."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, IR Iran. Milad Mohammadi replaces Ehsan Hajisafi."
-    },
-    {
-     "type": "red",
-     "minute": "66'",
-     "team": "",
-     "text": "Nathan Ngoy (Belgium) is shown the red card."
-    },
-    {
-     "type": "sub",
-     "minute": "73'",
-     "team": "",
-     "text": "Substitution, Belgium. Arthur Theate replaces Romelu Lukaku."
-    },
-    {
-     "type": "sub",
-     "minute": "79'",
-     "team": "",
-     "text": "Substitution, IR Iran. Shahriyar Moghanloo replaces Saman Ghoddos."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, IR Iran. Amirhossein Hosseinzadeh replaces Saeid Ezatolahi."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Belgium. Matias Fernandez-Pardo replaces Kevin De Bruyne."
-    }
-   ]
-  },
-  {
-   "id": "760450",
-   "date": "2026-06-21T22:00Z",
-   "shortName": "CPV @ URU",
-   "state": "post",
-   "clock": "90'+8'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "URU",
-     "name": "Uruguay",
-     "score": 2
-    },
-    {
-     "homeAway": "away",
-     "abbr": "CPV",
-     "name": "Cape Verde",
-     "score": 2
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "5'",
-     "team": "",
-     "text": "Sidny Cabral (Cabo Verde) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "20'",
-     "team": "",
-     "text": "Rodrigo Bentancur (Uruguay) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "21'",
-     "team": "",
-     "text": "Goal! Uruguay 0, Cabo Verde 1. Kevin Pina (Cabo Verde) from a free kick with a right footed shot to the bottom right corner."
-    },
-    {
-     "type": "goal",
-     "minute": "44'",
-     "team": "",
-     "text": "Goal! Uruguay 1, Cabo Verde 1. Maxi Araújo (Uruguay) header from very close range to the centre of the goal."
-    },
-    {
-     "type": "goal",
-     "minute": "45'+6'",
-     "team": "",
-     "text": "Goal! Uruguay 2, Cabo Verde 1. Agustín Canobbio (Uruguay) right footed shot from the centre of the box to the centre of the goal. Assisted by Maxi Araújo with a headed pass."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Cabo Verde. Deroy Duarte replaces Telmo Arcanjo because of an injury."
-    },
-    {
-     "type": "yellow",
-     "minute": "58'",
-     "team": "",
-     "text": "Mathías Olivera (Uruguay) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "58'",
-     "team": "",
-     "text": "Substitution, Cabo Verde. Nuno da Costa replaces Gilson Benchimol."
-    },
-    {
-     "type": "sub",
-     "minute": "58'",
-     "team": "",
-     "text": "Substitution, Cabo Verde. Hélio Varela replaces Garry Rodrigues."
-    },
-    {
-     "type": "goal",
-     "minute": "61'",
-     "team": "",
-     "text": "Goal! Uruguay 2, Cabo Verde 2. Hélio Varela (Cabo Verde) right footed shot from outside the box to the centre of the goal."
-    },
-    {
-     "type": "sub",
-     "minute": "70'",
-     "team": "",
-     "text": "Substitution, Uruguay. Darwin Núñez replaces Federico Viñas."
-    },
-    {
-     "type": "sub",
-     "minute": "70'",
-     "team": "",
-     "text": "Substitution, Uruguay. Nicolás de la Cruz replaces Manuel Ugarte."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Cabo Verde. Laros Duarte replaces Kevin Pina because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "80'",
-     "team": "",
-     "text": "Substitution, Cabo Verde. Yannick Semedo replaces Jamiro Monteiro because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "81'",
-     "team": "",
-     "text": "Substitution, Uruguay. Brian Rodríguez replaces Maxi Araújo."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Diney Borges (Cabo Verde) is shown the yellow card for a bad foul."
-    }
-   ]
-  },
-  {
-   "id": "760452",
-   "date": "2026-06-22T01:00Z",
-   "shortName": "EGY @ NZL",
-   "state": "post",
-   "clock": "90'+10'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "NZL",
-     "name": "New Zealand",
-     "score": 1
-    },
-    {
-     "homeAway": "away",
-     "abbr": "EGY",
-     "name": "Egypt",
-     "score": 3
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "15'",
-     "team": "",
-     "text": "Goal! New Zealand 1, Egypt 0. Finn Surman (New Zealand) header from the centre of the box to the top left corner. Assisted by Tim Payne with a cross following a corner."
-    },
-    {
-     "type": "yellow",
-     "minute": "17'",
-     "team": "",
-     "text": "Mohanad Lasheen (Egypt) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "20'",
-     "team": "",
-     "text": "Sarpreet Singh (New Zealand) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "34'",
-     "team": "",
-     "text": "Callum McCowatt (New Zealand) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "41'",
-     "team": "",
-     "text": "Substitution, Egypt. Ramy Rabia replaces Hamdi Fathy because of an injury."
-    },
-    {
-     "type": "goal",
-     "minute": "58'",
-     "team": "",
-     "text": "Goal! New Zealand 1, Egypt 1. Mostafa Zico (Egypt) header from the centre of the box to the high centre of the goal. Assisted by Mohamed Hany with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, New Zealand. Ben Old replaces Callum McCowatt."
-    },
-    {
-     "type": "goal",
-     "minute": "67'",
-     "team": "",
-     "text": "Goal! New Zealand 1, Egypt 2. Mohamed Salah (Egypt) left footed shot from the centre of the box to the bottom left corner. Assisted by Mostafa Zico."
-    },
-    {
-     "type": "sub",
-     "minute": "76'",
-     "team": "",
-     "text": "Substitution, New Zealand. Jesse Randall replaces Liberato Cacace."
-    },
-    {
-     "type": "sub",
-     "minute": "76'",
-     "team": "",
-     "text": "Substitution, New Zealand. Ryan Thomas replaces Sarpreet Singh."
-    },
-    {
-     "type": "sub",
-     "minute": "76'",
-     "team": "",
-     "text": "Substitution, Egypt. Trezeguet replaces Omar Marmoush."
-    },
-    {
-     "type": "sub",
-     "minute": "76'",
-     "team": "",
-     "text": "Substitution, Egypt. Hamza Abdelkarim replaces Mostafa Zico."
-    },
-    {
-     "type": "goal",
-     "minute": "82'",
-     "team": "",
-     "text": "Goal! New Zealand 1, Egypt 3. Trezeguet (Egypt) header from the centre of the box to the bottom left corner. Assisted by Mohamed Salah with a cross following a corner."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, Egypt. Zizo replaces Emam Ashour."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, Egypt. Hossam Abdelmaguid replaces Mohamed Salah."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, New Zealand. Tyler Bindon replaces Tim Payne."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, New Zealand. Francis de Vries replaces Elijah Just."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+9'",
-     "team": "",
-     "text": "Substitution, Egypt. Mohamed Abdelmonem replaces Hossam Abdelmaguid because of an injury."
-    }
-   ]
-  },
   {
    "id": "760456",
    "date": "2026-06-22T17:00Z",
    "shortName": "AUT @ ARG",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "89'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ARG",
      "name": "Argentina",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -606,7 +24,98 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "penalty",
+     "minute": "9'",
+     "team": "",
+     "text": "Penalty missed. Lionel Messi (Argentina) left footed shot is close, but misses to the right."
+    },
+    {
+     "type": "goal",
+     "minute": "38'",
+     "team": "",
+     "text": "Goal! Argentina 1, Austria 0. Lionel Messi (Argentina) left footed shot from the centre of the box to the bottom left corner. Assisted by Facundo Medina following a fast break."
+    },
+    {
+     "type": "yellow",
+     "minute": "40'",
+     "team": "",
+     "text": "Stefan Posch (Austria) is shown the yellow card."
+    },
+    {
+     "type": "sub",
+     "minute": "57'",
+     "team": "",
+     "text": "Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero."
+    },
+    {
+     "type": "sub",
+     "minute": "64'",
+     "team": "",
+     "text": "Substitution, Argentina. Julián Alvarez replaces Thiago Almada."
+    },
+    {
+     "type": "sub",
+     "minute": "65'",
+     "team": "",
+     "text": "Substitution, Argentina. Nico González replaces Lautaro Martínez."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Austria. Marco Friedl replaces David Alaba."
+    },
+    {
+     "type": "sub",
+     "minute": "68'",
+     "team": "",
+     "text": "Substitution, Austria. Alexander Prass replaces Stefan Posch."
+    },
+    {
+     "type": "sub",
+     "minute": "68'",
+     "team": "",
+     "text": "Substitution, Austria. Marko Arnautovic replaces Paul Wanner."
+    },
+    {
+     "type": "yellow",
+     "minute": "76'",
+     "team": "",
+     "text": "Facundo Medina (Argentina) is shown the yellow card."
+    },
+    {
+     "type": "yellow",
+     "minute": "76'",
+     "team": "",
+     "text": "Konrad Laimer (Austria) is shown the yellow card."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Austria. Patrick Wimmer replaces Romano Schmid."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Argentina. Leandro Paredes replaces Rodrigo De Paul."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Argentina. Nicolás Tagliafico replaces Facundo Medina."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Austria. Carney Chukwuemeka replaces Michael Gregoritsch."
+    }
+   ]
   },
   {
    "id": "760457",
@@ -672,6 +181,98 @@
      "homeAway": "away",
      "abbr": "ALG",
      "name": "Algeria",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760461",
+   "date": "2026-06-23T17:00Z",
+   "shortName": "UZB @ POR",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "POR",
+     "name": "Portugal",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "UZB",
+     "name": "Uzbekistan",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760458",
+   "date": "2026-06-23T20:00Z",
+   "shortName": "GHA @ ENG",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "ENG",
+     "name": "England",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "GHA",
+     "name": "Ghana",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760460",
+   "date": "2026-06-23T23:00Z",
+   "shortName": "CRO @ PAN",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "PAN",
+     "name": "Panama",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "CRO",
+     "name": "Croatia",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760459",
+   "date": "2026-06-24T02:00Z",
+   "shortName": "COD @ COL",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "COL",
+     "name": "Colombia",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "COD",
+     "name": "Congo DR",
      "score": 0
     }
    ],
