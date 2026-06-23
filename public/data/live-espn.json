@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-23T00:17:01.157Z",
+ "updatedAt": "2026-06-23T04:32:49.274Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -133,15 +133,15 @@
    "id": "760457",
    "date": "2026-06-22T21:00Z",
    "shortName": "IRQ @ FRA",
-   "state": "in",
-   "clock": "61'",
+   "state": "post",
+   "clock": "90'+2'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "FRA",
      "name": "France",
-     "score": 2
+     "score": 3
     },
     {
      "homeAway": "away",
@@ -186,6 +186,54 @@
      "minute": "60'",
      "team": "",
      "text": "Substitution, Iraq. Youssef Amyn replaces Zaid Ismael."
+    },
+    {
+     "type": "goal",
+     "minute": "66'",
+     "team": "",
+     "text": "Goal! France 3, Iraq 0. Ousmane Dembélé (France) right footed shot from the centre of the box to the bottom left corner. Assisted by Michael Olise with a through ball."
+    },
+    {
+     "type": "sub",
+     "minute": "68'",
+     "team": "",
+     "text": "Substitution, France. Désiré Doué replaces Ousmane Dembélé."
+    },
+    {
+     "type": "sub",
+     "minute": "68'",
+     "team": "",
+     "text": "Substitution, France. Rayan Cherki replaces Michael Olise."
+    },
+    {
+     "type": "sub",
+     "minute": "68'",
+     "team": "",
+     "text": "Substitution, Iraq. Aimar Sher replaces Amir Al Ammari."
+    },
+    {
+     "type": "sub",
+     "minute": "69'",
+     "team": "",
+     "text": "Substitution, Iraq. Marko Farji replaces Ibrahim Bayesh."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, France. Maghnes Akliouche replaces Bradley Barcola."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, France. Malo Gusto replaces Jules Koundé."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Substitution, France. Marcus Thuram replaces Kylian Mbappé."
     }
    ]
   },
@@ -193,21 +241,21 @@
    "id": "760454",
    "date": "2026-06-23T00:00Z",
    "shortName": "SEN @ NOR",
-   "state": "in",
-   "clock": "17'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+10'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "NOR",
      "name": "Norway",
-     "score": 0
+     "score": 3
     },
     {
      "homeAway": "away",
      "abbr": "SEN",
      "name": "Senegal",
-     "score": 0
+     "score": 2
     }
    ],
    "keyEvents": [
@@ -216,6 +264,90 @@
      "minute": "13'",
      "team": "",
      "text": "Substitution, Norway. Marcus Pedersen replaces Julian Ryerson because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "43'",
+     "team": "",
+     "text": "Goal! Norway 1, Senegal 0. Marcus Pedersen (Norway) right footed shot from the right side of the box to the top right corner."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Norway. Patrick Berg replaces Fredrik Aursnes."
+    },
+    {
+     "type": "goal",
+     "minute": "48'",
+     "team": "",
+     "text": "Goal! Norway 2, Senegal 0. Erling Haaland (Norway) left footed shot from the centre of the box to the top right corner. Assisted by Martin Ødegaard with a through ball following a fast break."
+    },
+    {
+     "type": "goal",
+     "minute": "53'",
+     "team": "",
+     "text": "Goal! Norway 2, Senegal 1. Ismaïla Sarr (Senegal) right footed shot from the centre of the box to the top right corner. Assisted by Sadio Mané."
+    },
+    {
+     "type": "sub",
+     "minute": "54'",
+     "team": "",
+     "text": "Substitution, Senegal. Ismail Jakobs replaces El Hadji Malick Diouf."
+    },
+    {
+     "type": "sub",
+     "minute": "54'",
+     "team": "",
+     "text": "Substitution, Senegal. Ibrahim Mbaye replaces Pape Gueye."
+    },
+    {
+     "type": "goal",
+     "minute": "58'",
+     "team": "",
+     "text": "Goal! Norway 3, Senegal 1. Erling Haaland (Norway) right footed shot from the centre of the box to the high centre of the goal. Assisted by Patrick Berg."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Senegal. Mory Diaw replaces Édouard Mendy because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Senegal. Pathé Ciss replaces Lamine Camara."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Norway. Andreas Schjelderup replaces Antonio Nusa."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Senegal. Pape Matar Sarr replaces Kalidou Koulibaly."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, Norway. Oscar Bobb replaces Alexander Sørloth."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, Norway. Leo Østigård replaces Torbjørn Heggem because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Goal! Norway 3, Senegal 2. Ismaïla Sarr (Senegal) right footed shot from the centre of the box to the top right corner. Assisted by Nicolas Jackson."
     }
    ]
   },
@@ -223,24 +355,61 @@
    "id": "760455",
    "date": "2026-06-23T03:00Z",
    "shortName": "ALG @ JOR",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "70'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "JOR",
      "name": "Jordan",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
      "abbr": "ALG",
      "name": "Algeria",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "36'",
+     "team": "",
+     "text": "Goal! Jordan 1, Algeria 0. Nizar Al Rashdan (Jordan) right footed shot from the centre of the box to the bottom right corner. Assisted by Mousa Al Tamari."
+    },
+    {
+     "type": "yellow",
+     "minute": "44'",
+     "team": "",
+     "text": "Ramiz Zerrouki (Algeria) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Algeria. Nabil Bentaleb replaces Ramiz Zerrouki."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Algeria. Nadhir Benbouali replaces Hicham Boudaoui."
+    },
+    {
+     "type": "yellow",
+     "minute": "64'",
+     "team": "",
+     "text": "Husam Abu Dahab (Jordan) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "69'",
+     "team": "",
+     "text": "Goal! Jordan 1, Algeria 1. Nadhir Benbouali (Algeria) header from the centre of the box to the bottom left corner. Assisted by Riyad Mahrez with a cross following a corner."
+    }
+   ]
   },
   {
    "id": "760461",
