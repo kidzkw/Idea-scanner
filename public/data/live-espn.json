@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-23T21:59:15.907Z",
+ "updatedAt": "2026-06-23T22:00:47.608Z",
  "source": "espn:site.api.espn.com",
  "count": 10,
  "events": [
@@ -133,8 +133,8 @@
    "id": "760458",
    "date": "2026-06-23T20:00Z",
    "shortName": "GHA @ ENG",
-   "state": "in",
-   "clock": "90'+5'",
+   "state": "post",
+   "clock": "90'+6'",
    "period": 2,
    "competitors": [
     {
@@ -215,7 +215,7 @@
      "type": "sub",
      "minute": "90'+5'",
      "team": "",
-     "text": "Baba Rahman (Ghana) Substitution at 90'+5'"
+     "text": "Substitution, Ghana. Abdul Rahman Baba replaces Prince Adu."
     }
    ]
   },
