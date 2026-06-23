@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-23T21:57:29.105Z",
+ "updatedAt": "2026-06-23T21:59:15.907Z",
  "source": "espn:site.api.espn.com",
  "count": 10,
  "events": [
@@ -134,7 +134,7 @@
    "date": "2026-06-23T20:00Z",
    "shortName": "GHA @ ENG",
    "state": "in",
-   "clock": "90'+3'",
+   "clock": "90'+5'",
    "period": 2,
    "competitors": [
     {
@@ -210,6 +210,12 @@
      "minute": "87'",
      "team": "",
      "text": "Substitution, Ghana. Kojo Peprah Oppong replaces Marvin Senaya."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+5'",
+     "team": "",
+     "text": "Baba Rahman (Ghana) Substitution at 90'+5'"
     }
    ]
   },
