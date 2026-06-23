@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-23T18:21:31.370Z",
+ "updatedAt": "2026-06-23T18:24:48.693Z",
  "source": "espn:site.api.espn.com",
  "count": 10,
  "events": [
@@ -8,14 +8,14 @@
    "date": "2026-06-23T17:00Z",
    "shortName": "UZB @ POR",
    "state": "in",
-   "clock": "57'",
+   "clock": "60'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "POR",
      "name": "Portugal",
-     "score": 3
+     "score": 4
     },
     {
      "homeAway": "away",
