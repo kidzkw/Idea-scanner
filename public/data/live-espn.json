@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-23T04:32:49.274Z",
+ "updatedAt": "2026-06-23T08:05:39.282Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -355,8 +355,8 @@
    "id": "760455",
    "date": "2026-06-23T03:00Z",
    "shortName": "ALG @ JOR",
-   "state": "in",
-   "clock": "70'",
+   "state": "post",
+   "clock": "90'+8'",
    "period": 2,
    "competitors": [
     {
@@ -369,7 +369,7 @@
      "homeAway": "away",
      "abbr": "ALG",
      "name": "Algeria",
-     "score": 1
+     "score": 2
     }
    ],
    "keyEvents": [
@@ -408,6 +408,60 @@
      "minute": "69'",
      "team": "",
      "text": "Goal! Jordan 1, Algeria 1. Nadhir Benbouali (Algeria) header from the centre of the box to the bottom left corner. Assisted by Riyad Mahrez with a cross following a corner."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Algeria. Anis Hadj Moussa replaces Riyad Mahrez."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Jordan. Odeh Fakhoury replaces Mahmoud Al Mardi."
+    },
+    {
+     "type": "goal",
+     "minute": "82'",
+     "team": "",
+     "text": "Goal! Jordan 1, Algeria 2. Amine Gouiri (Algeria) right footed shot from very close range to the centre of the goal following a corner."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, Jordan. Ali Azaizeh replaces Mousa Al Tamari."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Jordan. Mohammad Abu Hasheesh replaces Mohannad Abu Taha."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Algeria. Jaouen Hadjam replaces Rayan Aït-Nouri."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Algeria. Zineddine Belaïd replaces Amine Gouiri."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Substitution, Jordan. Saleem Obaid replaces Husam Abu Dahab."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+2'",
+     "team": "",
+     "text": "Substitution, Jordan. Mohammad Abu Zraiq replaces Ali Olwan."
     }
    ]
   },
