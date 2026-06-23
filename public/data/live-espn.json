@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-23T18:24:48.693Z",
+ "updatedAt": "2026-06-23T18:25:04.840Z",
  "source": "espn:site.api.espn.com",
  "count": 10,
  "events": [
@@ -8,7 +8,7 @@
    "date": "2026-06-23T17:00Z",
    "shortName": "UZB @ POR",
    "state": "in",
-   "clock": "60'",
+   "clock": "61'",
    "period": 2,
    "competitors": [
     {
@@ -53,12 +53,6 @@
      "type": "sub",
      "minute": "45'",
      "team": "",
-     "text": "Substitution, Uzbekistan. Khojiakbar Alijonov replaces Sherzod Nasrullaev."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
      "text": "Substitution, Uzbekistan. Akmal Mozgovoy replaces Odiljon Khamrobekov."
     },
     {
@@ -71,7 +65,19 @@
      "type": "sub",
      "minute": "45'",
      "team": "",
+     "text": "Substitution, Uzbekistan. Khojiakbar Alijonov replaces Sherzod Nasrullaev."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
      "text": "Substitution, Portugal. Francisco Conceição replaces Pedro Neto."
+    },
+    {
+     "type": "owngoal",
+     "minute": "60'",
+     "team": "",
+     "text": "Abduvohid Nematov (Uzbekistan) Own Goal at 60'"
     }
    ]
   },
