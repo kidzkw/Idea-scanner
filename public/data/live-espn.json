@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-22T21:27:30.641Z",
+ "updatedAt": "2026-06-23T00:17:01.157Z",
  "source": "espn:site.api.espn.com",
  "count": 8,
  "events": [
@@ -47,7 +47,7 @@
      "type": "sub",
      "minute": "57'",
      "team": "",
-     "text": "Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero."
+     "text": "Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero because of an injury."
     },
     {
      "type": "sub",
@@ -134,14 +134,14 @@
    "date": "2026-06-22T21:00Z",
    "shortName": "IRQ @ FRA",
    "state": "in",
-   "clock": "26'",
-   "period": 1,
+   "clock": "61'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "FRA",
      "name": "France",
-     "score": 1
+     "score": 2
     },
     {
      "homeAway": "away",
@@ -161,13 +161,31 @@
      "type": "goal",
      "minute": "14'",
      "team": "",
-     "text": "Goal! France 1, Iraq 0. Kylian Mbappé (France) left footed shot from outside the box to the top left corner. Assisted by Michael Olise."
+     "text": "Goal! France 1, Iraq 0. Kylian Mbappé (France) left footed shot from outside the box to the bottom left corner. Assisted by Michael Olise."
     },
     {
      "type": "sub",
      "minute": "26'",
      "team": "",
      "text": "Substitution, Iraq. Ali Al Hamadi replaces Aymen Hussein because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "54'",
+     "team": "",
+     "text": "Goal! France 2, Iraq 0. Kylian Mbappé (France) right footed shot from the centre of the box to the bottom right corner. Assisted by Ousmane Dembélé."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Iraq. Rebin Sulaka replaces Zaid Tahseen."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Iraq. Youssef Amyn replaces Zaid Ismael."
     }
    ]
   },
@@ -175,9 +193,9 @@
    "id": "760454",
    "date": "2026-06-23T00:00Z",
    "shortName": "SEN @ NOR",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "17'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -192,7 +210,14 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "sub",
+     "minute": "13'",
+     "team": "",
+     "text": "Substitution, Norway. Marcus Pedersen replaces Julian Ryerson because of an injury."
+    }
+   ]
   },
   {
    "id": "760455",
