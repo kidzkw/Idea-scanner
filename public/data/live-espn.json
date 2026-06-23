@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-23T18:25:04.840Z",
+ "updatedAt": "2026-06-23T20:28:17.177Z",
  "source": "espn:site.api.espn.com",
  "count": 10,
  "events": [
@@ -7,15 +7,15 @@
    "id": "760461",
    "date": "2026-06-23T17:00Z",
    "shortName": "UZB @ POR",
-   "state": "in",
-   "clock": "61'",
+   "state": "post",
+   "clock": "90'+6'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "POR",
      "name": "Portugal",
-     "score": 4
+     "score": 5
     },
     {
      "homeAway": "away",
@@ -53,6 +53,12 @@
      "type": "sub",
      "minute": "45'",
      "team": "",
+     "text": "Substitution, Uzbekistan. Khojiakbar Alijonov replaces Sherzod Nasrullaev."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
      "text": "Substitution, Uzbekistan. Akmal Mozgovoy replaces Odiljon Khamrobekov."
     },
     {
@@ -65,19 +71,61 @@
      "type": "sub",
      "minute": "45'",
      "team": "",
-     "text": "Substitution, Uzbekistan. Khojiakbar Alijonov replaces Sherzod Nasrullaev."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
      "text": "Substitution, Portugal. Francisco Conceição replaces Pedro Neto."
     },
     {
      "type": "owngoal",
      "minute": "60'",
      "team": "",
-     "text": "Abduvohid Nematov (Uzbekistan) Own Goal at 60'"
+     "text": "Own Goal by Abduvokhid Nematov, Uzbekistan. Portugal 4, Uzbekistan 0."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Portugal. Trincão replaces João Félix."
+    },
+    {
+     "type": "yellow",
+     "minute": "68'",
+     "team": "",
+     "text": "Renato Veiga (Portugal) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "73'",
+     "team": "",
+     "text": "Substitution, Uzbekistan. Igor Sergeev replaces Abbosbek Fayzullaev."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Portugal. Bernardo Silva replaces João Neves."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Portugal. Rafael Leão replaces Vitinha."
+    },
+    {
+     "type": "goal",
+     "minute": "87'",
+     "team": "",
+     "text": "Goal! Portugal 5, Uzbekistan 0. Rafael Leão (Portugal) right footed shot from the centre of the box to the top left corner."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+2'",
+     "team": "",
+     "text": "Substitution, Uzbekistan. Ruslanbek Jiyanov replaces Bekhruz Karimov."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+2'",
+     "team": "",
+     "text": "Substitution, Uzbekistan. Sherzod Esanov replaces Otabek Shukurov."
     }
    ]
   },
@@ -85,9 +133,9 @@
    "id": "760458",
    "date": "2026-06-23T20:00Z",
    "shortName": "GHA @ ENG",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "28'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
