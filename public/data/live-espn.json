@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-23T20:28:17.177Z",
+ "updatedAt": "2026-06-23T21:57:29.105Z",
  "source": "espn:site.api.espn.com",
  "count": 10,
  "events": [
@@ -134,8 +134,8 @@
    "date": "2026-06-23T20:00Z",
    "shortName": "GHA @ ENG",
    "state": "in",
-   "clock": "28'",
-   "period": 1,
+   "clock": "90'+3'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -150,7 +150,68 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "41'",
+     "team": "",
+     "text": "Declan Rice (England) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "60'",
+     "team": "",
+     "text": "Iñaki Williams (Ghana) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "65'",
+     "team": "",
+     "text": "Substitution, England. Bukayo Saka replaces Anthony Gordon."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, England. Nico O'Reilly replaces Djed Spence."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Ghana. Abdul Fatawu replaces Iñaki Williams."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Ghana. Prince Adu replaces Jordan Ayew."
+    },
+    {
+     "type": "sub",
+     "minute": "73'",
+     "team": "",
+     "text": "Substitution, England. Morgan Rogers replaces Jude Bellingham."
+    },
+    {
+     "type": "sub",
+     "minute": "74'",
+     "team": "",
+     "text": "Substitution, England. Eberechi Eze replaces Elliot Anderson."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, England. Marcus Rashford replaces Noni Madueke."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Ghana. Kojo Peprah Oppong replaces Marvin Senaya."
+    }
+   ]
   },
   {
    "id": "760460",
