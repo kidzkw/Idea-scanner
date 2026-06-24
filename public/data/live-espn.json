@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T00:13:25.316Z",
+ "updatedAt": "2026-06-24T04:33:52.229Z",
  "source": "espn:site.api.espn.com",
  "count": 10,
  "events": [
@@ -223,8 +223,8 @@
    "id": "760460",
    "date": "2026-06-23T23:00Z",
    "shortName": "CRO @ PAN",
-   "state": "in",
-   "clock": "54'",
+   "state": "post",
+   "clock": "90'+5'",
    "period": 2,
    "competitors": [
     {
@@ -257,7 +257,61 @@
      "type": "goal",
      "minute": "54'",
      "team": "",
-     "text": "Ante Budimir (Croatia) Goal at 54'"
+     "text": "Goal! Panama 0, Croatia 1. Ante Budimir (Croatia) left footed shot from very close range to the bottom left corner. Assisted by Josip Stanisic with a cross."
+    },
+    {
+     "type": "yellow",
+     "minute": "61'",
+     "team": "",
+     "text": "Yoel Bárcenas (Panama) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Croatia. Luka Sucic replaces Marco Pasalic."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Croatia. Petar Sucic replaces Mateo Kovacic."
+    },
+    {
+     "type": "sub",
+     "minute": "77'",
+     "team": "",
+     "text": "Substitution, Panama. Cecilio Waterman replaces Jiovany Ramos."
+    },
+    {
+     "type": "sub",
+     "minute": "81'",
+     "team": "",
+     "text": "Substitution, Croatia. Mario Pasalic replaces Luka Modric."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Panama. Azarías Londoño replaces José Fajardo."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, Panama. Éric Davis replaces César Blackman."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, Panama. Tomás Rodríguez replaces Yoel Bárcenas."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+2'",
+     "team": "",
+     "text": "Petar Sucic (Croatia) is shown the yellow card for a bad foul."
     }
    ]
   },
@@ -265,15 +319,15 @@
    "id": "760459",
    "date": "2026-06-24T02:00Z",
    "shortName": "COD @ COL",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "post",
+   "clock": "90'+7'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "COL",
      "name": "Colombia",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -282,7 +336,80 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Congo DR. Noah Sadiki replaces Ngal'ayel Mukau."
+    },
+    {
+     "type": "yellow",
+     "minute": "56'",
+     "team": "",
+     "text": "Jhon Lucumí (Colombia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "57'",
+     "team": "",
+     "text": "Substitution, Congo DR. Simon Banza replaces Cédric Bakambu."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Colombia. Jhon Córdoba replaces Luis Suárez."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Colombia. Juan Fernando Quintero replaces James Rodríguez."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Congo DR. Charles Pickel replaces Edo Kayembe."
+    },
+    {
+     "type": "goal",
+     "minute": "76'",
+     "team": "",
+     "text": "Goal! Colombia 1, Congo DR 0. Daniel Muñoz (Colombia) left footed shot from the right side of the box to the bottom right corner. Assisted by Juan Fernando Quintero."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Colombia. Richard Ríos replaces Jhon Arias."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Congo DR. Nathanaël Mbuku replaces Samuel Moutoussamy."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Charles Pickel (Congo DR) is shown the yellow card."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+4'",
+     "team": "",
+     "text": "Jefferson Lerma (Colombia) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760462",
