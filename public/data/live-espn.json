@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T22:20:39.768Z",
+ "updatedAt": "2026-06-24T22:23:57.562Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -248,7 +248,7 @@
    "date": "2026-06-24T22:00Z",
    "shortName": "HAI @ MAR",
    "state": "in",
-   "clock": "19'",
+   "clock": "23'",
    "period": 1,
    "competitors": [
     {
@@ -278,7 +278,7 @@
    "date": "2026-06-24T22:00Z",
    "shortName": "BRA @ SCO",
    "state": "in",
-   "clock": "19'",
+   "clock": "23'",
    "period": 1,
    "competitors": [
     {
@@ -291,7 +291,7 @@
      "homeAway": "away",
      "abbr": "BRA",
      "name": "Brazil",
-     "score": 1
+     "score": 2
     }
    ],
    "keyEvents": [
