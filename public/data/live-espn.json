@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T19:14:46.926Z",
+ "updatedAt": "2026-06-24T20:58:29.756Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -8,46 +8,240 @@
    "date": "2026-06-24T19:00Z",
    "shortName": "QAT @ BIH",
    "state": "in",
-   "clock": "14'",
-   "period": 1,
+   "clock": "90'+5'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "BIH",
      "name": "Bosnia-Herzegovina",
-     "score": 0
+     "score": 3
     },
     {
      "homeAway": "away",
      "abbr": "QAT",
      "name": "Qatar",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "29'",
+     "team": "",
+     "text": "Goal! Bosnia and Herzegovina 1, Qatar 0. Kerim Alajbegovic (Bosnia and Herzegovina) right footed shot from outside the box to the top right corner. Assisted by Ivan Basic."
+    },
+    {
+     "type": "owngoal",
+     "minute": "34'",
+     "team": "",
+     "text": "Own Goal by Mahmoud Abunada, Qatar. Bosnia and Herzegovina 2, Qatar 0."
+    },
+    {
+     "type": "goal",
+     "minute": "42'",
+     "team": "",
+     "text": "Goal! Bosnia and Herzegovina 2, Qatar 1. Hassan Al Haydos (Qatar) right footed shot from very close range to the centre of the goal. Assisted by Edmílson Junior."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Benjamin Tahirovic replaces Ivan Sunjic."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Amar Memic replaces Arjan Malic."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Qatar. Abdulaziz Hatem replaces Jassem Gaber."
+    },
+    {
+     "type": "sub",
+     "minute": "56'",
+     "team": "",
+     "text": "Substitution, Qatar. Ahmed Al Ganehi replaces Hassan Al Haydos because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Dennis Hadzikadunic replaces Nikola Katic."
+    },
+    {
+     "type": "sub",
+     "minute": "64'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Ermin Mahmic replaces Edin Dzeko."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Qatar. Almoez Ali replaces Karim Boudiaf."
+    },
+    {
+     "type": "yellow",
+     "minute": "78'",
+     "team": "",
+     "text": "Ahmed Fathy (Qatar) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Qatar. Ahmed Alaa replaces Edmílson Junior."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Qatar. Mohammad Al Manai replaces Ahmed Fathy."
+    },
+    {
+     "type": "goal",
+     "minute": "80'",
+     "team": "",
+     "text": "Goal! Bosnia and Herzegovina 3, Qatar 1. Ermin Mahmic (Bosnia and Herzegovina) right footed shot from the centre of the box to the centre of the goal. Assisted by Dennis Hadzikadunic following a corner."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Dzenis Burnic replaces Kerim Alajbegovic."
+    },
+    {
+     "type": "yellow",
+     "minute": "82'",
+     "team": "",
+     "text": "Ermin Mahmic (Bosnia and Herzegovina) is shown the yellow card for excessive celebration."
+    }
+   ]
   },
   {
    "id": "760463",
    "date": "2026-06-24T19:00Z",
    "shortName": "CAN @ SUI",
-   "state": "in",
-   "clock": "14'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+7'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "SUI",
      "name": "Switzerland",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
      "abbr": "CAN",
      "name": "Canada",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "32'",
+     "team": "",
+     "text": "Cyle Larin (Canada) is shown the yellow card."
+    },
+    {
+     "type": "yellow",
+     "minute": "32'",
+     "team": "",
+     "text": "Granit Xhaka (Switzerland) is shown the yellow card."
+    },
+    {
+     "type": "goal",
+     "minute": "46'",
+     "team": "",
+     "text": "Goal! Switzerland 1, Canada 0. Rubén Vargas (Switzerland) right footed shot from the centre of the box to the bottom left corner. Assisted by Johan Manzambi with a cross."
+    },
+    {
+     "type": "goal",
+     "minute": "57'",
+     "team": "",
+     "text": "Goal! Switzerland 2, Canada 0. Johan Manzambi (Switzerland) right footed shot from the right side of the box to the centre of the goal. Assisted by Breel Embolo."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Canada. Stephen Eustaquio replaces Mathieu Choinière."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Canada. Tani Oluwaseyi replaces Cyle Larin."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Canada. Liam Millar replaces Ali Ahmed."
+    },
+    {
+     "type": "sub",
+     "minute": "74'",
+     "team": "",
+     "text": "Substitution, Switzerland. Michel Aebischer replaces Djibril Sow."
+    },
+    {
+     "type": "sub",
+     "minute": "74'",
+     "team": "",
+     "text": "Substitution, Switzerland. Silvan Widmer replaces Luca Jaquez."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Canada. Promise David replaces Tajon Buchanan."
+    },
+    {
+     "type": "goal",
+     "minute": "76'",
+     "team": "",
+     "text": "Goal! Switzerland 2, Canada 1. Promise David (Canada) right footed shot from the centre of the box to the bottom left corner. Assisted by Nathan Saliba."
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Substitution, Switzerland. Dan Ndoye replaces Rubén Vargas."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Canada. Jacob Shaffelburg replaces Richie Laryea."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Switzerland. Christian Fassnacht replaces Johan Manzambi."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Switzerland. Cedric Itten replaces Breel Embolo."
+    },
+    {
+     "type": "yellow",
+     "minute": "87'",
+     "team": "",
+     "text": "Liam Millar (Canada) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760464",
