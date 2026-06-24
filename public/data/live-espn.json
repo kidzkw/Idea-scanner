@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T23:41:01.762Z",
+ "updatedAt": "2026-06-24T23:41:33.514Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -248,7 +248,7 @@
    "date": "2026-06-24T22:00Z",
    "shortName": "HAI @ MAR",
    "state": "in",
-   "clock": "78'",
+   "clock": "79'",
    "period": 2,
    "competitors": [
     {
@@ -323,7 +323,7 @@
      "type": "goal",
      "minute": "78'",
      "team": "",
-     "text": "Goal! Morocco 3, Haiti 2. Soufiane Rahimi (Morocco) right footed shot from the centre of the box following a corner."
+     "text": "Goal! Morocco 3, Haiti 2. Soufiane Rahimi (Morocco) right footed shot from the centre of the box to the top right corner. Assisted by Chadi Riad following a corner."
     }
    ]
   },
@@ -332,7 +332,7 @@
    "date": "2026-06-24T22:00Z",
    "shortName": "BRA @ SCO",
    "state": "in",
-   "clock": "75'",
+   "clock": "76'",
    "period": 2,
    "competitors": [
     {
@@ -390,6 +390,12 @@
      "minute": "66'",
      "team": "",
      "text": "Substitution, Brazil. Gabriel Martinelli replaces Lucas Paquetá."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Neymar (Brazil) Substitution at 76'"
     }
    ]
   },
