@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T22:25:00.113Z",
+ "updatedAt": "2026-06-24T23:37:27.852Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -248,28 +248,76 @@
    "date": "2026-06-24T22:00Z",
    "shortName": "HAI @ MAR",
    "state": "in",
-   "clock": "24'",
-   "period": 1,
+   "clock": "74'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "MAR",
      "name": "Morocco",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
      "abbr": "HAI",
      "name": "Haiti",
-     "score": 1
+     "score": 2
     }
    ],
    "keyEvents": [
     {
-     "type": "goal",
+     "type": "owngoal",
      "minute": "10'",
      "team": "",
-     "text": "Goal! Morocco 0, Haiti 1. Lenny Joseph (Haiti) right footed shot from very close range to the centre of the goal. Assisted by Jean-Kévin Duverne."
+     "text": "Own Goal by Yassine Bounou, Morocco. Morocco 0, Haiti 1."
+    },
+    {
+     "type": "goal",
+     "minute": "39'",
+     "team": "",
+     "text": "Goal! Morocco 1, Haiti 1. Achraf Hakimi (Morocco) left footed shot from very close range to the centre of the goal."
+    },
+    {
+     "type": "goal",
+     "minute": "43'",
+     "team": "",
+     "text": "Goal! Morocco 1, Haiti 2. Wilson Isidor (Haiti) right footed shot from outside the box to the top left corner. Assisted by Jean-Kévin Duverne."
+    },
+    {
+     "type": "goal",
+     "minute": "45'+1'",
+     "team": "",
+     "text": "Goal! Morocco 2, Haiti 2. Ismael Saibari (Morocco) right footed shot from the centre of the box to the bottom left corner. Assisted by Achraf Hakimi."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Haiti. Duckens Nazon replaces Ruben Providence."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Haiti. Louicius Deedson replaces Wilson Isidor."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Morocco. Azzedine Ounahi replaces Brahim Díaz."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Morocco. Gessime Yassine replaces Ayoub El Kaabi."
     }
    ]
   },
@@ -278,8 +326,8 @@
    "date": "2026-06-24T22:00Z",
    "shortName": "BRA @ SCO",
    "state": "in",
-   "clock": "23'",
-   "period": 1,
+   "clock": "72'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -291,7 +339,7 @@
      "homeAway": "away",
      "abbr": "BRA",
      "name": "Brazil",
-     "score": 2
+     "score": 3
     }
    ],
    "keyEvents": [
@@ -303,15 +351,39 @@
     },
     {
      "type": "goal",
-     "minute": "22'",
+     "minute": "45'+3'",
      "team": "",
-     "text": "Goal! Scotland 0, Brazil 2. Vinícius Júnior (Brazil) right footed shot from the right side of the box to the centre of the goal."
+     "text": "Goal! Scotland 0, Brazil 2. Vinícius Júnior (Brazil) header from very close range to the top left corner. Assisted by Bruno Guimarães with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Scotland. Kieran Tierney replaces Andy Robertson."
     },
     {
      "type": "goal",
-     "minute": "24'",
+     "minute": "60'",
      "team": "",
-     "text": "Vinícius Júnior (Brazil) VAR - Goal Awarded at 24'"
+     "text": "Goal! Scotland 0, Brazil 3. Matheus Cunha (Brazil) right footed shot from the centre of the box to the bottom right corner. Assisted by Bruno Guimarães."
+    },
+    {
+     "type": "yellow",
+     "minute": "62'",
+     "team": "",
+     "text": "Danilo (Brazil) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "65'",
+     "team": "",
+     "text": "Substitution, Brazil. Fabinho replaces Casemiro."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Brazil. Gabriel Martinelli replaces Lucas Paquetá."
     }
    ]
   },
