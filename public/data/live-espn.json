@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T23:40:45.719Z",
+ "updatedAt": "2026-06-24T23:41:01.762Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -318,6 +318,12 @@
      "minute": "70'",
      "team": "",
      "text": "Substitution, Morocco. Gessime Yassine replaces Ayoub El Kaabi."
+    },
+    {
+     "type": "goal",
+     "minute": "78'",
+     "team": "",
+     "text": "Goal! Morocco 3, Haiti 2. Soufiane Rahimi (Morocco) right footed shot from the centre of the box following a corner."
     }
    ]
   },
