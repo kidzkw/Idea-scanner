@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T20:58:29.756Z",
+ "updatedAt": "2026-06-24T20:59:15.934Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -7,8 +7,8 @@
    "id": "760462",
    "date": "2026-06-24T19:00Z",
    "shortName": "QAT @ BIH",
-   "state": "in",
-   "clock": "90'+5'",
+   "state": "post",
+   "clock": "90'+6'",
    "period": 2,
    "competitors": [
     {
