@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T23:37:27.852Z",
+ "updatedAt": "2026-06-24T23:40:45.719Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -248,14 +248,14 @@
    "date": "2026-06-24T22:00Z",
    "shortName": "HAI @ MAR",
    "state": "in",
-   "clock": "74'",
+   "clock": "78'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "MAR",
      "name": "Morocco",
-     "score": 2
+     "score": 3
     },
     {
      "homeAway": "away",
@@ -326,7 +326,7 @@
    "date": "2026-06-24T22:00Z",
    "shortName": "BRA @ SCO",
    "state": "in",
-   "clock": "72'",
+   "clock": "75'",
    "period": 2,
    "competitors": [
     {
@@ -359,7 +359,7 @@
      "type": "sub",
      "minute": "45'",
      "team": "",
-     "text": "Substitution, Scotland. Kieran Tierney replaces Andy Robertson."
+     "text": "Substitution, Scotland. Kieran Tierney replaces Andy Robertson because of an injury."
     },
     {
      "type": "goal",
