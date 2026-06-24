@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T00:09:50.667Z",
+ "updatedAt": "2026-06-24T00:13:09.362Z",
  "source": "espn:site.api.espn.com",
  "count": 10,
  "events": [
@@ -224,7 +224,7 @@
    "date": "2026-06-23T23:00Z",
    "shortName": "CRO @ PAN",
    "state": "in",
-   "clock": "51'",
+   "clock": "54'",
    "period": 2,
    "competitors": [
     {
@@ -237,7 +237,7 @@
      "homeAway": "away",
      "abbr": "CRO",
      "name": "Croatia",
-     "score": 0
+     "score": 1
     }
    ],
    "keyEvents": [
