@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T20:59:15.934Z",
+ "updatedAt": "2026-06-24T22:20:39.768Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -247,9 +247,9 @@
    "id": "760464",
    "date": "2026-06-24T22:00Z",
    "shortName": "HAI @ MAR",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "19'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -261,18 +261,25 @@
      "homeAway": "away",
      "abbr": "HAI",
      "name": "Haiti",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "10'",
+     "team": "",
+     "text": "Goal! Morocco 0, Haiti 1. Lenny Joseph (Haiti) right footed shot from very close range to the centre of the goal. Assisted by Jean-Kévin Duverne."
+    }
+   ]
   },
   {
    "id": "760465",
    "date": "2026-06-24T22:00Z",
    "shortName": "BRA @ SCO",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "19'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -284,10 +291,17 @@
      "homeAway": "away",
      "abbr": "BRA",
      "name": "Brazil",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "7'",
+     "team": "",
+     "text": "Goal! Scotland 0, Brazil 1. Vinícius Júnior (Brazil) right footed shot from the centre of the box to the centre of the goal. Assisted by Rayan."
+    }
+   ]
   },
   {
    "id": "760467",
