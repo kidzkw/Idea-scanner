@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T22:23:57.562Z",
+ "updatedAt": "2026-06-24T22:24:13.704Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -300,6 +300,12 @@
      "minute": "7'",
      "team": "",
      "text": "Goal! Scotland 0, Brazil 1. Vinícius Júnior (Brazil) right footed shot from the centre of the box to the centre of the goal. Assisted by Rayan."
+    },
+    {
+     "type": "goal",
+     "minute": "22'",
+     "team": "",
+     "text": "Vinícius Júnior (Brazil) Goal at 22'"
     }
    ]
   },
