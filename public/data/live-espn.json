@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T00:13:09.362Z",
+ "updatedAt": "2026-06-24T00:13:25.316Z",
  "source": "espn:site.api.espn.com",
  "count": 10,
  "events": [
@@ -252,6 +252,12 @@
      "minute": "45'",
      "team": "",
      "text": "Substitution, Croatia. Andrej Kramaric replaces Josko Gvardiol."
+    },
+    {
+     "type": "goal",
+     "minute": "54'",
+     "team": "",
+     "text": "Ante Budimir (Croatia) Goal at 54'"
     }
    ]
   },
