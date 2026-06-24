@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T22:24:13.704Z",
+ "updatedAt": "2026-06-24T22:25:00.113Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -248,7 +248,7 @@
    "date": "2026-06-24T22:00Z",
    "shortName": "HAI @ MAR",
    "state": "in",
-   "clock": "23'",
+   "clock": "24'",
    "period": 1,
    "competitors": [
     {
@@ -305,7 +305,13 @@
      "type": "goal",
      "minute": "22'",
      "team": "",
-     "text": "Vinícius Júnior (Brazil) Goal at 22'"
+     "text": "Goal! Scotland 0, Brazil 2. Vinícius Júnior (Brazil) right footed shot from the right side of the box to the centre of the goal."
+    },
+    {
+     "type": "goal",
+     "minute": "24'",
+     "team": "",
+     "text": "Vinícius Júnior (Brazil) VAR - Goal Awarded at 24'"
     }
    ]
   },
