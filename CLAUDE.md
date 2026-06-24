@@ -37,28 +37,33 @@ high-impact first:
   a booking on a key player
 - `low`    — routine rotation subs, ordinary yellows
 
-### Real-time data source — GitHub Actions ESPN proxy (working now)
+### Real-time data source — ESPN direct (working now)
 
-The environment's **egress allow-list** blocks every sports API
-(`Host not in allowlist: <host>`); only GitHub hosts are allowed. The workaround
-in use: **GitHub Actions runners have open internet**, so
+`site.api.espn.com` is **now allow-listed**, so the monitor reads ESPN live
+directly (free, no key — full goals/assists/cards/subs/penalty commentary),
+polling at its `--interval` (default 20s). The monitor auto-selects: it probes
+the ESPN scoreboard endpoint at startup and uses the direct provider whenever
+it is reachable — no flag needed. ESPN team abbreviations match our FIFA codes,
+so matching is by code + date.
+
+Historically the **egress allow-list** blocked every sports API
+(`Host not in allowlist: <host>`); only GitHub hosts were allowed. The workaround
+was **GitHub Actions runners have open internet**, so
 `.github/workflows/live-espn.yml` runs `scripts/fetch-espn-live.mjs` on a runner
-to pull live data from ESPN (`site.api.espn.com`, free, no key — full
-goals/assists/cards/subs/penalty commentary) and commits it to
-`public/data/live-espn.json` every ~5 min.
+to pull the same ESPN data and commit it to `public/data/live-espn.json`, which
+the monitor reads through the authenticated git remote (`git fetch` + `git show
+origin/main:...`, since the repo is private). That proxy is now a **manual
+fallback only** — its `*/5` cron is disabled; trigger it from the Actions tab
+(`workflow_dispatch`) if the allow-list is ever revoked.
 
-This repo is **private**, so the monitor reads that file through the
-authenticated git remote (`git fetch` + `git show origin/main:...`), not
-raw.githubusercontent.com (which needs a token for private repos). ESPN team
-abbreviations match our FIFA codes, so matching is by code + date.
-
-Provider order (auto-selected): ESPN direct (only if `site.api.espn.com` is ever
-allow-listed) → **ESPN-via-Actions proxy (current)** → 26worldcup dataset.
+Provider order (auto-selected): **ESPN direct (current)** → ESPN-via-Actions
+proxy (manual fallback) → 26worldcup dataset.
 
 **Honest limit that remains regardless of source:** there is no live
 player-rating feed, so "player in poor form / 状态不好" is always inferred from
 objective events (early sub, booking, conceding, red card), never a rating.
-Cadence is ~5 min (GitHub cron is best-effort), not second-by-second.
+Cadence on ESPN direct is the poll interval (~20s default), not second-by-second;
+on the Actions-proxy fallback it is ~5 min (GitHub cron is best-effort).
 
 ## Data sources (only these are reachable from this environment)
 - `raw.githubusercontent.com/26worldcup/26worldcup.github.io` — schedule,
