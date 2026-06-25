@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-25T20:30:09.127Z",
+ "updatedAt": "2026-06-25T22:06:42.706Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -7,9 +7,9 @@
    "id": "760473",
    "date": "2026-06-25T20:00Z",
    "shortName": "CIV @ CUW",
-   "state": "in",
-   "clock": "28'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+6'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -21,7 +21,7 @@
      "homeAway": "away",
      "abbr": "CIV",
      "name": "Ivory Coast",
-     "score": 1
+     "score": 2
     }
    ],
    "keyEvents": [
@@ -30,6 +30,90 @@
      "minute": "7'",
      "team": "",
      "text": "Goal! Curaçao 0, Côte d'Ivoire 1. Nicolas Pépé (Côte d'Ivoire) left footed shot from very close range to the centre of the goal. Assisted by Yan Diomande."
+    },
+    {
+     "type": "yellow",
+     "minute": "35'",
+     "team": "",
+     "text": "Nicolas Pépé (Côte d'Ivoire) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Christ Inao Oulaï replaces Amad Diallo."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, Curaçao. Jeremy Antonisse replaces Livano Comenencia."
+    },
+    {
+     "type": "goal",
+     "minute": "64'",
+     "team": "",
+     "text": "Goal! Curaçao 0, Côte d'Ivoire 2. Nicolas Pépé (Côte d'Ivoire) left footed shot from the right side of the box to the top left corner. Assisted by Ibrahim Sangaré."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Oumar Diakité replaces Ange-Yoan Bonny."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Elye Wahi replaces Nicolas Pépé."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Bazoumana Touré replaces Yan Diomande."
+    },
+    {
+     "type": "yellow",
+     "minute": "75'",
+     "team": "",
+     "text": "Juninho Bacuna (Curaçao) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "77'",
+     "team": "",
+     "text": "Substitution, Curaçao. Gervane Kastaneer replaces Juriën Gaari."
+    },
+    {
+     "type": "sub",
+     "minute": "77'",
+     "team": "",
+     "text": "Substitution, Curaçao. Tyrese Noslin replaces Deveron Fonville."
+    },
+    {
+     "type": "sub",
+     "minute": "77'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Jean Michaël Seri replaces Franck Kessie."
+    },
+    {
+     "type": "yellow",
+     "minute": "83'",
+     "team": "",
+     "text": "Gervane Kastaneer (Curaçao) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, Curaçao. Shurandy Sambo replaces Joshua Brenet."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, Curaçao. Brandley Kuwas replaces Jürgen Locadia."
     }
    ]
   },
@@ -37,15 +121,15 @@
    "id": "760468",
    "date": "2026-06-25T20:00Z",
    "shortName": "GER @ ECU",
-   "state": "in",
-   "clock": "30'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+7'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ECU",
      "name": "Ecuador",
-     "score": 1
+     "score": 2
     },
     {
      "homeAway": "away",
@@ -66,6 +150,96 @@
      "minute": "9'",
      "team": "",
      "text": "Goal! Ecuador 1, Germany 1. Nilson Angulo (Ecuador) right footed shot from outside the box to the bottom right corner. Assisted by Pedro Vite."
+    },
+    {
+     "type": "yellow",
+     "minute": "43'",
+     "team": "",
+     "text": "Piero Hincapié (Ecuador) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "44'",
+     "team": "",
+     "text": "Aleksandar Pavlovic (Germany) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Germany. Angelo Stiller replaces Aleksandar Pavlovic."
+    },
+    {
+     "type": "yellow",
+     "minute": "50'",
+     "team": "",
+     "text": "Alan Franco (Ecuador) is shown the yellow card."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Germany. Deniz Undav replaces Kai Havertz."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Germany. Malick Thiaw replaces Joshua Kimmich."
+    },
+    {
+     "type": "sub",
+     "minute": "64'",
+     "team": "",
+     "text": "Substitution, Ecuador. Kevin Rodríguez replaces Enner Valencia."
+    },
+    {
+     "type": "sub",
+     "minute": "64'",
+     "team": "",
+     "text": "Substitution, Ecuador. Ángelo Preciado replaces Alan Franco."
+    },
+    {
+     "type": "sub",
+     "minute": "64'",
+     "team": "",
+     "text": "Substitution, Germany. Maximilian Beier replaces Felix Nmecha."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Ecuador. Pervis Estupiñán replaces Piero Hincapié because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "73'",
+     "team": "",
+     "text": "Substitution, Germany. Pascal Groß replaces Florian Wirtz."
+    },
+    {
+     "type": "goal",
+     "minute": "77'",
+     "team": "",
+     "text": "Goal! Ecuador 2, Germany 1. Gonzalo Plata (Ecuador) left footed shot from very close range to the top right corner. Assisted by Kevin Rodríguez with a headed pass following a corner."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Ecuador. Félix Torres replaces John Yeboah."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Ecuador. Jordy Caicedo replaces Nilson Angulo because of an injury."
+    },
+    {
+     "type": "yellow",
+     "minute": "89'",
+     "team": "",
+     "text": "Gonzalo Plata (Ecuador) is shown the yellow card for a bad foul."
     }
    ]
   },
