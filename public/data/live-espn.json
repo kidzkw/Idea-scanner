@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-25T18:25:54.987Z",
+ "updatedAt": "2026-06-25T20:30:09.127Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -7,9 +7,9 @@
    "id": "760473",
    "date": "2026-06-25T20:00Z",
    "shortName": "CIV @ CUW",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "28'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -21,33 +21,53 @@
      "homeAway": "away",
      "abbr": "CIV",
      "name": "Ivory Coast",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "7'",
+     "team": "",
+     "text": "Goal! Curaçao 0, Côte d'Ivoire 1. Nicolas Pépé (Côte d'Ivoire) left footed shot from very close range to the centre of the goal. Assisted by Yan Diomande."
+    }
+   ]
   },
   {
    "id": "760468",
    "date": "2026-06-25T20:00Z",
    "shortName": "GER @ ECU",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "30'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ECU",
      "name": "Ecuador",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
      "abbr": "GER",
      "name": "Germany",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "2'",
+     "team": "",
+     "text": "Goal! Ecuador 0, Germany 1. Leroy Sané (Germany) left footed shot from the centre of the box to the bottom left corner. Assisted by Florian Wirtz."
+    },
+    {
+     "type": "goal",
+     "minute": "9'",
+     "team": "",
+     "text": "Goal! Ecuador 1, Germany 1. Nilson Angulo (Ecuador) right footed shot from outside the box to the bottom right corner. Assisted by Pedro Vite."
+    }
+   ]
   },
   {
    "id": "760471",
