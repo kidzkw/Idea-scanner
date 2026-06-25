@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-25T01:35:39.051Z",
+ "updatedAt": "2026-06-25T05:49:37.303Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -505,9 +505,9 @@
    "id": "760467",
    "date": "2026-06-25T01:00Z",
    "shortName": "MEX @ CZE",
-   "state": "in",
-   "clock": "35'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+6'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -519,24 +519,109 @@
      "homeAway": "away",
      "abbr": "MEX",
      "name": "Mexico",
-     "score": 0
+     "score": 3
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "55'",
+     "team": "",
+     "text": "Goal! Czechia 0, Mexico 1. Mateo Chávez (Mexico) left footed shot from the centre of the box to the bottom left corner. Assisted by Luis Romo."
+    },
+    {
+     "type": "sub",
+     "minute": "56'",
+     "team": "",
+     "text": "Substitution, Czechia. Lukás Provod replaces Denis Visinsky."
+    },
+    {
+     "type": "goal",
+     "minute": "61'",
+     "team": "",
+     "text": "Goal! Czechia 0, Mexico 2. Julián Quiñones (Mexico) right footed shot from very close range to the centre of the goal. Assisted by Jorge Sánchez following a fast break."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Mexico. Santiago Giménez replaces Guillermo Martínez."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Mexico. Obed Vargas replaces Luis Romo."
+    },
+    {
+     "type": "yellow",
+     "minute": "64'",
+     "team": "",
+     "text": "Edson Álvarez (Mexico) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "64'",
+     "team": "",
+     "text": "Substitution, Czechia. Patrik Schick replaces Adam Hlozek."
+    },
+    {
+     "type": "sub",
+     "minute": "64'",
+     "team": "",
+     "text": "Substitution, Czechia. Tomás Soucek replaces Tomás Holes."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Mexico. Álvaro Fidalgo replaces Gilberto Mora."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Mexico. Guillermo Ochoa replaces Raúl Rangel."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Mexico. Jesús Gallardo replaces Mateo Chávez."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Czechia. Tomás Chory replaces Lukás Cerv."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Czechia. Alexandr Sojka replaces Tomás Soucek because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+4'",
+     "team": "",
+     "text": "Goal! Czechia 0, Mexico 3. Álvaro Fidalgo (Mexico) right footed shot from the centre of the box to the top left corner. Assisted by Roberto Alvarado."
+    }
+   ]
   },
   {
    "id": "760466",
    "date": "2026-06-25T01:00Z",
    "shortName": "KOR @ RSA",
-   "state": "in",
-   "clock": "35'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+6'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "RSA",
      "name": "South Africa",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -545,7 +630,74 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Korea Republic. Son Heung-Min replaces Hwang Hee-Chan."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Korea Republic. Kim Jin-Gyu replaces Paik Seung-Ho."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Korea Republic. Jens Castrop replaces Lee Tae-Seok."
+    },
+    {
+     "type": "sub",
+     "minute": "62'",
+     "team": "",
+     "text": "Substitution, South Africa. Tshepang Moremi replaces Oswin Appollis."
+    },
+    {
+     "type": "goal",
+     "minute": "63'",
+     "team": "",
+     "text": "Goal! South Africa 1, Korea Republic 0. Thapelo Maseko (South Africa) left footed shot from the centre of the box to the bottom right corner. Assisted by Tshepang Moremi following a fast break."
+    },
+    {
+     "type": "sub",
+     "minute": "65'",
+     "team": "",
+     "text": "Substitution, Korea Republic. Park Jin-Seob replaces Kim Min-Jae."
+    },
+    {
+     "type": "yellow",
+     "minute": "73'",
+     "team": "",
+     "text": "Aubrey Modiba (South Africa) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "74'",
+     "team": "",
+     "text": "Substitution, Korea Republic. Cho Gue-Sung replaces Oh Hyeon-Gyu."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, South Africa. Iqraam Rayners replaces Thapelo Maseko."
+    },
+    {
+     "type": "yellow",
+     "minute": "79'",
+     "team": "",
+     "text": "Cho Gue-Sung (Korea Republic) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Substitution, South Africa. Jayden Adams replaces Relebohile Mofokeng."
+    }
+   ]
   },
   {
    "id": "760473",
