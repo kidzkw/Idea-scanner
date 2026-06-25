@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-25T22:06:42.706Z",
+ "updatedAt": "2026-06-25T23:42:15.491Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -247,9 +247,9 @@
    "id": "760471",
    "date": "2026-06-25T23:00Z",
    "shortName": "SWE @ JPN",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "42'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -264,15 +264,34 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "32'",
+     "team": "",
+     "text": "Isak Hien (Sweden) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "37'",
+     "team": "",
+     "text": "Substitution, Sweden. Lucas Bergvall replaces Isak Hien because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "39'",
+     "team": "",
+     "text": "Substitution, Japan. Shogo Taniguchi replaces Ko Itakura."
+    }
+   ]
   },
   {
    "id": "760472",
    "date": "2026-06-25T23:00Z",
    "shortName": "NED @ TUN",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "42'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -284,10 +303,23 @@
      "homeAway": "away",
      "abbr": "NED",
      "name": "Netherlands",
-     "score": 0
+     "score": 2
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "owngoal",
+     "minute": "3'",
+     "team": "",
+     "text": "Own Goal by Ellyes Skhiri, Tunisia. Tunisia 0, Netherlands 1."
+    },
+    {
+     "type": "goal",
+     "minute": "7'",
+     "team": "",
+     "text": "Goal! Tunisia 0, Netherlands 2. Brian Brobbey (Netherlands) right footed shot from the centre of the box to the top right corner. Assisted by Virgil van Dijk with a headed pass following a set piece situation."
+    }
+   ]
   },
   {
    "id": "760469",
