@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-24T23:41:33.514Z",
+ "updatedAt": "2026-06-25T01:35:39.051Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -201,7 +201,7 @@
     },
     {
      "type": "sub",
-     "minute": "75'",
+     "minute": "74'",
      "team": "",
      "text": "Substitution, Canada. Promise David replaces Tajon Buchanan."
     },
@@ -247,15 +247,15 @@
    "id": "760464",
    "date": "2026-06-24T22:00Z",
    "shortName": "HAI @ MAR",
-   "state": "in",
-   "clock": "79'",
+   "state": "post",
+   "clock": "90'+9'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "MAR",
      "name": "Morocco",
-     "score": 3
+     "score": 4
     },
     {
      "homeAway": "away",
@@ -324,6 +324,60 @@
      "minute": "78'",
      "team": "",
      "text": "Goal! Morocco 3, Haiti 2. Soufiane Rahimi (Morocco) right footed shot from the centre of the box to the top right corner. Assisted by Chadi Riad following a corner."
+    },
+    {
+     "type": "yellow",
+     "minute": "79'",
+     "team": "",
+     "text": "Johny Placide (Haiti) is shown the yellow card."
+    },
+    {
+     "type": "yellow",
+     "minute": "80'",
+     "team": "",
+     "text": "Duckens Nazon (Haiti) is shown the yellow card."
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Substitution, Haiti. Carlens Arcus replaces Jean-Kévin Duverne."
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Substitution, Haiti. Dominique Simon replaces Danley Jean Jacques."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Morocco. Noussair Mazraoui replaces Anass Salah-Eddine."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Morocco. Samir El Mourabet replaces Neil El Aynaoui."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Haiti. Frantzdy Pierrot replaces Lenny Joseph."
+    },
+    {
+     "type": "goal",
+     "minute": "89'",
+     "team": "",
+     "text": "Goal! Morocco 4, Haiti 2. Gessime Yassine (Morocco) left footed shot from the centre of the box to the centre of the goal. Assisted by Soufiane Rahimi."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Josué Casimir (Haiti) is shown the yellow card for a bad foul."
     }
    ]
   },
@@ -331,8 +385,8 @@
    "id": "760465",
    "date": "2026-06-24T22:00Z",
    "shortName": "BRA @ SCO",
-   "state": "in",
-   "clock": "76'",
+   "state": "post",
+   "clock": "90'+6'",
    "period": 2,
    "competitors": [
     {
@@ -395,7 +449,55 @@
      "type": "sub",
      "minute": "76'",
      "team": "",
-     "text": "Neymar (Brazil) Substitution at 76'"
+     "text": "Substitution, Brazil. Neymar replaces Matheus Cunha."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Scotland. Anthony Ralston replaces Nathan Patterson."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Brazil. Endrick replaces Rayan."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Brazil. Alex Sandro replaces Douglas Santos."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Scotland. Ryan Christie replaces Ben Gannon-Doak."
+    },
+    {
+     "type": "yellow",
+     "minute": "82'",
+     "team": "",
+     "text": "Fabinho (Brazil) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "89'",
+     "team": "",
+     "text": "Ryan Christie (Scotland) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Substitution, Scotland. Findlay Curtis replaces John McGinn."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Substitution, Scotland. Ché Adams replaces Lawrence Shankland."
     }
    ]
   },
@@ -403,9 +505,9 @@
    "id": "760467",
    "date": "2026-06-25T01:00Z",
    "shortName": "MEX @ CZE",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "35'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -426,9 +528,9 @@
    "id": "760466",
    "date": "2026-06-25T01:00Z",
    "shortName": "KOR @ RSA",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "35'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
