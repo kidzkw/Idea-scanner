@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-26T20:14:33.655Z",
+ "updatedAt": "2026-06-26T21:40:21.696Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -7,8 +7,8 @@
    "id": "760475",
    "date": "2026-06-26T19:00Z",
    "shortName": "FRA @ NOR",
-   "state": "in",
-   "clock": "50'",
+   "state": "post",
+   "clock": "90'+5'",
    "period": 2,
    "competitors": [
     {
@@ -21,7 +21,7 @@
      "homeAway": "away",
      "abbr": "FRA",
      "name": "France",
-     "score": 3
+     "score": 4
     }
    ],
    "keyEvents": [
@@ -71,7 +71,67 @@
      "type": "penalty",
      "minute": "50'",
      "team": "",
-     "text": "Penalty saved. Jørgen Strand Larsen (Norway) right footed shot saved."
+     "text": "Penalty saved. Jørgen Strand Larsen (Norway) right footed shot saved in the bottom right corner by Mike Maignan (France)."
+    },
+    {
+     "type": "sub",
+     "minute": "65'",
+     "team": "",
+     "text": "Substitution, France. Rayan Cherki replaces Michael Olise."
+    },
+    {
+     "type": "sub",
+     "minute": "65'",
+     "team": "",
+     "text": "Substitution, France. Bradley Barcola replaces Ousmane Dembélé."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Norway. Sondre Langås replaces Henrik Falchener."
+    },
+    {
+     "type": "yellow",
+     "minute": "74'",
+     "team": "",
+     "text": "Aurélien Tchouaméni (France) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, France. Ibrahima Konaté replaces Dayot Upamecano."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Norway. Antonio Nusa replaces Oscar Bobb."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Norway. Jens Petter Hauge replaces Andreas Schjelderup."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, France. Malo Gusto replaces Jules Koundé."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, France. Jean-Philippe Mateta replaces Kylian Mbappé."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+4'",
+     "team": "",
+     "text": "Goal! Norway 1, France 4. Désiré Doué (France) header from the centre of the box to the bottom right corner. Assisted by Bradley Barcola with a cross."
     }
    ]
   },
@@ -79,15 +139,15 @@
    "id": "760474",
    "date": "2026-06-26T19:00Z",
    "shortName": "IRQ @ SEN",
-   "state": "in",
-   "clock": "46'",
+   "state": "post",
+   "clock": "90'+6'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "SEN",
      "name": "Senegal",
-     "score": 1
+     "score": 5
     },
     {
      "homeAway": "away",
@@ -126,6 +186,96 @@
      "minute": "45'",
      "team": "",
      "text": "Substitution, Iraq. Jalal Hassan replaces Ahmed Basil because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "56'",
+     "team": "",
+     "text": "Goal! Senegal 2, Iraq 0. Ismaïla Sarr (Senegal) right footed shot from very close range to the high centre of the goal. Assisted by Lamine Camara."
+    },
+    {
+     "type": "sub",
+     "minute": "57'",
+     "team": "",
+     "text": "Substitution, Senegal. Iliman Ndiaye replaces Ibrahim Mbaye."
+    },
+    {
+     "type": "sub",
+     "minute": "57'",
+     "team": "",
+     "text": "Substitution, Senegal. Nicolas Jackson replaces Lamine Camara."
+    },
+    {
+     "type": "sub",
+     "minute": "57'",
+     "team": "",
+     "text": "Substitution, Senegal. Pape Gueye replaces Habib Diarra."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Iraq. Ahmed Maknzi replaces Ali Jasim."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Iraq. Ali Yousif replaces Ali Al Hamadi."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Senegal. Pathé Ciss replaces Abdoulaye Seck."
+    },
+    {
+     "type": "goal",
+     "minute": "59'",
+     "team": "",
+     "text": "Goal! Senegal 3, Iraq 0. Pape Gueye (Senegal) left footed shot from outside the box to the top left corner. Assisted by Ismaïla Sarr."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Iraq. Kevin Yakob replaces Zidane Iqbal."
+    },
+    {
+     "type": "goal",
+     "minute": "71'",
+     "team": "",
+     "text": "Goal! Senegal 4, Iraq 0. Pape Gueye (Senegal) left footed shot from the centre of the box to the bottom left corner. Assisted by Iliman Ndiaye with a headed pass."
+    },
+    {
+     "type": "yellow",
+     "minute": "75'",
+     "team": "",
+     "text": "Amir Al Ammari (Iraq) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "81'",
+     "team": "",
+     "text": "Substitution, Senegal. Assane Diao replaces Ismaïla Sarr."
+    },
+    {
+     "type": "yellow",
+     "minute": "81'",
+     "team": "",
+     "text": "Pape Gueye (Senegal) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "82'",
+     "team": "",
+     "text": "Goal! Senegal 5, Iraq 0. Iliman Ndiaye (Senegal) right footed shot from outside the box to the top right corner. Assisted by Pape Gueye."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'",
+     "team": "",
+     "text": "Merchas Doski (Iraq) is shown the yellow card for a bad foul."
     }
    ]
   },
