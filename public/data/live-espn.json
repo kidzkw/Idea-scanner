@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-25T23:42:15.491Z",
+ "updatedAt": "2026-06-26T01:52:15.367Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -247,21 +247,21 @@
    "id": "760471",
    "date": "2026-06-25T23:00Z",
    "shortName": "SWE @ JPN",
-   "state": "in",
-   "clock": "42'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+7'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "JPN",
      "name": "Japan",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
      "abbr": "SWE",
      "name": "Sweden",
-     "score": 0
+     "score": 1
     }
    ],
    "keyEvents": [
@@ -282,6 +282,78 @@
      "minute": "39'",
      "team": "",
      "text": "Substitution, Japan. Shogo Taniguchi replaces Ko Itakura."
+    },
+    {
+     "type": "goal",
+     "minute": "56'",
+     "team": "",
+     "text": "Goal! Japan 1, Sweden 0. Daizen Maeda (Japan) right footed shot from the centre of the box to the bottom left corner. Assisted by Ritsu Doan with a through ball."
+    },
+    {
+     "type": "goal",
+     "minute": "62'",
+     "team": "",
+     "text": "Goal! Japan 1, Sweden 1. Anthony Elanga (Sweden) left footed shot from outside the box to the bottom left corner. Assisted by Viktor Gyökeres."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Japan. Koki Ogawa replaces Ayase Ueda."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Japan. Junya Ito replaces Ritsu Doan."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Sweden. Daniel Svensson replaces Alexander Bernhardsson."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Sweden. Ken Sema replaces Elliot Stroud."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Japan. Yuto Nagatomo replaces Keito Nakamura."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Japan. Tsuyoshi Watanabe replaces Ayumu Seko."
+    },
+    {
+     "type": "yellow",
+     "minute": "77'",
+     "team": "",
+     "text": "Shogo Taniguchi (Japan) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "85'",
+     "team": "",
+     "text": "Viktor Gyökeres (Sweden) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Sweden. Carl Starfelt replaces Victor Lindelöf because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "88'",
+     "team": "",
+     "text": "Substitution, Sweden. Benjamin Nygren replaces Gabriel Gudmundsson."
     }
    ]
   },
@@ -289,21 +361,21 @@
    "id": "760472",
    "date": "2026-06-25T23:00Z",
    "shortName": "NED @ TUN",
-   "state": "in",
-   "clock": "42'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+5'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "TUN",
      "name": "Tunisia",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
      "abbr": "NED",
      "name": "Netherlands",
-     "score": 2
+     "score": 3
     }
    ],
    "keyEvents": [
@@ -318,6 +390,78 @@
      "minute": "7'",
      "team": "",
      "text": "Goal! Tunisia 0, Netherlands 2. Brian Brobbey (Netherlands) right footed shot from the centre of the box to the top right corner. Assisted by Virgil van Dijk with a headed pass following a set piece situation."
+    },
+    {
+     "type": "goal",
+     "minute": "54'",
+     "team": "",
+     "text": "Goal! Tunisia 1, Netherlands 2. Hazem Mastouri (Tunisia) header from the centre of the box to the bottom left corner. Assisted by Hannibal Mejbri with a cross following a corner."
+    },
+    {
+     "type": "goal",
+     "minute": "62'",
+     "team": "",
+     "text": "Goal! Tunisia 1, Netherlands 3. Jan Paul van Hecke (Netherlands) header from the left side of the six yard box to the top right corner. Assisted by Tijjani Reijnders with a cross following a corner."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Tunisia. Hadj Mahmoud replaces Rani Khedira."
+    },
+    {
+     "type": "sub",
+     "minute": "68'",
+     "team": "",
+     "text": "Substitution, Tunisia. Elias Achouri replaces Anis Ben Slimane."
+    },
+    {
+     "type": "sub",
+     "minute": "68'",
+     "team": "",
+     "text": "Substitution, Tunisia. Mortadha Ben Ouanes replaces Mohamed Amine Ben Hmida."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Netherlands. Teun Koopmeiners replaces Frenkie de Jong."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Netherlands. Justin Kluivert replaces Tijjani Reijnders."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Netherlands. Crysencio Summerville replaces Donyell Malen."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Tunisia. Firas Chaouat replaces Ismaël Gharbi."
+    },
+    {
+     "type": "sub",
+     "minute": "77'",
+     "team": "",
+     "text": "Substitution, Netherlands. Memphis Depay replaces Brian Brobbey."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, Netherlands. Noa Lang replaces Cody Gakpo."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, Tunisia. Sebastian Tounekti replaces Hazem Mastouri."
     }
    ]
   },
