@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-26T20:11:30.576Z",
+ "updatedAt": "2026-06-26T20:13:17.197Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -8,7 +8,7 @@
    "date": "2026-06-26T19:00Z",
    "shortName": "FRA @ NOR",
    "state": "in",
-   "clock": "47'",
+   "clock": "49'",
    "period": 2,
    "competitors": [
     {
@@ -114,6 +114,12 @@
      "minute": "18'",
      "team": "",
      "text": "Abdoulaye Seck (Senegal) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Iraq. Jalal Hassan replaces Ahmed Basil because of an injury."
     }
    ]
   },
