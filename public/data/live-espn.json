@@ -1,674 +1,8 @@
 {
- "updatedAt": "2026-06-26T05:57:39.845Z",
+ "updatedAt": "2026-06-26T18:13:53.344Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
-  {
-   "id": "760473",
-   "date": "2026-06-25T20:00Z",
-   "shortName": "CIV @ CUW",
-   "state": "post",
-   "clock": "90'+6'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "CUW",
-     "name": "Curaçao",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "CIV",
-     "name": "Ivory Coast",
-     "score": 2
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "7'",
-     "team": "",
-     "text": "Goal! Curaçao 0, Côte d'Ivoire 1. Nicolas Pépé (Côte d'Ivoire) left footed shot from very close range to the centre of the goal. Assisted by Yan Diomande."
-    },
-    {
-     "type": "yellow",
-     "minute": "35'",
-     "team": "",
-     "text": "Nicolas Pépé (Côte d'Ivoire) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Christ Inao Oulaï replaces Amad Diallo."
-    },
-    {
-     "type": "sub",
-     "minute": "61'",
-     "team": "",
-     "text": "Substitution, Curaçao. Jeremy Antonisse replaces Livano Comenencia."
-    },
-    {
-     "type": "goal",
-     "minute": "64'",
-     "team": "",
-     "text": "Goal! Curaçao 0, Côte d'Ivoire 2. Nicolas Pépé (Côte d'Ivoire) left footed shot from the right side of the box to the top left corner. Assisted by Ibrahim Sangaré."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Oumar Diakité replaces Ange-Yoan Bonny."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Elye Wahi replaces Nicolas Pépé."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Bazoumana Touré replaces Yan Diomande."
-    },
-    {
-     "type": "yellow",
-     "minute": "75'",
-     "team": "",
-     "text": "Juninho Bacuna (Curaçao) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "77'",
-     "team": "",
-     "text": "Substitution, Curaçao. Gervane Kastaneer replaces Juriën Gaari."
-    },
-    {
-     "type": "sub",
-     "minute": "77'",
-     "team": "",
-     "text": "Substitution, Curaçao. Tyrese Noslin replaces Deveron Fonville."
-    },
-    {
-     "type": "sub",
-     "minute": "77'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Jean Michaël Seri replaces Franck Kessie."
-    },
-    {
-     "type": "yellow",
-     "minute": "83'",
-     "team": "",
-     "text": "Gervane Kastaneer (Curaçao) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "90'",
-     "team": "",
-     "text": "Substitution, Curaçao. Shurandy Sambo replaces Joshua Brenet."
-    },
-    {
-     "type": "sub",
-     "minute": "90'",
-     "team": "",
-     "text": "Substitution, Curaçao. Brandley Kuwas replaces Jürgen Locadia."
-    }
-   ]
-  },
-  {
-   "id": "760468",
-   "date": "2026-06-25T20:00Z",
-   "shortName": "GER @ ECU",
-   "state": "post",
-   "clock": "90'+7'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "ECU",
-     "name": "Ecuador",
-     "score": 2
-    },
-    {
-     "homeAway": "away",
-     "abbr": "GER",
-     "name": "Germany",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "2'",
-     "team": "",
-     "text": "Goal! Ecuador 0, Germany 1. Leroy Sané (Germany) left footed shot from the centre of the box to the bottom left corner. Assisted by Florian Wirtz."
-    },
-    {
-     "type": "goal",
-     "minute": "9'",
-     "team": "",
-     "text": "Goal! Ecuador 1, Germany 1. Nilson Angulo (Ecuador) right footed shot from outside the box to the bottom right corner. Assisted by Pedro Vite."
-    },
-    {
-     "type": "yellow",
-     "minute": "43'",
-     "team": "",
-     "text": "Piero Hincapié (Ecuador) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "44'",
-     "team": "",
-     "text": "Aleksandar Pavlovic (Germany) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Germany. Angelo Stiller replaces Aleksandar Pavlovic."
-    },
-    {
-     "type": "yellow",
-     "minute": "50'",
-     "team": "",
-     "text": "Alan Franco (Ecuador) is shown the yellow card."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Germany. Deniz Undav replaces Kai Havertz."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Germany. Malick Thiaw replaces Joshua Kimmich."
-    },
-    {
-     "type": "sub",
-     "minute": "64'",
-     "team": "",
-     "text": "Substitution, Ecuador. Kevin Rodríguez replaces Enner Valencia."
-    },
-    {
-     "type": "sub",
-     "minute": "64'",
-     "team": "",
-     "text": "Substitution, Ecuador. Ángelo Preciado replaces Alan Franco."
-    },
-    {
-     "type": "sub",
-     "minute": "64'",
-     "team": "",
-     "text": "Substitution, Germany. Maximilian Beier replaces Felix Nmecha."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Ecuador. Pervis Estupiñán replaces Piero Hincapié because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "73'",
-     "team": "",
-     "text": "Substitution, Germany. Pascal Groß replaces Florian Wirtz."
-    },
-    {
-     "type": "goal",
-     "minute": "77'",
-     "team": "",
-     "text": "Goal! Ecuador 2, Germany 1. Gonzalo Plata (Ecuador) left footed shot from very close range to the top right corner. Assisted by Kevin Rodríguez with a headed pass following a corner."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, Ecuador. Félix Torres replaces John Yeboah."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, Ecuador. Jordy Caicedo replaces Nilson Angulo because of an injury."
-    },
-    {
-     "type": "yellow",
-     "minute": "89'",
-     "team": "",
-     "text": "Gonzalo Plata (Ecuador) is shown the yellow card for a bad foul."
-    }
-   ]
-  },
-  {
-   "id": "760471",
-   "date": "2026-06-25T23:00Z",
-   "shortName": "SWE @ JPN",
-   "state": "post",
-   "clock": "90'+7'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "JPN",
-     "name": "Japan",
-     "score": 1
-    },
-    {
-     "homeAway": "away",
-     "abbr": "SWE",
-     "name": "Sweden",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "32'",
-     "team": "",
-     "text": "Isak Hien (Sweden) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "37'",
-     "team": "",
-     "text": "Substitution, Sweden. Lucas Bergvall replaces Isak Hien because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "39'",
-     "team": "",
-     "text": "Substitution, Japan. Shogo Taniguchi replaces Ko Itakura."
-    },
-    {
-     "type": "goal",
-     "minute": "56'",
-     "team": "",
-     "text": "Goal! Japan 1, Sweden 0. Daizen Maeda (Japan) right footed shot from the centre of the box to the bottom left corner. Assisted by Ritsu Doan with a through ball."
-    },
-    {
-     "type": "goal",
-     "minute": "62'",
-     "team": "",
-     "text": "Goal! Japan 1, Sweden 1. Anthony Elanga (Sweden) left footed shot from outside the box to the bottom left corner. Assisted by Viktor Gyökeres."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, Japan. Koki Ogawa replaces Ayase Ueda."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Japan. Junya Ito replaces Ritsu Doan."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Sweden. Daniel Svensson replaces Alexander Bernhardsson."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Sweden. Ken Sema replaces Elliot Stroud."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Japan. Yuto Nagatomo replaces Keito Nakamura."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Japan. Tsuyoshi Watanabe replaces Ayumu Seko."
-    },
-    {
-     "type": "yellow",
-     "minute": "77'",
-     "team": "",
-     "text": "Shogo Taniguchi (Japan) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "85'",
-     "team": "",
-     "text": "Viktor Gyökeres (Sweden) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Sweden. Carl Starfelt replaces Victor Lindelöf because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "88'",
-     "team": "",
-     "text": "Substitution, Sweden. Benjamin Nygren replaces Gabriel Gudmundsson."
-    }
-   ]
-  },
-  {
-   "id": "760472",
-   "date": "2026-06-25T23:00Z",
-   "shortName": "NED @ TUN",
-   "state": "post",
-   "clock": "90'+5'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "TUN",
-     "name": "Tunisia",
-     "score": 1
-    },
-    {
-     "homeAway": "away",
-     "abbr": "NED",
-     "name": "Netherlands",
-     "score": 3
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "owngoal",
-     "minute": "3'",
-     "team": "",
-     "text": "Own Goal by Ellyes Skhiri, Tunisia. Tunisia 0, Netherlands 1."
-    },
-    {
-     "type": "goal",
-     "minute": "7'",
-     "team": "",
-     "text": "Goal! Tunisia 0, Netherlands 2. Brian Brobbey (Netherlands) right footed shot from the centre of the box to the top right corner. Assisted by Virgil van Dijk with a headed pass following a set piece situation."
-    },
-    {
-     "type": "goal",
-     "minute": "54'",
-     "team": "",
-     "text": "Goal! Tunisia 1, Netherlands 2. Hazem Mastouri (Tunisia) header from the centre of the box to the bottom left corner. Assisted by Hannibal Mejbri with a cross following a corner."
-    },
-    {
-     "type": "goal",
-     "minute": "62'",
-     "team": "",
-     "text": "Goal! Tunisia 1, Netherlands 3. Jan Paul van Hecke (Netherlands) header from the left side of the six yard box to the top right corner. Assisted by Tijjani Reijnders with a cross following a corner."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Tunisia. Hadj Mahmoud replaces Rani Khedira."
-    },
-    {
-     "type": "sub",
-     "minute": "68'",
-     "team": "",
-     "text": "Substitution, Tunisia. Elias Achouri replaces Anis Ben Slimane."
-    },
-    {
-     "type": "sub",
-     "minute": "68'",
-     "team": "",
-     "text": "Substitution, Tunisia. Mortadha Ben Ouanes replaces Mohamed Amine Ben Hmida."
-    },
-    {
-     "type": "sub",
-     "minute": "72'",
-     "team": "",
-     "text": "Substitution, Netherlands. Teun Koopmeiners replaces Frenkie de Jong."
-    },
-    {
-     "type": "sub",
-     "minute": "72'",
-     "team": "",
-     "text": "Substitution, Netherlands. Justin Kluivert replaces Tijjani Reijnders."
-    },
-    {
-     "type": "sub",
-     "minute": "72'",
-     "team": "",
-     "text": "Substitution, Netherlands. Crysencio Summerville replaces Donyell Malen."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Tunisia. Firas Chaouat replaces Ismaël Gharbi."
-    },
-    {
-     "type": "sub",
-     "minute": "77'",
-     "team": "",
-     "text": "Substitution, Netherlands. Memphis Depay replaces Brian Brobbey."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Netherlands. Noa Lang replaces Cody Gakpo."
-    },
-    {
-     "type": "sub",
-     "minute": "90'",
-     "team": "",
-     "text": "Substitution, Tunisia. Sebastian Tounekti replaces Hazem Mastouri."
-    }
-   ]
-  },
-  {
-   "id": "760469",
-   "date": "2026-06-26T02:00Z",
-   "shortName": "AUS @ PAR",
-   "state": "post",
-   "clock": "90'+5'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "PAR",
-     "name": "Paraguay",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "AUS",
-     "name": "Australia",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Paraguay. Mauricio replaces Alexandro Maidana."
-    },
-    {
-     "type": "yellow",
-     "minute": "46'",
-     "team": "",
-     "text": "Jackson Irvine (Australia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "58'",
-     "team": "",
-     "text": "Substitution, Australia. Ajdin Hrustic replaces Cristian Volpato."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Paraguay. Álex Arce replaces Gabriel Ávalos."
-    },
-    {
-     "type": "yellow",
-     "minute": "77'",
-     "team": "",
-     "text": "Diego Gómez (Paraguay) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Paraguay. José Canale replaces Omar Alderete because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Australia. Paul Okon-Engstler replaces Jackson Irvine."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Australia. Tete Yengi replaces Nestory Irankunda."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Substitution, Paraguay. Damián Bobadilla replaces Diego Gómez."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Substitution, Paraguay. Júnior Alonso replaces Matías Galarza."
-    }
-   ]
-  },
-  {
-   "id": "760470",
-   "date": "2026-06-26T02:00Z",
-   "shortName": "USA @ TUR",
-   "state": "post",
-   "clock": "90'+9'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "TUR",
-     "name": "Türkiye",
-     "score": 3
-    },
-    {
-     "homeAway": "away",
-     "abbr": "USA",
-     "name": "United States",
-     "score": 2
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "3'",
-     "team": "",
-     "text": "Goal! Türkiye 0, USA 1. Auston Trusty (USA) left footed shot from a difficult angle on the right to the bottom right corner. Assisted by Sebastian Berhalter with a cross following a corner."
-    },
-    {
-     "type": "goal",
-     "minute": "10'",
-     "team": "",
-     "text": "Goal! Türkiye 1, USA 1. Arda Güler (Türkiye) left footed shot from the centre of the box to the centre of the goal. Assisted by Baris Alper Yilmaz."
-    },
-    {
-     "type": "yellow",
-     "minute": "19'",
-     "team": "",
-     "text": "Sebastian Berhalter (USA) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "31'",
-     "team": "",
-     "text": "Goal! Türkiye 2, USA 1. Baris Alper Yilmaz (Türkiye) right footed shot from very close range to the bottom right corner. Assisted by Orkun Kökçü."
-    },
-    {
-     "type": "goal",
-     "minute": "49'",
-     "team": "",
-     "text": "Goal! Türkiye 2, USA 2. Sebastian Berhalter (USA) right footed shot from outside the box to the bottom left corner."
-    },
-    {
-     "type": "sub",
-     "minute": "58'",
-     "team": "",
-     "text": "Substitution, USA. Christian Pulisic replaces Timothy Weah."
-    },
-    {
-     "type": "sub",
-     "minute": "76'",
-     "team": "",
-     "text": "Substitution, USA. Sergiño Dest replaces Giovanni Reyna."
-    },
-    {
-     "type": "sub",
-     "minute": "77'",
-     "team": "",
-     "text": "Substitution, USA. Álex Zendejas replaces Brenden Aaronson."
-    },
-    {
-     "type": "sub",
-     "minute": "77'",
-     "team": "",
-     "text": "Substitution, USA. Alex Freeman replaces Joe Scally."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Türkiye. Çaglar Söyüncü replaces Zeki Çelik."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Türkiye. Can Uzun replaces Kenan Yildiz."
-    },
-    {
-     "type": "sub",
-     "minute": "86'",
-     "team": "",
-     "text": "Substitution, USA. Malik Tillman replaces Weston McKennie."
-    },
-    {
-     "type": "sub",
-     "minute": "88'",
-     "team": "",
-     "text": "Substitution, Türkiye. Kaan Ayhan replaces Orkun Kökçü."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Substitution, Türkiye. Mert Müldür replaces Oguz Aydin."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Substitution, Türkiye. Irfan Can Kahveci replaces Baris Alper Yilmaz."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+8'",
-     "team": "",
-     "text": "Goal! Türkiye 3, USA 2. Kaan Ayhan (Türkiye) right footed shot from very close range to the bottom right corner."
-    }
-   ]
-  },
   {
    "id": "760475",
    "date": "2026-06-26T19:00Z",
@@ -802,6 +136,144 @@
      "homeAway": "away",
      "abbr": "BEL",
      "name": "Belgium",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760480",
+   "date": "2026-06-27T21:00Z",
+   "shortName": "GHA @ CRO",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "CRO",
+     "name": "Croatia",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "GHA",
+     "name": "Ghana",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760485",
+   "date": "2026-06-27T21:00Z",
+   "shortName": "ENG @ PAN",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "PAN",
+     "name": "Panama",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "ENG",
+     "name": "England",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760481",
+   "date": "2026-06-27T23:30Z",
+   "shortName": "POR @ COL",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "COL",
+     "name": "Colombia",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "POR",
+     "name": "Portugal",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760482",
+   "date": "2026-06-27T23:30Z",
+   "shortName": "UZB @ COD",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "COD",
+     "name": "Congo DR",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "UZB",
+     "name": "Uzbekistan",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760484",
+   "date": "2026-06-28T02:00Z",
+   "shortName": "AUT @ ALG",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "ALG",
+     "name": "Algeria",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "AUT",
+     "name": "Austria",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760483",
+   "date": "2026-06-28T02:00Z",
+   "shortName": "ARG @ JOR",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "JOR",
+     "name": "Jordan",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "ARG",
+     "name": "Argentina",
      "score": 0
     }
    ],
