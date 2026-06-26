@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-26T18:13:53.344Z",
+ "updatedAt": "2026-06-26T20:11:30.576Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -7,38 +7,81 @@
    "id": "760475",
    "date": "2026-06-26T19:00Z",
    "shortName": "FRA @ NOR",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "47'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "NOR",
      "name": "Norway",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
      "abbr": "FRA",
      "name": "France",
-     "score": 0
+     "score": 3
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "7'",
+     "team": "",
+     "text": "Goal! Norway 0, France 1. Ousmane Dembélé (France) right footed shot from the right side of the box to the bottom left corner. Assisted by Kylian Mbappé."
+    },
+    {
+     "type": "yellow",
+     "minute": "10'",
+     "team": "",
+     "text": "Patrick Berg (Norway) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "20'",
+     "team": "",
+     "text": "Goal! Norway 0, France 2. Ousmane Dembélé (France) left footed shot from outside the box to the bottom left corner. Assisted by Kylian Mbappé following a fast break."
+    },
+    {
+     "type": "goal",
+     "minute": "21'",
+     "team": "",
+     "text": "Goal! Norway 1, France 2. Thelo Aasgaard (Norway) right footed shot from the centre of the box to the bottom left corner. Assisted by Andreas Schjelderup."
+    },
+    {
+     "type": "goal",
+     "minute": "32'",
+     "team": "",
+     "text": "Goal! Norway 1, France 3. Ousmane Dembélé (France) left footed shot from the centre of the box to the bottom left corner. Assisted by Aurélien Tchouaméni."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Norway. Morten Thorsby replaces Kristian Thorstvedt."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Norway. Marcus Pedersen replaces Fredrik Bjørkan."
+    }
+   ]
   },
   {
    "id": "760474",
    "date": "2026-06-26T19:00Z",
    "shortName": "IRQ @ SEN",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "45'+9'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "SEN",
      "name": "Senegal",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -47,7 +90,32 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "4'",
+     "team": "",
+     "text": "Goal! Senegal 1, Iraq 0. Habib Diarra (Senegal) right footed shot from very close range to the top right corner. Assisted by Abdoulaye Seck following a corner."
+    },
+    {
+     "type": "red",
+     "minute": "13'",
+     "team": "",
+     "text": "Rebin Sulaka (Iraq) is shown the red card."
+    },
+    {
+     "type": "sub",
+     "minute": "16'",
+     "team": "",
+     "text": "Substitution, Iraq. Munaf Younus replaces Ahmed Qasem."
+    },
+    {
+     "type": "yellow",
+     "minute": "18'",
+     "team": "",
+     "text": "Abdoulaye Seck (Senegal) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760478",
