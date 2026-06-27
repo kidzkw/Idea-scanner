@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-27T18:16:01.440Z",
+ "updatedAt": "2026-06-27T21:45:40.950Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -7,15 +7,15 @@
    "id": "760480",
    "date": "2026-06-27T21:00Z",
    "shortName": "GHA @ CRO",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "44'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "CRO",
      "name": "Croatia",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -24,15 +24,22 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "31'",
+     "team": "",
+     "text": "Goal! Croatia 1, Ghana 0. Petar Sucic (Croatia) right footed shot from outside the box to the bottom left corner. Assisted by Mateo Kovacic."
+    }
+   ]
   },
   {
    "id": "760485",
    "date": "2026-06-27T21:00Z",
    "shortName": "ENG @ PAN",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "44'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
