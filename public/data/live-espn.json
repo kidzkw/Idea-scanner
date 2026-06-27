@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-27T21:45:40.950Z",
+ "updatedAt": "2026-06-27T22:45:43.699Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -8,20 +8,20 @@
    "date": "2026-06-27T21:00Z",
    "shortName": "GHA @ CRO",
    "state": "in",
-   "clock": "44'",
-   "period": 1,
+   "clock": "84'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "CRO",
      "name": "Croatia",
-     "score": 1
+     "score": 2
     },
     {
      "homeAway": "away",
      "abbr": "GHA",
      "name": "Ghana",
-     "score": 0
+     "score": 1
     }
    ],
    "keyEvents": [
@@ -30,6 +30,60 @@
      "minute": "31'",
      "team": "",
      "text": "Goal! Croatia 1, Ghana 0. Petar Sucic (Croatia) right footed shot from outside the box to the bottom left corner. Assisted by Mateo Kovacic."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Ghana. Kojo Peprah Oppong replaces Jonas Adjetey."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Ghana. Abdul Fatawu replaces Elisha Owusu."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Croatia. Igor Matanovic replaces Ante Budimir."
+    },
+    {
+     "type": "yellow",
+     "minute": "68'",
+     "team": "",
+     "text": "Ivan Perisic (Croatia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Ghana. Brandon Thomas-Asante replaces Jordan Ayew."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Ghana. Ernest Nuamah replaces Kamaldeen Sulemana."
+    },
+    {
+     "type": "goal",
+     "minute": "73'",
+     "team": "",
+     "text": "Goal! Croatia 1, Ghana 1. Derrick Luckassen (Ghana) left footed shot from very close range to the bottom right corner. Assisted by Ernest Nuamah with a cross following a set piece situation.Goal awarded following VAR Review."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Croatia. Mario Pasalic replaces Mateo Kovacic."
+    },
+    {
+     "type": "goal",
+     "minute": "83'",
+     "team": "",
+     "text": "Goal! Croatia 2, Ghana 1. Nikola Vlasic (Croatia) header from the centre of the box to the bottom left corner. Assisted by Luka Modric with a cross following a corner."
     }
    ]
   },
@@ -38,8 +92,8 @@
    "date": "2026-06-27T21:00Z",
    "shortName": "ENG @ PAN",
    "state": "in",
-   "clock": "44'",
-   "period": 1,
+   "clock": "86'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -51,10 +105,89 @@
      "homeAway": "away",
      "abbr": "ENG",
      "name": "England",
-     "score": 0
+     "score": 2
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Panama. José Fajardo replaces Tomás Rodríguez."
+    },
+    {
+     "type": "yellow",
+     "minute": "53'",
+     "team": "",
+     "text": "José Fajardo (Panama) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "60'",
+     "team": "",
+     "text": "Jarell Quansah (England) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "62'",
+     "team": "",
+     "text": "Goal! Panama 0, England 1. Jude Bellingham (England) left footed shot from the centre of the box to the bottom left corner. Assisted by Bukayo Saka with a cross following a corner."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, England. Djed Spence replaces Jarell Quansah."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, England. Noni Madueke replaces Bukayo Saka."
+    },
+    {
+     "type": "goal",
+     "minute": "67'",
+     "team": "",
+     "text": "Goal! Panama 0, England 2. Harry Kane (England) header from the centre of the box to the top left corner. Assisted by Jude Bellingham with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Panama. Ismael Díaz replaces Yoel Bárcenas."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, England. Eberechi Eze replaces Jude Bellingham."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Panama. Azarías Londoño replaces José Luis Rodríguez."
+    },
+    {
+     "type": "yellow",
+     "minute": "84'",
+     "team": "",
+     "text": "Andrés Andrade (Panama) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, England. Jordan Henderson replaces Elliot Anderson."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, England. Ollie Watkins replaces Harry Kane."
+    }
+   ]
   },
   {
    "id": "760481",
