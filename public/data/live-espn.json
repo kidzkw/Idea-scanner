@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-26T21:40:21.696Z",
+ "updatedAt": "2026-06-27T01:47:33.261Z",
  "source": "espn:site.api.espn.com",
  "count": 12,
  "events": [
@@ -191,7 +191,7 @@
      "type": "goal",
      "minute": "56'",
      "team": "",
-     "text": "Goal! Senegal 2, Iraq 0. Ismaïla Sarr (Senegal) right footed shot from very close range to the high centre of the goal. Assisted by Lamine Camara."
+     "text": "Goal! Senegal 2, Iraq 0. Ismaïla Sarr (Senegal) right footed shot from very close range to the top left corner. Assisted by Lamine Camara."
     },
     {
      "type": "sub",
@@ -283,9 +283,9 @@
    "id": "760478",
    "date": "2026-06-27T00:00Z",
    "shortName": "KSA @ CPV",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "84'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -300,15 +300,88 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "4'",
+     "team": "",
+     "text": "Saud Abdulhamid (Saudi Arabia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "9'",
+     "team": "",
+     "text": "Wagner Pina (Cabo Verde) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "33'",
+     "team": "",
+     "text": "Substitution, Saudi Arabia. Ali Lajami replaces Hassan Al Tambakti because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Saudi Arabia. Musab Al Juwayr replaces Abdullah Al Khaibari."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Nuno da Costa replaces Dailon Livramento."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Hélio Varela replaces Willy Semedo."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Saudi Arabia. Mohammed Abu Al Shamat replaces Salem Al Dawsari."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Saudi Arabia. Abdullah Al Hamddan replaces Sultan Mandash."
+    },
+    {
+     "type": "yellow",
+     "minute": "67'",
+     "team": "",
+     "text": "Nasser Al Dawsari (Saudi Arabia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Laros Duarte replaces Jamiro Monteiro."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Garry Rodrigues replaces Ryan Mendes."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Saudi Arabia. Moteb Al Harbi replaces Nawaf Bu Washl."
+    }
+   ]
   },
   {
    "id": "760479",
    "date": "2026-06-27T00:00Z",
    "shortName": "ESP @ URU",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "83'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -320,10 +393,89 @@
      "homeAway": "away",
      "abbr": "ESP",
      "name": "Spain",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "42'",
+     "team": "",
+     "text": "Goal! Uruguay 0, Spain 1. Álex Baena (Spain) right footed shot from the centre of the box to the bottom left corner. Assisted by Marcos Llorente with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Uruguay. Nicolás de la Cruz replaces Manuel Ugarte because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Uruguay. Sergio Rochet replaces Fernando Muslera."
+    },
+    {
+     "type": "yellow",
+     "minute": "46'",
+     "team": "",
+     "text": "Álex Baena (Spain) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "54'",
+     "team": "",
+     "text": "Juan Manuel Sanabria (Uruguay) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "57'",
+     "team": "",
+     "text": "Substitution, Uruguay. Federico Viñas replaces Federico Valverde."
+    },
+    {
+     "type": "yellow",
+     "minute": "58'",
+     "team": "",
+     "text": "Guillermo Varela (Uruguay) is shown the yellow card."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Spain. Fabián Ruiz replaces Pedri."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Spain. Dani Olmo replaces Mikel Merino."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Spain. Yéremy Pino replaces Álex Baena."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Uruguay. Brian Rodríguez replaces Juan Manuel Sanabria."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Spain. Nico Williams replaces Lamine Yamal."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Spain. Ferran Torres replaces Mikel Oyarzabal."
+    }
+   ]
   },
   {
    "id": "760476",
