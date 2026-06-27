@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-27T22:49:04.040Z",
+ "updatedAt": "2026-06-27T22:49:35.381Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -8,7 +8,7 @@
    "date": "2026-06-27T21:00Z",
    "shortName": "GHA @ CRO",
    "state": "in",
-   "clock": "87'",
+   "clock": "88'",
    "period": 2,
    "competitors": [
     {
@@ -95,7 +95,13 @@
      "type": "sub",
      "minute": "88'",
      "team": "",
-     "text": "Marco Pasalic (Croatia) Substitution at 88'"
+     "text": "Substitution, Croatia. Marco Pasalic replaces Martin Baturina."
+    },
+    {
+     "type": "sub",
+     "minute": "88'",
+     "team": "",
+     "text": "Josko Gvardiol (Croatia) Substitution at 88'"
     }
    ]
   },
@@ -104,7 +110,7 @@
    "date": "2026-06-27T21:00Z",
    "shortName": "ENG @ PAN",
    "state": "in",
-   "clock": "90'",
+   "clock": "90'+1'",
    "period": 2,
    "competitors": [
     {
