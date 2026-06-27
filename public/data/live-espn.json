@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-27T22:45:43.699Z",
+ "updatedAt": "2026-06-27T22:45:59.927Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -84,6 +84,12 @@
      "minute": "83'",
      "team": "",
      "text": "Goal! Croatia 2, Ghana 1. Nikola Vlasic (Croatia) header from the centre of the box to the bottom left corner. Assisted by Luka Modric with a cross following a corner."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Caleb Yirenkyi (Ghana) Substitution at 85'"
     }
    ]
   },
