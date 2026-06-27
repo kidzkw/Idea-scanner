@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-27T22:49:35.381Z",
+ "updatedAt": "2026-06-27T23:44:08.640Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -7,8 +7,8 @@
    "id": "760480",
    "date": "2026-06-27T21:00Z",
    "shortName": "GHA @ CRO",
-   "state": "in",
-   "clock": "88'",
+   "state": "post",
+   "clock": "90'+8'",
    "period": 2,
    "competitors": [
     {
@@ -95,13 +95,19 @@
      "type": "sub",
      "minute": "88'",
      "team": "",
-     "text": "Substitution, Croatia. Marco Pasalic replaces Martin Baturina."
+     "text": "Substitution, Croatia. Josko Gvardiol replaces Nikola Vlasic."
     },
     {
      "type": "sub",
      "minute": "88'",
      "team": "",
-     "text": "Josko Gvardiol (Croatia) Substitution at 88'"
+     "text": "Substitution, Croatia. Marco Pasalic replaces Martin Baturina."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+4'",
+     "team": "",
+     "text": "Kojo Peprah Oppong (Ghana) is shown the yellow card for a bad foul."
     }
    ]
   },
@@ -109,8 +115,8 @@
    "id": "760485",
    "date": "2026-06-27T21:00Z",
    "shortName": "ENG @ PAN",
-   "state": "in",
-   "clock": "90'+1'",
+   "state": "post",
+   "clock": "90'+6'",
    "period": 2,
    "competitors": [
     {
@@ -223,9 +229,9 @@
    "id": "760481",
    "date": "2026-06-27T23:30Z",
    "shortName": "POR @ COL",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "13'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -246,9 +252,9 @@
    "id": "760482",
    "date": "2026-06-27T23:30Z",
    "shortName": "UZB @ COD",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "12'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -260,10 +266,17 @@
      "homeAway": "away",
      "abbr": "UZB",
      "name": "Uzbekistan",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "10'",
+     "team": "",
+     "text": "Goal! Congo DR 0, Uzbekistan 1. Eldor Shomurodov (Uzbekistan) left footed shot from the left side of the box to the top right corner. Assisted by Abbosbek Fayzullaev."
+    }
+   ]
   },
   {
    "id": "760484",
