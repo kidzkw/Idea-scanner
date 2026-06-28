@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-28T18:00:00.416Z",
+ "updatedAt": "2026-06-28T19:16:43.791Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -7,9 +7,9 @@
    "id": "760486",
    "date": "2026-06-28T19:00Z",
    "shortName": "CAN @ RSA",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "16'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
