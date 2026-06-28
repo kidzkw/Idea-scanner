@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-27T23:44:08.640Z",
+ "updatedAt": "2026-06-28T01:53:43.173Z",
  "source": "espn:site.api.espn.com",
  "count": 7,
  "events": [
@@ -161,7 +161,7 @@
      "type": "sub",
      "minute": "63'",
      "team": "",
-     "text": "Substitution, England. Djed Spence replaces Jarell Quansah."
+     "text": "Substitution, England. Djed Spence replaces Jarell Quansah because of an injury."
     },
     {
      "type": "sub",
@@ -179,13 +179,13 @@
      "type": "sub",
      "minute": "71'",
      "team": "",
-     "text": "Substitution, Panama. Ismael Díaz replaces Yoel Bárcenas."
+     "text": "Substitution, England. Eberechi Eze replaces Jude Bellingham."
     },
     {
      "type": "sub",
      "minute": "71'",
      "team": "",
-     "text": "Substitution, England. Eberechi Eze replaces Jude Bellingham."
+     "text": "Substitution, Panama. Ismael Díaz replaces Yoel Bárcenas."
     },
     {
      "type": "sub",
@@ -229,9 +229,9 @@
    "id": "760481",
    "date": "2026-06-27T23:30Z",
    "shortName": "POR @ COL",
-   "state": "in",
-   "clock": "13'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+6'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -246,21 +246,88 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Portugal. Diogo Dalot replaces João Cancelo."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Portugal. João Neves replaces Rúben Neves."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Colombia. Richard Ríos replaces Jefferson Lerma."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Colombia. Luis Suárez replaces Jhon Córdoba."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Portugal. Rafael Leão replaces João Félix."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Portugal. Samú Costa replaces Vitinha."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Colombia. Kevin Castaño replaces Jhon Arias."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Colombia. Juan Fernando Quintero replaces James Rodríguez."
+    },
+    {
+     "type": "yellow",
+     "minute": "86'",
+     "team": "",
+     "text": "Gustavo Puerta (Colombia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Colombia. Daniel Muñoz replaces Santiago Arias."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Substitution, Portugal. Matheus Nunes replaces Nuno Mendes."
+    }
+   ]
   },
   {
    "id": "760482",
    "date": "2026-06-27T23:30Z",
    "shortName": "UZB @ COD",
-   "state": "in",
-   "clock": "12'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+8'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "COD",
      "name": "Congo DR",
-     "score": 0
+     "score": 3
     },
     {
      "homeAway": "away",
@@ -274,7 +341,115 @@
      "type": "goal",
      "minute": "10'",
      "team": "",
-     "text": "Goal! Congo DR 0, Uzbekistan 1. Eldor Shomurodov (Uzbekistan) left footed shot from the left side of the box to the top right corner. Assisted by Abbosbek Fayzullaev."
+     "text": "Goal! Congo DR 0, Uzbekistan 1. Eldor Shomurodov (Uzbekistan) left footed shot from the left side of the box to the top right corner. Assisted by Akmal Mozgovoy."
+    },
+    {
+     "type": "yellow",
+     "minute": "21'",
+     "team": "",
+     "text": "Noah Sadiki (Congo DR) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "43'",
+     "team": "",
+     "text": "Abdukodir Khusanov (Uzbekistan) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "45'+5'",
+     "team": "",
+     "text": "Nathanaël Mbuku (Congo DR) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "48'",
+     "team": "",
+     "text": "Sherzod Nasrullaev (Uzbekistan) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "51'",
+     "team": "",
+     "text": "Substitution, Congo DR. Fiston Mayele replaces Cédric Bakambu."
+    },
+    {
+     "type": "sub",
+     "minute": "59'",
+     "team": "",
+     "text": "Substitution, Uzbekistan. Odiljon Khamrobekov replaces Otabek Shukurov."
+    },
+    {
+     "type": "sub",
+     "minute": "59'",
+     "team": "",
+     "text": "Substitution, Uzbekistan. Aziz G'aniev replaces Dostonbek Khamdamov."
+    },
+    {
+     "type": "yellow",
+     "minute": "62'",
+     "team": "",
+     "text": "Samuel Moutoussamy (Congo DR) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "penalty",
+     "minute": "68'",
+     "team": "",
+     "text": "Goal! Congo DR 1, Uzbekistan 1. Yoane Wissa (Congo DR) converts the penalty with a right footed shot to the bottom right corner."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Congo DR. Meschack Elia replaces Nathanaël Mbuku."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Congo DR. Théo Bongonda replaces Brian Cipenga."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, Congo DR. Ngal'ayel Mukau replaces Samuel Moutoussamy."
+    },
+    {
+     "type": "sub",
+     "minute": "73'",
+     "team": "",
+     "text": "Substitution, Uzbekistan. Oston Urunov replaces Abbosbek Fayzullaev."
+    },
+    {
+     "type": "goal",
+     "minute": "78'",
+     "team": "",
+     "text": "Goal! Congo DR 2, Uzbekistan 1. Fiston Mayele (Congo DR) right footed shot from very close range to the top left corner following a fast break."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Uzbekistan. Jamshid Iskanderov replaces Akmal Mozgovoy."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Uzbekistan. Igor Sergeev replaces Jakhongir Urozov."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Goal! Congo DR 3, Uzbekistan 1. Yoane Wissa (Congo DR) right footed shot from outside the box to the bottom right corner. Assisted by Meschack Elia."
     }
    ]
   },
