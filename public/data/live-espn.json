@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-28T20:38:09.387Z",
+ "updatedAt": "2026-06-28T21:44:30.931Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -7,8 +7,8 @@
    "id": "760486",
    "date": "2026-06-28T19:00Z",
    "shortName": "CAN @ RSA",
-   "state": "in",
-   "clock": "77'",
+   "state": "post",
+   "clock": "90'+6'",
    "period": 2,
    "competitors": [
     {
@@ -21,7 +21,7 @@
      "homeAway": "away",
      "abbr": "CAN",
      "name": "Canada",
-     "score": 0
+     "score": 1
     }
    ],
    "keyEvents": [
@@ -72,6 +72,24 @@
      "minute": "75'",
      "team": "",
      "text": "Substitution, Canada. Alphonso Davies replaces Tajon Buchanan."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, South Africa. Iqraam Rayners replaces Evidence Makgopa."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, South Africa. Tshepang Moremi replaces Thapelo Maseko."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+2'",
+     "team": "",
+     "text": "Goal! South Africa 0, Canada 1. Stephen Eustaquio (Canada) right footed shot from outside the box to the bottom left corner."
     }
    ]
   },
