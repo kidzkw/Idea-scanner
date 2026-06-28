@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-28T19:16:43.791Z",
+ "updatedAt": "2026-06-28T20:38:09.387Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -8,8 +8,8 @@
    "date": "2026-06-28T19:00Z",
    "shortName": "CAN @ RSA",
    "state": "in",
-   "clock": "16'",
-   "period": 1,
+   "clock": "77'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -24,7 +24,56 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, South Africa. Thalente Mbatha replaces Relebohile Mofokeng."
+    },
+    {
+     "type": "yellow",
+     "minute": "54'",
+     "team": "",
+     "text": "Nathan Saliba (Canada) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "59'",
+     "team": "",
+     "text": "Substitution, Canada. Niko Sigur replaces Nathan Saliba."
+    },
+    {
+     "type": "sub",
+     "minute": "59'",
+     "team": "",
+     "text": "Substitution, Canada. Luc De Fougerolles replaces Moïse Bombito."
+    },
+    {
+     "type": "yellow",
+     "minute": "67'",
+     "team": "",
+     "text": "Niko Sigur (Canada) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Canada. Promise David replaces Tani Oluwaseyi."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Canada. Jacob Shaffelburg replaces Liam Millar."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Canada. Alphonso Davies replaces Tajon Buchanan."
+    }
+   ]
   },
   {
    "id": "760487",
