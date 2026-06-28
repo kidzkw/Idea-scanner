@@ -1,704 +1,8 @@
 {
- "updatedAt": "2026-06-28T06:08:19.286Z",
+ "updatedAt": "2026-06-28T18:00:00.416Z",
  "source": "espn:site.api.espn.com",
- "count": 7,
+ "count": 4,
  "events": [
-  {
-   "id": "760480",
-   "date": "2026-06-27T21:00Z",
-   "shortName": "GHA @ CRO",
-   "state": "post",
-   "clock": "90'+8'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "CRO",
-     "name": "Croatia",
-     "score": 2
-    },
-    {
-     "homeAway": "away",
-     "abbr": "GHA",
-     "name": "Ghana",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "31'",
-     "team": "",
-     "text": "Goal! Croatia 1, Ghana 0. Petar Sucic (Croatia) right footed shot from outside the box to the bottom left corner. Assisted by Mateo Kovacic."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Ghana. Kojo Peprah Oppong replaces Jonas Adjetey."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Ghana. Abdul Fatawu replaces Elisha Owusu."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, Croatia. Igor Matanovic replaces Ante Budimir."
-    },
-    {
-     "type": "yellow",
-     "minute": "68'",
-     "team": "",
-     "text": "Ivan Perisic (Croatia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Ghana. Brandon Thomas-Asante replaces Jordan Ayew."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Ghana. Ernest Nuamah replaces Kamaldeen Sulemana."
-    },
-    {
-     "type": "goal",
-     "minute": "73'",
-     "team": "",
-     "text": "Goal! Croatia 1, Ghana 1. Derrick Luckassen (Ghana) left footed shot from very close range to the bottom right corner. Assisted by Ernest Nuamah with a cross following a set piece situation.Goal awarded following VAR Review."
-    },
-    {
-     "type": "sub",
-     "minute": "78'",
-     "team": "",
-     "text": "Substitution, Croatia. Mario Pasalic replaces Mateo Kovacic."
-    },
-    {
-     "type": "goal",
-     "minute": "83'",
-     "team": "",
-     "text": "Goal! Croatia 2, Ghana 1. Nikola Vlasic (Croatia) header from the centre of the box to the bottom left corner. Assisted by Luka Modric with a cross following a corner."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, Ghana. Caleb Yirenkyi replaces Kwasi Sibo."
-    },
-    {
-     "type": "sub",
-     "minute": "88'",
-     "team": "",
-     "text": "Substitution, Croatia. Josko Gvardiol replaces Nikola Vlasic."
-    },
-    {
-     "type": "sub",
-     "minute": "88'",
-     "team": "",
-     "text": "Substitution, Croatia. Marco Pasalic replaces Martin Baturina."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+4'",
-     "team": "",
-     "text": "Kojo Peprah Oppong (Ghana) is shown the yellow card for a bad foul."
-    }
-   ]
-  },
-  {
-   "id": "760485",
-   "date": "2026-06-27T21:00Z",
-   "shortName": "ENG @ PAN",
-   "state": "post",
-   "clock": "90'+6'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "PAN",
-     "name": "Panama",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "ENG",
-     "name": "England",
-     "score": 2
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Panama. José Fajardo replaces Tomás Rodríguez."
-    },
-    {
-     "type": "yellow",
-     "minute": "53'",
-     "team": "",
-     "text": "José Fajardo (Panama) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "60'",
-     "team": "",
-     "text": "Jarell Quansah (England) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "62'",
-     "team": "",
-     "text": "Goal! Panama 0, England 1. Jude Bellingham (England) left footed shot from the centre of the box to the bottom left corner. Assisted by Bukayo Saka with a cross following a corner."
-    },
-    {
-     "type": "sub",
-     "minute": "63'",
-     "team": "",
-     "text": "Substitution, England. Djed Spence replaces Jarell Quansah because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "63'",
-     "team": "",
-     "text": "Substitution, England. Noni Madueke replaces Bukayo Saka."
-    },
-    {
-     "type": "goal",
-     "minute": "67'",
-     "team": "",
-     "text": "Goal! Panama 0, England 2. Harry Kane (England) header from the centre of the box to the top left corner. Assisted by Jude Bellingham with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, England. Eberechi Eze replaces Jude Bellingham."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Panama. Ismael Díaz replaces Yoel Bárcenas."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Panama. Azarías Londoño replaces José Luis Rodríguez."
-    },
-    {
-     "type": "yellow",
-     "minute": "84'",
-     "team": "",
-     "text": "Andrés Andrade (Panama) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, England. Jordan Henderson replaces Elliot Anderson."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, England. Ollie Watkins replaces Harry Kane."
-    },
-    {
-     "type": "sub",
-     "minute": "88'",
-     "team": "",
-     "text": "Substitution, Panama. Alberto Quintero replaces Carlos Harvey."
-    },
-    {
-     "type": "sub",
-     "minute": "88'",
-     "team": "",
-     "text": "Substitution, Panama. Éric Davis replaces Jorge Gutiérrez."
-    }
-   ]
-  },
-  {
-   "id": "760481",
-   "date": "2026-06-27T23:30Z",
-   "shortName": "POR @ COL",
-   "state": "post",
-   "clock": "90'+6'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "COL",
-     "name": "Colombia",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "POR",
-     "name": "Portugal",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Portugal. Diogo Dalot replaces João Cancelo."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Portugal. João Neves replaces Rúben Neves."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Colombia. Richard Ríos replaces Jefferson Lerma."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Colombia. Luis Suárez replaces Jhon Córdoba."
-    },
-    {
-     "type": "sub",
-     "minute": "70'",
-     "team": "",
-     "text": "Substitution, Portugal. Rafael Leão replaces João Félix."
-    },
-    {
-     "type": "sub",
-     "minute": "70'",
-     "team": "",
-     "text": "Substitution, Portugal. Samú Costa replaces Vitinha."
-    },
-    {
-     "type": "sub",
-     "minute": "76'",
-     "team": "",
-     "text": "Substitution, Colombia. Kevin Castaño replaces Jhon Arias."
-    },
-    {
-     "type": "sub",
-     "minute": "76'",
-     "team": "",
-     "text": "Substitution, Colombia. Juan Fernando Quintero replaces James Rodríguez."
-    },
-    {
-     "type": "yellow",
-     "minute": "86'",
-     "team": "",
-     "text": "Gustavo Puerta (Colombia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Colombia. Daniel Muñoz replaces Santiago Arias."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Substitution, Portugal. Matheus Nunes replaces Nuno Mendes."
-    }
-   ]
-  },
-  {
-   "id": "760482",
-   "date": "2026-06-27T23:30Z",
-   "shortName": "UZB @ COD",
-   "state": "post",
-   "clock": "90'+8'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "COD",
-     "name": "Congo DR",
-     "score": 3
-    },
-    {
-     "homeAway": "away",
-     "abbr": "UZB",
-     "name": "Uzbekistan",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "10'",
-     "team": "",
-     "text": "Goal! Congo DR 0, Uzbekistan 1. Eldor Shomurodov (Uzbekistan) left footed shot from the left side of the box to the top right corner. Assisted by Akmal Mozgovoy."
-    },
-    {
-     "type": "yellow",
-     "minute": "21'",
-     "team": "",
-     "text": "Noah Sadiki (Congo DR) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "43'",
-     "team": "",
-     "text": "Abdukodir Khusanov (Uzbekistan) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "45'+5'",
-     "team": "",
-     "text": "Nathanaël Mbuku (Congo DR) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "48'",
-     "team": "",
-     "text": "Sherzod Nasrullaev (Uzbekistan) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "51'",
-     "team": "",
-     "text": "Substitution, Congo DR. Fiston Mayele replaces Cédric Bakambu."
-    },
-    {
-     "type": "sub",
-     "minute": "59'",
-     "team": "",
-     "text": "Substitution, Uzbekistan. Odiljon Khamrobekov replaces Otabek Shukurov."
-    },
-    {
-     "type": "sub",
-     "minute": "59'",
-     "team": "",
-     "text": "Substitution, Uzbekistan. Aziz G'aniev replaces Dostonbek Khamdamov."
-    },
-    {
-     "type": "yellow",
-     "minute": "62'",
-     "team": "",
-     "text": "Samuel Moutoussamy (Congo DR) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "penalty",
-     "minute": "68'",
-     "team": "",
-     "text": "Goal! Congo DR 1, Uzbekistan 1. Yoane Wissa (Congo DR) converts the penalty with a right footed shot to the bottom right corner."
-    },
-    {
-     "type": "sub",
-     "minute": "72'",
-     "team": "",
-     "text": "Substitution, Congo DR. Meschack Elia replaces Nathanaël Mbuku."
-    },
-    {
-     "type": "sub",
-     "minute": "72'",
-     "team": "",
-     "text": "Substitution, Congo DR. Théo Bongonda replaces Brian Cipenga."
-    },
-    {
-     "type": "sub",
-     "minute": "72'",
-     "team": "",
-     "text": "Substitution, Congo DR. Ngal'ayel Mukau replaces Samuel Moutoussamy."
-    },
-    {
-     "type": "sub",
-     "minute": "73'",
-     "team": "",
-     "text": "Substitution, Uzbekistan. Oston Urunov replaces Abbosbek Fayzullaev."
-    },
-    {
-     "type": "goal",
-     "minute": "78'",
-     "team": "",
-     "text": "Goal! Congo DR 2, Uzbekistan 1. Fiston Mayele (Congo DR) right footed shot from very close range to the top left corner."
-    },
-    {
-     "type": "sub",
-     "minute": "82'",
-     "team": "",
-     "text": "Substitution, Uzbekistan. Jamshid Iskanderov replaces Akmal Mozgovoy."
-    },
-    {
-     "type": "sub",
-     "minute": "82'",
-     "team": "",
-     "text": "Substitution, Uzbekistan. Igor Sergeev replaces Jakhongir Urozov."
-    },
-    {
-     "type": "sub",
-     "minute": "83'",
-     "team": "",
-     "text": "Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+1'",
-     "team": "",
-     "text": "Goal! Congo DR 3, Uzbekistan 1. Yoane Wissa (Congo DR) right footed shot from outside the box to the bottom right corner. Assisted by Meschack Elia."
-    }
-   ]
-  },
-  {
-   "id": "760484",
-   "date": "2026-06-28T02:00Z",
-   "shortName": "AUT @ ALG",
-   "state": "post",
-   "clock": "90'+7'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "ALG",
-     "name": "Algeria",
-     "score": 3
-    },
-    {
-     "homeAway": "away",
-     "abbr": "AUT",
-     "name": "Austria",
-     "score": 3
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "11'",
-     "team": "",
-     "text": "Marko Arnautovic (Austria) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "28'",
-     "team": "",
-     "text": "Goal! Algeria 0, Austria 1. Marko Arnautovic (Austria) right footed shot from the centre of the box to the bottom right corner. Assisted by David Alaba with a through ball."
-    },
-    {
-     "type": "goal",
-     "minute": "45'",
-     "team": "",
-     "text": "Goal! Algeria 1, Austria 1. Rafik Belghali (Algeria) left footed shot from the centre of the box to the top right corner."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Austria. Michael Gregoritsch replaces Marko Arnautovic."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Austria. Florian Grillitsch replaces Xaver Schlager."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Austria. Paul Wanner replaces Romano Schmid."
-    },
-    {
-     "type": "goal",
-     "minute": "55'",
-     "team": "",
-     "text": "Goal! Algeria 1, Austria 2. Marcel Sabitzer (Austria) right footed shot from outside the box to the top right corner. Assisted by Konrad Laimer."
-    },
-    {
-     "type": "goal",
-     "minute": "60'",
-     "team": "",
-     "text": "Goal! Algeria 2, Austria 2. Riyad Mahrez (Algeria) left footed shot from the centre of the box to the top right corner. Assisted by Houssem Aouar."
-    },
-    {
-     "type": "sub",
-     "minute": "62'",
-     "team": "",
-     "text": "Substitution, Austria. Kevin Danso replaces David Alaba."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Algeria. Rayan Aït-Nouri replaces Jaouen Hadjam."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Algeria. Zineddine Belaïd replaces Amine Gouiri."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Algeria. Samir Chergui replaces Rafik Belghali."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Goal! Algeria 3, Austria 2. Riyad Mahrez (Algeria) right footed shot from the centre of the box to the bottom left corner. Assisted by Houssem Aouar with a through ball."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+4'",
-     "team": "",
-     "text": "Substitution, Algeria. Farès Ghedjemis replaces Houssem Aouar."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+5'",
-     "team": "",
-     "text": "Substitution, Austria. Sasa Kalajdzic replaces Phillipp Mwene."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+6'",
-     "team": "",
-     "text": "Goal! Algeria 3, Austria 3. Sasa Kalajdzic (Austria) header from the centre of the box to the bottom right corner. Assisted by Michael Gregoritsch with a headed pass."
-    }
-   ]
-  },
-  {
-   "id": "760483",
-   "date": "2026-06-28T02:00Z",
-   "shortName": "ARG @ JOR",
-   "state": "post",
-   "clock": "90'+6'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "JOR",
-     "name": "Jordan",
-     "score": 1
-    },
-    {
-     "homeAway": "away",
-     "abbr": "ARG",
-     "name": "Argentina",
-     "score": 3
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "17'",
-     "team": "",
-     "text": "Mohannad Abu Taha (Jordan) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "19'",
-     "team": "",
-     "text": "Goal! Jordan 0, Argentina 1. Giovani Lo Celso (Argentina) from a free kick with a left footed shot to the top left corner."
-    },
-    {
-     "type": "penalty",
-     "minute": "31'",
-     "team": "",
-     "text": "Goal! Jordan 0, Argentina 2. Lautaro Martínez (Argentina) converts the penalty with a right footed shot to the bottom left corner."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Jordan. Mahmoud Al Mardi replaces Odeh Fakhoury."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Jordan. Mousa Al Tamari replaces Ali Azaizeh."
-    },
-    {
-     "type": "goal",
-     "minute": "55'",
-     "team": "",
-     "text": "Goal! Jordan 1, Argentina 2. Mousa Al Tamari (Jordan) left footed shot from the centre of the box to the top left corner. Assisted by Ehsan Haddad with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Argentina. Thiago Almada replaces Giovani Lo Celso."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Argentina. Lionel Messi replaces Lautaro Martínez."
-    },
-    {
-     "type": "sub",
-     "minute": "61'",
-     "team": "",
-     "text": "Substitution, Argentina. Alexis Mac Allister replaces Nico Paz."
-    },
-    {
-     "type": "yellow",
-     "minute": "64'",
-     "team": "",
-     "text": "Yazan Al Arab (Jordan) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Argentina. Valentín Barco replaces Giuliano Simeone."
-    },
-    {
-     "type": "sub",
-     "minute": "76'",
-     "team": "",
-     "text": "Substitution, Jordan. Amer Jamous replaces Nizar Al Rashdan."
-    },
-    {
-     "type": "goal",
-     "minute": "80'",
-     "team": "",
-     "text": "Goal! Jordan 1, Argentina 3. Lionel Messi (Argentina) from a free kick with a left footed shot to the centre of the goal."
-    },
-    {
-     "type": "sub",
-     "minute": "82'",
-     "team": "",
-     "text": "Substitution, Argentina. José Manuel López replaces Julián Alvarez."
-    },
-    {
-     "type": "sub",
-     "minute": "90'",
-     "team": "",
-     "text": "Substitution, Jordan. Mohammad Abu Zraiq replaces Ali Olwan."
-    },
-    {
-     "type": "sub",
-     "minute": "90'",
-     "team": "",
-     "text": "Substitution, Jordan. Saleem Obaid replaces Husam Abu Dahab because of an injury."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+4'",
-     "team": "",
-     "text": "Mohammad Abu Zraiq (Jordan) is shown the yellow card for a bad foul."
-    }
-   ]
-  },
   {
    "id": "760486",
    "date": "2026-06-28T19:00Z",
@@ -717,6 +21,75 @@
      "homeAway": "away",
      "abbr": "CAN",
      "name": "Canada",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760487",
+   "date": "2026-06-29T17:00Z",
+   "shortName": "JPN @ BRA",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "BRA",
+     "name": "Brazil",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "JPN",
+     "name": "Japan",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760489",
+   "date": "2026-06-29T20:30Z",
+   "shortName": "PAR @ GER",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "GER",
+     "name": "Germany",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "PAR",
+     "name": "Paraguay",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760488",
+   "date": "2026-06-30T01:00Z",
+   "shortName": "MAR @ NED",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "NED",
+     "name": "Netherlands",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "MAR",
+     "name": "Morocco",
      "score": 0
     }
    ],
