@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-29T18:00:01.523Z",
+ "updatedAt": "2026-06-29T19:59:31.494Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -7,15 +7,15 @@
    "id": "760487",
    "date": "2026-06-29T17:00Z",
    "shortName": "JPN @ BRA",
-   "state": "in",
-   "clock": "45'+4'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+11'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "BRA",
      "name": "Brazil",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
@@ -48,6 +48,84 @@
      "minute": "45'",
      "team": "",
      "text": "Daichi Kamada (Japan) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Brazil. Endrick replaces Lucas Paquetá because of an injury."
+    },
+    {
+     "type": "yellow",
+     "minute": "48'",
+     "team": "",
+     "text": "Danilo (Brazil) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "56'",
+     "team": "",
+     "text": "Goal! Brazil 1, Japan 1. Casemiro (Brazil) header from the right side of the six yard box to the high centre of the goal. Assisted by Gabriel Magalhães with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Brazil. Gabriel Martinelli replaces Matheus Cunha."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Japan. Junnosuke Suzuki replaces Keito Nakamura."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Japan. Yukinari Sugawara replaces Ritsu Doan."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Japan. Shuto Machino replaces Junya Ito."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Japan. Ao Tanaka replaces Daichi Kamada."
+    },
+    {
+     "type": "yellow",
+     "minute": "84'",
+     "team": "",
+     "text": "Junnosuke Suzuki (Japan) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Substitution, Brazil. Fabinho replaces Casemiro because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+5'",
+     "team": "",
+     "text": "Goal! Brazil 2, Japan 1. Gabriel Martinelli (Brazil) right footed shot from the centre of the box to the bottom right corner. Assisted by Bruno Guimarães."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+7'",
+     "team": "",
+     "text": "Substitution, Japan. Koki Ogawa replaces Daizen Maeda."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+8'",
+     "team": "",
+     "text": "Substitution, Brazil. Danilo Santos replaces Bruno Guimarães."
     }
    ]
   },
