@@ -1,98 +1,8 @@
 {
- "updatedAt": "2026-06-29T17:57:42.128Z",
+ "updatedAt": "2026-06-29T18:00:01.523Z",
  "source": "espn:site.api.espn.com",
- "count": 4,
+ "count": 6,
  "events": [
-  {
-   "id": "760486",
-   "date": "2026-06-28T19:00Z",
-   "shortName": "CAN @ RSA",
-   "state": "post",
-   "clock": "90'+6'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "RSA",
-     "name": "South Africa",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "CAN",
-     "name": "Canada",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, South Africa. Thalente Mbatha replaces Relebohile Mofokeng."
-    },
-    {
-     "type": "yellow",
-     "minute": "54'",
-     "team": "",
-     "text": "Nathan Saliba (Canada) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "59'",
-     "team": "",
-     "text": "Substitution, Canada. Niko Sigur replaces Nathan Saliba."
-    },
-    {
-     "type": "sub",
-     "minute": "59'",
-     "team": "",
-     "text": "Substitution, Canada. Luc De Fougerolles replaces Moïse Bombito."
-    },
-    {
-     "type": "yellow",
-     "minute": "67'",
-     "team": "",
-     "text": "Niko Sigur (Canada) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "70'",
-     "team": "",
-     "text": "Substitution, Canada. Promise David replaces Tani Oluwaseyi."
-    },
-    {
-     "type": "sub",
-     "minute": "70'",
-     "team": "",
-     "text": "Substitution, Canada. Jacob Shaffelburg replaces Liam Millar."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Canada. Alphonso Davies replaces Tajon Buchanan."
-    },
-    {
-     "type": "sub",
-     "minute": "86'",
-     "team": "",
-     "text": "Substitution, South Africa. Iqraam Rayners replaces Evidence Makgopa."
-    },
-    {
-     "type": "sub",
-     "minute": "86'",
-     "team": "",
-     "text": "Substitution, South Africa. Tshepang Moremi replaces Thapelo Maseko."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Goal! South Africa 0, Canada 1. Stephen Eustaquio (Canada) right footed shot from outside the box to the bottom left corner."
-    }
-   ]
-  },
   {
    "id": "760487",
    "date": "2026-06-29T17:00Z",
@@ -182,6 +92,75 @@
      "homeAway": "away",
      "abbr": "MAR",
      "name": "Morocco",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760490",
+   "date": "2026-06-30T17:00Z",
+   "shortName": "NOR @ CIV",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "CIV",
+     "name": "Ivory Coast",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "NOR",
+     "name": "Norway",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760492",
+   "date": "2026-06-30T21:00Z",
+   "shortName": "SWE @ FRA",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "FRA",
+     "name": "France",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "SWE",
+     "name": "Sweden",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760491",
+   "date": "2026-07-01T01:00Z",
+   "shortName": "ECU @ MEX",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "MEX",
+     "name": "Mexico",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "ECU",
+     "name": "Ecuador",
      "score": 0
     }
    ],
