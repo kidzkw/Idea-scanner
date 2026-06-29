@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-29T21:39:21.569Z",
+ "updatedAt": "2026-06-29T22:40:21.166Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -65,7 +65,7 @@
      "type": "goal",
      "minute": "56'",
      "team": "",
-     "text": "Goal! Brazil 1, Japan 1. Casemiro (Brazil) header from the right side of the six yard box to the high centre of the goal. Assisted by Gabriel Magalhães with a cross."
+     "text": "Goal! Brazil 1, Japan 1. Casemiro (Brazil) header from the right side of the six yard box to the top right corner. Assisted by Gabriel Magalhães with a cross."
     },
     {
      "type": "sub",
@@ -134,14 +134,14 @@
    "date": "2026-06-29T20:30Z",
    "shortName": "PAR @ GER",
    "state": "in",
-   "clock": "46'",
-   "period": 2,
+   "clock": "97'",
+   "period": 3,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "GER",
      "name": "Germany",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -162,6 +162,54 @@
      "minute": "45'",
      "team": "",
      "text": "Substitution, Germany. Leon Goretzka replaces Felix Nmecha."
+    },
+    {
+     "type": "goal",
+     "minute": "54'",
+     "team": "",
+     "text": "Goal! Germany 1, Paraguay 1. Kai Havertz (Germany) header from the centre of the box to the bottom right corner. Assisted by Florian Wirtz with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "55'",
+     "team": "",
+     "text": "Substitution, Paraguay. Gustavo Caballero replaces Gabriel Ávalos."
+    },
+    {
+     "type": "sub",
+     "minute": "57'",
+     "team": "",
+     "text": "Substitution, Paraguay. Mauricio replaces Julio Enciso because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Germany. Jamal Musiala replaces Deniz Undav."
+    },
+    {
+     "type": "yellow",
+     "minute": "65'",
+     "team": "",
+     "text": "Andrés Cubas (Paraguay) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Germany. Waldemar Anton replaces Aleksandar Pavlovic."
+    },
+    {
+     "type": "sub",
+     "minute": "88'",
+     "team": "",
+     "text": "Substitution, Germany. Nick Woltemade replaces Leroy Sané."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, Paraguay. Gustavo Velázquez replaces Miguel Almirón."
     }
    ]
   },
