@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-29T22:40:21.166Z",
+ "updatedAt": "2026-06-29T22:42:23.025Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -134,7 +134,7 @@
    "date": "2026-06-29T20:30Z",
    "shortName": "PAR @ GER",
    "state": "in",
-   "clock": "97'",
+   "clock": "99'",
    "period": 3,
    "competitors": [
     {
@@ -210,6 +210,12 @@
      "minute": "90'",
      "team": "",
      "text": "Substitution, Paraguay. Gustavo Velázquez replaces Miguel Almirón."
+    },
+    {
+     "type": "sub",
+     "minute": "99'",
+     "team": "",
+     "text": "Braian Ojeda (Paraguay) Substitution at 99'"
     }
    ]
   },
