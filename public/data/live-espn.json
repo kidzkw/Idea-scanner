@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-29T19:59:31.494Z",
+ "updatedAt": "2026-06-29T21:39:21.569Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -133,9 +133,9 @@
    "id": "760489",
    "date": "2026-06-29T20:30Z",
    "shortName": "PAR @ GER",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "46'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -147,10 +147,23 @@
      "homeAway": "away",
      "abbr": "PAR",
      "name": "Paraguay",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "42'",
+     "team": "",
+     "text": "Goal! Germany 0, Paraguay 1. Julio Enciso (Paraguay) header from the centre of the box to the bottom left corner. Assisted by Matías Galarza with a cross following a corner."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Germany. Leon Goretzka replaces Felix Nmecha."
+    }
+   ]
   },
   {
    "id": "760488",
