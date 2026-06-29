@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-29T22:42:39.396Z",
+ "updatedAt": "2026-06-29T23:40:17.998Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -133,9 +133,9 @@
    "id": "760489",
    "date": "2026-06-29T20:30Z",
    "shortName": "PAR @ GER",
-   "state": "in",
-   "clock": "99'",
-   "period": 3,
+   "state": "post",
+   "clock": "120'",
+   "period": 5,
    "competitors": [
     {
      "homeAway": "home",
@@ -215,13 +215,49 @@
      "type": "sub",
      "minute": "99'",
      "team": "",
-     "text": "Braian Ojeda (Paraguay) Substitution at 99'"
+     "text": "Substitution, Paraguay. Braian Ojeda replaces Juan José Cáceres."
     },
     {
      "type": "sub",
      "minute": "99'",
      "team": "",
-     "text": "Antonio Sanabria (Paraguay) Substitution at 99'"
+     "text": "Substitution, Paraguay. Antonio Sanabria replaces Damián Bobadilla."
+    },
+    {
+     "type": "yellow",
+     "minute": "106'",
+     "team": "",
+     "text": "Kai Havertz (Germany) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "110'",
+     "team": "",
+     "text": "Substitution, Germany. Nadiem Amiri replaces Florian Wirtz."
+    },
+    {
+     "type": "sub",
+     "minute": "110'",
+     "team": "",
+     "text": "Substitution, Germany. Malick Thiaw replaces Antonio Rüdiger."
+    },
+    {
+     "type": "yellow",
+     "minute": "115'",
+     "team": "",
+     "text": "Jamal Musiala (Germany) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "117'",
+     "team": "",
+     "text": "Matías Galarza (Paraguay) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "120'+2'",
+     "team": "",
+     "text": "Substitution, Paraguay. Fabián Balbuena replaces Júnior Alonso."
     }
    ]
   },
