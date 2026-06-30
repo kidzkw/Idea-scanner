@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-30T01:36:41.092Z",
+ "updatedAt": "2026-06-30T05:52:48.862Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -265,24 +265,109 @@
    "id": "760488",
    "date": "2026-06-30T01:00Z",
    "shortName": "MAR @ NED",
-   "state": "in",
-   "clock": "36'",
-   "period": 1,
+   "state": "post",
+   "clock": "120'",
+   "period": 5,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "NED",
      "name": "Netherlands",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
      "abbr": "MAR",
      "name": "Morocco",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "47'",
+     "team": "",
+     "text": "Issa Diop (Morocco) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Netherlands. Teun Koopmeiners replaces Nathan Aké."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Netherlands. Wout Weghorst replaces Brian Brobbey."
+    },
+    {
+     "type": "goal",
+     "minute": "72'",
+     "team": "",
+     "text": "Goal! Netherlands 1, Morocco 0. Cody Gakpo (Netherlands) right footed shot from the centre of the box to the centre of the goal. Assisted by Crysencio Summerville."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Morocco. Anass Salah-Eddine replaces Chadi Riad because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Morocco. Gessime Yassine replaces Brahim Díaz."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Morocco. Samir El Mourabet replaces Ayyoub Bouaddi."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Morocco. Soufiane Rahimi replaces Azzedine Ounahi."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Netherlands. Jorrel Hato replaces Micky van de Ven."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Netherlands. Quinten Timber replaces Ryan Gravenberch."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Morocco. Chemsdine Talbi replaces Bilal El Khannouss."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Goal! Netherlands 1, Morocco 1. Issa Diop (Morocco) header from the centre of the box to the top right corner. Assisted by Chemsdine Talbi with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "110'",
+     "team": "",
+     "text": "Substitution, Netherlands. Marten de Roon replaces Frenkie de Jong."
+    },
+    {
+     "type": "sub",
+     "minute": "113'",
+     "team": "",
+     "text": "Substitution, Netherlands. Justin Kluivert replaces Cody Gakpo."
+    }
+   ]
   },
   {
    "id": "760490",
