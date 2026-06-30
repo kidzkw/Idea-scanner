@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-30T21:48:58.252Z",
+ "updatedAt": "2026-06-30T22:59:37.767Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -103,15 +103,15 @@
    "id": "760492",
    "date": "2026-06-30T21:00Z",
    "shortName": "SWE @ FRA",
-   "state": "in",
-   "clock": "45'+3'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+4'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "FRA",
      "name": "France",
-     "score": 1
+     "score": 3
     },
     {
      "homeAway": "away",
@@ -126,6 +126,78 @@
      "minute": "45'",
      "team": "",
      "text": "Goal! France 1, Sweden 0. Kylian Mbappé (France) right footed shot from the centre of the box to the top right corner. Assisted by Ousmane Dembélé following a corner."
+    },
+    {
+     "type": "goal",
+     "minute": "53'",
+     "team": "",
+     "text": "Goal! France 2, Sweden 0. Bradley Barcola (France) right footed shot from the centre of the box to the top left corner. Assisted by Michael Olise with a through ball following a fast break."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Sweden. Taha Ali replaces Elliot Stroud."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Sweden. Besfort Zeneli replaces Lucas Bergvall."
+    },
+    {
+     "type": "goal",
+     "minute": "74'",
+     "team": "",
+     "text": "Goal! France 3, Sweden 0. Kylian Mbappé (France) right footed shot from the left side of the box to the bottom right corner. Assisted by Michael Olise with a through ball."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, France. Malo Gusto replaces Jules Koundé."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, France. Désiré Doué replaces Ousmane Dembélé."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, France. Théo Hernández replaces Lucas Digne."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Sweden. Mattias Svanberg replaces Daniel Svensson."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Sweden. Benjamin Nygren replaces Yasin Ayari."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, France. Jean-Philippe Mateta replaces Kylian Mbappé."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, France. Rayan Cherki replaces Michael Olise."
+    },
+    {
+     "type": "sub",
+     "minute": "89'",
+     "team": "",
+     "text": "Substitution, Sweden. Gustaf Nilsson replaces Alexander Isak."
     }
    ]
   },
