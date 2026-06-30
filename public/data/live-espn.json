@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-30T20:16:41.472Z",
+ "updatedAt": "2026-06-30T21:48:58.252Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -103,15 +103,15 @@
    "id": "760492",
    "date": "2026-06-30T21:00Z",
    "shortName": "SWE @ FRA",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "45'+3'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "FRA",
      "name": "France",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -120,7 +120,14 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "45'",
+     "team": "",
+     "text": "Goal! France 1, Sweden 0. Kylian Mbappé (France) right footed shot from the centre of the box to the top right corner. Assisted by Ousmane Dembélé following a corner."
+    }
+   ]
   },
   {
    "id": "760491",
