@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-30T18:08:26.355Z",
+ "updatedAt": "2026-06-30T20:16:41.472Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -7,21 +7,21 @@
    "id": "760490",
    "date": "2026-06-30T17:00Z",
    "shortName": "NOR @ CIV",
-   "state": "in",
-   "clock": "48'",
+   "state": "post",
+   "clock": "90'+8'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "CIV",
      "name": "Ivory Coast",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
      "abbr": "NOR",
      "name": "Norway",
-     "score": 1
+     "score": 2
     }
    ],
    "keyEvents": [
@@ -36,6 +36,66 @@
      "minute": "45'+1'",
      "team": "",
      "text": "Antonio Nusa (Norway) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Amad Diallo replaces Christ Inao Oulaï."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Elye Wahi replaces Ange-Yoan Bonny."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Norway. Andreas Schjelderup replaces Antonio Nusa."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Norway. Oscar Bobb replaces Alexander Sørloth."
+    },
+    {
+     "type": "goal",
+     "minute": "74'",
+     "team": "",
+     "text": "Goal! Côte d'Ivoire 1, Norway 1. Amad Diallo (Côte d'Ivoire) left footed shot from the right side of the six yard box to the bottom left corner. Assisted by Nicolas Pépé."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Norway. Fredrik Aursnes replaces Marcus Pedersen."
+    },
+    {
+     "type": "goal",
+     "minute": "86'",
+     "team": "",
+     "text": "Goal! Côte d'Ivoire 1, Norway 2. Erling Haaland (Norway) left footed shot from the centre of the box to the centre of the goal. Assisted by Patrick Berg."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Oumar Diakité replaces Nicolas Pépé."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Evann Guessand replaces Yan Diomande."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Substitution, Côte d'Ivoire. Bazoumana Touré replaces Ghislain Konan."
     }
    ]
   },
