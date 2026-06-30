@@ -1,381 +1,15 @@
 {
- "updatedAt": "2026-06-30T05:52:48.862Z",
+ "updatedAt": "2026-06-30T18:08:26.355Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
   {
-   "id": "760487",
-   "date": "2026-06-29T17:00Z",
-   "shortName": "JPN @ BRA",
-   "state": "post",
-   "clock": "90'+11'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "BRA",
-     "name": "Brazil",
-     "score": 2
-    },
-    {
-     "homeAway": "away",
-     "abbr": "JPN",
-     "name": "Japan",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "12'",
-     "team": "",
-     "text": "Kaishu Sano (Japan) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "14'",
-     "team": "",
-     "text": "Casemiro (Brazil) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "29'",
-     "team": "",
-     "text": "Goal! Brazil 0, Japan 1. Kaishu Sano (Japan) right footed shot from outside the box to the bottom left corner following a fast break."
-    },
-    {
-     "type": "yellow",
-     "minute": "45'",
-     "team": "",
-     "text": "Daichi Kamada (Japan) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Brazil. Endrick replaces Lucas Paquetá because of an injury."
-    },
-    {
-     "type": "yellow",
-     "minute": "48'",
-     "team": "",
-     "text": "Danilo (Brazil) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "56'",
-     "team": "",
-     "text": "Goal! Brazil 1, Japan 1. Casemiro (Brazil) header from the right side of the six yard box to the top right corner. Assisted by Gabriel Magalhães with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, Brazil. Gabriel Martinelli replaces Matheus Cunha."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, Japan. Junnosuke Suzuki replaces Keito Nakamura."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, Japan. Yukinari Sugawara replaces Ritsu Doan."
-    },
-    {
-     "type": "sub",
-     "minute": "78'",
-     "team": "",
-     "text": "Substitution, Japan. Shuto Machino replaces Junya Ito."
-    },
-    {
-     "type": "sub",
-     "minute": "78'",
-     "team": "",
-     "text": "Substitution, Japan. Ao Tanaka replaces Daichi Kamada."
-    },
-    {
-     "type": "yellow",
-     "minute": "84'",
-     "team": "",
-     "text": "Junnosuke Suzuki (Japan) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Substitution, Brazil. Fabinho replaces Casemiro because of an injury."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+5'",
-     "team": "",
-     "text": "Goal! Brazil 2, Japan 1. Gabriel Martinelli (Brazil) right footed shot from the centre of the box to the bottom right corner. Assisted by Bruno Guimarães."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+7'",
-     "team": "",
-     "text": "Substitution, Japan. Koki Ogawa replaces Daizen Maeda."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+8'",
-     "team": "",
-     "text": "Substitution, Brazil. Danilo Santos replaces Bruno Guimarães."
-    }
-   ]
-  },
-  {
-   "id": "760489",
-   "date": "2026-06-29T20:30Z",
-   "shortName": "PAR @ GER",
-   "state": "post",
-   "clock": "120'",
-   "period": 5,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "GER",
-     "name": "Germany",
-     "score": 1
-    },
-    {
-     "homeAway": "away",
-     "abbr": "PAR",
-     "name": "Paraguay",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "42'",
-     "team": "",
-     "text": "Goal! Germany 0, Paraguay 1. Julio Enciso (Paraguay) header from the centre of the box to the bottom left corner. Assisted by Matías Galarza with a cross following a corner."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Germany. Leon Goretzka replaces Felix Nmecha."
-    },
-    {
-     "type": "goal",
-     "minute": "54'",
-     "team": "",
-     "text": "Goal! Germany 1, Paraguay 1. Kai Havertz (Germany) header from the centre of the box to the bottom right corner. Assisted by Florian Wirtz with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "55'",
-     "team": "",
-     "text": "Substitution, Paraguay. Gustavo Caballero replaces Gabriel Ávalos."
-    },
-    {
-     "type": "sub",
-     "minute": "57'",
-     "team": "",
-     "text": "Substitution, Paraguay. Mauricio replaces Julio Enciso because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "63'",
-     "team": "",
-     "text": "Substitution, Germany. Jamal Musiala replaces Deniz Undav."
-    },
-    {
-     "type": "yellow",
-     "minute": "65'",
-     "team": "",
-     "text": "Andrés Cubas (Paraguay) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "79'",
-     "team": "",
-     "text": "Substitution, Germany. Waldemar Anton replaces Aleksandar Pavlovic."
-    },
-    {
-     "type": "sub",
-     "minute": "88'",
-     "team": "",
-     "text": "Substitution, Germany. Nick Woltemade replaces Leroy Sané."
-    },
-    {
-     "type": "sub",
-     "minute": "90'",
-     "team": "",
-     "text": "Substitution, Paraguay. Gustavo Velázquez replaces Miguel Almirón."
-    },
-    {
-     "type": "sub",
-     "minute": "99'",
-     "team": "",
-     "text": "Substitution, Paraguay. Braian Ojeda replaces Juan José Cáceres."
-    },
-    {
-     "type": "sub",
-     "minute": "99'",
-     "team": "",
-     "text": "Substitution, Paraguay. Antonio Sanabria replaces Damián Bobadilla."
-    },
-    {
-     "type": "yellow",
-     "minute": "106'",
-     "team": "",
-     "text": "Kai Havertz (Germany) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "110'",
-     "team": "",
-     "text": "Substitution, Germany. Nadiem Amiri replaces Florian Wirtz."
-    },
-    {
-     "type": "sub",
-     "minute": "110'",
-     "team": "",
-     "text": "Substitution, Germany. Malick Thiaw replaces Antonio Rüdiger."
-    },
-    {
-     "type": "yellow",
-     "minute": "115'",
-     "team": "",
-     "text": "Jamal Musiala (Germany) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "117'",
-     "team": "",
-     "text": "Matías Galarza (Paraguay) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "120'+2'",
-     "team": "",
-     "text": "Substitution, Paraguay. Fabián Balbuena replaces Júnior Alonso."
-    }
-   ]
-  },
-  {
-   "id": "760488",
-   "date": "2026-06-30T01:00Z",
-   "shortName": "MAR @ NED",
-   "state": "post",
-   "clock": "120'",
-   "period": 5,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "NED",
-     "name": "Netherlands",
-     "score": 1
-    },
-    {
-     "homeAway": "away",
-     "abbr": "MAR",
-     "name": "Morocco",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "47'",
-     "team": "",
-     "text": "Issa Diop (Morocco) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Netherlands. Teun Koopmeiners replaces Nathan Aké."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Netherlands. Wout Weghorst replaces Brian Brobbey."
-    },
-    {
-     "type": "goal",
-     "minute": "72'",
-     "team": "",
-     "text": "Goal! Netherlands 1, Morocco 0. Cody Gakpo (Netherlands) right footed shot from the centre of the box to the centre of the goal. Assisted by Crysencio Summerville."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Morocco. Anass Salah-Eddine replaces Chadi Riad because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "79'",
-     "team": "",
-     "text": "Substitution, Morocco. Gessime Yassine replaces Brahim Díaz."
-    },
-    {
-     "type": "sub",
-     "minute": "79'",
-     "team": "",
-     "text": "Substitution, Morocco. Samir El Mourabet replaces Ayyoub Bouaddi."
-    },
-    {
-     "type": "sub",
-     "minute": "86'",
-     "team": "",
-     "text": "Substitution, Morocco. Soufiane Rahimi replaces Azzedine Ounahi."
-    },
-    {
-     "type": "sub",
-     "minute": "86'",
-     "team": "",
-     "text": "Substitution, Netherlands. Jorrel Hato replaces Micky van de Ven."
-    },
-    {
-     "type": "sub",
-     "minute": "86'",
-     "team": "",
-     "text": "Substitution, Netherlands. Quinten Timber replaces Ryan Gravenberch."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Morocco. Chemsdine Talbi replaces Bilal El Khannouss."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+1'",
-     "team": "",
-     "text": "Goal! Netherlands 1, Morocco 1. Issa Diop (Morocco) header from the centre of the box to the top right corner. Assisted by Chemsdine Talbi with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "110'",
-     "team": "",
-     "text": "Substitution, Netherlands. Marten de Roon replaces Frenkie de Jong."
-    },
-    {
-     "type": "sub",
-     "minute": "113'",
-     "team": "",
-     "text": "Substitution, Netherlands. Justin Kluivert replaces Cody Gakpo."
-    }
-   ]
-  },
-  {
    "id": "760490",
    "date": "2026-06-30T17:00Z",
    "shortName": "NOR @ CIV",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "48'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -387,10 +21,23 @@
      "homeAway": "away",
      "abbr": "NOR",
      "name": "Norway",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "39'",
+     "team": "",
+     "text": "Goal! Côte d'Ivoire 0, Norway 1. Antonio Nusa (Norway) right footed shot from the left side of the box to the top right corner. Assisted by Martin Ødegaard."
+    },
+    {
+     "type": "yellow",
+     "minute": "45'+1'",
+     "team": "",
+     "text": "Antonio Nusa (Norway) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760492",
@@ -433,6 +80,75 @@
      "homeAway": "away",
      "abbr": "ECU",
      "name": "Ecuador",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760495",
+   "date": "2026-07-01T16:00Z",
+   "shortName": "COD @ ENG",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "ENG",
+     "name": "England",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "COD",
+     "name": "Congo DR",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760493",
+   "date": "2026-07-01T20:00Z",
+   "shortName": "SEN @ BEL",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "BEL",
+     "name": "Belgium",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "SEN",
+     "name": "Senegal",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760494",
+   "date": "2026-07-02T00:00Z",
+   "shortName": "BIH @ USA",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "USA",
+     "name": "United States",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "BIH",
+     "name": "Bosnia-Herzegovina",
      "score": 0
     }
    ],
