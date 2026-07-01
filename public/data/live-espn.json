@@ -1,339 +1,21 @@
 {
- "updatedAt": "2026-07-01T16:27:57.920Z",
+ "updatedAt": "2026-07-01T18:21:48.249Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
   {
-   "id": "760490",
-   "date": "2026-06-30T17:00Z",
-   "shortName": "NOR @ CIV",
-   "state": "post",
-   "clock": "90'+8'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "CIV",
-     "name": "Ivory Coast",
-     "score": 1
-    },
-    {
-     "homeAway": "away",
-     "abbr": "NOR",
-     "name": "Norway",
-     "score": 2
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "39'",
-     "team": "",
-     "text": "Goal! Côte d'Ivoire 0, Norway 1. Antonio Nusa (Norway) right footed shot from the left side of the box to the top right corner. Assisted by Martin Ødegaard."
-    },
-    {
-     "type": "yellow",
-     "minute": "45'+1'",
-     "team": "",
-     "text": "Antonio Nusa (Norway) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Amad Diallo replaces Christ Inao Oulaï."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Elye Wahi replaces Ange-Yoan Bonny."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Norway. Andreas Schjelderup replaces Antonio Nusa."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Norway. Oscar Bobb replaces Alexander Sørloth."
-    },
-    {
-     "type": "goal",
-     "minute": "74'",
-     "team": "",
-     "text": "Goal! Côte d'Ivoire 1, Norway 1. Amad Diallo (Côte d'Ivoire) left footed shot from the right side of the six yard box to the bottom left corner. Assisted by Nicolas Pépé."
-    },
-    {
-     "type": "sub",
-     "minute": "83'",
-     "team": "",
-     "text": "Substitution, Norway. Fredrik Aursnes replaces Marcus Pedersen."
-    },
-    {
-     "type": "goal",
-     "minute": "86'",
-     "team": "",
-     "text": "Goal! Côte d'Ivoire 1, Norway 2. Erling Haaland (Norway) left footed shot from the centre of the box to the centre of the goal. Assisted by Patrick Berg."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Oumar Diakité replaces Nicolas Pépé."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Evann Guessand replaces Yan Diomande."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Substitution, Côte d'Ivoire. Bazoumana Touré replaces Ghislain Konan."
-    }
-   ]
-  },
-  {
-   "id": "760492",
-   "date": "2026-06-30T21:00Z",
-   "shortName": "SWE @ FRA",
-   "state": "post",
-   "clock": "90'+4'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "FRA",
-     "name": "France",
-     "score": 3
-    },
-    {
-     "homeAway": "away",
-     "abbr": "SWE",
-     "name": "Sweden",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "45'",
-     "team": "",
-     "text": "Goal! France 1, Sweden 0. Kylian Mbappé (France) right footed shot from the centre of the box to the top right corner. Assisted by Ousmane Dembélé following a corner."
-    },
-    {
-     "type": "goal",
-     "minute": "53'",
-     "team": "",
-     "text": "Goal! France 2, Sweden 0. Bradley Barcola (France) right footed shot from the centre of the box to the top left corner. Assisted by Michael Olise with a through ball following a fast break."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, Sweden. Taha Ali replaces Elliot Stroud."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, Sweden. Besfort Zeneli replaces Lucas Bergvall."
-    },
-    {
-     "type": "goal",
-     "minute": "74'",
-     "team": "",
-     "text": "Goal! France 3, Sweden 0. Kylian Mbappé (France) right footed shot from the left side of the box to the bottom right corner. Assisted by Michael Olise with a through ball."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, France. Désiré Doué replaces Ousmane Dembélé."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, France. Malo Gusto replaces Jules Koundé."
-    },
-    {
-     "type": "sub",
-     "minute": "78'",
-     "team": "",
-     "text": "Substitution, France. Théo Hernández replaces Lucas Digne."
-    },
-    {
-     "type": "sub",
-     "minute": "82'",
-     "team": "",
-     "text": "Substitution, Sweden. Mattias Svanberg replaces Daniel Svensson."
-    },
-    {
-     "type": "sub",
-     "minute": "82'",
-     "team": "",
-     "text": "Substitution, Sweden. Benjamin Nygren replaces Yasin Ayari."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, France. Jean-Philippe Mateta replaces Kylian Mbappé."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, France. Rayan Cherki replaces Michael Olise."
-    },
-    {
-     "type": "sub",
-     "minute": "89'",
-     "team": "",
-     "text": "Substitution, Sweden. Gustaf Nilsson replaces Alexander Isak."
-    }
-   ]
-  },
-  {
-   "id": "760491",
-   "date": "2026-07-01T02:00Z",
-   "shortName": "ECU @ MEX",
-   "state": "post",
-   "clock": "90'+9'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "MEX",
-     "name": "Mexico",
-     "score": 2
-    },
-    {
-     "homeAway": "away",
-     "abbr": "ECU",
-     "name": "Ecuador",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "22'",
-     "team": "",
-     "text": "Goal! Mexico 1, Ecuador 0. Julián Quiñones (Mexico) right footed shot from the left side of the box to the top left corner. Assisted by Roberto Alvarado with a through ball."
-    },
-    {
-     "type": "goal",
-     "minute": "31'",
-     "team": "",
-     "text": "Goal! Mexico 2, Ecuador 0. Raúl Jiménez (Mexico) right footed shot from the centre of the box to the top right corner. Assisted by Julián Quiñones."
-    },
-    {
-     "type": "yellow",
-     "minute": "45'+1'",
-     "team": "",
-     "text": "Alan Franco (Ecuador) is shown the yellow card."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Ecuador. Ángelo Preciado replaces Joel Ordóñez."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Ecuador. Yaimar Medina replaces Alan Franco."
-    },
-    {
-     "type": "sub",
-     "minute": "58'",
-     "team": "",
-     "text": "Substitution, Mexico. Brian Gutiérrez replaces Gilberto Mora."
-    },
-    {
-     "type": "sub",
-     "minute": "59'",
-     "team": "",
-     "text": "Substitution, Ecuador. Kevin Rodríguez replaces Enner Valencia."
-    },
-    {
-     "type": "sub",
-     "minute": "73'",
-     "team": "",
-     "text": "Substitution, Mexico. Obed Vargas replaces Luis Romo."
-    },
-    {
-     "type": "sub",
-     "minute": "74'",
-     "team": "",
-     "text": "Substitution, Mexico. Santiago Giménez replaces Raúl Jiménez."
-    },
-    {
-     "type": "sub",
-     "minute": "79'",
-     "team": "",
-     "text": "Substitution, Ecuador. Jordy Caicedo replaces John Yeboah."
-    },
-    {
-     "type": "sub",
-     "minute": "79'",
-     "team": "",
-     "text": "Substitution, Ecuador. Kendry Páez replaces Nilson Angulo."
-    },
-    {
-     "type": "sub",
-     "minute": "80'",
-     "team": "",
-     "text": "Substitution, Mexico. Orbelín Pineda replaces Julián Quiñones."
-    },
-    {
-     "type": "sub",
-     "minute": "80'",
-     "team": "",
-     "text": "Substitution, Mexico. Israel Reyes replaces Roberto Alvarado."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Kendry Páez (Ecuador) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "red",
-     "minute": "90'+5'",
-     "team": "",
-     "text": "Piero Hincapié (Ecuador) is shown the red card."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+9'",
-     "team": "",
-     "text": "Moisés Caicedo (Ecuador) is shown the yellow card for a bad foul."
-    }
-   ]
-  },
-  {
    "id": "760495",
    "date": "2026-07-01T16:00Z",
    "shortName": "COD @ ENG",
-   "state": "in",
-   "clock": "28'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+7'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ENG",
      "name": "England",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
@@ -359,7 +41,73 @@
      "type": "yellow",
      "minute": "28'",
      "team": "",
-     "text": "Noah Sadiki (Congo DR) Yellow Card at 28'"
+     "text": "Noah Sadiki (Congo DR) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, England. Bukayo Saka replaces Noni Madueke."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, England. Anthony Gordon replaces Marcus Rashford."
+    },
+    {
+     "type": "sub",
+     "minute": "64'",
+     "team": "",
+     "text": "Substitution, Congo DR. Meschack Elia replaces Nathanaël Mbuku."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, England. Eberechi Eze replaces Djed Spence."
+    },
+    {
+     "type": "goal",
+     "minute": "75'",
+     "team": "",
+     "text": "Goal! England 1, Congo DR 1. Harry Kane (England) header from the centre of the box to the bottom left corner. Assisted by Anthony Gordon with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Congo DR. Théo Bongonda replaces Brian Cipenga."
+    },
+    {
+     "type": "sub",
+     "minute": "76'",
+     "team": "",
+     "text": "Substitution, Congo DR. Edo Kayembe replaces Ngal'ayel Mukau."
+    },
+    {
+     "type": "goal",
+     "minute": "86'",
+     "team": "",
+     "text": "Goal! England 2, Congo DR 1. Harry Kane (England) right footed shot from the right side of the box to the top right corner. Assisted by Anthony Gordon."
+    },
+    {
+     "type": "sub",
+     "minute": "89'",
+     "team": "",
+     "text": "Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku."
+    },
+    {
+     "type": "sub",
+     "minute": "89'",
+     "team": "",
+     "text": "Substitution, Congo DR. Fiston Mayele replaces Samuel Moutoussamy."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Substitution, England. John Stones replaces Declan Rice."
     }
    ]
   },
@@ -404,6 +152,75 @@
      "homeAway": "away",
      "abbr": "BIH",
      "name": "Bosnia-Herzegovina",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760497",
+   "date": "2026-07-02T19:00Z",
+   "shortName": "AUT @ ESP",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "ESP",
+     "name": "Spain",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "AUT",
+     "name": "Austria",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760496",
+   "date": "2026-07-02T23:00Z",
+   "shortName": "CRO @ POR",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "POR",
+     "name": "Portugal",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "CRO",
+     "name": "Croatia",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760498",
+   "date": "2026-07-03T03:00Z",
+   "shortName": "ALG @ SUI",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "SUI",
+     "name": "Switzerland",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "ALG",
+     "name": "Algeria",
      "score": 0
     }
    ],
