@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-01T16:24:39.301Z",
+ "updatedAt": "2026-07-01T16:27:57.920Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -326,7 +326,7 @@
    "date": "2026-07-01T16:00Z",
    "shortName": "COD @ ENG",
    "state": "in",
-   "clock": "24'",
+   "clock": "28'",
    "period": 1,
    "competitors": [
     {
@@ -354,6 +354,12 @@
      "minute": "19'",
      "team": "",
      "text": "Jude Bellingham (England) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "28'",
+     "team": "",
+     "text": "Noah Sadiki (Congo DR) Yellow Card at 28'"
     }
    ]
   },
