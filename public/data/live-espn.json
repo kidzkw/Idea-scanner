@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-06-30T22:59:37.767Z",
+ "updatedAt": "2026-07-01T04:55:09.611Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -155,13 +155,13 @@
      "type": "sub",
      "minute": "75'",
      "team": "",
-     "text": "Substitution, France. Malo Gusto replaces Jules Koundé."
+     "text": "Substitution, France. Désiré Doué replaces Ousmane Dembélé."
     },
     {
      "type": "sub",
      "minute": "75'",
      "team": "",
-     "text": "Substitution, France. Désiré Doué replaces Ousmane Dembélé."
+     "text": "Substitution, France. Malo Gusto replaces Jules Koundé."
     },
     {
      "type": "sub",
@@ -203,17 +203,17 @@
   },
   {
    "id": "760491",
-   "date": "2026-07-01T01:00Z",
+   "date": "2026-07-01T02:00Z",
    "shortName": "ECU @ MEX",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "post",
+   "clock": "90'+9'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "MEX",
      "name": "Mexico",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
@@ -222,7 +222,104 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "22'",
+     "team": "",
+     "text": "Goal! Mexico 1, Ecuador 0. Julián Quiñones (Mexico) right footed shot from the left side of the box to the top left corner. Assisted by Roberto Alvarado with a through ball."
+    },
+    {
+     "type": "goal",
+     "minute": "31'",
+     "team": "",
+     "text": "Goal! Mexico 2, Ecuador 0. Raúl Jiménez (Mexico) right footed shot from the centre of the box to the top right corner. Assisted by Julián Quiñones."
+    },
+    {
+     "type": "yellow",
+     "minute": "45'+1'",
+     "team": "",
+     "text": "Alan Franco (Ecuador) is shown the yellow card."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Ecuador. Ángelo Preciado replaces Joel Ordóñez."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Ecuador. Yaimar Medina replaces Alan Franco."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Mexico. Brian Gutiérrez replaces Gilberto Mora."
+    },
+    {
+     "type": "sub",
+     "minute": "59'",
+     "team": "",
+     "text": "Substitution, Ecuador. Kevin Rodríguez replaces Enner Valencia."
+    },
+    {
+     "type": "sub",
+     "minute": "73'",
+     "team": "",
+     "text": "Substitution, Mexico. Obed Vargas replaces Luis Romo."
+    },
+    {
+     "type": "sub",
+     "minute": "74'",
+     "team": "",
+     "text": "Substitution, Mexico. Santiago Giménez replaces Raúl Jiménez."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Ecuador. Jordy Caicedo replaces John Yeboah."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Ecuador. Kendry Páez replaces Nilson Angulo."
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Substitution, Mexico. Orbelín Pineda replaces Julián Quiñones."
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Substitution, Mexico. Israel Reyes replaces Roberto Alvarado."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Kendry Páez (Ecuador) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "red",
+     "minute": "90'+5'",
+     "team": "",
+     "text": "Piero Hincapié (Ecuador) is shown the red card."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+9'",
+     "team": "",
+     "text": "Moisés Caicedo (Ecuador) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760495",
