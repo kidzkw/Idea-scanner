@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-01T21:54:19.589Z",
+ "updatedAt": "2026-07-01T23:04:48.122Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -115,15 +115,15 @@
    "id": "760493",
    "date": "2026-07-01T20:00Z",
    "shortName": "SEN @ BEL",
-   "state": "in",
-   "clock": "90'+2'",
-   "period": 2,
+   "state": "post",
+   "clock": "120'+12'",
+   "period": 4,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "BEL",
      "name": "Belgium",
-     "score": 2
+     "score": 3
     },
     {
      "homeAway": "away",
@@ -216,6 +216,36 @@
      "minute": "89'",
      "team": "",
      "text": "Goal! Belgium 2, Senegal 2. Youri Tielemans (Belgium) header from the centre of the box to the bottom left corner. Assisted by Leandro Trossard."
+    },
+    {
+     "type": "sub",
+     "minute": "93'",
+     "team": "",
+     "text": "Substitution, Senegal. Nicolas Jackson replaces Sadio Mané."
+    },
+    {
+     "type": "sub",
+     "minute": "93'",
+     "team": "",
+     "text": "Substitution, Senegal. El Hadji Malick Diouf replaces Ismail Jakobs."
+    },
+    {
+     "type": "sub",
+     "minute": "96'",
+     "team": "",
+     "text": "Substitution, Senegal. Bara Sapoko Ndiaye replaces Idrissa Gueye."
+    },
+    {
+     "type": "sub",
+     "minute": "109'",
+     "team": "",
+     "text": "Substitution, Belgium. Amadou Onana replaces Leandro Trossard."
+    },
+    {
+     "type": "penalty",
+     "minute": "120'+5'",
+     "team": "",
+     "text": "Goal! Belgium 3, Senegal 2. Youri Tielemans (Belgium) converts the penalty with a right footed shot to the top right corner."
     }
    ]
   },
