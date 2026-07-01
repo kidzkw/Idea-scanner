@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-01T18:21:48.249Z",
+ "updatedAt": "2026-07-01T20:19:51.606Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -115,9 +115,9 @@
    "id": "760493",
    "date": "2026-07-01T20:00Z",
    "shortName": "SEN @ BEL",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "19'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
