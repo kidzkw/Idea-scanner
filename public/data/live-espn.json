@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-01T04:55:09.611Z",
+ "updatedAt": "2026-07-01T16:24:39.301Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -325,9 +325,9 @@
    "id": "760495",
    "date": "2026-07-01T16:00Z",
    "shortName": "COD @ ENG",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "24'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -339,10 +339,23 @@
      "homeAway": "away",
      "abbr": "COD",
      "name": "Congo DR",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "7'",
+     "team": "",
+     "text": "Goal! England 0, Congo DR 1. Brian Cipenga (Congo DR) right footed shot from the left side of the box to the bottom left corner. Assisted by Chancel Mbemba."
+    },
+    {
+     "type": "yellow",
+     "minute": "19'",
+     "team": "",
+     "text": "Jude Bellingham (England) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760493",
