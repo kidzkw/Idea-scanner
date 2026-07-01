@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-01T20:19:51.606Z",
+ "updatedAt": "2026-07-01T21:54:19.589Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -116,23 +116,108 @@
    "date": "2026-07-01T20:00Z",
    "shortName": "SEN @ BEL",
    "state": "in",
-   "clock": "19'",
-   "period": 1,
+   "clock": "90'+2'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "BEL",
      "name": "Belgium",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
      "abbr": "SEN",
      "name": "Senegal",
-     "score": 0
+     "score": 2
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "25'",
+     "team": "",
+     "text": "Goal! Belgium 0, Senegal 1. Habib Diarra (Senegal) right footed shot from very close range to the centre of the goal."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere."
+    },
+    {
+     "type": "goal",
+     "minute": "51'",
+     "team": "",
+     "text": "Goal! Belgium 0, Senegal 2. Ismaïla Sarr (Senegal) right footed shot from the centre of the box to the bottom right corner. Assisted by Moussa Niakhaté with a through ball."
+    },
+    {
+     "type": "sub",
+     "minute": "56'",
+     "team": "",
+     "text": "Substitution, Belgium. Dodi Lukébakio replaces Jérémy Doku."
+    },
+    {
+     "type": "sub",
+     "minute": "56'",
+     "team": "",
+     "text": "Substitution, Belgium. Nicolas Raskin replaces Kevin De Bruyne."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Belgium. Diego Moreira replaces Hans Vanaken."
+    },
+    {
+     "type": "yellow",
+     "minute": "64'",
+     "team": "",
+     "text": "Brandon Mechele (Belgium) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Senegal. Lamine Camara replaces Pape Gueye."
+    },
+    {
+     "type": "yellow",
+     "minute": "67'",
+     "team": "",
+     "text": "Lamine Camara (Senegal) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "73'",
+     "team": "",
+     "text": "Substitution, Senegal. Ibrahim Mbaye replaces Iliman Ndiaye."
+    },
+    {
+     "type": "sub",
+     "minute": "73'",
+     "team": "",
+     "text": "Substitution, Senegal. Pape Matar Sarr replaces Habib Diarra."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Belgium. Thomas Meunier replaces Maxim De Cuyper."
+    },
+    {
+     "type": "goal",
+     "minute": "86'",
+     "team": "",
+     "text": "Goal! Belgium 1, Senegal 2. Romelu Lukaku (Belgium) right footed shot from the right side of the six yard box to the high centre of the goal. Assisted by Thomas Meunier with a cross."
+    },
+    {
+     "type": "goal",
+     "minute": "89'",
+     "team": "",
+     "text": "Goal! Belgium 2, Senegal 2. Youri Tielemans (Belgium) header from the centre of the box to the bottom left corner. Assisted by Leandro Trossard."
+    }
+   ]
   },
   {
    "id": "760494",
