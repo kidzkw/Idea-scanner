@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-02T20:51:44.555Z",
+ "updatedAt": "2026-07-02T20:54:46.688Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -8,7 +8,7 @@
    "date": "2026-07-02T19:00Z",
    "shortName": "AUT @ ESP",
    "state": "in",
-   "clock": "90'",
+   "clock": "90'+3'",
    "period": 2,
    "competitors": [
     {
@@ -96,6 +96,18 @@
      "minute": "89'",
      "team": "",
      "text": "Goal! Spain 3, Austria 0. Mikel Oyarzabal (Spain) right footed shot from the centre of the box to the bottom right corner. Assisted by Marc Cucurella."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Fabián Ruiz (Spain) Substitution at 90'+3'"
+    },
+    {
+     "type": "sub",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Marc Pubill (Spain) Substitution at 90'+3'"
     }
    ]
   },
