@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-02T00:18:04.000Z",
+ "updatedAt": "2026-07-02T04:33:57.475Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -135,7 +135,7 @@
    "keyEvents": [
     {
      "type": "goal",
-     "minute": "25'",
+     "minute": "24'",
      "team": "",
      "text": "Goal! Belgium 0, Senegal 1. Habib Diarra (Senegal) right footed shot from very close range to the centre of the goal."
     },
@@ -219,13 +219,13 @@
     },
     {
      "type": "sub",
-     "minute": "93'",
+     "minute": "94'",
      "team": "",
      "text": "Substitution, Senegal. Nicolas Jackson replaces Sadio Mané."
     },
     {
      "type": "sub",
-     "minute": "93'",
+     "minute": "94'",
      "team": "",
      "text": "Substitution, Senegal. El Hadji Malick Diouf replaces Ismail Jakobs."
     },
@@ -253,15 +253,15 @@
    "id": "760494",
    "date": "2026-07-02T00:00Z",
    "shortName": "BIH @ USA",
-   "state": "in",
-   "clock": "18'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+10'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "USA",
      "name": "United States",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
@@ -270,7 +270,80 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "45'",
+     "team": "",
+     "text": "Goal! USA 1, Bosnia and Herzegovina 0. Folarin Balogun (USA) left footed shot from the centre of the box to the centre of the goal."
+    },
+    {
+     "type": "sub",
+     "minute": "51'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Esmir Bajraktarevic replaces Armin Gigovic."
+    },
+    {
+     "type": "sub",
+     "minute": "51'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Benjamin Tahirovic replaces Ivan Sunjic."
+    },
+    {
+     "type": "sub",
+     "minute": "51'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Ermin Mahmic replaces Edin Dzeko because of an injury."
+    },
+    {
+     "type": "red",
+     "minute": "64'",
+     "team": "",
+     "text": "Folarin Balogun (USA) is shown the red card."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Haris Tabakovic replaces Sead Kolasinac."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Bosnia and Herzegovina. Amar Memic replaces Nikola Katic."
+    },
+    {
+     "type": "yellow",
+     "minute": "80'",
+     "team": "",
+     "text": "Stjepan Radeljic (Bosnia and Herzegovina) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "82'",
+     "team": "",
+     "text": "Goal! USA 2, Bosnia and Herzegovina 0. Malik Tillman (USA) from a free kick with a right footed shot to the top left corner."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, USA. Sebastian Berhalter replaces Sergiño Dest."
+    },
+    {
+     "type": "sub",
+     "minute": "88'",
+     "team": "",
+     "text": "Substitution, USA. Ricardo Pepi replaces Christian Pulisic."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+5'",
+     "team": "",
+     "text": "Substitution, USA. Giovanni Reyna replaces Weston McKennie."
+    }
+   ]
   },
   {
    "id": "760497",
