@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-02T19:52:31.832Z",
+ "updatedAt": "2026-07-02T20:51:44.555Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -8,14 +8,14 @@
    "date": "2026-07-02T19:00Z",
    "shortName": "AUT @ ESP",
    "state": "in",
-   "clock": "45'+4'",
-   "period": 1,
+   "clock": "90'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ESP",
      "name": "Spain",
-     "score": 1
+     "score": 3
     },
     {
      "homeAway": "away",
@@ -30,6 +30,72 @@
      "minute": "36'",
      "team": "",
      "text": "Goal! Spain 1, Austria 0. Mikel Oyarzabal (Spain) left footed shot from the centre of the box to the centre of the goal. Assisted by Marc Cucurella with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Austria. Florian Grillitsch replaces Xaver Schlager."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Austria. Carney Chukwuemeka replaces Nicolas Seiwald."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Austria. Sasa Kalajdzic replaces Romano Schmid."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Austria. Marko Arnautovic replaces Michael Gregoritsch."
+    },
+    {
+     "type": "goal",
+     "minute": "66'",
+     "team": "",
+     "text": "Goal! Spain 2, Austria 0. Pedro Porro (Spain) header from the centre of the box to the centre of the goal. Assisted by Álex Baena."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Spain. Ferran Torres replaces Álex Baena."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Spain. Mikel Merino replaces Dani Olmo."
+    },
+    {
+     "type": "yellow",
+     "minute": "83'",
+     "team": "",
+     "text": "Stefan Posch (Austria) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Spain. Gavi replaces Lamine Yamal."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Austria. Alexander Prass replaces Stefan Posch."
+    },
+    {
+     "type": "goal",
+     "minute": "89'",
+     "team": "",
+     "text": "Goal! Spain 3, Austria 0. Mikel Oyarzabal (Spain) right footed shot from the centre of the box to the bottom right corner. Assisted by Marc Cucurella."
     }
    ]
   },
