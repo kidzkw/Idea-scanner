@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-01T23:04:48.122Z",
+ "updatedAt": "2026-07-02T00:18:04.000Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -253,9 +253,9 @@
    "id": "760494",
    "date": "2026-07-02T00:00Z",
    "shortName": "BIH @ USA",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "18'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
