@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-02T21:54:27.746Z",
+ "updatedAt": "2026-07-02T21:58:48.928Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -7,15 +7,15 @@
    "id": "760497",
    "date": "2026-07-02T19:00Z",
    "shortName": "AUT @ ESP",
-   "state": "post",
-   "clock": "90'+6'",
-   "period": 2,
+   "state": "in",
+   "clock": "26'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ESP",
      "name": "Spain",
-     "score": 3
+     "score": 0
     },
     {
      "homeAway": "away",
