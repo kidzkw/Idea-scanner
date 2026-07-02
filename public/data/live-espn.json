@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-02T18:12:42.364Z",
+ "updatedAt": "2026-07-02T19:52:31.832Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -7,15 +7,15 @@
    "id": "760497",
    "date": "2026-07-02T19:00Z",
    "shortName": "AUT @ ESP",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "45'+4'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ESP",
      "name": "Spain",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -24,7 +24,14 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "36'",
+     "team": "",
+     "text": "Goal! Spain 1, Austria 0. Mikel Oyarzabal (Spain) left footed shot from the centre of the box to the centre of the goal. Assisted by Marc Cucurella with a cross."
+    }
+   ]
   },
   {
    "id": "760496",
