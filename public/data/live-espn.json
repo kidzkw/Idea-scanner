@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-02T20:54:46.688Z",
+ "updatedAt": "2026-07-02T21:54:27.746Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -7,8 +7,8 @@
    "id": "760497",
    "date": "2026-07-02T19:00Z",
    "shortName": "AUT @ ESP",
-   "state": "in",
-   "clock": "90'+3'",
+   "state": "post",
+   "clock": "90'+6'",
    "period": 2,
    "competitors": [
     {
@@ -101,13 +101,13 @@
      "type": "sub",
      "minute": "90'+3'",
      "team": "",
-     "text": "Fabián Ruiz (Spain) Substitution at 90'+3'"
+     "text": "Substitution, Spain. Fabián Ruiz replaces Pedri."
     },
     {
      "type": "sub",
      "minute": "90'+3'",
      "team": "",
-     "text": "Marc Pubill (Spain) Substitution at 90'+3'"
+     "text": "Substitution, Spain. Marc Pubill replaces Aymeric Laporte."
     }
    ]
   },
