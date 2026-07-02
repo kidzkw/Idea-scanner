@@ -1,350 +1,8 @@
 {
- "updatedAt": "2026-07-02T04:33:57.475Z",
+ "updatedAt": "2026-07-02T18:12:42.364Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
-  {
-   "id": "760495",
-   "date": "2026-07-01T16:00Z",
-   "shortName": "COD @ ENG",
-   "state": "post",
-   "clock": "90'+7'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "ENG",
-     "name": "England",
-     "score": 2
-    },
-    {
-     "homeAway": "away",
-     "abbr": "COD",
-     "name": "Congo DR",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "7'",
-     "team": "",
-     "text": "Goal! England 0, Congo DR 1. Brian Cipenga (Congo DR) right footed shot from the left side of the box to the bottom left corner. Assisted by Chancel Mbemba."
-    },
-    {
-     "type": "yellow",
-     "minute": "19'",
-     "team": "",
-     "text": "Jude Bellingham (England) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "28'",
-     "team": "",
-     "text": "Noah Sadiki (Congo DR) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "61'",
-     "team": "",
-     "text": "Substitution, England. Bukayo Saka replaces Noni Madueke."
-    },
-    {
-     "type": "sub",
-     "minute": "61'",
-     "team": "",
-     "text": "Substitution, England. Anthony Gordon replaces Marcus Rashford."
-    },
-    {
-     "type": "sub",
-     "minute": "64'",
-     "team": "",
-     "text": "Substitution, Congo DR. Meschack Elia replaces Nathanaël Mbuku."
-    },
-    {
-     "type": "sub",
-     "minute": "70'",
-     "team": "",
-     "text": "Substitution, England. Eberechi Eze replaces Djed Spence."
-    },
-    {
-     "type": "goal",
-     "minute": "75'",
-     "team": "",
-     "text": "Goal! England 1, Congo DR 1. Harry Kane (England) header from the centre of the box to the bottom left corner. Assisted by Anthony Gordon with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "76'",
-     "team": "",
-     "text": "Substitution, Congo DR. Théo Bongonda replaces Brian Cipenga."
-    },
-    {
-     "type": "sub",
-     "minute": "76'",
-     "team": "",
-     "text": "Substitution, Congo DR. Edo Kayembe replaces Ngal'ayel Mukau."
-    },
-    {
-     "type": "goal",
-     "minute": "86'",
-     "team": "",
-     "text": "Goal! England 2, Congo DR 1. Harry Kane (England) right footed shot from the right side of the box to the top right corner. Assisted by Anthony Gordon."
-    },
-    {
-     "type": "sub",
-     "minute": "89'",
-     "team": "",
-     "text": "Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku."
-    },
-    {
-     "type": "sub",
-     "minute": "89'",
-     "team": "",
-     "text": "Substitution, Congo DR. Fiston Mayele replaces Samuel Moutoussamy."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+1'",
-     "team": "",
-     "text": "Substitution, England. John Stones replaces Declan Rice."
-    }
-   ]
-  },
-  {
-   "id": "760493",
-   "date": "2026-07-01T20:00Z",
-   "shortName": "SEN @ BEL",
-   "state": "post",
-   "clock": "120'+12'",
-   "period": 4,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "BEL",
-     "name": "Belgium",
-     "score": 3
-    },
-    {
-     "homeAway": "away",
-     "abbr": "SEN",
-     "name": "Senegal",
-     "score": 2
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "24'",
-     "team": "",
-     "text": "Goal! Belgium 0, Senegal 1. Habib Diarra (Senegal) right footed shot from very close range to the centre of the goal."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere."
-    },
-    {
-     "type": "goal",
-     "minute": "51'",
-     "team": "",
-     "text": "Goal! Belgium 0, Senegal 2. Ismaïla Sarr (Senegal) right footed shot from the centre of the box to the bottom right corner. Assisted by Moussa Niakhaté with a through ball."
-    },
-    {
-     "type": "sub",
-     "minute": "56'",
-     "team": "",
-     "text": "Substitution, Belgium. Dodi Lukébakio replaces Jérémy Doku."
-    },
-    {
-     "type": "sub",
-     "minute": "56'",
-     "team": "",
-     "text": "Substitution, Belgium. Nicolas Raskin replaces Kevin De Bruyne."
-    },
-    {
-     "type": "sub",
-     "minute": "63'",
-     "team": "",
-     "text": "Substitution, Belgium. Diego Moreira replaces Hans Vanaken."
-    },
-    {
-     "type": "yellow",
-     "minute": "64'",
-     "team": "",
-     "text": "Brandon Mechele (Belgium) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, Senegal. Lamine Camara replaces Pape Gueye."
-    },
-    {
-     "type": "yellow",
-     "minute": "67'",
-     "team": "",
-     "text": "Lamine Camara (Senegal) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "73'",
-     "team": "",
-     "text": "Substitution, Senegal. Ibrahim Mbaye replaces Iliman Ndiaye."
-    },
-    {
-     "type": "sub",
-     "minute": "73'",
-     "team": "",
-     "text": "Substitution, Senegal. Pape Matar Sarr replaces Habib Diarra."
-    },
-    {
-     "type": "sub",
-     "minute": "78'",
-     "team": "",
-     "text": "Substitution, Belgium. Thomas Meunier replaces Maxim De Cuyper."
-    },
-    {
-     "type": "goal",
-     "minute": "86'",
-     "team": "",
-     "text": "Goal! Belgium 1, Senegal 2. Romelu Lukaku (Belgium) right footed shot from the right side of the six yard box to the high centre of the goal. Assisted by Thomas Meunier with a cross."
-    },
-    {
-     "type": "goal",
-     "minute": "89'",
-     "team": "",
-     "text": "Goal! Belgium 2, Senegal 2. Youri Tielemans (Belgium) header from the centre of the box to the bottom left corner. Assisted by Leandro Trossard."
-    },
-    {
-     "type": "sub",
-     "minute": "94'",
-     "team": "",
-     "text": "Substitution, Senegal. Nicolas Jackson replaces Sadio Mané."
-    },
-    {
-     "type": "sub",
-     "minute": "94'",
-     "team": "",
-     "text": "Substitution, Senegal. El Hadji Malick Diouf replaces Ismail Jakobs."
-    },
-    {
-     "type": "sub",
-     "minute": "96'",
-     "team": "",
-     "text": "Substitution, Senegal. Bara Sapoko Ndiaye replaces Idrissa Gueye."
-    },
-    {
-     "type": "sub",
-     "minute": "109'",
-     "team": "",
-     "text": "Substitution, Belgium. Amadou Onana replaces Leandro Trossard."
-    },
-    {
-     "type": "penalty",
-     "minute": "120'+5'",
-     "team": "",
-     "text": "Goal! Belgium 3, Senegal 2. Youri Tielemans (Belgium) converts the penalty with a right footed shot to the top right corner."
-    }
-   ]
-  },
-  {
-   "id": "760494",
-   "date": "2026-07-02T00:00Z",
-   "shortName": "BIH @ USA",
-   "state": "post",
-   "clock": "90'+10'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "USA",
-     "name": "United States",
-     "score": 2
-    },
-    {
-     "homeAway": "away",
-     "abbr": "BIH",
-     "name": "Bosnia-Herzegovina",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "45'",
-     "team": "",
-     "text": "Goal! USA 1, Bosnia and Herzegovina 0. Folarin Balogun (USA) left footed shot from the centre of the box to the centre of the goal."
-    },
-    {
-     "type": "sub",
-     "minute": "51'",
-     "team": "",
-     "text": "Substitution, Bosnia and Herzegovina. Esmir Bajraktarevic replaces Armin Gigovic."
-    },
-    {
-     "type": "sub",
-     "minute": "51'",
-     "team": "",
-     "text": "Substitution, Bosnia and Herzegovina. Benjamin Tahirovic replaces Ivan Sunjic."
-    },
-    {
-     "type": "sub",
-     "minute": "51'",
-     "team": "",
-     "text": "Substitution, Bosnia and Herzegovina. Ermin Mahmic replaces Edin Dzeko because of an injury."
-    },
-    {
-     "type": "red",
-     "minute": "64'",
-     "team": "",
-     "text": "Folarin Balogun (USA) is shown the red card."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Bosnia and Herzegovina. Haris Tabakovic replaces Sead Kolasinac."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Bosnia and Herzegovina. Amar Memic replaces Nikola Katic."
-    },
-    {
-     "type": "yellow",
-     "minute": "80'",
-     "team": "",
-     "text": "Stjepan Radeljic (Bosnia and Herzegovina) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "82'",
-     "team": "",
-     "text": "Goal! USA 2, Bosnia and Herzegovina 0. Malik Tillman (USA) from a free kick with a right footed shot to the top left corner."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, USA. Sebastian Berhalter replaces Sergiño Dest."
-    },
-    {
-     "type": "sub",
-     "minute": "88'",
-     "team": "",
-     "text": "Substitution, USA. Ricardo Pepi replaces Christian Pulisic."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+5'",
-     "team": "",
-     "text": "Substitution, USA. Giovanni Reyna replaces Weston McKennie."
-    }
-   ]
-  },
   {
    "id": "760497",
    "date": "2026-07-02T19:00Z",
@@ -409,6 +67,75 @@
      "homeAway": "away",
      "abbr": "ALG",
      "name": "Algeria",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760499",
+   "date": "2026-07-03T18:00Z",
+   "shortName": "EGY @ AUS",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "AUS",
+     "name": "Australia",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "EGY",
+     "name": "Egypt",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760500",
+   "date": "2026-07-03T22:00Z",
+   "shortName": "CPV @ ARG",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "ARG",
+     "name": "Argentina",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "CPV",
+     "name": "Cape Verde",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760501",
+   "date": "2026-07-04T01:30Z",
+   "shortName": "GHA @ COL",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "COL",
+     "name": "Colombia",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "GHA",
+     "name": "Ghana",
      "score": 0
     }
    ],
