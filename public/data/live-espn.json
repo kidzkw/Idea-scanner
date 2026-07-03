@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-02T23:01:09.858Z",
+ "updatedAt": "2026-07-03T00:07:59.086Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -116,8 +116,8 @@
    "date": "2026-07-02T23:00Z",
    "shortName": "CRO @ POR",
    "state": "in",
-   "clock": "1'",
-   "period": 1,
+   "clock": "48'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -132,7 +132,20 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "17'",
+     "team": "",
+     "text": "Rúben Dias (Portugal) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Croatia. Igor Matanovic replaces Ante Budimir."
+    }
+   ]
   },
   {
    "id": "760498",
