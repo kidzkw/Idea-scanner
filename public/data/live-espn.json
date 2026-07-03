@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-03T00:07:59.086Z",
+ "updatedAt": "2026-07-03T04:05:08.848Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -115,21 +115,21 @@
    "id": "760496",
    "date": "2026-07-02T23:00Z",
    "shortName": "CRO @ POR",
-   "state": "in",
-   "clock": "48'",
+   "state": "post",
+   "clock": "90'+19'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "POR",
      "name": "Portugal",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
      "abbr": "CRO",
      "name": "Croatia",
-     "score": 0
+     "score": 1
     }
    ],
    "keyEvents": [
@@ -144,6 +144,84 @@
      "minute": "45'",
      "team": "",
      "text": "Substitution, Croatia. Igor Matanovic replaces Ante Budimir."
+    },
+    {
+     "type": "goal",
+     "minute": "53'",
+     "team": "",
+     "text": "Goal! Portugal 0, Croatia 1. Ivan Perisic (Croatia) left footed shot from the left side of the box to the centre of the goal."
+    },
+    {
+     "type": "yellow",
+     "minute": "59'",
+     "team": "",
+     "text": "Luka Modric (Croatia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "62'",
+     "team": "",
+     "text": "Substitution, Portugal. Bernardo Silva replaces Vitinha."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Portugal. Francisco Conceição replaces Pedro Neto."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Portugal. Nélson Semedo replaces Bruno Fernandes."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Portugal. Gonçalo Ramos replaces João Cancelo."
+    },
+    {
+     "type": "penalty",
+     "minute": "68'",
+     "team": "",
+     "text": "Goal! Portugal 1, Croatia 1. Cristiano Ronaldo (Portugal) converts the penalty with a right footed shot to the centre of the goal."
+    },
+    {
+     "type": "sub",
+     "minute": "68'",
+     "team": "",
+     "text": "Substitution, Croatia. Mario Pasalic replaces Martin Baturina."
+    },
+    {
+     "type": "sub",
+     "minute": "81'",
+     "team": "",
+     "text": "Substitution, Portugal. Rúben Neves replaces Cristiano Ronaldo."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+2'",
+     "team": "",
+     "text": "Substitution, Croatia. Josko Gvardiol replaces Nikola Vlasic."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+4'",
+     "team": "",
+     "text": "Goal! Portugal 2, Croatia 1. Gonçalo Ramos (Portugal) header from the centre of the box to the bottom right corner. Assisted by Rafael Leão with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+6'",
+     "team": "",
+     "text": "Substitution, Croatia. Andrej Kramaric replaces Mateo Kovacic."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+8'",
+     "team": "",
+     "text": "Ivan Perisic (Croatia) is shown the yellow card."
     }
    ]
   },
@@ -151,15 +229,15 @@
    "id": "760498",
    "date": "2026-07-03T03:00Z",
    "shortName": "ALG @ SUI",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "45'+4'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "SUI",
      "name": "Switzerland",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -168,7 +246,20 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "10'",
+     "team": "",
+     "text": "Goal! Switzerland 1, Algeria 0. Breel Embolo (Switzerland) left footed shot from very close range to the bottom left corner. Assisted by Johan Manzambi following a fast break."
+    },
+    {
+     "type": "yellow",
+     "minute": "36'",
+     "team": "",
+     "text": "Farès Chaïbi (Algeria) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760499",
