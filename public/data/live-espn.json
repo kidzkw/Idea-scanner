@@ -1,345 +1,15 @@
 {
- "updatedAt": "2026-07-03T07:32:57.143Z",
+ "updatedAt": "2026-07-03T18:52:47.728Z",
  "source": "espn:site.api.espn.com",
- "count": 6,
+ "count": 5,
  "events": [
-  {
-   "id": "760497",
-   "date": "2026-07-02T19:00Z",
-   "shortName": "AUT @ ESP",
-   "state": "post",
-   "clock": "90'+6'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "ESP",
-     "name": "Spain",
-     "score": 3
-    },
-    {
-     "homeAway": "away",
-     "abbr": "AUT",
-     "name": "Austria",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "36'",
-     "team": "",
-     "text": "Goal! Spain 1, Austria 0. Mikel Oyarzabal (Spain) left footed shot from the centre of the box to the centre of the goal. Assisted by Marc Cucurella with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Austria. Florian Grillitsch replaces Xaver Schlager."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Austria. Carney Chukwuemeka replaces Nicolas Seiwald."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Austria. Sasa Kalajdzic replaces Romano Schmid."
-    },
-    {
-     "type": "sub",
-     "minute": "60'",
-     "team": "",
-     "text": "Substitution, Austria. Marko Arnautovic replaces Michael Gregoritsch."
-    },
-    {
-     "type": "goal",
-     "minute": "66'",
-     "team": "",
-     "text": "Goal! Spain 2, Austria 0. Pedro Porro (Spain) header from the centre of the box to the centre of the goal. Assisted by Álex Baena."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Spain. Ferran Torres replaces Álex Baena."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Spain. Mikel Merino replaces Dani Olmo."
-    },
-    {
-     "type": "yellow",
-     "minute": "83'",
-     "team": "",
-     "text": "Stefan Posch (Austria) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, Spain. Gavi replaces Lamine Yamal."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, Austria. Alexander Prass replaces Stefan Posch."
-    },
-    {
-     "type": "goal",
-     "minute": "89'",
-     "team": "",
-     "text": "Goal! Spain 3, Austria 0. Mikel Oyarzabal (Spain) right footed shot from the centre of the box to the bottom right corner. Assisted by Marc Cucurella."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Substitution, Spain. Fabián Ruiz replaces Pedri."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Substitution, Spain. Marc Pubill replaces Aymeric Laporte."
-    }
-   ]
-  },
-  {
-   "id": "760496",
-   "date": "2026-07-02T23:00Z",
-   "shortName": "CRO @ POR",
-   "state": "post",
-   "clock": "90'+19'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "POR",
-     "name": "Portugal",
-     "score": 2
-    },
-    {
-     "homeAway": "away",
-     "abbr": "CRO",
-     "name": "Croatia",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "17'",
-     "team": "",
-     "text": "Rúben Dias (Portugal) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Croatia. Igor Matanovic replaces Ante Budimir."
-    },
-    {
-     "type": "goal",
-     "minute": "53'",
-     "team": "",
-     "text": "Goal! Portugal 0, Croatia 1. Ivan Perisic (Croatia) left footed shot from the left side of the box to the centre of the goal."
-    },
-    {
-     "type": "yellow",
-     "minute": "59'",
-     "team": "",
-     "text": "Luka Modric (Croatia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "62'",
-     "team": "",
-     "text": "Substitution, Portugal. Bernardo Silva replaces Vitinha."
-    },
-    {
-     "type": "sub",
-     "minute": "63'",
-     "team": "",
-     "text": "Substitution, Portugal. Francisco Conceição replaces Pedro Neto."
-    },
-    {
-     "type": "sub",
-     "minute": "63'",
-     "team": "",
-     "text": "Substitution, Portugal. Nélson Semedo replaces Bruno Fernandes."
-    },
-    {
-     "type": "sub",
-     "minute": "63'",
-     "team": "",
-     "text": "Substitution, Portugal. Gonçalo Ramos replaces João Cancelo."
-    },
-    {
-     "type": "penalty",
-     "minute": "68'",
-     "team": "",
-     "text": "Goal! Portugal 1, Croatia 1. Cristiano Ronaldo (Portugal) converts the penalty with a right footed shot to the centre of the goal."
-    },
-    {
-     "type": "sub",
-     "minute": "68'",
-     "team": "",
-     "text": "Substitution, Croatia. Mario Pasalic replaces Martin Baturina."
-    },
-    {
-     "type": "sub",
-     "minute": "81'",
-     "team": "",
-     "text": "Substitution, Portugal. Rúben Neves replaces Cristiano Ronaldo."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Substitution, Croatia. Josko Gvardiol replaces Nikola Vlasic."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+4'",
-     "team": "",
-     "text": "Goal! Portugal 2, Croatia 1. Gonçalo Ramos (Portugal) header from the centre of the box to the bottom right corner. Assisted by Rafael Leão with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+6'",
-     "team": "",
-     "text": "Substitution, Croatia. Andrej Kramaric replaces Mateo Kovacic."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+8'",
-     "team": "",
-     "text": "Ivan Perisic (Croatia) is shown the yellow card."
-    }
-   ]
-  },
-  {
-   "id": "760498",
-   "date": "2026-07-03T03:00Z",
-   "shortName": "ALG @ SUI",
-   "state": "post",
-   "clock": "90'+7'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "SUI",
-     "name": "Switzerland",
-     "score": 2
-    },
-    {
-     "homeAway": "away",
-     "abbr": "ALG",
-     "name": "Algeria",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "10'",
-     "team": "",
-     "text": "Goal! Switzerland 1, Algeria 0. Breel Embolo (Switzerland) left footed shot from very close range to the bottom left corner. Assisted by Johan Manzambi following a fast break."
-    },
-    {
-     "type": "yellow",
-     "minute": "36'",
-     "team": "",
-     "text": "Farès Chaïbi (Algeria) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "46'",
-     "team": "",
-     "text": "Goal! Switzerland 2, Algeria 0. Dan Ndoye (Switzerland) right footed shot from the centre of the box to the bottom left corner."
-    },
-    {
-     "type": "sub",
-     "minute": "58'",
-     "team": "",
-     "text": "Substitution, Algeria. Jaouen Hadjam replaces Houssem Aouar."
-    },
-    {
-     "type": "sub",
-     "minute": "58'",
-     "team": "",
-     "text": "Substitution, Algeria. Amine Gouiri replaces Ramiz Zerrouki."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Switzerland. Fabian Rieder replaces Rubén Vargas."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Switzerland. Noah Okafor replaces Johan Manzambi."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Algeria. Anis Hadj Moussa replaces Riyad Mahrez."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Algeria. Hicham Boudaoui replaces Nabil Bentaleb."
-    },
-    {
-     "type": "yellow",
-     "minute": "72'",
-     "team": "",
-     "text": "Hicham Boudaoui (Algeria) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "82'",
-     "team": "",
-     "text": "Substitution, Algeria. Adil Boulbina replaces Rafik Belghali because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "83'",
-     "team": "",
-     "text": "Substitution, Switzerland. Zeki Amdouni replaces Breel Embolo."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Switzerland. Silvan Widmer replaces Denis Zakaria because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Switzerland. Michel Aebischer replaces Dan Ndoye."
-    }
-   ]
-  },
   {
    "id": "760499",
    "date": "2026-07-03T18:00Z",
    "shortName": "EGY @ AUS",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "45'+5'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -351,10 +21,17 @@
      "homeAway": "away",
      "abbr": "EGY",
      "name": "Egypt",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "13'",
+     "team": "",
+     "text": "Goal! Australia 0, Egypt 1. Emam Ashour (Egypt) header from the centre of the box to the bottom left corner. Assisted by Karim Hafez with a cross following a set piece situation."
+    }
+   ]
   },
   {
    "id": "760500",
@@ -397,6 +74,52 @@
      "homeAway": "away",
      "abbr": "GHA",
      "name": "Ghana",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760502",
+   "date": "2026-07-04T17:00Z",
+   "shortName": "MAR @ CAN",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "CAN",
+     "name": "Canada",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "MAR",
+     "name": "Morocco",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760503",
+   "date": "2026-07-04T21:00Z",
+   "shortName": "FRA @ PAR",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "PAR",
+     "name": "Paraguay",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "FRA",
+     "name": "France",
      "score": 0
     }
    ],
