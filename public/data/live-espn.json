@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-03T22:33:17.403Z",
+ "updatedAt": "2026-07-03T22:33:33.306Z",
  "source": "espn:site.api.espn.com",
  "count": 5,
  "events": [
@@ -138,7 +138,14 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "29'",
+     "team": "",
+     "text": "Goal! Argentina 1, Cabo Verde 0. Lionel Messi (Argentina) left footed shot from the right side of the six yard box to the top right corner. Assisted by Lisandro Martínez with a through ball."
+    }
+   ]
   },
   {
    "id": "760501",
