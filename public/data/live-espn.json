@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-03T04:05:08.848Z",
+ "updatedAt": "2026-07-03T04:06:25.532Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -230,8 +230,8 @@
    "date": "2026-07-03T03:00Z",
    "shortName": "ALG @ SUI",
    "state": "in",
-   "clock": "45'+4'",
-   "period": 1,
+   "clock": "47'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -258,6 +258,12 @@
      "minute": "36'",
      "team": "",
      "text": "Farès Chaïbi (Algeria) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "46'",
+     "team": "",
+     "text": "Dan Ndoye (Switzerland) Goal at 46'"
     }
    ]
   },
