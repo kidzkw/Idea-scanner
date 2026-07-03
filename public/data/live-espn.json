@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-03T23:36:36.268Z",
+ "updatedAt": "2026-07-03T23:40:39.862Z",
  "source": "espn:site.api.espn.com",
  "count": 5,
  "events": [
@@ -122,7 +122,7 @@
    "date": "2026-07-03T22:00Z",
    "shortName": "CPV @ ARG",
    "state": "in",
-   "clock": "75'",
+   "clock": "79'",
    "period": 2,
    "competitors": [
     {
@@ -180,6 +180,18 @@
      "minute": "68'",
      "team": "",
      "text": "Kevin Pina (Cabo Verde) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Willy Semedo (Cape Verde) Substitution at 80'"
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Hélio Varela (Cape Verde) Substitution at 80'"
     }
    ]
   },
