@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-03T04:06:25.532Z",
+ "updatedAt": "2026-07-03T04:06:56.611Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -237,7 +237,7 @@
      "homeAway": "home",
      "abbr": "SUI",
      "name": "Switzerland",
-     "score": 1
+     "score": 2
     },
     {
      "homeAway": "away",
@@ -263,7 +263,7 @@
      "type": "goal",
      "minute": "46'",
      "team": "",
-     "text": "Dan Ndoye (Switzerland) Goal at 46'"
+     "text": "Goal! Switzerland 2, Algeria 0. Dan Ndoye (Switzerland) right footed shot from the centre of the box."
     }
    ]
   },
