@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-03T21:20:54.882Z",
+ "updatedAt": "2026-07-03T22:29:44.014Z",
  "source": "espn:site.api.espn.com",
  "count": 5,
  "events": [
@@ -121,15 +121,15 @@
    "id": "760500",
    "date": "2026-07-03T22:00Z",
    "shortName": "CPV @ ARG",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "29'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ARG",
      "name": "Argentina",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -138,7 +138,14 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "29'",
+     "team": "",
+     "text": "Goal! Argentina 1, Cabo Verde 0. Lionel Messi (Argentina) left footed shot from the right side of the six yard box to the top right corner. Assisted by Lisandro Martínez with a through ball."
+    }
+   ]
   },
   {
    "id": "760501",
