@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-03T18:52:47.728Z",
+ "updatedAt": "2026-07-03T20:07:39.134Z",
  "source": "espn:site.api.espn.com",
  "count": 5,
  "events": [
@@ -8,14 +8,14 @@
    "date": "2026-07-03T18:00Z",
    "shortName": "EGY @ AUS",
    "state": "in",
-   "clock": "45'+5'",
-   "period": 1,
+   "clock": "94'",
+   "period": 3,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "AUS",
      "name": "Australia",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -30,6 +30,60 @@
      "minute": "13'",
      "team": "",
      "text": "Goal! Australia 0, Egypt 1. Emam Ashour (Egypt) header from the centre of the box to the bottom left corner. Assisted by Karim Hafez with a cross following a set piece situation."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Australia. Kai Trewin replaces Jordan Bos because of an injury."
+    },
+    {
+     "type": "owngoal",
+     "minute": "55'",
+     "team": "",
+     "text": "Own Goal by Mohamed Hany, Egypt. Australia 1, Egypt 1."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Egypt. Haissem Hassan replaces Mostafa Zico."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Egypt. Hossam Abdelmaguid replaces Hamdi Fathy."
+    },
+    {
+     "type": "sub",
+     "minute": "74'",
+     "team": "",
+     "text": "Substitution, Australia. Ajdin Hrustic replaces Cristian Volpato."
+    },
+    {
+     "type": "sub",
+     "minute": "74'",
+     "team": "",
+     "text": "Substitution, Australia. Mohamed Touré replaces Nestory Irankunda."
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Substitution, Egypt. Trezeguet replaces Karim Hafez because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, Australia. Paul Okon-Engstler replaces Aiden O'Neill."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, Australia. Awer Mabil replaces Connor Metcalfe."
     }
    ]
   },
