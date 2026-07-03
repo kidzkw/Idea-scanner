@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-03T04:06:56.611Z",
+ "updatedAt": "2026-07-03T07:32:57.143Z",
  "source": "espn:site.api.espn.com",
  "count": 6,
  "events": [
@@ -229,8 +229,8 @@
    "id": "760498",
    "date": "2026-07-03T03:00Z",
    "shortName": "ALG @ SUI",
-   "state": "in",
-   "clock": "47'",
+   "state": "post",
+   "clock": "90'+7'",
    "period": 2,
    "competitors": [
     {
@@ -263,7 +263,73 @@
      "type": "goal",
      "minute": "46'",
      "team": "",
-     "text": "Goal! Switzerland 2, Algeria 0. Dan Ndoye (Switzerland) right footed shot from the centre of the box."
+     "text": "Goal! Switzerland 2, Algeria 0. Dan Ndoye (Switzerland) right footed shot from the centre of the box to the bottom left corner."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Algeria. Jaouen Hadjam replaces Houssem Aouar."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Algeria. Amine Gouiri replaces Ramiz Zerrouki."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Switzerland. Fabian Rieder replaces Rubén Vargas."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Switzerland. Noah Okafor replaces Johan Manzambi."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Algeria. Anis Hadj Moussa replaces Riyad Mahrez."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Algeria. Hicham Boudaoui replaces Nabil Bentaleb."
+    },
+    {
+     "type": "yellow",
+     "minute": "72'",
+     "team": "",
+     "text": "Hicham Boudaoui (Algeria) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Algeria. Adil Boulbina replaces Rafik Belghali because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Switzerland. Zeki Amdouni replaces Breel Embolo."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Switzerland. Silvan Widmer replaces Denis Zakaria because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Switzerland. Michel Aebischer replaces Dan Ndoye."
     }
    ]
   },
