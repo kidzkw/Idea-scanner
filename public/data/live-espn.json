@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-03T20:07:39.134Z",
+ "updatedAt": "2026-07-03T21:20:54.882Z",
  "source": "espn:site.api.espn.com",
  "count": 5,
  "events": [
@@ -7,9 +7,9 @@
    "id": "760499",
    "date": "2026-07-03T18:00Z",
    "shortName": "EGY @ AUS",
-   "state": "in",
-   "clock": "94'",
-   "period": 3,
+   "state": "post",
+   "clock": "120'",
+   "period": 5,
    "competitors": [
     {
      "homeAway": "home",
@@ -84,6 +84,36 @@
      "minute": "90'",
      "team": "",
      "text": "Substitution, Australia. Awer Mabil replaces Connor Metcalfe."
+    },
+    {
+     "type": "yellow",
+     "minute": "105'",
+     "team": "",
+     "text": "Haissem Hassan (Egypt) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "105'",
+     "team": "",
+     "text": "Substitution, Egypt. Hamza Abdelkarim replaces Omar Marmoush."
+    },
+    {
+     "type": "sub",
+     "minute": "119'",
+     "team": "",
+     "text": "Substitution, Australia. Mathew Ryan replaces Patrick Beach."
+    },
+    {
+     "type": "yellow",
+     "minute": "120'",
+     "team": "",
+     "text": "Yasser Ibrahim (Egypt) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "120'+1'",
+     "team": "",
+     "text": "Substitution, Egypt. Mahmoud Saber replaces Marwan Attia."
     }
    ]
   },
