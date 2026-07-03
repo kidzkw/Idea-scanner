@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-03T22:33:33.306Z",
+ "updatedAt": "2026-07-03T23:36:36.268Z",
  "source": "espn:site.api.espn.com",
  "count": 5,
  "events": [
@@ -122,8 +122,8 @@
    "date": "2026-07-03T22:00Z",
    "shortName": "CPV @ ARG",
    "state": "in",
-   "clock": "33'",
-   "period": 1,
+   "clock": "75'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -135,7 +135,7 @@
      "homeAway": "away",
      "abbr": "CPV",
      "name": "Cape Verde",
-     "score": 0
+     "score": 1
     }
    ],
    "keyEvents": [
@@ -144,6 +144,42 @@
      "minute": "29'",
      "team": "",
      "text": "Goal! Argentina 1, Cabo Verde 0. Lionel Messi (Argentina) left footed shot from the right side of the six yard box to the top right corner. Assisted by Lisandro Martínez with a through ball."
+    },
+    {
+     "type": "goal",
+     "minute": "59'",
+     "team": "",
+     "text": "Goal! Argentina 1, Cabo Verde 1. Deroy Duarte (Cabo Verde) right footed shot from a difficult angle on the right to the bottom left corner. Assisted by Ryan Mendes."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Argentina. Julián Alvarez replaces Lautaro Martínez."
+    },
+    {
+     "type": "sub",
+     "minute": "64'",
+     "team": "",
+     "text": "Substitution, Argentina. Nico González replaces Thiago Almada."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Jamiro Monteiro replaces Laros Duarte."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Dailon Livramento replaces Nuno da Costa."
+    },
+    {
+     "type": "yellow",
+     "minute": "68'",
+     "team": "",
+     "text": "Kevin Pina (Cabo Verde) is shown the yellow card for a bad foul."
     }
    ]
   },
