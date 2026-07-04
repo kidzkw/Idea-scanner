@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-04T22:37:06.071Z",
+ "updatedAt": "2026-07-04T23:39:44.332Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -157,8 +157,8 @@
    "id": "760503",
    "date": "2026-07-04T21:00Z",
    "shortName": "FRA @ PAR",
-   "state": "in",
-   "clock": "73'",
+   "state": "post",
+   "clock": "90'+11'",
    "period": 2,
    "competitors": [
     {
@@ -216,6 +216,24 @@
      "minute": "71'",
      "team": "",
      "text": "Substitution, Paraguay. Gabriel Ávalos replaces Miguel Almirón."
+    },
+    {
+     "type": "yellow",
+     "minute": "81'",
+     "team": "",
+     "text": "Manu Koné (France) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, France. Rayan Cherki replaces Ousmane Dembélé."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+7'",
+     "team": "",
+     "text": "Michael Olise (France) is shown the yellow card."
     }
    ]
   },
