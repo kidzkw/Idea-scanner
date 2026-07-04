@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-04T04:51:49.973Z",
+ "updatedAt": "2026-07-04T17:30:28.626Z",
  "source": "espn:site.api.espn.com",
  "count": 5,
  "events": [
@@ -367,9 +367,9 @@
    "id": "760502",
    "date": "2026-07-04T17:00Z",
    "shortName": "MAR @ CAN",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "29'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -384,7 +384,20 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "20'",
+     "team": "",
+     "text": "Redouane Halhal (Morocco) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "22'",
+     "team": "",
+     "text": "Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari because of an injury."
+    }
+   ]
   },
   {
    "id": "760503",
