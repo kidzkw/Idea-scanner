@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-04T21:38:20.837Z",
+ "updatedAt": "2026-07-04T22:37:06.071Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -158,8 +158,8 @@
    "date": "2026-07-04T21:00Z",
    "shortName": "FRA @ PAR",
    "state": "in",
-   "clock": "34'",
-   "period": 1,
+   "clock": "73'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -171,7 +171,7 @@
      "homeAway": "away",
      "abbr": "FRA",
      "name": "France",
-     "score": 0
+     "score": 1
     }
    ],
    "keyEvents": [
@@ -180,6 +180,42 @@
      "minute": "19'",
      "team": "",
      "text": "Bradley Barcola (France) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Paraguay. José Canale replaces Omar Alderete because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, Paraguay. Gustavo Caballero replaces Julio Enciso because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, France. Désiré Doué replaces Bradley Barcola."
+    },
+    {
+     "type": "penalty",
+     "minute": "70'",
+     "team": "",
+     "text": "Goal! Paraguay 0, France 1. Kylian Mbappé (France) converts the penalty with a right footed shot to the bottom right corner."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Paraguay. Mauricio replaces Diego Gómez."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Paraguay. Gabriel Ávalos replaces Miguel Almirón."
     }
    ]
   },
