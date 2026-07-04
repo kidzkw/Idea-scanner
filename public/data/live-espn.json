@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-03T23:40:39.862Z",
+ "updatedAt": "2026-07-04T01:12:54.231Z",
  "source": "espn:site.api.espn.com",
  "count": 5,
  "events": [
@@ -121,21 +121,21 @@
    "id": "760500",
    "date": "2026-07-03T22:00Z",
    "shortName": "CPV @ ARG",
-   "state": "in",
-   "clock": "79'",
-   "period": 2,
+   "state": "post",
+   "clock": "120'+3'",
+   "period": 4,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ARG",
      "name": "Argentina",
-     "score": 1
+     "score": 3
     },
     {
      "homeAway": "away",
      "abbr": "CPV",
      "name": "Cape Verde",
-     "score": 1
+     "score": 2
     }
    ],
    "keyEvents": [
@@ -185,13 +185,67 @@
      "type": "sub",
      "minute": "80'",
      "team": "",
-     "text": "Willy Semedo (Cape Verde) Substitution at 80'"
+     "text": "Substitution, Cabo Verde. Willy Semedo replaces Ryan Mendes."
     },
     {
      "type": "sub",
      "minute": "80'",
      "team": "",
-     "text": "Hélio Varela (Cape Verde) Substitution at 80'"
+     "text": "Substitution, Cabo Verde. Hélio Varela replaces Jovane Cabral."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Substitution, Argentina. Leandro Paredes replaces Rodrigo De Paul."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Argentina. Nicolás Tagliafico replaces Facundo Medina because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "92'",
+     "team": "",
+     "text": "Goal! Argentina 2, Cabo Verde 1. Lisandro Martínez (Argentina) left footed shot from the right side of the box to the top right corner. Assisted by Alexis Mac Allister with a headed pass following a corner."
+    },
+    {
+     "type": "sub",
+     "minute": "100'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Yannick Semedo replaces Deroy Duarte."
+    },
+    {
+     "type": "sub",
+     "minute": "100'",
+     "team": "",
+     "text": "Substitution, Cabo Verde. Gilson Benchimol replaces Kevin Pina."
+    },
+    {
+     "type": "goal",
+     "minute": "103'",
+     "team": "",
+     "text": "Goal! Argentina 2, Cabo Verde 2. Sidny Cabral (Cabo Verde) right footed shot from the left side of the box to the top right corner. Assisted by Yannick Semedo."
+    },
+    {
+     "type": "sub",
+     "minute": "104'",
+     "team": "",
+     "text": "Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina."
+    },
+    {
+     "type": "owngoal",
+     "minute": "111'",
+     "team": "",
+     "text": "Own Goal by Diney Borges, Cabo Verde. Argentina 3, Cabo Verde 2."
+    },
+    {
+     "type": "yellow",
+     "minute": "115'",
+     "team": "",
+     "text": "Gonzalo Montiel (Argentina) is shown the yellow card for a bad foul."
     }
    ]
   },
