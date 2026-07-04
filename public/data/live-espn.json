@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-04T18:34:32.079Z",
+ "updatedAt": "2026-07-04T19:48:53.969Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -7,8 +7,8 @@
    "id": "760502",
    "date": "2026-07-04T17:00Z",
    "shortName": "MAR @ CAN",
-   "state": "in",
-   "clock": "70'",
+   "state": "post",
+   "clock": "90'+9'",
    "period": 2,
    "competitors": [
     {
@@ -21,7 +21,7 @@
      "homeAway": "away",
      "abbr": "MAR",
      "name": "Morocco",
-     "score": 1
+     "score": 3
     }
    ],
    "keyEvents": [
@@ -102,6 +102,54 @@
      "minute": "67'",
      "team": "",
      "text": "Cyle Larin (Canada) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Canada. Promise David replaces Ali Ahmed."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Canada. Jacob Shaffelburg replaces Richie Laryea."
+    },
+    {
+     "type": "goal",
+     "minute": "82'",
+     "team": "",
+     "text": "Goal! Canada 0, Morocco 2. Azzedine Ounahi (Morocco) right footed shot from the centre of the box to the top right corner. Assisted by Brahim Díaz following a fast break."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Morocco. Marwane Saadane replaces Issa Diop."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Morocco. Samir El Mourabet replaces Azzedine Ounahi."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Canada. Jonathan Osorio replaces Niko Sigur."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Canada. Jayden Nelson replaces Tajon Buchanan."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+8'",
+     "team": "",
+     "text": "Goal! Canada 0, Morocco 3. Soufiane Rahimi (Morocco) left footed shot from the centre of the box to the bottom right corner. Assisted by Brahim Díaz following a fast break."
     }
    ]
   },
