@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-04T19:48:53.969Z",
+ "updatedAt": "2026-07-04T21:38:20.837Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -157,9 +157,9 @@
    "id": "760503",
    "date": "2026-07-04T21:00Z",
    "shortName": "FRA @ PAR",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "34'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -174,7 +174,14 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "19'",
+     "team": "",
+     "text": "Bradley Barcola (France) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760504",
