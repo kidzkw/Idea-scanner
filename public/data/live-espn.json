@@ -1,375 +1,15 @@
 {
- "updatedAt": "2026-07-04T17:30:28.626Z",
+ "updatedAt": "2026-07-04T18:34:32.079Z",
  "source": "espn:site.api.espn.com",
- "count": 5,
+ "count": 4,
  "events": [
-  {
-   "id": "760499",
-   "date": "2026-07-03T18:00Z",
-   "shortName": "EGY @ AUS",
-   "state": "post",
-   "clock": "120'",
-   "period": 5,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "AUS",
-     "name": "Australia",
-     "score": 1
-    },
-    {
-     "homeAway": "away",
-     "abbr": "EGY",
-     "name": "Egypt",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "13'",
-     "team": "",
-     "text": "Goal! Australia 0, Egypt 1. Emam Ashour (Egypt) header from the centre of the box to the bottom left corner. Assisted by Karim Hafez with a cross following a set piece situation."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Australia. Kai Trewin replaces Jordan Bos because of an injury."
-    },
-    {
-     "type": "owngoal",
-     "minute": "55'",
-     "team": "",
-     "text": "Own Goal by Mohamed Hany, Egypt. Australia 1, Egypt 1."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Egypt. Haissem Hassan replaces Mostafa Zico."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Egypt. Hossam Abdelmaguid replaces Hamdi Fathy."
-    },
-    {
-     "type": "sub",
-     "minute": "74'",
-     "team": "",
-     "text": "Substitution, Australia. Ajdin Hrustic replaces Cristian Volpato."
-    },
-    {
-     "type": "sub",
-     "minute": "74'",
-     "team": "",
-     "text": "Substitution, Australia. Mohamed Touré replaces Nestory Irankunda."
-    },
-    {
-     "type": "sub",
-     "minute": "80'",
-     "team": "",
-     "text": "Substitution, Egypt. Trezeguet replaces Karim Hafez because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "90'",
-     "team": "",
-     "text": "Substitution, Australia. Paul Okon-Engstler replaces Aiden O'Neill."
-    },
-    {
-     "type": "sub",
-     "minute": "90'",
-     "team": "",
-     "text": "Substitution, Australia. Awer Mabil replaces Connor Metcalfe."
-    },
-    {
-     "type": "yellow",
-     "minute": "105'",
-     "team": "",
-     "text": "Haissem Hassan (Egypt) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "105'",
-     "team": "",
-     "text": "Substitution, Egypt. Hamza Abdelkarim replaces Omar Marmoush."
-    },
-    {
-     "type": "sub",
-     "minute": "119'",
-     "team": "",
-     "text": "Substitution, Australia. Mathew Ryan replaces Patrick Beach."
-    },
-    {
-     "type": "yellow",
-     "minute": "120'",
-     "team": "",
-     "text": "Yasser Ibrahim (Egypt) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "120'+1'",
-     "team": "",
-     "text": "Substitution, Egypt. Mahmoud Saber replaces Marwan Attia."
-    }
-   ]
-  },
-  {
-   "id": "760500",
-   "date": "2026-07-03T22:00Z",
-   "shortName": "CPV @ ARG",
-   "state": "post",
-   "clock": "120'+3'",
-   "period": 4,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "ARG",
-     "name": "Argentina",
-     "score": 3
-    },
-    {
-     "homeAway": "away",
-     "abbr": "CPV",
-     "name": "Cape Verde",
-     "score": 2
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "29'",
-     "team": "",
-     "text": "Goal! Argentina 1, Cabo Verde 0. Lionel Messi (Argentina) left footed shot from the right side of the six yard box to the top right corner. Assisted by Lisandro Martínez with a through ball."
-    },
-    {
-     "type": "goal",
-     "minute": "59'",
-     "team": "",
-     "text": "Goal! Argentina 1, Cabo Verde 1. Deroy Duarte (Cabo Verde) right footed shot from a difficult angle on the right to the bottom left corner. Assisted by Ryan Mendes."
-    },
-    {
-     "type": "sub",
-     "minute": "63'",
-     "team": "",
-     "text": "Substitution, Argentina. Julián Alvarez replaces Lautaro Martínez."
-    },
-    {
-     "type": "sub",
-     "minute": "64'",
-     "team": "",
-     "text": "Substitution, Argentina. Nico González replaces Thiago Almada."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Cabo Verde. Jamiro Monteiro replaces Laros Duarte."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Cabo Verde. Dailon Livramento replaces Nuno da Costa."
-    },
-    {
-     "type": "yellow",
-     "minute": "68'",
-     "team": "",
-     "text": "Kevin Pina (Cabo Verde) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "80'",
-     "team": "",
-     "text": "Substitution, Cabo Verde. Willy Semedo replaces Ryan Mendes."
-    },
-    {
-     "type": "sub",
-     "minute": "80'",
-     "team": "",
-     "text": "Substitution, Cabo Verde. Hélio Varela replaces Jovane Cabral."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, Argentina. Leandro Paredes replaces Rodrigo De Paul."
-    },
-    {
-     "type": "sub",
-     "minute": "86'",
-     "team": "",
-     "text": "Substitution, Argentina. Nicolás Tagliafico replaces Facundo Medina because of an injury."
-    },
-    {
-     "type": "goal",
-     "minute": "92'",
-     "team": "",
-     "text": "Goal! Argentina 2, Cabo Verde 1. Lisandro Martínez (Argentina) left footed shot from the right side of the box to the top right corner. Assisted by Alexis Mac Allister with a headed pass following a corner."
-    },
-    {
-     "type": "sub",
-     "minute": "100'",
-     "team": "",
-     "text": "Substitution, Cabo Verde. Yannick Semedo replaces Deroy Duarte."
-    },
-    {
-     "type": "sub",
-     "minute": "100'",
-     "team": "",
-     "text": "Substitution, Cabo Verde. Gilson Benchimol replaces Kevin Pina."
-    },
-    {
-     "type": "goal",
-     "minute": "103'",
-     "team": "",
-     "text": "Goal! Argentina 2, Cabo Verde 2. Sidny Cabral (Cabo Verde) right footed shot from the left side of the box to the top right corner. Assisted by Yannick Semedo."
-    },
-    {
-     "type": "sub",
-     "minute": "104'",
-     "team": "",
-     "text": "Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina."
-    },
-    {
-     "type": "owngoal",
-     "minute": "111'",
-     "team": "",
-     "text": "Own Goal by Diney Borges, Cabo Verde. Argentina 3, Cabo Verde 2."
-    },
-    {
-     "type": "yellow",
-     "minute": "115'",
-     "team": "",
-     "text": "Gonzalo Montiel (Argentina) is shown the yellow card for a bad foul."
-    }
-   ]
-  },
-  {
-   "id": "760501",
-   "date": "2026-07-04T01:30Z",
-   "shortName": "GHA @ COL",
-   "state": "post",
-   "clock": "90'+8'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "COL",
-     "name": "Colombia",
-     "score": 1
-    },
-    {
-     "homeAway": "away",
-     "abbr": "GHA",
-     "name": "Ghana",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "sub",
-     "minute": "8'",
-     "team": "",
-     "text": "Substitution, Colombia. Luis Suárez replaces Jhon Córdoba because of an injury."
-    },
-    {
-     "type": "yellow",
-     "minute": "12'",
-     "team": "",
-     "text": "Jhon Arias (Colombia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "13'",
-     "team": "",
-     "text": "Substitution, Ghana. Alidu Seidu replaces Marvin Senaya because of an injury."
-    },
-    {
-     "type": "goal",
-     "minute": "14'",
-     "team": "",
-     "text": "Goal! Colombia 1, Ghana 0. Jhon Arias (Colombia) right footed shot from the centre of the box to the bottom right corner. Assisted by Luis Suárez with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Colombia. Richard Ríos replaces James Rodríguez."
-    },
-    {
-     "type": "yellow",
-     "minute": "49'",
-     "team": "",
-     "text": "Caleb Yirenkyi (Ghana) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "62'",
-     "team": "",
-     "text": "Substitution, Ghana. Abdul Fatawu replaces Iñaki Williams."
-    },
-    {
-     "type": "sub",
-     "minute": "62'",
-     "team": "",
-     "text": "Substitution, Ghana. Elisha Owusu replaces Kwasi Sibo because of an injury."
-    },
-    {
-     "type": "yellow",
-     "minute": "66'",
-     "team": "",
-     "text": "Abdul Fatawu (Ghana) is shown the yellow card."
-    },
-    {
-     "type": "sub",
-     "minute": "73'",
-     "team": "",
-     "text": "Substitution, Colombia. Juan Fernando Quintero replaces Jhon Arias."
-    },
-    {
-     "type": "yellow",
-     "minute": "76'",
-     "team": "",
-     "text": "Alidu Seidu (Ghana) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "78'",
-     "team": "",
-     "text": "Richard Ríos (Colombia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "79'",
-     "team": "",
-     "text": "Substitution, Ghana. Ernest Nuamah replaces Jordan Ayew."
-    },
-    {
-     "type": "sub",
-     "minute": "79'",
-     "team": "",
-     "text": "Substitution, Ghana. Prince Adu replaces Caleb Yirenkyi."
-    },
-    {
-     "type": "sub",
-     "minute": "90'",
-     "team": "",
-     "text": "Substitution, Colombia. Jaminton Campaz replaces Luis Díaz."
-    }
-   ]
-  },
   {
    "id": "760502",
    "date": "2026-07-04T17:00Z",
    "shortName": "MAR @ CAN",
    "state": "in",
-   "clock": "29'",
-   "period": 1,
+   "clock": "70'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -381,7 +21,7 @@
      "homeAway": "away",
      "abbr": "MAR",
      "name": "Morocco",
-     "score": 0
+     "score": 1
     }
    ],
    "keyEvents": [
@@ -396,6 +36,72 @@
      "minute": "22'",
      "team": "",
      "text": "Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari because of an injury."
+    },
+    {
+     "type": "yellow",
+     "minute": "40'",
+     "team": "",
+     "text": "Achraf Hakimi (Morocco) is shown the yellow card."
+    },
+    {
+     "type": "yellow",
+     "minute": "40'",
+     "team": "",
+     "text": "Richie Laryea (Canada) is shown the yellow card."
+    },
+    {
+     "type": "yellow",
+     "minute": "43'",
+     "team": "",
+     "text": "Jonathan David (Canada) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "45'",
+     "team": "",
+     "text": "Azzedine Ounahi (Morocco) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "45'+6'",
+     "team": "",
+     "text": "Bilal El Khannouss (Morocco) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "49'",
+     "team": "",
+     "text": "Luc De Fougerolles (Canada) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "50'",
+     "team": "",
+     "text": "Goal! Canada 0, Morocco 1. Azzedine Ounahi (Morocco) right footed shot from outside the box to the bottom right corner. Assisted by Achraf Hakimi following a set piece situation."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Morocco. Chemsdine Talbi replaces Bilal El Khannouss."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Morocco. Sofyan Amrabat replaces Ayyoub Bouaddi."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Canada. Cyle Larin replaces Tani Oluwaseyi."
+    },
+    {
+     "type": "yellow",
+     "minute": "67'",
+     "team": "",
+     "text": "Cyle Larin (Canada) is shown the yellow card for a bad foul."
     }
    ]
   },
@@ -417,6 +123,52 @@
      "homeAway": "away",
      "abbr": "FRA",
      "name": "France",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760504",
+   "date": "2026-07-05T20:00Z",
+   "shortName": "NOR @ BRA",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "BRA",
+     "name": "Brazil",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "NOR",
+     "name": "Norway",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760505",
+   "date": "2026-07-06T00:00Z",
+   "shortName": "ENG @ MEX",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "MEX",
+     "name": "Mexico",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "ENG",
+     "name": "England",
      "score": 0
     }
    ],
