@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-04T01:12:54.231Z",
+ "updatedAt": "2026-07-04T04:51:49.973Z",
  "source": "espn:site.api.espn.com",
  "count": 5,
  "events": [
@@ -253,15 +253,15 @@
    "id": "760501",
    "date": "2026-07-04T01:30Z",
    "shortName": "GHA @ COL",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "post",
+   "clock": "90'+8'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "COL",
      "name": "Colombia",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -270,7 +270,98 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "sub",
+     "minute": "8'",
+     "team": "",
+     "text": "Substitution, Colombia. Luis Suárez replaces Jhon Córdoba because of an injury."
+    },
+    {
+     "type": "yellow",
+     "minute": "12'",
+     "team": "",
+     "text": "Jhon Arias (Colombia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "13'",
+     "team": "",
+     "text": "Substitution, Ghana. Alidu Seidu replaces Marvin Senaya because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "14'",
+     "team": "",
+     "text": "Goal! Colombia 1, Ghana 0. Jhon Arias (Colombia) right footed shot from the centre of the box to the bottom right corner. Assisted by Luis Suárez with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Colombia. Richard Ríos replaces James Rodríguez."
+    },
+    {
+     "type": "yellow",
+     "minute": "49'",
+     "team": "",
+     "text": "Caleb Yirenkyi (Ghana) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "62'",
+     "team": "",
+     "text": "Substitution, Ghana. Abdul Fatawu replaces Iñaki Williams."
+    },
+    {
+     "type": "sub",
+     "minute": "62'",
+     "team": "",
+     "text": "Substitution, Ghana. Elisha Owusu replaces Kwasi Sibo because of an injury."
+    },
+    {
+     "type": "yellow",
+     "minute": "66'",
+     "team": "",
+     "text": "Abdul Fatawu (Ghana) is shown the yellow card."
+    },
+    {
+     "type": "sub",
+     "minute": "73'",
+     "team": "",
+     "text": "Substitution, Colombia. Juan Fernando Quintero replaces Jhon Arias."
+    },
+    {
+     "type": "yellow",
+     "minute": "76'",
+     "team": "",
+     "text": "Alidu Seidu (Ghana) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "78'",
+     "team": "",
+     "text": "Richard Ríos (Colombia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Ghana. Ernest Nuamah replaces Jordan Ayew."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Ghana. Prince Adu replaces Caleb Yirenkyi."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, Colombia. Jaminton Campaz replaces Luis Díaz."
+    }
+   ]
   },
   {
    "id": "760502",
