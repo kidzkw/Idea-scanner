@@ -1,242 +1,8 @@
 {
- "updatedAt": "2026-07-04T23:39:44.332Z",
+ "updatedAt": "2026-07-05T18:42:02.535Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
-  {
-   "id": "760502",
-   "date": "2026-07-04T17:00Z",
-   "shortName": "MAR @ CAN",
-   "state": "post",
-   "clock": "90'+9'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "CAN",
-     "name": "Canada",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "MAR",
-     "name": "Morocco",
-     "score": 3
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "20'",
-     "team": "",
-     "text": "Redouane Halhal (Morocco) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "22'",
-     "team": "",
-     "text": "Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari because of an injury."
-    },
-    {
-     "type": "yellow",
-     "minute": "40'",
-     "team": "",
-     "text": "Achraf Hakimi (Morocco) is shown the yellow card."
-    },
-    {
-     "type": "yellow",
-     "minute": "40'",
-     "team": "",
-     "text": "Richie Laryea (Canada) is shown the yellow card."
-    },
-    {
-     "type": "yellow",
-     "minute": "43'",
-     "team": "",
-     "text": "Jonathan David (Canada) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "45'",
-     "team": "",
-     "text": "Azzedine Ounahi (Morocco) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "45'+6'",
-     "team": "",
-     "text": "Bilal El Khannouss (Morocco) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "49'",
-     "team": "",
-     "text": "Luc De Fougerolles (Canada) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "50'",
-     "team": "",
-     "text": "Goal! Canada 0, Morocco 1. Azzedine Ounahi (Morocco) right footed shot from outside the box to the bottom right corner. Assisted by Achraf Hakimi following a set piece situation."
-    },
-    {
-     "type": "sub",
-     "minute": "63'",
-     "team": "",
-     "text": "Substitution, Morocco. Chemsdine Talbi replaces Bilal El Khannouss."
-    },
-    {
-     "type": "sub",
-     "minute": "63'",
-     "team": "",
-     "text": "Substitution, Morocco. Sofyan Amrabat replaces Ayyoub Bouaddi."
-    },
-    {
-     "type": "sub",
-     "minute": "63'",
-     "team": "",
-     "text": "Substitution, Canada. Cyle Larin replaces Tani Oluwaseyi."
-    },
-    {
-     "type": "yellow",
-     "minute": "67'",
-     "team": "",
-     "text": "Cyle Larin (Canada) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "78'",
-     "team": "",
-     "text": "Substitution, Canada. Promise David replaces Ali Ahmed."
-    },
-    {
-     "type": "sub",
-     "minute": "78'",
-     "team": "",
-     "text": "Substitution, Canada. Jacob Shaffelburg replaces Richie Laryea."
-    },
-    {
-     "type": "goal",
-     "minute": "82'",
-     "team": "",
-     "text": "Goal! Canada 0, Morocco 2. Azzedine Ounahi (Morocco) right footed shot from the centre of the box to the top right corner. Assisted by Brahim Díaz following a fast break."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Morocco. Marwane Saadane replaces Issa Diop."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Morocco. Samir El Mourabet replaces Azzedine Ounahi."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Canada. Jonathan Osorio replaces Niko Sigur."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Canada. Jayden Nelson replaces Tajon Buchanan."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+8'",
-     "team": "",
-     "text": "Goal! Canada 0, Morocco 3. Soufiane Rahimi (Morocco) left footed shot from the centre of the box to the bottom right corner. Assisted by Brahim Díaz following a fast break."
-    }
-   ]
-  },
-  {
-   "id": "760503",
-   "date": "2026-07-04T21:00Z",
-   "shortName": "FRA @ PAR",
-   "state": "post",
-   "clock": "90'+11'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "PAR",
-     "name": "Paraguay",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "FRA",
-     "name": "France",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "yellow",
-     "minute": "19'",
-     "team": "",
-     "text": "Bradley Barcola (France) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "58'",
-     "team": "",
-     "text": "Substitution, Paraguay. José Canale replaces Omar Alderete because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "61'",
-     "team": "",
-     "text": "Substitution, Paraguay. Gustavo Caballero replaces Julio Enciso because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "61'",
-     "team": "",
-     "text": "Substitution, France. Désiré Doué replaces Bradley Barcola."
-    },
-    {
-     "type": "penalty",
-     "minute": "70'",
-     "team": "",
-     "text": "Goal! Paraguay 0, France 1. Kylian Mbappé (France) converts the penalty with a right footed shot to the bottom right corner."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Paraguay. Mauricio replaces Diego Gómez."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Paraguay. Gabriel Ávalos replaces Miguel Almirón."
-    },
-    {
-     "type": "yellow",
-     "minute": "81'",
-     "team": "",
-     "text": "Manu Koné (France) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "84'",
-     "team": "",
-     "text": "Substitution, France. Rayan Cherki replaces Ousmane Dembélé."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+7'",
-     "team": "",
-     "text": "Michael Olise (France) is shown the yellow card."
-    }
-   ]
-  },
   {
    "id": "760504",
    "date": "2026-07-05T20:00Z",
@@ -278,6 +44,52 @@
      "homeAway": "away",
      "abbr": "ENG",
      "name": "England",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760506",
+   "date": "2026-07-06T19:00Z",
+   "shortName": "ESP @ POR",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "POR",
+     "name": "Portugal",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "ESP",
+     "name": "Spain",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760507",
+   "date": "2026-07-07T00:00Z",
+   "shortName": "BEL @ USA",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "USA",
+     "name": "United States",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "BEL",
+     "name": "Belgium",
      "score": 0
     }
    ],
