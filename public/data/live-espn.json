@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-05T20:01:07.620Z",
+ "updatedAt": "2026-07-05T21:02:21.830Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -8,7 +8,7 @@
    "date": "2026-07-05T20:00Z",
    "shortName": "NOR @ BRA",
    "state": "in",
-   "clock": "1'",
+   "clock": "45'+6'",
    "period": 1,
    "competitors": [
     {
@@ -24,7 +24,14 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "penalty",
+     "minute": "14'",
+     "team": "",
+     "text": "Penalty saved. Bruno Guimarães (Brazil) right footed shot saved in the bottom right corner by Ørjan Nyland (Norway)."
+    }
+   ]
   },
   {
    "id": "760505",
