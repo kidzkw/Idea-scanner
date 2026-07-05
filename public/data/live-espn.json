@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-05T21:02:21.830Z",
+ "updatedAt": "2026-07-05T21:06:25.166Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -30,6 +30,12 @@
      "minute": "14'",
      "team": "",
      "text": "Penalty saved. Bruno Guimarães (Brazil) right footed shot saved in the bottom right corner by Ørjan Nyland (Norway)."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Oscar Bobb (Norway) Substitution at 45'"
     }
    ]
   },
