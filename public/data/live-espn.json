@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-05T21:06:41.182Z",
+ "updatedAt": "2026-07-05T22:09:52.293Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -7,21 +7,21 @@
    "id": "760504",
    "date": "2026-07-05T20:00Z",
    "shortName": "NOR @ BRA",
-   "state": "in",
-   "clock": "45'+6'",
-   "period": 1,
+   "state": "post",
+   "clock": "90'+11'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "BRA",
      "name": "Brazil",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
      "abbr": "NOR",
      "name": "Norway",
-     "score": 0
+     "score": 2
     }
    ],
    "keyEvents": [
@@ -35,13 +35,73 @@
      "type": "sub",
      "minute": "45'",
      "team": "",
-     "text": "Oscar Bobb (Norway) Substitution at 45'"
+     "text": "Substitution, Norway. Oscar Bobb replaces Alexander Sørloth."
     },
     {
      "type": "sub",
      "minute": "45'",
      "team": "",
-     "text": "Andreas Schjelderup (Norway) Substitution at 45'"
+     "text": "Substitution, Norway. Andreas Schjelderup replaces Antonio Nusa."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Brazil. Endrick replaces Matheus Cunha."
+    },
+    {
+     "type": "sub",
+     "minute": "63'",
+     "team": "",
+     "text": "Substitution, Norway. Fredrik Aursnes replaces Julian Ryerson."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Brazil. Neymar replaces Gabriel Martinelli."
+    },
+    {
+     "type": "sub",
+     "minute": "67'",
+     "team": "",
+     "text": "Substitution, Brazil. Danilo Santos replaces Rayan."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Brazil. Éderson Silva replaces Bruno Guimarães."
+    },
+    {
+     "type": "goal",
+     "minute": "79'",
+     "team": "",
+     "text": "Goal! Brazil 0, Norway 1. Erling Haaland (Norway) header from the centre of the box to the bottom right corner. Assisted by Andreas Schjelderup with a cross."
+    },
+    {
+     "type": "goal",
+     "minute": "90'",
+     "team": "",
+     "text": "Goal! Brazil 0, Norway 2. Erling Haaland (Norway) left footed shot from outside the box to the bottom right corner. Assisted by Andreas Schjelderup."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+5'",
+     "team": "",
+     "text": "Substitution, Norway. Leo Østigård replaces David Møller Wolfe because of an injury."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+6'",
+     "team": "",
+     "text": "Neymar (Brazil) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "penalty",
+     "minute": "90'+10'",
+     "team": "",
+     "text": "Goal! Brazil 1, Norway 2. Neymar (Brazil) converts the penalty with a right footed shot to the bottom right corner."
     }
    ]
   },
