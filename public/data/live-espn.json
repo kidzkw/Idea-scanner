@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-05T21:06:25.166Z",
+ "updatedAt": "2026-07-05T21:06:41.182Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -36,6 +36,12 @@
      "minute": "45'",
      "team": "",
      "text": "Oscar Bobb (Norway) Substitution at 45'"
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Andreas Schjelderup (Norway) Substitution at 45'"
     }
    ]
   },
