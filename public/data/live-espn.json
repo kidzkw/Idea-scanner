@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-05T22:09:52.293Z",
+ "updatedAt": "2026-07-06T04:45:52.440Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -107,26 +107,153 @@
   },
   {
    "id": "760505",
-   "date": "2026-07-06T00:00Z",
+   "date": "2026-07-06T01:00Z",
    "shortName": "ENG @ MEX",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "post",
+   "clock": "90'+12'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "MEX",
      "name": "Mexico",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
      "abbr": "ENG",
      "name": "England",
-     "score": 0
+     "score": 3
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "1'",
+     "team": "",
+     "text": "Declan Rice (England) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "36'",
+     "team": "",
+     "text": "Goal! Mexico 0, England 1. Jude Bellingham (England) header from very close range to the bottom left corner. Assisted by Bukayo Saka with a cross."
+    },
+    {
+     "type": "goal",
+     "minute": "38'",
+     "team": "",
+     "text": "Goal! Mexico 0, England 2. Jude Bellingham (England) right footed shot from very close range to the top left corner. Assisted by Harry Kane."
+    },
+    {
+     "type": "goal",
+     "minute": "42'",
+     "team": "",
+     "text": "Goal! Mexico 1, England 2. Julián Quiñones (Mexico) right footed shot from the centre of the box to the high centre of the goal following a set piece situation."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Mexico. Edson Álvarez replaces César Montes."
+    },
+    {
+     "type": "red",
+     "minute": "54'",
+     "team": "",
+     "text": "Jarell Quansah (England) is shown the red card."
+    },
+    {
+     "type": "sub",
+     "minute": "57'",
+     "team": "",
+     "text": "Substitution, England. John Stones replaces Bukayo Saka."
+    },
+    {
+     "type": "penalty",
+     "minute": "60'",
+     "team": "",
+     "text": "Goal! Mexico 1, England 3. Harry Kane (England) converts the penalty with a right footed shot to the bottom left corner."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, Mexico. Santiago Giménez replaces Gilberto Mora."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, Mexico. Brian Gutiérrez replaces Luis Romo."
+    },
+    {
+     "type": "yellow",
+     "minute": "68'",
+     "team": "",
+     "text": "Marc Guéhi (England) is shown the yellow card."
+    },
+    {
+     "type": "penalty",
+     "minute": "69'",
+     "team": "",
+     "text": "Goal! Mexico 2, England 3. Raúl Jiménez (Mexico) converts the penalty with a right footed shot to the bottom left corner."
+    },
+    {
+     "type": "yellow",
+     "minute": "71'",
+     "team": "",
+     "text": "Jorge Sánchez (Mexico) is shown the yellow card."
+    },
+    {
+     "type": "yellow",
+     "minute": "72'",
+     "team": "",
+     "text": "Nico O'Reilly (England) is shown the yellow card."
+    },
+    {
+     "type": "sub",
+     "minute": "74'",
+     "team": "",
+     "text": "Substitution, England. Djed Spence replaces Nico O'Reilly."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, England. Dan Burn replaces Elliot Anderson."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Mexico. Álvaro Fidalgo replaces Jorge Sánchez."
+    },
+    {
+     "type": "sub",
+     "minute": "81'",
+     "team": "",
+     "text": "Substitution, Mexico. Guillermo Martínez replaces Julián Quiñones."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, England. Morgan Rogers replaces Harry Kane."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+8'",
+     "team": "",
+     "text": "Johan Vásquez (Mexico) is shown the yellow card."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+8'",
+     "team": "",
+     "text": "Jordan Henderson (England) is shown the yellow card."
+    }
+   ]
   },
   {
    "id": "760506",
