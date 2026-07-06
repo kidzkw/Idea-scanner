@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-06T20:17:19.380Z",
+ "updatedAt": "2026-07-06T20:18:20.727Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -8,7 +8,7 @@
    "date": "2026-07-06T19:00Z",
    "shortName": "ESP @ POR",
    "state": "in",
-   "clock": "54'",
+   "clock": "55'",
    "period": 2,
    "competitors": [
     {
@@ -24,7 +24,14 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "sub",
+     "minute": "56'",
+     "team": "",
+     "text": "Nélson Semedo (Portugal) Substitution at 56'"
+    }
+   ]
   },
   {
    "id": "760507",
