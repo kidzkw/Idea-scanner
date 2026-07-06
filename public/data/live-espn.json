@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-06T18:18:32.100Z",
+ "updatedAt": "2026-07-06T20:17:19.380Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -7,9 +7,9 @@
    "id": "760506",
    "date": "2026-07-06T19:00Z",
    "shortName": "ESP @ POR",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "54'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
