@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-06T20:18:20.727Z",
+ "updatedAt": "2026-07-06T21:50:30.096Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -7,8 +7,8 @@
    "id": "760506",
    "date": "2026-07-06T19:00Z",
    "shortName": "ESP @ POR",
-   "state": "in",
-   "clock": "55'",
+   "state": "post",
+   "clock": "90'+9'",
    "period": 2,
    "competitors": [
     {
@@ -21,7 +21,7 @@
      "homeAway": "away",
      "abbr": "ESP",
      "name": "Spain",
-     "score": 0
+     "score": 1
     }
    ],
    "keyEvents": [
@@ -29,7 +29,79 @@
      "type": "sub",
      "minute": "56'",
      "team": "",
-     "text": "Nélson Semedo (Portugal) Substitution at 56'"
+     "text": "Substitution, Portugal. Nélson Semedo replaces Nuno Mendes because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Portugal. Diogo Dalot replaces João Cancelo."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Portugal. Rafael Leão replaces João Félix."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Spain. Ferran Torres replaces Álex Baena."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Portugal. Francisco Conceição replaces Pedro Neto."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, Portugal. Bernardo Silva replaces Vitinha."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Spain. Fabián Ruiz replaces Pedri."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Spain. Mikel Merino replaces Dani Olmo."
+    },
+    {
+     "type": "yellow",
+     "minute": "89'",
+     "team": "",
+     "text": "Bernardo Silva (Portugal) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Goal! Portugal 0, Spain 1. Mikel Merino (Spain) left footed shot from the centre of the box to the bottom left corner. Assisted by Ferran Torres with a through ball."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+4'",
+     "team": "",
+     "text": "Renato Veiga (Portugal) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+7'",
+     "team": "",
+     "text": "Substitution, Spain. Borja Iglesias replaces Mikel Oyarzabal."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+8'",
+     "team": "",
+     "text": "Ferran Torres (Spain) is shown the yellow card for a bad foul."
     }
    ]
   },
