@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-07T17:34:19.073Z",
+ "updatedAt": "2026-07-07T17:34:50.367Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -236,7 +236,7 @@
    "date": "2026-07-07T16:00Z",
    "shortName": "EGY @ ARG",
    "state": "in",
-   "clock": "70'",
+   "clock": "71'",
    "period": 2,
    "competitors": [
     {
@@ -270,12 +270,6 @@
      "minute": "45'",
      "team": "",
      "text": "Substitution, Egypt. Hamdi Fathy replaces Emam Ashour because of an injury."
-    },
-    {
-     "type": "yellow",
-     "minute": "61'",
-     "team": "",
-     "text": "Mostafa Zico (Egypt) is shown the yellow card for excessive celebration."
     },
     {
      "type": "sub",
