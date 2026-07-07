@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-07T22:18:22.054Z",
+ "updatedAt": "2026-07-07T23:17:35.610Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -145,9 +145,9 @@
    "id": "760508",
    "date": "2026-07-07T20:00Z",
    "shortName": "COL @ SUI",
-   "state": "in",
-   "clock": "105'+1'",
-   "period": 3,
+   "state": "post",
+   "clock": "120'",
+   "period": 5,
    "competitors": [
     {
      "homeAway": "home",
@@ -252,6 +252,12 @@
      "minute": "105'",
      "team": "",
      "text": "Miro Muheim (Switzerland) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "119'",
+     "team": "",
+     "text": "Substitution, Colombia. Yerry Mina replaces Jhon Lucumí because of an injury."
     }
    ]
   }
