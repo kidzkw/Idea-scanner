@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-07T21:04:44.289Z",
+ "updatedAt": "2026-07-07T22:18:22.054Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -146,8 +146,8 @@
    "date": "2026-07-07T20:00Z",
    "shortName": "COL @ SUI",
    "state": "in",
-   "clock": "45'+3'",
-   "period": 1,
+   "clock": "105'+1'",
+   "period": 3,
    "competitors": [
     {
      "homeAway": "home",
@@ -167,7 +167,91 @@
      "type": "sub",
      "minute": "45'",
      "team": "",
-     "text": "Djibril Sow (Switzerland) Substitution at 45'"
+     "text": "Substitution, Switzerland. Djibril Sow replaces Ardon Jashari."
+    },
+    {
+     "type": "yellow",
+     "minute": "51'",
+     "team": "",
+     "text": "Granit Xhaka (Switzerland) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "59'",
+     "team": "",
+     "text": "Denis Zakaria (Switzerland) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "60'",
+     "team": "",
+     "text": "Luis Suárez (Colombia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Colombia. Juan Fernando Quintero replaces James Rodríguez."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Colombia. Jaminton Campaz replaces Jhon Arias."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Switzerland. Miro Muheim replaces Ricardo Rodríguez."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Colombia. Richard Ríos replaces Jefferson Lerma."
+    },
+    {
+     "type": "sub",
+     "minute": "82'",
+     "team": "",
+     "text": "Substitution, Colombia. Cucho Hernández replaces Luis Suárez."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Switzerland. Silvan Widmer replaces Denis Zakaria."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Substitution, Switzerland. Cedric Itten replaces Breel Embolo."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+2'",
+     "team": "",
+     "text": "Substitution, Switzerland. Rubén Vargas replaces Dan Ndoye."
+    },
+    {
+     "type": "yellow",
+     "minute": "95'",
+     "team": "",
+     "text": "Davinson Sánchez (Colombia) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "103'",
+     "team": "",
+     "text": "Substitution, Switzerland. Zeki Amdouni replaces Fabian Rieder."
+    },
+    {
+     "type": "yellow",
+     "minute": "105'",
+     "team": "",
+     "text": "Miro Muheim (Switzerland) is shown the yellow card for a bad foul."
     }
    ]
   }
