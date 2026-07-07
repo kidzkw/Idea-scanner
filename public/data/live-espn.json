@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-07T02:08:51.100Z",
+ "updatedAt": "2026-07-07T17:34:19.073Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -235,9 +235,9 @@
    "id": "760509",
    "date": "2026-07-07T16:00Z",
    "shortName": "EGY @ ARG",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "70'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -249,10 +249,53 @@
      "homeAway": "away",
      "abbr": "EGY",
      "name": "Egypt",
-     "score": 0
+     "score": 2
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "15'",
+     "team": "",
+     "text": "Goal! Argentina 0, Egypt 1. Yasser Ibrahim (Egypt) header from the centre of the box to the bottom right corner. Assisted by Marwan Attia with a cross following a corner."
+    },
+    {
+     "type": "penalty",
+     "minute": "21'",
+     "team": "",
+     "text": "Penalty saved. Lionel Messi (Argentina) left footed shot saved in the bottom right corner by Mostafa Shobeir (Egypt)."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Egypt. Hamdi Fathy replaces Emam Ashour because of an injury."
+    },
+    {
+     "type": "yellow",
+     "minute": "61'",
+     "team": "",
+     "text": "Mostafa Zico (Egypt) is shown the yellow card for excessive celebration."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Argentina. Nico González replaces Nicolás Tagliafico."
+    },
+    {
+     "type": "sub",
+     "minute": "66'",
+     "team": "",
+     "text": "Substitution, Argentina. Lautaro Martínez replaces Rodrigo De Paul."
+    },
+    {
+     "type": "goal",
+     "minute": "67'",
+     "team": "",
+     "text": "Goal! Argentina 0, Egypt 2. Mostafa Zico (Egypt) right footed shot from the centre of the box to the centre of the goal. Assisted by Haissem Hassan following a fast break."
+    }
+   ]
   },
   {
    "id": "760508",
