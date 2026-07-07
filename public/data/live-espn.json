@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-07T17:34:50.367Z",
+ "updatedAt": "2026-07-07T17:37:22.953Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -236,7 +236,7 @@
    "date": "2026-07-07T16:00Z",
    "shortName": "EGY @ ARG",
    "state": "in",
-   "clock": "71'",
+   "clock": "73'",
    "period": 2,
    "competitors": [
     {
@@ -288,6 +288,12 @@
      "minute": "67'",
      "team": "",
      "text": "Goal! Argentina 0, Egypt 2. Mostafa Zico (Egypt) right footed shot from the centre of the box to the centre of the goal. Assisted by Haissem Hassan following a fast break."
+    },
+    {
+     "type": "sub",
+     "minute": "73'",
+     "team": "",
+     "text": "Gonzalo Montiel (Argentina) Substitution at 73'"
     }
    ]
   },
