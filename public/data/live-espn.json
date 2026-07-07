@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-07T19:23:45.335Z",
+ "updatedAt": "2026-07-07T21:01:41.810Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -145,9 +145,9 @@
    "id": "760508",
    "date": "2026-07-07T20:00Z",
    "shortName": "COL @ SUI",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "45'+3'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
