@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-07T21:01:41.810Z",
+ "updatedAt": "2026-07-07T21:04:44.289Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -162,7 +162,14 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Djibril Sow (Switzerland) Substitution at 45'"
+    }
+   ]
   }
  ]
 }
