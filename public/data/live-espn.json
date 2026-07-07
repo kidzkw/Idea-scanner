@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-07T17:37:39.038Z",
+ "updatedAt": "2026-07-07T17:38:10.263Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -297,9 +297,9 @@
     },
     {
      "type": "sub",
-     "minute": "74'",
+     "minute": "73'",
      "team": "",
-     "text": "Trézéguet (Egypt) Substitution at 74'"
+     "text": "Trézéguet (Egypt) Substitution at 73'"
     }
    ]
   },
