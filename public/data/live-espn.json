@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-07T17:37:22.953Z",
+ "updatedAt": "2026-07-07T17:37:39.038Z",
  "source": "espn:site.api.espn.com",
  "count": 4,
  "events": [
@@ -236,7 +236,7 @@
    "date": "2026-07-07T16:00Z",
    "shortName": "EGY @ ARG",
    "state": "in",
-   "clock": "73'",
+   "clock": "74'",
    "period": 2,
    "competitors": [
     {
@@ -293,7 +293,13 @@
      "type": "sub",
      "minute": "73'",
      "team": "",
-     "text": "Gonzalo Montiel (Argentina) Substitution at 73'"
+     "text": "Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina."
+    },
+    {
+     "type": "sub",
+     "minute": "74'",
+     "team": "",
+     "text": "Trézéguet (Egypt) Substitution at 74'"
     }
    ]
   },
