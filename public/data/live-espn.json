@@ -1,249 +1,21 @@
 {
- "updatedAt": "2026-07-07T17:38:10.263Z",
+ "updatedAt": "2026-07-07T19:23:45.335Z",
  "source": "espn:site.api.espn.com",
- "count": 4,
+ "count": 2,
  "events": [
-  {
-   "id": "760506",
-   "date": "2026-07-06T19:00Z",
-   "shortName": "ESP @ POR",
-   "state": "post",
-   "clock": "90'+9'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "POR",
-     "name": "Portugal",
-     "score": 0
-    },
-    {
-     "homeAway": "away",
-     "abbr": "ESP",
-     "name": "Spain",
-     "score": 1
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "sub",
-     "minute": "56'",
-     "team": "",
-     "text": "Substitution, Portugal. Nélson Semedo replaces Nuno Mendes because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Portugal. Diogo Dalot replaces João Cancelo."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Portugal. Rafael Leão replaces João Félix."
-    },
-    {
-     "type": "sub",
-     "minute": "75'",
-     "team": "",
-     "text": "Substitution, Spain. Ferran Torres replaces Álex Baena."
-    },
-    {
-     "type": "sub",
-     "minute": "83'",
-     "team": "",
-     "text": "Substitution, Portugal. Francisco Conceição replaces Pedro Neto."
-    },
-    {
-     "type": "sub",
-     "minute": "83'",
-     "team": "",
-     "text": "Substitution, Portugal. Bernardo Silva replaces Vitinha."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, Spain. Fabián Ruiz replaces Pedri."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, Spain. Mikel Merino replaces Dani Olmo."
-    },
-    {
-     "type": "yellow",
-     "minute": "89'",
-     "team": "",
-     "text": "Bernardo Silva (Portugal) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+1'",
-     "team": "",
-     "text": "Goal! Portugal 0, Spain 1. Mikel Merino (Spain) left footed shot from the centre of the box to the bottom left corner. Assisted by Ferran Torres with a through ball."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+4'",
-     "team": "",
-     "text": "Renato Veiga (Portugal) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+7'",
-     "team": "",
-     "text": "Substitution, Spain. Borja Iglesias replaces Mikel Oyarzabal."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+8'",
-     "team": "",
-     "text": "Ferran Torres (Spain) is shown the yellow card for a bad foul."
-    }
-   ]
-  },
-  {
-   "id": "760507",
-   "date": "2026-07-07T00:00Z",
-   "shortName": "BEL @ USA",
-   "state": "post",
-   "clock": "90'+4'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "USA",
-     "name": "United States",
-     "score": 1
-    },
-    {
-     "homeAway": "away",
-     "abbr": "BEL",
-     "name": "Belgium",
-     "score": 4
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "9'",
-     "team": "",
-     "text": "Goal! USA 0, Belgium 1. Charles De Ketelaere (Belgium) right footed shot from very close range to the centre of the goal. Assisted by Nicolas Raskin."
-    },
-    {
-     "type": "sub",
-     "minute": "21'",
-     "team": "",
-     "text": "Substitution, Belgium. Hans Vanaken replaces Amadou Onana because of an injury."
-    },
-    {
-     "type": "goal",
-     "minute": "31'",
-     "team": "",
-     "text": "Goal! USA 1, Belgium 1. Malik Tillman (USA) from a free kick with a right footed shot to the high centre of the goal."
-    },
-    {
-     "type": "goal",
-     "minute": "33'",
-     "team": "",
-     "text": "Goal! USA 1, Belgium 2. Charles De Ketelaere (Belgium) header from very close range to the top right corner. Assisted by Leandro Trossard with a cross."
-    },
-    {
-     "type": "yellow",
-     "minute": "35'",
-     "team": "",
-     "text": "Weston McKennie (USA) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, USA. Giovanni Reyna replaces Sergiño Dest."
-    },
-    {
-     "type": "goal",
-     "minute": "57'",
-     "team": "",
-     "text": "Goal! USA 1, Belgium 3. Hans Vanaken (Belgium) right footed shot from outside the box to the bottom right corner. Assisted by Charles De Ketelaere."
-    },
-    {
-     "type": "sub",
-     "minute": "59'",
-     "team": "",
-     "text": "Substitution, USA. Sebastian Berhalter replaces Christian Pulisic because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Belgium. Jérémy Doku replaces Dodi Lukébakio."
-    },
-    {
-     "type": "sub",
-     "minute": "67'",
-     "team": "",
-     "text": "Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere."
-    },
-    {
-     "type": "yellow",
-     "minute": "69'",
-     "team": "",
-     "text": "Malik Tillman (USA) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "72'",
-     "team": "",
-     "text": "Substitution, USA. Ricardo Pepi replaces Tyler Adams."
-    },
-    {
-     "type": "sub",
-     "minute": "89'",
-     "team": "",
-     "text": "Substitution, Belgium. Alexis Saelemaekers replaces Leandro Trossard."
-    },
-    {
-     "type": "sub",
-     "minute": "89'",
-     "team": "",
-     "text": "Substitution, Belgium. Axel Witsel replaces Nicolas Raskin."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Substitution, USA. Max Arfsten replaces Antonee Robinson."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Substitution, USA. Haji Wright replaces Folarin Balogun."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Goal! USA 1, Belgium 4. Romelu Lukaku (Belgium) right footed shot from the left side of the box to the bottom right corner. Assisted by Hans Vanaken."
-    }
-   ]
-  },
   {
    "id": "760509",
    "date": "2026-07-07T16:00Z",
    "shortName": "EGY @ ARG",
-   "state": "in",
-   "clock": "74'",
+   "state": "post",
+   "clock": "90'+11'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ARG",
      "name": "Argentina",
-     "score": 0
+     "score": 3
     },
     {
      "homeAway": "away",
@@ -299,7 +71,73 @@
      "type": "sub",
      "minute": "73'",
      "team": "",
-     "text": "Trézéguet (Egypt) Substitution at 73'"
+     "text": "Substitution, Egypt. Trezeguet replaces Haissem Hassan because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "79'",
+     "team": "",
+     "text": "Goal! Argentina 1, Egypt 2. Cristian Romero (Argentina) header from the centre of the box to the top right corner. Assisted by Lionel Messi with a cross."
+    },
+    {
+     "type": "sub",
+     "minute": "80'",
+     "team": "",
+     "text": "Substitution, Egypt. Omar Marmoush replaces Mostafa Zico."
+    },
+    {
+     "type": "goal",
+     "minute": "83'",
+     "team": "",
+     "text": "Goal! Argentina 2, Egypt 2. Lionel Messi (Argentina) left footed shot from the centre of the box to the high centre of the goal. Assisted by Gonzalo Montiel."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+2'",
+     "team": "",
+     "text": "Goal! Argentina 3, Egypt 2. Enzo Fernández (Argentina) header from the centre of the box to the bottom right corner. Assisted by Lautaro Martínez with a cross following a fast break."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Mostafa Shobeir (Egypt) is shown the yellow card."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+4'",
+     "team": "",
+     "text": "Hamdi Fathy (Egypt) is shown the yellow card."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+5'",
+     "team": "",
+     "text": "Substitution, Argentina. Facundo Medina replaces Julián Alvarez."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+5'",
+     "team": "",
+     "text": "Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+6'",
+     "team": "",
+     "text": "Substitution, Egypt. Zizo replaces Mohanad Lasheen."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+8'",
+     "team": "",
+     "text": "Marwan Attia (Egypt) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+12'",
+     "team": "",
+     "text": "Haissem Hassan (Egypt) is shown the yellow card."
     }
    ]
   },
