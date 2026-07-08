@@ -1,265 +1,30 @@
 {
- "updatedAt": "2026-07-07T23:17:35.610Z",
+ "updatedAt": "2026-07-08T19:12:55.755Z",
  "source": "espn:site.api.espn.com",
- "count": 2,
+ "count": 1,
  "events": [
   {
-   "id": "760509",
-   "date": "2026-07-07T16:00Z",
-   "shortName": "EGY @ ARG",
-   "state": "post",
-   "clock": "90'+11'",
-   "period": 2,
+   "id": "760510",
+   "date": "2026-07-09T20:00Z",
+   "shortName": "MAR @ FRA",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
    "competitors": [
     {
      "homeAway": "home",
-     "abbr": "ARG",
-     "name": "Argentina",
-     "score": 3
-    },
-    {
-     "homeAway": "away",
-     "abbr": "EGY",
-     "name": "Egypt",
-     "score": 2
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "goal",
-     "minute": "15'",
-     "team": "",
-     "text": "Goal! Argentina 0, Egypt 1. Yasser Ibrahim (Egypt) header from the centre of the box to the bottom right corner. Assisted by Marwan Attia with a cross following a corner."
-    },
-    {
-     "type": "penalty",
-     "minute": "21'",
-     "team": "",
-     "text": "Penalty saved. Lionel Messi (Argentina) left footed shot saved in the bottom right corner by Mostafa Shobeir (Egypt)."
-    },
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Egypt. Hamdi Fathy replaces Emam Ashour because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, Argentina. Nico González replaces Nicolás Tagliafico."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, Argentina. Lautaro Martínez replaces Rodrigo De Paul."
-    },
-    {
-     "type": "goal",
-     "minute": "67'",
-     "team": "",
-     "text": "Goal! Argentina 0, Egypt 2. Mostafa Zico (Egypt) right footed shot from the centre of the box to the centre of the goal. Assisted by Haissem Hassan following a fast break."
-    },
-    {
-     "type": "sub",
-     "minute": "73'",
-     "team": "",
-     "text": "Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina."
-    },
-    {
-     "type": "sub",
-     "minute": "73'",
-     "team": "",
-     "text": "Substitution, Egypt. Trezeguet replaces Haissem Hassan because of an injury."
-    },
-    {
-     "type": "goal",
-     "minute": "79'",
-     "team": "",
-     "text": "Goal! Argentina 1, Egypt 2. Cristian Romero (Argentina) header from the centre of the box to the top right corner. Assisted by Lionel Messi with a cross."
-    },
-    {
-     "type": "sub",
-     "minute": "80'",
-     "team": "",
-     "text": "Substitution, Egypt. Omar Marmoush replaces Mostafa Zico."
-    },
-    {
-     "type": "goal",
-     "minute": "83'",
-     "team": "",
-     "text": "Goal! Argentina 2, Egypt 2. Lionel Messi (Argentina) left footed shot from the centre of the box to the high centre of the goal. Assisted by Gonzalo Montiel."
-    },
-    {
-     "type": "goal",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Goal! Argentina 3, Egypt 2. Enzo Fernández (Argentina) header from the centre of the box to the bottom right corner. Assisted by Lautaro Martínez with a cross following a fast break."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+3'",
-     "team": "",
-     "text": "Mostafa Shobeir (Egypt) is shown the yellow card."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+4'",
-     "team": "",
-     "text": "Hamdi Fathy (Egypt) is shown the yellow card."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+5'",
-     "team": "",
-     "text": "Substitution, Argentina. Facundo Medina replaces Julián Alvarez."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+5'",
-     "team": "",
-     "text": "Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+6'",
-     "team": "",
-     "text": "Substitution, Egypt. Zizo replaces Mohanad Lasheen."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+8'",
-     "team": "",
-     "text": "Marwan Attia (Egypt) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "90'+12'",
-     "team": "",
-     "text": "Haissem Hassan (Egypt) is shown the yellow card."
-    }
-   ]
-  },
-  {
-   "id": "760508",
-   "date": "2026-07-07T20:00Z",
-   "shortName": "COL @ SUI",
-   "state": "post",
-   "clock": "120'",
-   "period": 5,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "SUI",
-     "name": "Switzerland",
+     "abbr": "FRA",
+     "name": "France",
      "score": 0
     },
     {
      "homeAway": "away",
-     "abbr": "COL",
-     "name": "Colombia",
+     "abbr": "MAR",
+     "name": "Morocco",
      "score": 0
     }
    ],
-   "keyEvents": [
-    {
-     "type": "sub",
-     "minute": "45'",
-     "team": "",
-     "text": "Substitution, Switzerland. Djibril Sow replaces Ardon Jashari."
-    },
-    {
-     "type": "yellow",
-     "minute": "51'",
-     "team": "",
-     "text": "Granit Xhaka (Switzerland) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "59'",
-     "team": "",
-     "text": "Denis Zakaria (Switzerland) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "yellow",
-     "minute": "60'",
-     "team": "",
-     "text": "Luis Suárez (Colombia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, Colombia. Juan Fernando Quintero replaces James Rodríguez."
-    },
-    {
-     "type": "sub",
-     "minute": "66'",
-     "team": "",
-     "text": "Substitution, Colombia. Jaminton Campaz replaces Jhon Arias."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, Switzerland. Miro Muheim replaces Ricardo Rodríguez."
-    },
-    {
-     "type": "sub",
-     "minute": "82'",
-     "team": "",
-     "text": "Substitution, Colombia. Richard Ríos replaces Jefferson Lerma."
-    },
-    {
-     "type": "sub",
-     "minute": "82'",
-     "team": "",
-     "text": "Substitution, Colombia. Cucho Hernández replaces Luis Suárez."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Switzerland. Silvan Widmer replaces Denis Zakaria."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, Switzerland. Cedric Itten replaces Breel Embolo."
-    },
-    {
-     "type": "sub",
-     "minute": "90'+2'",
-     "team": "",
-     "text": "Substitution, Switzerland. Rubén Vargas replaces Dan Ndoye."
-    },
-    {
-     "type": "yellow",
-     "minute": "95'",
-     "team": "",
-     "text": "Davinson Sánchez (Colombia) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "103'",
-     "team": "",
-     "text": "Substitution, Switzerland. Zeki Amdouni replaces Fabian Rieder."
-    },
-    {
-     "type": "yellow",
-     "minute": "105'",
-     "team": "",
-     "text": "Miro Muheim (Switzerland) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "sub",
-     "minute": "119'",
-     "team": "",
-     "text": "Substitution, Colombia. Yerry Mina replaces Jhon Lucumí because of an injury."
-    }
-   ]
+   "keyEvents": []
   }
  ]
 }
