@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-09T21:50:43.863Z",
+ "updatedAt": "2026-07-09T21:51:00.209Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -96,6 +96,12 @@
      "minute": "85'",
      "team": "",
      "text": "Substitution, Morocco. Amine Sbaï replaces Chemsdine Talbi."
+    },
+    {
+     "type": "sub",
+     "minute": "87'",
+     "team": "",
+     "text": "Malo Gusto (France) Substitution at 87'"
     }
    ]
   },
