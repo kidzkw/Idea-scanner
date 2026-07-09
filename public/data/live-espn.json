@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-07-08T19:12:55.755Z",
+ "updatedAt": "2026-07-09T18:26:31.809Z",
  "source": "espn:site.api.espn.com",
- "count": 1,
+ "count": 2,
  "events": [
   {
    "id": "760510",
@@ -21,6 +21,29 @@
      "homeAway": "away",
      "abbr": "MAR",
      "name": "Morocco",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760511",
+   "date": "2026-07-10T19:00Z",
+   "shortName": "BEL @ ESP",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "ESP",
+     "name": "Spain",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "BEL",
+     "name": "Belgium",
      "score": 0
     }
    ],
