@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-09T18:26:31.809Z",
+ "updatedAt": "2026-07-09T20:18:13.000Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -7,9 +7,9 @@
    "id": "760510",
    "date": "2026-07-09T20:00Z",
    "shortName": "MAR @ FRA",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "17'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
