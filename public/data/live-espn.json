@@ -1,110 +1,8 @@
 {
- "updatedAt": "2026-07-09T22:58:56.828Z",
+ "updatedAt": "2026-07-10T18:53:31.353Z",
  "source": "espn:site.api.espn.com",
- "count": 2,
+ "count": 3,
  "events": [
-  {
-   "id": "760510",
-   "date": "2026-07-09T20:00Z",
-   "shortName": "MAR @ FRA",
-   "state": "post",
-   "clock": "90'+6'",
-   "period": 2,
-   "competitors": [
-    {
-     "homeAway": "home",
-     "abbr": "FRA",
-     "name": "France",
-     "score": 2
-    },
-    {
-     "homeAway": "away",
-     "abbr": "MAR",
-     "name": "Morocco",
-     "score": 0
-    }
-   ],
-   "keyEvents": [
-    {
-     "type": "penalty",
-     "minute": "28'",
-     "team": "",
-     "text": "Penalty saved. Kylian Mbappé (France) right footed shot saved in the bottom right corner by Yassine Bounou (Morocco)."
-    },
-    {
-     "type": "goal",
-     "minute": "60'",
-     "team": "",
-     "text": "Goal! France 1, Morocco 0. Kylian Mbappé (France) right footed shot from the left side of the box to the top right corner. Assisted by Désiré Doué."
-    },
-    {
-     "type": "sub",
-     "minute": "62'",
-     "team": "",
-     "text": "Substitution, Morocco. Soufiane Rahimi replaces Bilal El Khannouss."
-    },
-    {
-     "type": "sub",
-     "minute": "62'",
-     "team": "",
-     "text": "Substitution, Morocco. Sofyan Amrabat replaces Ayyoub Bouaddi."
-    },
-    {
-     "type": "yellow",
-     "minute": "63'",
-     "team": "",
-     "text": "Issa Diop (Morocco) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "goal",
-     "minute": "66'",
-     "team": "",
-     "text": "Goal! France 2, Morocco 0. Ousmane Dembélé (France) right footed shot from outside the box to the bottom right corner. Assisted by Kylian Mbappé."
-    },
-    {
-     "type": "sub",
-     "minute": "71'",
-     "team": "",
-     "text": "Substitution, France. Warren Zaïre-Emery replaces Manu Koné."
-    },
-    {
-     "type": "sub",
-     "minute": "74'",
-     "team": "",
-     "text": "Substitution, Morocco. Zakaria El Ouahdi replaces Anass Salah-Eddine."
-    },
-    {
-     "type": "sub",
-     "minute": "74'",
-     "team": "",
-     "text": "Substitution, Morocco. Gessime Yassine replaces Brahim Díaz."
-    },
-    {
-     "type": "sub",
-     "minute": "77'",
-     "team": "",
-     "text": "Substitution, France. Jean-Philippe Mateta replaces Kylian Mbappé because of an injury."
-    },
-    {
-     "type": "sub",
-     "minute": "77'",
-     "team": "",
-     "text": "Substitution, France. Bradley Barcola replaces Désiré Doué."
-    },
-    {
-     "type": "sub",
-     "minute": "85'",
-     "team": "",
-     "text": "Substitution, Morocco. Amine Sbaï replaces Chemsdine Talbi."
-    },
-    {
-     "type": "sub",
-     "minute": "87'",
-     "team": "",
-     "text": "Substitution, France. Malo Gusto replaces Jules Koundé."
-    }
-   ]
-  },
   {
    "id": "760511",
    "date": "2026-07-10T19:00Z",
@@ -123,6 +21,52 @@
      "homeAway": "away",
      "abbr": "BEL",
      "name": "Belgium",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760512",
+   "date": "2026-07-11T21:00Z",
+   "shortName": "ENG @ NOR",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "NOR",
+     "name": "Norway",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "ENG",
+     "name": "England",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760513",
+   "date": "2026-07-12T01:00Z",
+   "shortName": "SUI @ ARG",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "ARG",
+     "name": "Argentina",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "SUI",
+     "name": "Switzerland",
      "score": 0
     }
    ],
