@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-10T18:53:31.353Z",
+ "updatedAt": "2026-07-10T20:13:01.204Z",
  "source": "espn:site.api.espn.com",
  "count": 3,
  "events": [
@@ -7,24 +7,43 @@
    "id": "760511",
    "date": "2026-07-10T19:00Z",
    "shortName": "BEL @ ESP",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "51'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ESP",
      "name": "Spain",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
      "abbr": "BEL",
      "name": "Belgium",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "30'",
+     "team": "",
+     "text": "Goal! Spain 1, Belgium 0. Fabián Ruiz (Spain) right footed shot from the centre of the box to the high centre of the goal."
+    },
+    {
+     "type": "goal",
+     "minute": "41'",
+     "team": "",
+     "text": "Goal! Spain 1, Belgium 1. Charles De Ketelaere (Belgium) header from the centre of the box to the centre of the goal. Assisted by Timothy Castagne with a cross."
+    },
+    {
+     "type": "yellow",
+     "minute": "43'",
+     "team": "",
+     "text": "Pau Cubarsí (Spain) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760512",
