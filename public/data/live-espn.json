@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-10T20:13:01.204Z",
+ "updatedAt": "2026-07-10T20:17:19.840Z",
  "source": "espn:site.api.espn.com",
  "count": 3,
  "events": [
@@ -8,7 +8,7 @@
    "date": "2026-07-10T19:00Z",
    "shortName": "BEL @ ESP",
    "state": "in",
-   "clock": "51'",
+   "clock": "55'",
    "period": 2,
    "competitors": [
     {
@@ -42,6 +42,12 @@
      "minute": "43'",
      "team": "",
      "text": "Pau Cubarsí (Spain) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "55'",
+     "team": "",
+     "text": "Ferran Torres (Spain) Substitution at 55'"
     }
    ]
   },
