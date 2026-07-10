@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-10T20:17:19.840Z",
+ "updatedAt": "2026-07-10T21:20:42.601Z",
  "source": "espn:site.api.espn.com",
  "count": 3,
  "events": [
@@ -7,15 +7,15 @@
    "id": "760511",
    "date": "2026-07-10T19:00Z",
    "shortName": "BEL @ ESP",
-   "state": "in",
-   "clock": "55'",
+   "state": "post",
+   "clock": "90'+7'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ESP",
      "name": "Spain",
-     "score": 1
+     "score": 2
     },
     {
      "homeAway": "away",
@@ -47,7 +47,79 @@
      "type": "sub",
      "minute": "55'",
      "team": "",
-     "text": "Ferran Torres (Spain) Substitution at 55'"
+     "text": "Substitution, Spain. Ferran Torres replaces Álex Baena."
+    },
+    {
+     "type": "sub",
+     "minute": "55'",
+     "team": "",
+     "text": "Substitution, Spain. Pedri replaces Fabián Ruiz."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Belgium. Romelu Lukaku replaces Hans Vanaken."
+    },
+    {
+     "type": "sub",
+     "minute": "60'",
+     "team": "",
+     "text": "Substitution, Belgium. Axel Witsel replaces Leandro Trossard."
+    },
+    {
+     "type": "sub",
+     "minute": "61'",
+     "team": "",
+     "text": "Substitution, Belgium. Joaquin Seys replaces Maxim De Cuyper."
+    },
+    {
+     "type": "sub",
+     "minute": "71'",
+     "team": "",
+     "text": "Substitution, Belgium. Senne Lammens replaces Thibaut Courtois because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, Spain. Nico Williams replaces Mikel Oyarzabal."
+    },
+    {
+     "type": "yellow",
+     "minute": "85'",
+     "team": "",
+     "text": "Kevin De Bruyne (Belgium) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Belgium. Alexis Saelemaekers replaces Kevin De Bruyne."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Spain. Mikel Merino replaces Dani Olmo."
+    },
+    {
+     "type": "goal",
+     "minute": "88'",
+     "team": "",
+     "text": "Goal! Spain 2, Belgium 1. Mikel Merino (Spain) left footed shot from very close range to the top left corner."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Aymeric Laporte (Spain) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "90'+5'",
+     "team": "",
+     "text": "Axel Witsel (Belgium) is shown the yellow card for a bad foul."
     }
    ]
   },
