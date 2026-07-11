@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-11T23:07:43.771Z",
+ "updatedAt": "2026-07-11T23:10:48.777Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -8,8 +8,8 @@
    "date": "2026-07-11T21:00Z",
    "shortName": "ENG @ NOR",
    "state": "in",
-   "clock": "90'+8'",
-   "period": 2,
+   "clock": "93'",
+   "period": 3,
    "competitors": [
     {
      "homeAway": "home",
@@ -96,6 +96,12 @@
      "minute": "90'",
      "team": "",
      "text": "Substitution, Norway. Leo Østigård replaces Torbjørn Heggem because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "93'",
+     "team": "",
+     "text": "Jude Bellingham (England) Goal at 93'"
     }
    ]
   },
