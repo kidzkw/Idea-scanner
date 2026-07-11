@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-11T21:11:47.342Z",
+ "updatedAt": "2026-07-11T22:08:21.002Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -8,23 +8,48 @@
    "date": "2026-07-11T21:00Z",
    "shortName": "ENG @ NOR",
    "state": "in",
-   "clock": "10'",
+   "clock": "45'+5'",
    "period": 1,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "NOR",
      "name": "Norway",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
      "abbr": "ENG",
      "name": "England",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "36'",
+     "team": "",
+     "text": "Goal! Norway 1, England 0. Andreas Schjelderup (Norway) left footed shot from the left side of the box to the top right corner. Assisted by Martin Ødegaard."
+    },
+    {
+     "type": "goal",
+     "minute": "45'+2'",
+     "team": "",
+     "text": "Goal! Norway 1, England 1. Jude Bellingham (England) left footed shot from the left side of the box to the bottom right corner. Assisted by Anthony Gordon following a fast break."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, England. Bukayo Saka replaces Noni Madueke."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, England. Eberechi Eze replaces Declan Rice."
+    }
+   ]
   },
   {
    "id": "760513",
