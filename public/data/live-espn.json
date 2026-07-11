@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-11T23:10:48.777Z",
+ "updatedAt": "2026-07-11T23:11:05.073Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -21,7 +21,7 @@
      "homeAway": "away",
      "abbr": "ENG",
      "name": "England",
-     "score": 1
+     "score": 2
     }
    ],
    "keyEvents": [
@@ -101,7 +101,7 @@
      "type": "goal",
      "minute": "93'",
      "team": "",
-     "text": "Jude Bellingham (England) Goal at 93'"
+     "text": "Goal! Norway 1, England 2. Jude Bellingham (England) right footed shot from the centre of the box."
     }
    ]
   },
