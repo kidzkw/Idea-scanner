@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-11T18:09:05.658Z",
+ "updatedAt": "2026-07-11T21:11:47.342Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -7,9 +7,9 @@
    "id": "760512",
    "date": "2026-07-11T21:00Z",
    "shortName": "ENG @ NOR",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "10'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
