@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-12T00:10:35.063Z",
+ "updatedAt": "2026-07-12T03:51:05.474Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -127,24 +127,151 @@
    "id": "760513",
    "date": "2026-07-12T01:00Z",
    "shortName": "SUI @ ARG",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "post",
+   "clock": "120'+4'",
+   "period": 4,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ARG",
      "name": "Argentina",
-     "score": 0
+     "score": 3
     },
     {
      "homeAway": "away",
      "abbr": "SUI",
      "name": "Switzerland",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "10'",
+     "team": "",
+     "text": "Goal! Argentina 1, Switzerland 0. Alexis Mac Allister (Argentina) header from the left side of the six yard box to the bottom right corner. Assisted by Lionel Messi with a cross following a corner."
+    },
+    {
+     "type": "yellow",
+     "minute": "44'",
+     "team": "",
+     "text": "Breel Embolo (Switzerland) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "goal",
+     "minute": "67'",
+     "team": "",
+     "text": "Goal! Argentina 1, Switzerland 1. Dan Ndoye (Switzerland) right footed shot from a difficult angle on the left to the centre of the goal. Assisted by Ricardo Rodríguez with a through ball."
+    },
+    {
+     "type": "red",
+     "minute": "72'",
+     "team": "",
+     "text": "Second yellow card to Breel Embolo (Switzerland)."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Argentina. Nico González replaces Nicolás Tagliafico."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Argentina. Lautaro Martínez replaces Rodrigo De Paul."
+    },
+    {
+     "type": "sub",
+     "minute": "85'",
+     "team": "",
+     "text": "Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Switzerland. Silvan Widmer replaces Djibril Sow."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Switzerland. Zeki Amdouni replaces Dan Ndoye."
+    },
+    {
+     "type": "sub",
+     "minute": "86'",
+     "team": "",
+     "text": "Substitution, Switzerland. Miro Muheim replaces Fabian Rieder."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+5'",
+     "team": "",
+     "text": "Substitution, Switzerland. Eray Cömert replaces Ricardo Rodríguez."
+    },
+    {
+     "type": "sub",
+     "minute": "90'",
+     "team": "",
+     "text": "Substitution, Argentina. Thiago Almada replaces Enzo Fernández."
+    },
+    {
+     "type": "sub",
+     "minute": "96'",
+     "team": "",
+     "text": "Substitution, Switzerland. Ardon Jashari replaces Denis Zakaria."
+    },
+    {
+     "type": "yellow",
+     "minute": "97'",
+     "team": "",
+     "text": "Thiago Almada (Argentina) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "98'",
+     "team": "",
+     "text": "Lautaro Martínez (Argentina) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "105'",
+     "team": "",
+     "text": "Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero."
+    },
+    {
+     "type": "sub",
+     "minute": "110'",
+     "team": "",
+     "text": "Substitution, Argentina. José Manuel López replaces Leandro Paredes because of an injury."
+    },
+    {
+     "type": "goal",
+     "minute": "112'",
+     "team": "",
+     "text": "Goal! Argentina 2, Switzerland 1. Julián Alvarez (Argentina) right footed shot from outside the box to the top right corner. Assisted by José Manuel López."
+    },
+    {
+     "type": "yellow",
+     "minute": "114'",
+     "team": "",
+     "text": "José Manuel López (Argentina) is shown the yellow card."
+    },
+    {
+     "type": "sub",
+     "minute": "115'",
+     "team": "",
+     "text": "Substitution, Switzerland. Rubén Vargas replaces Remo Freuler."
+    },
+    {
+     "type": "goal",
+     "minute": "120'+1'",
+     "team": "",
+     "text": "Goal! Argentina 3, Switzerland 1. Lautaro Martínez (Argentina) right footed shot from the centre of the box to the bottom right corner following a fast break."
+    }
+   ]
   }
  ]
 }
