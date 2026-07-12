@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-11T23:11:05.073Z",
+ "updatedAt": "2026-07-12T00:07:14.420Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -7,9 +7,9 @@
    "id": "760512",
    "date": "2026-07-11T21:00Z",
    "shortName": "ENG @ NOR",
-   "state": "in",
-   "clock": "93'",
-   "period": 3,
+   "state": "post",
+   "clock": "120'+2'",
+   "period": 4,
    "competitors": [
     {
      "homeAway": "home",
@@ -95,13 +95,31 @@
      "type": "sub",
      "minute": "90'",
      "team": "",
-     "text": "Substitution, Norway. Leo Østigård replaces Torbjørn Heggem because of an injury."
+     "text": "Substitution, Norway. Leo Østigård replaces Torbjørn Heggem."
     },
     {
      "type": "goal",
      "minute": "93'",
      "team": "",
-     "text": "Goal! Norway 1, England 2. Jude Bellingham (England) right footed shot from the centre of the box."
+     "text": "Goal! Norway 1, England 2. Jude Bellingham (England) right footed shot from the centre of the box to the bottom left corner following a corner."
+    },
+    {
+     "type": "sub",
+     "minute": "105'",
+     "team": "",
+     "text": "Substitution, Norway. Jørgen Strand Larsen replaces Erling Haaland."
+    },
+    {
+     "type": "sub",
+     "minute": "111'",
+     "team": "",
+     "text": "Substitution, England. Dan Burn replaces Jude Bellingham."
+    },
+    {
+     "type": "yellow",
+     "minute": "117'",
+     "team": "",
+     "text": "Kristoffer Ajer (Norway) is shown the yellow card."
     }
    ]
   },
