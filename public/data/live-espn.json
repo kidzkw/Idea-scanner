@@ -1,6 +1,30 @@
 {
- "updatedAt": "2026-07-12T18:10:38.531Z",
+ "updatedAt": "2026-07-13T18:58:36.031Z",
  "source": "espn:site.api.espn.com",
- "count": 0,
- "events": []
+ "count": 1,
+ "events": [
+  {
+   "id": "760514",
+   "date": "2026-07-14T19:00Z",
+   "shortName": "ESP @ FRA",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "FRA",
+     "name": "France",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "ESP",
+     "name": "Spain",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  }
+ ]
 }
