@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-14T20:45:36.836Z",
+ "updatedAt": "2026-07-14T20:45:53.931Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -101,7 +101,13 @@
      "type": "sub",
      "minute": "84'",
      "team": "",
-     "text": "Marcos Llorente (Spain) Substitution at 84'"
+     "text": "Substitution, Spain. Marcos Llorente replaces Pedro Porro."
+    },
+    {
+     "type": "sub",
+     "minute": "84'",
+     "team": "",
+     "text": "Nico Williams (Spain) Substitution at 84'"
     }
    ]
   },
