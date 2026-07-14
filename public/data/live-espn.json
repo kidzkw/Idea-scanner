@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-14T19:46:18.644Z",
+ "updatedAt": "2026-07-14T20:44:50.294Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -8,8 +8,8 @@
    "date": "2026-07-14T19:00Z",
    "shortName": "ESP @ FRA",
    "state": "in",
-   "clock": "45'+1'",
-   "period": 1,
+   "clock": "83'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -21,7 +21,7 @@
      "homeAway": "away",
      "abbr": "ESP",
      "name": "Spain",
-     "score": 1
+     "score": 2
     }
    ],
    "keyEvents": [
@@ -48,6 +48,54 @@
      "minute": "31'",
      "team": "",
      "text": "Marc Cucurella (Spain) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, France. Manu Koné replaces Adrien Rabiot."
+    },
+    {
+     "type": "sub",
+     "minute": "57'",
+     "team": "",
+     "text": "Substitution, France. Désiré Doué replaces Bradley Barcola."
+    },
+    {
+     "type": "goal",
+     "minute": "58'",
+     "team": "",
+     "text": "Goal! France 0, Spain 2. Pedro Porro (Spain) right footed shot from the centre of the box to the bottom right corner. Assisted by Dani Olmo."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, France. Théo Hernández replaces Lucas Digne."
+    },
+    {
+     "type": "sub",
+     "minute": "72'",
+     "team": "",
+     "text": "Substitution, France. Rayan Cherki replaces Michael Olise."
+    },
+    {
+     "type": "sub",
+     "minute": "74'",
+     "team": "",
+     "text": "Substitution, Spain. Ferran Torres replaces Mikel Oyarzabal."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Spain. Mikel Merino replaces Dani Olmo."
+    },
+    {
+     "type": "sub",
+     "minute": "78'",
+     "team": "",
+     "text": "Substitution, Spain. Pedri replaces Fabián Ruiz."
     }
    ]
   },
