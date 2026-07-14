@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-14T20:45:53.931Z",
+ "updatedAt": "2026-07-14T20:48:41.191Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -8,7 +8,7 @@
    "date": "2026-07-14T19:00Z",
    "shortName": "ESP @ FRA",
    "state": "in",
-   "clock": "84'",
+   "clock": "87'",
    "period": 2,
    "competitors": [
     {
@@ -107,7 +107,13 @@
      "type": "sub",
      "minute": "84'",
      "team": "",
-     "text": "Nico Williams (Spain) Substitution at 84'"
+     "text": "Substitution, Spain. Nico Williams replaces Álex Baena."
+    },
+    {
+     "type": "yellow",
+     "minute": "86'",
+     "team": "",
+     "text": "Kylian Mbappé (France) is shown the yellow card for a bad foul."
     }
    ]
   },
