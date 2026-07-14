@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-14T20:48:41.191Z",
+ "updatedAt": "2026-07-14T21:39:48.086Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -7,8 +7,8 @@
    "id": "760514",
    "date": "2026-07-14T19:00Z",
    "shortName": "ESP @ FRA",
-   "state": "in",
-   "clock": "87'",
+   "state": "post",
+   "clock": "90'+7'",
    "period": 2,
    "competitors": [
     {
