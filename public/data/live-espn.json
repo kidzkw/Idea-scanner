@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-14T18:16:19.730Z",
+ "updatedAt": "2026-07-14T19:46:18.644Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -7,9 +7,9 @@
    "id": "760514",
    "date": "2026-07-14T19:00Z",
    "shortName": "ESP @ FRA",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "45'+1'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -21,10 +21,35 @@
      "homeAway": "away",
      "abbr": "ESP",
      "name": "Spain",
-     "score": 0
+     "score": 1
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "9'",
+     "team": "",
+     "text": "Adrien Rabiot (France) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "penalty",
+     "minute": "22'",
+     "team": "",
+     "text": "Goal! France 0, Spain 1. Mikel Oyarzabal (Spain) converts the penalty with a left footed shot to the top right corner."
+    },
+    {
+     "type": "sub",
+     "minute": "30'",
+     "team": "",
+     "text": "Substitution, France. Maxence Lacroix replaces William Saliba because of an injury."
+    },
+    {
+     "type": "yellow",
+     "minute": "31'",
+     "team": "",
+     "text": "Marc Cucurella (Spain) is shown the yellow card for a bad foul."
+    }
+   ]
   },
   {
    "id": "760515",
