@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-15T18:53:31.367Z",
+ "updatedAt": "2026-07-15T20:01:45.963Z",
  "source": "espn:site.api.espn.com",
  "count": 1,
  "events": [
@@ -7,9 +7,9 @@
    "id": "760515",
    "date": "2026-07-15T19:00Z",
    "shortName": "ARG @ ENG",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "45'+4'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -24,7 +24,20 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "37'",
+     "team": "",
+     "text": "Elliot Anderson (England) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "yellow",
+     "minute": "42'",
+     "team": "",
+     "text": "Lisandro Martínez (Argentina) is shown the yellow card for a bad foul."
+    }
+   ]
   }
  ]
 }
