@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-18T18:33:12.940Z",
+ "updatedAt": "2026-07-18T21:27:41.283Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -7,9 +7,9 @@
    "id": "760516",
    "date": "2026-07-18T21:00Z",
    "shortName": "ENG @ FRA",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "27'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
@@ -21,10 +21,23 @@
      "homeAway": "away",
      "abbr": "ENG",
      "name": "England",
-     "score": 0
+     "score": 2
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "goal",
+     "minute": "3'",
+     "team": "",
+     "text": "Goal! France 0, England 1. Declan Rice (England) right footed shot from outside the box to the bottom right corner."
+    },
+    {
+     "type": "goal",
+     "minute": "18'",
+     "team": "",
+     "text": "Goal! France 0, England 2. Ezri Konsa (England) header from the centre of the box to the bottom right corner. Assisted by Declan Rice with a cross following a corner."
+    }
+   ]
   },
   {
    "id": "760517",
