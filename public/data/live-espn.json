@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-18T22:23:09.683Z",
+ "updatedAt": "2026-07-18T23:15:01.395Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -7,21 +7,21 @@
    "id": "760516",
    "date": "2026-07-18T21:00Z",
    "shortName": "ENG @ FRA",
-   "state": "in",
-   "clock": "59'",
+   "state": "post",
+   "clock": "90'+9'",
    "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "FRA",
      "name": "France",
-     "score": 2
+     "score": 4
     },
     {
      "homeAway": "away",
      "abbr": "ENG",
      "name": "England",
-     "score": 4
+     "score": 6
     }
    ],
    "keyEvents": [
@@ -90,6 +90,60 @@
      "minute": "54'",
      "team": "",
      "text": "Goal! France 2, England 4. Bradley Barcola (France) right footed shot from the centre of the box to the bottom left corner. Assisted by Kylian Mbappé with a through ball."
+    },
+    {
+     "type": "goal",
+     "minute": "66'",
+     "team": "",
+     "text": "Goal! France 3, England 4. Kylian Mbappé (France) left footed shot from the centre of the box to the bottom right corner. Assisted by Michael Olise."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, England. Elliot Anderson replaces Ivan Toney."
+    },
+    {
+     "type": "sub",
+     "minute": "79'",
+     "team": "",
+     "text": "Substitution, England. Jude Bellingham replaces Eberechi Eze."
+    },
+    {
+     "type": "sub",
+     "minute": "83'",
+     "team": "",
+     "text": "Substitution, England. Reece James replaces Jarell Quansah because of an injury."
+    },
+    {
+     "type": "penalty",
+     "minute": "87'",
+     "team": "",
+     "text": "Goal! France 3, England 5. Bukayo Saka (England) converts the penalty with a left footed shot to the bottom right corner."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+1'",
+     "team": "",
+     "text": "Substitution, France. Jules Koundé replaces Malo Gusto because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Substitution, England. Trevoh Chalobah replaces Marc Guéhi."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+6'",
+     "team": "",
+     "text": "Goal! France 4, England 5. Ousmane Dembélé (France) left footed shot from the centre of the box to the bottom left corner. Assisted by Dayot Upamecano following a fast break."
+    },
+    {
+     "type": "goal",
+     "minute": "90'+8'",
+     "team": "",
+     "text": "Goal! France 4, England 6. Jude Bellingham (England) right footed shot from the centre of the box to the bottom right corner following a fast break."
     }
    ]
   },
