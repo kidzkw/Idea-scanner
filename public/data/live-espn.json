@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-07-17T18:00:02.873Z",
+ "updatedAt": "2026-07-18T18:33:12.940Z",
  "source": "espn:site.api.espn.com",
- "count": 1,
+ "count": 2,
  "events": [
   {
    "id": "760516",
@@ -21,6 +21,29 @@
      "homeAway": "away",
      "abbr": "ENG",
      "name": "England",
+     "score": 0
+    }
+   ],
+   "keyEvents": []
+  },
+  {
+   "id": "760517",
+   "date": "2026-07-19T19:00Z",
+   "shortName": "ARG @ ESP",
+   "state": "pre",
+   "clock": "0'",
+   "period": null,
+   "competitors": [
+    {
+     "homeAway": "home",
+     "abbr": "ESP",
+     "name": "Spain",
+     "score": 0
+    },
+    {
+     "homeAway": "away",
+     "abbr": "ARG",
+     "name": "Argentina",
      "score": 0
     }
    ],
