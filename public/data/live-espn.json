@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-18T21:27:41.283Z",
+ "updatedAt": "2026-07-18T22:23:09.683Z",
  "source": "espn:site.api.espn.com",
  "count": 2,
  "events": [
@@ -8,20 +8,20 @@
    "date": "2026-07-18T21:00Z",
    "shortName": "ENG @ FRA",
    "state": "in",
-   "clock": "27'",
-   "period": 1,
+   "clock": "59'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "FRA",
      "name": "France",
-     "score": 0
+     "score": 2
     },
     {
      "homeAway": "away",
      "abbr": "ENG",
      "name": "England",
-     "score": 2
+     "score": 4
     }
    ],
    "keyEvents": [
@@ -36,6 +36,60 @@
      "minute": "18'",
      "team": "",
      "text": "Goal! France 0, England 2. Ezri Konsa (England) header from the centre of the box to the bottom right corner. Assisted by Declan Rice with a cross following a corner."
+    },
+    {
+     "type": "goal",
+     "minute": "37'",
+     "team": "",
+     "text": "Goal! France 0, England 3. Bukayo Saka (England) left footed shot from the left side of the box to the high centre of the goal. Assisted by Marcus Rashford following a fast break."
+    },
+    {
+     "type": "goal",
+     "minute": "45'+1'",
+     "team": "",
+     "text": "Goal! France 0, England 4. Bukayo Saka (England) left footed shot from the centre of the box to the bottom right corner. Assisted by Eberechi Eze with a through ball."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, France. Ousmane Dembélé replaces Rayan Cherki."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, France. Bradley Barcola replaces Désiré Doué."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, France. Lucas Digne replaces Théo Hernández."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, France. Dayot Upamecano replaces Ibrahima Konaté."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, England. Ollie Watkins replaces Marcus Rashford."
+    },
+    {
+     "type": "goal",
+     "minute": "48'",
+     "team": "",
+     "text": "Goal! France 1, England 4. Kylian Mbappé (France) left footed shot from the centre of the box to the bottom right corner. Assisted by Michael Olise with a through ball following a fast break."
+    },
+    {
+     "type": "goal",
+     "minute": "54'",
+     "team": "",
+     "text": "Goal! France 2, England 4. Bradley Barcola (France) right footed shot from the centre of the box to the bottom left corner. Assisted by Kylian Mbappé with a through ball."
     }
    ]
   },
