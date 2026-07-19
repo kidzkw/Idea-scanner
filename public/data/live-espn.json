@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-19T18:07:30.296Z",
+ "updatedAt": "2026-07-19T19:22:20.128Z",
  "source": "espn:site.api.espn.com",
  "count": 1,
  "events": [
@@ -7,9 +7,9 @@
    "id": "760517",
    "date": "2026-07-19T19:00Z",
    "shortName": "ARG @ ESP",
-   "state": "pre",
-   "clock": "0'",
-   "period": null,
+   "state": "in",
+   "clock": "16'",
+   "period": 1,
    "competitors": [
     {
      "homeAway": "home",
