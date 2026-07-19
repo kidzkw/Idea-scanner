@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-19T21:08:26.892Z",
+ "updatedAt": "2026-07-19T21:10:28.799Z",
  "source": "espn:site.api.espn.com",
  "count": 1,
  "events": [
@@ -8,7 +8,7 @@
    "date": "2026-07-19T19:00Z",
    "shortName": "ARG @ ESP",
    "state": "in",
-   "clock": "90'",
+   "clock": "90'+2'",
    "period": 2,
    "competitors": [
     {
@@ -96,6 +96,12 @@
      "minute": "82'",
      "team": "",
      "text": "Enzo Fernández (Argentina) is shown the yellow card."
+    },
+    {
+     "type": "red",
+     "minute": "90'+3'",
+     "team": "",
+     "text": "Enzo Fernández (Argentina) Red Card at 90'+3'"
     }
    ]
   }
