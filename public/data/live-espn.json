@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-19T21:12:15.440Z",
+ "updatedAt": "2026-07-19T22:06:54.979Z",
  "source": "espn:site.api.espn.com",
  "count": 1,
  "events": [
@@ -7,15 +7,15 @@
    "id": "760517",
    "date": "2026-07-19T19:00Z",
    "shortName": "ARG @ ESP",
-   "state": "in",
-   "clock": "90'+5'",
-   "period": 2,
+   "state": "post",
+   "clock": "120'+5'",
+   "period": 4,
    "competitors": [
     {
      "homeAway": "home",
      "abbr": "ESP",
      "name": "Spain",
-     "score": 0
+     "score": 1
     },
     {
      "homeAway": "away",
@@ -98,16 +98,52 @@
      "text": "Enzo Fernández (Argentina) is shown the yellow card."
     },
     {
+     "type": "yellow",
+     "minute": "90'+2'",
+     "team": "",
+     "text": "Cristian Romero (Argentina) is shown the yellow card."
+    },
+    {
      "type": "red",
      "minute": "90'+3'",
      "team": "",
      "text": "Second yellow card to Enzo Fernández (Argentina) for a bad foul."
     },
     {
-     "type": "yellow",
-     "minute": "90'+2'",
+     "type": "sub",
+     "minute": "99'",
      "team": "",
-     "text": "Cristian Romero (Argentina) Yellow Card at 90'+2'"
+     "text": "Substitution, Spain. Martín Zubimendi replaces Rodri."
+    },
+    {
+     "type": "sub",
+     "minute": "99'",
+     "team": "",
+     "text": "Substitution, Spain. Eric García replaces Aymeric Laporte."
+    },
+    {
+     "type": "sub",
+     "minute": "102'",
+     "team": "",
+     "text": "Substitution, Argentina. Marcos Senesi replaces Julián Alvarez."
+    },
+    {
+     "type": "goal",
+     "minute": "106'",
+     "team": "",
+     "text": "Goal! Spain 1, Argentina 0. Ferran Torres (Spain) left footed shot from the centre of the box to the high centre of the goal. Assisted by Nico Williams with a headed pass."
+    },
+    {
+     "type": "yellow",
+     "minute": "111'",
+     "team": "",
+     "text": "Alexis Mac Allister (Argentina) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "red",
+     "minute": "120'+6'",
+     "team": "",
+     "text": "Leandro Paredes (Argentina) is shown the red card for violent conduct."
     }
    ]
   }
