@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-19T20:13:28.473Z",
+ "updatedAt": "2026-07-19T21:08:26.892Z",
  "source": "espn:site.api.espn.com",
  "count": 1,
  "events": [
@@ -8,8 +8,8 @@
    "date": "2026-07-19T19:00Z",
    "shortName": "ARG @ ESP",
    "state": "in",
-   "clock": "45'+4'",
-   "period": 1,
+   "clock": "90'",
+   "period": 2,
    "competitors": [
     {
      "homeAway": "home",
@@ -36,6 +36,66 @@
      "minute": "44'",
      "team": "",
      "text": "Substitution, Argentina. Nicolás Otamendi replaces Lisandro Martínez because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "45'",
+     "team": "",
+     "text": "Substitution, Argentina. Leandro Paredes replaces Nico González."
+    },
+    {
+     "type": "yellow",
+     "minute": "52'",
+     "team": "",
+     "text": "Leandro Paredes (Argentina) is shown the yellow card."
+    },
+    {
+     "type": "sub",
+     "minute": "58'",
+     "team": "",
+     "text": "Substitution, Argentina. Nahuel Molina replaces Gonzalo Montiel."
+    },
+    {
+     "type": "sub",
+     "minute": "62'",
+     "team": "",
+     "text": "Substitution, Spain. Ferran Torres replaces Mikel Oyarzabal."
+    },
+    {
+     "type": "sub",
+     "minute": "62'",
+     "team": "",
+     "text": "Substitution, Spain. Pedri replaces Fabián Ruiz."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Argentina. Facundo Medina replaces Cristian Romero because of an injury."
+    },
+    {
+     "type": "sub",
+     "minute": "70'",
+     "team": "",
+     "text": "Substitution, Argentina. Giuliano Simeone replaces Rodrigo De Paul."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Spain. Nico Williams replaces Álex Baena."
+    },
+    {
+     "type": "sub",
+     "minute": "75'",
+     "team": "",
+     "text": "Substitution, Spain. Mikel Merino replaces Dani Olmo."
+    },
+    {
+     "type": "yellow",
+     "minute": "82'",
+     "team": "",
+     "text": "Enzo Fernández (Argentina) is shown the yellow card."
     }
    ]
   }
