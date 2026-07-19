@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-19T22:06:54.979Z",
+ "updatedAt": "2026-07-19T23:07:03.364Z",
  "source": "espn:site.api.espn.com",
  "count": 1,
  "events": [
@@ -138,12 +138,6 @@
      "minute": "111'",
      "team": "",
      "text": "Alexis Mac Allister (Argentina) is shown the yellow card for a bad foul."
-    },
-    {
-     "type": "red",
-     "minute": "120'+6'",
-     "team": "",
-     "text": "Leandro Paredes (Argentina) is shown the red card for violent conduct."
     }
    ]
   }
