@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-19T19:22:20.128Z",
+ "updatedAt": "2026-07-19T20:13:28.473Z",
  "source": "espn:site.api.espn.com",
  "count": 1,
  "events": [
@@ -8,7 +8,7 @@
    "date": "2026-07-19T19:00Z",
    "shortName": "ARG @ ESP",
    "state": "in",
-   "clock": "16'",
+   "clock": "45'+4'",
    "period": 1,
    "competitors": [
     {
@@ -24,7 +24,20 @@
      "score": 0
     }
    ],
-   "keyEvents": []
+   "keyEvents": [
+    {
+     "type": "yellow",
+     "minute": "41'",
+     "team": "",
+     "text": "Lisandro Martínez (Argentina) is shown the yellow card for a bad foul."
+    },
+    {
+     "type": "sub",
+     "minute": "44'",
+     "team": "",
+     "text": "Substitution, Argentina. Nicolás Otamendi replaces Lisandro Martínez because of an injury."
+    }
+   ]
   }
  ]
 }
